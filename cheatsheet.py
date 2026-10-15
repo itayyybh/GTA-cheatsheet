@@ -4,6 +4,11 @@ import requests
 import time
 from pathlib import Path
 
+SKIP_SECTIONS = {
+    "Images", "Gallery", "Video Gallery", "Navigation", "References",
+    "See Also", "Traffic Default Colors", "Rockstar Games Website",
+    "Model", "Population", "Handling", "Audio", "Language",
+}
 
 def clean_text(text):
     text = text.replace("[edit]", "")
@@ -20,16 +25,16 @@ def split_sections(text):
     current_lines = []
 
     for line in text.splitlines():
-        header = re.match(r"==(.*?)==", line)
-
-        if header:
-            name = header.group(1).strip()
+        line = line.strip()
+        if line.startswith('=') and line.endswith('='):
+            header = line
+            header = header.strip('=').replace("'", "").strip()
             section_text = "\n".join(current_lines).strip()
 
             if section_text:
                 result.append({"heading": current_heading, "text": section_text})
 
-            current_heading = name
+            current_heading = header
             current_lines = []
 
         else:
@@ -48,6 +53,8 @@ def make_chunks(page, max_chars=1000):
     chunks = []
 
     for item in split_sections(page["text"]):
+        if item["heading"] in SKIP_SECTIONS:
+            continue
         paragraph = item["text"].split("\n\n")
         current = ""
 

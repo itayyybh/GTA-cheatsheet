@@ -49,6 +49,8 @@ The single biggest "section" is no name at all, and 385 of 791 chunks (49%) have
 
 **Fix direction:** count the `=` signs on both sides and take what's between them; strip `'` markup from the name. Decide whether a subsection should be named `Design` or `Design > Images` (parent + child keeps context).
 
+**Fixed** (run 2): heading levels parsed correctly, with no blank or = names. New issue: subsections lose their parent name. Chunks say “Grand Theft Auto V” instead of “Design > Grand Theft Auto V”.
+
 ## B. Whole sections that should be dropped
 
 **101 chunks** sit in sections that will never answer a player question:
@@ -108,6 +110,9 @@ Images, Gallery, Video Gallery, Navigation, References, See Also, Traffic Defaul
 
 1. **Pages cover several games.** Buzzard Attack Chopper has GTA IV (*The Ballad of Gay Tony*) and GTA VI sections. 13 chunks mention GTA IV/TBoGT, 7 mention GTA VI. A GTA V question could get a GTA IV answer.
    → Add a `game` field to chunks (from the section name where possible) and filter by it at search time.
+
+   Subsection names often are the game (Grand Theft Auto V, Grand Theft Auto Online, The Ballad of Gay Tony), so the game field can come from the section name.
+
 2. **Character pages have no infobox chunk.** Michael, Franklin and Trevor use `{{/infobox}}` — the infobox lives on a separate sub-page, so `find_block` finds nothing (18 infobox chunks for 21 pages).
    → Save the sub-pages too (`Michael_De_Santa/infobox`) or accept it for now.
 3. **Wrong title from a filename typo.** `Entity_Xf.txt` became title `Entity Xf`; the real page is `Entity XF`. Titles must match the wiki exactly (they're used for links and the golden set).
@@ -138,3 +143,5 @@ After each step: rerun `ingest`, rerun the Counter, and compare numbers with thi
 | Run | count | avg_chars | empty | too_long |
 |---|---:|---:|---:|---:|
 | 1. First real run (2026-10-14) | 791 | 773.8 | 0 | 135 |
+| 2. Heading fix | 791 | 773.3 | 0 | 135 |
+| 3. Skip list | 689 | 823.1 | 0 | 131 | 
