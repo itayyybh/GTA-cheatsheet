@@ -325,10 +325,25 @@ def recall_at_k(search_fn, golden, chunks, k):
         return 0.0
 
 
-
+def chunk_stats(chunks, max_chars=1000):
+    count = len(chunks)
+    too_long = 0
+    empty = 0
+    total = 0
+    if count == 0:
+        return {"count": count, "too_long": too_long, "empty": empty, "avg_chars": 0.0}
     
+    for chunk in chunks:
+        if not chunk["text"].strip():
+            empty += 1
+        if len(chunk["text"]) > max_chars:
+            too_long += 1
+        total += len(chunk["text"])
+    avg_chars = round(total / count, 1)
+
+    c = {"count": count, "too_long": too_long, "empty": empty, "avg_chars": avg_chars}
+
+    return c
 
 
-
-def chunk_stats(): pass
 def validate_golden(): pass

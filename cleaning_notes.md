@@ -133,8 +133,8 @@ Images, Gallery, Video Gallery, Navigation, References, See Also, Traffic Defaul
 
 After each step: rerun `ingest`, rerun the Counter, and compare numbers with this file.
 
-## chunk_stats (fill in after Day 5)
+## chunk_stats — one row per run
 
 | Run | count | avg_chars | empty | too_long |
 |---|---:|---:|---:|---:|
-| First real run (2026-10-14) | 791 | | | |
+| 1. First real run (2026-10-14) | 791 | 773.8 | 0 | 135 |
