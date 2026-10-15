@@ -1,0 +1,524 @@
+{{Infobox vehicle
+|style           = 
+|name            = Kuruma (Armored)
+|front_image     = KurumaArmored-GTAOe-FrontQuarter.png
+|rear_image      = KurumaArmored-GTAOe-RearQuarter.png
+|caption         = A '''Kuruma (Armored)''' in {{O}}.
+|class           = [[:Category:Sports class|Sports]]
+|body_style      = 4-door armored sedan
+|capacity        = 4 {{Small|(driver and 3 passengers)}}
+|manufacturer    = [[Karin]]
+|price           = *[[Money|$]]698,250 {{Small|([[Southern San Andreas Super Autos]])}}
+|trade_price     = *$525,000 {{Small|(Southern San Andreas Super Autos)}}
+|games           = {{Games|O={{DLC|mpheist}}}}
+|mentioned       = 
+|type            = sportcompact
+|basevariant     = [[Kuruma]]
+|lineup          = 
+|aka             = Armored Kuruma {{Small|(Newswire)}}
+}}
+{{quote|The perfect car to go with your flesh tunnel earrings, frosted spikes, and oversize jeans. Buy this and you'll never fail to be mistaken for a small town drug dealer again. This edition helps prevent a mistake turning into a tragedy with armor plating.|[[Southern San Andreas Super Autos]] description.}}
+The [[Karin]] '''Kuruma (Armored)''' is a vehicle featured in {{O}} as part of the [[GTA Online: Heists|Heists]] update.
+
+==Design==
+{{Quote|The Los Santos Classic: A sports car fully encased in bullet-resistant plating. What does it say about a city when this is the most popular commuter car? Obviously that health and safety is our number one priority.|[[Career Builder]] description.}}
+{{Quote|I don't want to call this an idiot-proof heist car, I mean there's no limit to some people's stupidity, but you gotta be very fucking dumb to let the cops catch you in one of these. It's got muscle, traction, light weight armor that shouldn't compromise performance, this is the one for us.|[[Lester Crest]] during the setup [[Fleeca Job - Kuruma]].}}
+The vehicle is essentially a [[Kuruma]] fitted with bulletproof armor panels on the roof and the cabin and protective frames over the lights, as well as bullet resistant windows that rarely shatter under the fire of small guns.
+
+The car received minor cosmetic changes on the body, where the badges and the roof brake lights were removed, and the original chrome details were replaced by blacked-out ones. The rear bumper has big-bore exhausts and a spoiler with bolted-on details on the sides, while the interior features a roll cage.
+
+Colour distribution is similar to the normal Kuruma, having a primary colour for the body and the interior stitching. However, the secondary colour affects the armor plating, the protective frames on the lights, the details on the front fenders and the roll cage. The wheel design is shared with the normal Kuruma, albeit painted in black.
+
+==Performance==
+The Kuruma has a modeled twin-cam straight six engine, placed longitudinally in a front engine, all wheel drive layout (a rather unique distribution of 1/3 of the engine power to the front wheels and the rest to the rear wheels). According to [[Southern San Andreas Super Autos]], the car has a six-speed gearbox, a top speed of 147mph and weighs 2,866lbs. The Kuruma features a turbo dump-valve sound effect by default, although the player can add another turbo for a significantly higher acceleration.
+
+The performance is slightly different from the normal Kuruma. While it has slightly less traction (though still very good due to the normal Kuruma's high traction), slightly weaker brakes, and slightly lower acceleration and top speed, it makes up for these shortcomings in its durability against collisions and gunshots; against most firearms, it is about three times as durable as the normal Kuruma. It is equipped with bullet resistant windows that will rarely shatter if shot at, though bullet holes will appear. This can protect the players inside the vehicle, as a bullet shot through the narrow panels will not damage the player's [[health]] to a great extent, though players need to be mindful that their vision is significantly obstructed in [[First-Person View|first-person view]]. They cannot throw explosive weapons and the driver cannot shoot their gun behind the car as they can only fire forwards, both being significant disadvantages. Likewise, the rear passengers cannot shoot forward. The only thing the Armored Kuruma is truly vulnerable to is explosions (which instantly destroy the vehicle) and high-caliber weapons (the [[Insurgent Pick-Up]]'s mounted gun takes it out in 16 seconds aimed at its engine), even with its armor maxed out, though its armored panels can resist some{{Vague|How many?|December 2018}} explosive rounds from a [[Heavy Sniper Mk II]]. Therefore, players will have to be careful around explosions when using this vehicle. In addition, compared to the normal Kuruma, its engine produces much more torque, allowing it to ram through traffic harder and more easily than most vehicles of similar size, but at the cost of speed. Finally, the Armored Kuruma is immune to crash deformation, which is an advantage in that the wheels will never lock from any crash, but also a disadvantage in that the player(s) inside may not know how damaged the Kuruma is until it starts burning.
+
+Because of the armor, the vehicle is noticeably heavier than the normal Kuruma (an extra 1,700 kilograms of mass is added to the 1,500 kilogram stock), and that predictably means it has more understeer. It is also slightly harder to roll on uneven terrain, although this is not very noticeable, as the normal Kuruma is quite good off-road. Furthermore, it is harder to cause a spin out due to the Armored variant having better handling than its normal counterpart. In high speed turns, the Armored Kuruma is less likely than the stock to lift itself onto two wheels and potentially flip over. Driving off-road is one of the best of its class, and with very strong traction, it fares well climbing hills.
+
+==Variants==
+Pre-modified variants of the Kuruma (Armored) can appear as a random target vehicle in the [[Moving Target]] [[Freemode Events|Freemode Event]], as part of the [[Freemode Events Update]]. The first set cannot be recreated in [[Los Santos Customs]] or any other [[Mod Garages|mod shop]] as it has a unique primary colour.
+
+{{ModelSet
+|modelset_name        = Kuruma (Armored) (1)*{{Ref|name=case1|ref=[[Kuruma (Armored)]] case 1.<br><pre>
+case joaat("kuruma2"):
+if (iVar0 == 0)
+{
+}
+else if (iVar0 == 1)
+{
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 1, 2, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 3, 5, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 4, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 15, 3, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 23, 15, false);
+vehicle::set_vehicle_colours(network::net_to_veh(Local_99.f_2), 33, 0);
+}
+</pre>}}
+|modelset_colorset    = {{CarColV|33|0}}<br>
+Vehicle's pearlescent and wheel colors are randomly picked from the car's regular traffic color sets.
+|modelset_window      = {{No}}
+|modelset_livery      = {{No}}
+|modelset_modkit      = 
+{{Modkit
+|fbumper = Carbon Front Splitter
+|exhaust = Race Exhaust
+|skirts  = Carbon Slick Skirt
+|wheels  = S Racer ([[Vehicle Customization in GTA V/Wheels#Sport|Sport]])
+|suspension = Competition Suspension
+}}
+}}
+{{ModelSet
+|modelset_name        = Kuruma (Armored) (2){{Ref|name=case2|ref=[[Kuruma (Armored)]] case 2.<br><pre>
+else
+{
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 0, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 1, 2, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 3, 2, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 4, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 23, 10, false);
+vehicle::set_vehicle_colours(network::net_to_veh(Local_99.f_2), 83, 12);
+}
+</pre>}}
+|modelset_colorset    = {{CarColV|83|12}}<br>
+Vehicle's pearlescent and wheel colors are randomly picked from the car's regular traffic color sets.
+|modelset_window      = {{No}}
+|modelset_livery      = {{No}}
+|modelset_modkit      = 
+{{Modkit
+|fbumper = Carbon Front Splitter
+|exhaust = Race Exhaust
+|skirts  = Carbon Street Skirt
+|spoiler = Carbon Wing
+|wheels  = Endo v.1 ([[Vehicle Customization in GTA V/Wheels#Sport|Sport]])
+}}
+}}
+
+{{Gallery
+|KurumaArmored-GTAO-front-MovingTarget1.png|'''Kuruma (Armored)''' variation 1 in [[Moving Target]]. ({{Small|[[:File:KurumaArmored-GTAO-rear-MovingTarget1.png|Rear quarter view]]}})
+|KurumaArmored-GTAO-front-MovingTarget2.png|'''Kuruma (Armored)''' variation 2 in Moving Target. ({{Small|[[:File:KurumaArmored-GTAO-rear-MovingTarget2.png|Rear quarter view]]}})
+}}
+
+==Modifications==
+{| class="wikitable mw-collapsible mw-collapsed" width="100%"
+|-
+!colspan="2"|Category
+!Modification
+!Price
+!class="unsortable" width="200px"|Image
+|-
+|colspan="2" rowspan="4"|Brakes
+|Stock Brakes
+|colspan="2"|$1,000
+|-
+|Street Brakes
+|colspan="2"|$20,000
+|-
+|Sport Brakes
+|colspan="2"|$27,000
+|-
+|Race Brakes
+|colspan="2"|$35,000
+|-
+|colspan="2" rowspan="4"|Bumpers
+|Stock Front Bumper
+|$2,200
+|[[File:KurumaArmored-GTAO-Bumpers-StockFrontBumper.png|thumb|center|200px]]
+|-
+|Body Color Front Splitter
+|$4,600
+|[[File:KurumaArmored-GTAO-Bumpers-BodyColorFrontSplitter.png|thumb|center|200px]]
+|-
+|Secondary Color Front Splitter
+|$7,400
+|[[File:KurumaArmored-GTAO-Bumpers-SecondaryColorFrontSplitter.png|thumb|center|200px]]
+|-
+|Carbon Front Splitter
+|$11,700
+|[[File:KurumaArmored-GTAO-Bumpers-CarbonFrontSplitter.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="4"|Engine
+|EMS Upgrade, Level 1
+|colspan="2"|$9,000
+|-
+|EMS Upgrade, Level 2
+|colspan="2"|$12,500
+|-
+|EMS Upgrade, Level 3
+|colspan="2"|$18,000
+|-
+|EMS Upgrade, Level 4
+|colspan="2"|$33,500
+|-
+|colspan="2" rowspan="4"|Exhausts
+|Stock Exhaust
+|$260
+|[[File:KurumaArmored-GTAO-Exhausts-StockExhaust.png|thumb|center|200px]]
+|-
+|Oval Exhaust
+|$750
+|[[File:KurumaArmored-GTAO-Exhausts-OvalExhaust.png|thumb|center|200px]]
+|-
+|Race Exhaust
+|$1,800
+|[[File:KurumaArmored-GTAO-Exhausts-RaceExhaust.png|thumb|center|200px]]
+|-
+|Chrome Tip Exhaust
+|$3,000
+|[[File:KurumaArmored-GTAO-Exhausts-ChromeTipExhaust.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="2"|[[Car Bomb|Explosives]]
+|Ignition Bomb
+|colspan="2"|$5,000
+|-
+|Remote Bomb
+|colspan="2"|$7,500
+|-
+|colspan="2"|Horns
+|''Main article: [[Vehicle Customization in GTA V/Horns]]''
+|colspan="2"| -
+|-
+|rowspan="3"|Lights
+|rowspan="2"|Headlights
+|Stock Lights
+|colspan="2"|$600
+|-
+|Xenon Lights
+|colspan="2"|$7,500
+|-
+|Neon Kits
+|''Main article: [[Vehicle Customization in GTA V/Lights]]''
+|colspan="2"| -
+|-
+|colspan="2" rowspan="2"|Loss/Theft Prevention
+|Tracker
+|colspan="2"|
+|-
+|Full Coverage
+|colspan="2"|
+|-
+|colspan="2" rowspan="5"|Plates
+|Blue on White 1
+|colspan="2"|$200
+|-
+|Blue on White 2
+|colspan="2"|$200
+|-
+|Blue on White 3
+|colspan="2"|$200
+|-
+|Yellow on Blue
+|colspan="2"|$300
+|-
+|Yellow on Black
+|colspan="2"|$600
+|-
+|colspan="2"|Respray
+|''Main article: [[Vehicle Customization in GTA V/Respray Colors]]''
+|colspan="2"| -
+|-
+|colspan="2"|Sell
+|Sell Vehicle
+|colspan="2"|
+|-
+|colspan="2" rowspan="7"|Skirts
+|Stock Skirts
+|$2,500
+|[[File:KurumaArmored-GTAO-Skirts-StockSkirts.png|thumb|center|200px]]
+|-
+|Body Color Street Skirt
+|$5,500
+|[[File:KurumaArmored-GTAO-Skirts-BodyColorStreetSkirt.png|thumb|center|200px]]
+|-
+|Secondary Color Street Skirt
+|$8,000
+|[[File:KurumaArmored-GTAO-Skirts-SecondaryColorStreetSkirt.png|thumb|center|200px]]
+|-
+|Carbon Street Skirt
+|$10,500
+|[[File:KurumaArmored-GTAO-Skirts-CarbonStreetSkirt.png|thumb|center|200px]]
+|-
+|Body Color Slick Skirt
+|$14,000
+|[[File:KurumaArmored-GTAO-Skirts-BodyColorSlickSkirt.png|thumb|center|200px]]
+|-
+|Secondary Color Slick Skirt
+|$14,500
+|[[File:KurumaArmored-GTAO-Skirts-SecondaryColorSlickSkirt.png|thumb|center|200px]]
+|-
+|Carbon Slick Skirt
+|$15,000
+|[[File:KurumaArmored-GTAO-Skirts-CarbonSlickSkirt.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="6"|Spoilers
+|Stock Spoiler
+|$6,000
+|[[File:KurumaArmored-GTAO-Spoilers-StockSpoiler.png|thumb|center|200px]]
+|-
+|Secondary Color Stock Spoiler
+|$7,050
+|[[File:KurumaArmored-GTAO-Spoilers-SecondaryColorStockSpoiler.png|thumb|center|200px]]
+|-
+|Carbon Wing
+|$10,000
+|[[File:KurumaArmored-GTAO-Spoilers-CarbonWing.png|thumb|center|200px]]
+|-
+|Color Coded Wing
+|$13,000
+|[[File:KurumaArmored-GTAO-Spoilers-ColorCodedWing.png|thumb|center|200px]]
+|-
+|Carbon Wing Type II
+|$14,000
+|[[File:KurumaArmored-GTAO-Spoilers-CarbonWingTypeII.png|thumb|center|200px]]
+|-
+|GT Wing
+|$16,000
+|[[File:KurumaArmored-GTAO-Spoilers-GTWing.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="5"|Suspension
+|Stock Suspension
+|colspan="2"|$200
+|-
+|Lowered Suspension
+|colspan="2"|$1,000
+|-
+|Street Suspension
+|colspan="2"|$2,000
+|-
+|Sport Suspension
+|colspan="2"|$3,400
+|-
+|Competition Suspension
+|colspan="2"|$4,400
+|-
+|colspan="2" rowspan="4"|Transmission
+|Stock Transmission
+|colspan="2"|$1,000
+|-
+|Street Transmission
+|colspan="2"|$29,500
+|-
+|Sports Transmission
+|colspan="2"|$32,500
+|-
+|Race Transmission
+|colspan="2"|$40,000
+|-
+|colspan="2" rowspan="2"|Turbo
+|None
+|colspan="2"|$5,000
+|-
+|Turbo Tuning
+|colspan="2"|$50,000
+|-
+|colspan="2"|Wheels
+|''Main article: [[Vehicle Customization in GTA V/Wheels]]''
+|colspan="2"| -
+|-
+|colspan="2" rowspan="4"|Windows
+|None
+|colspan="2"|$500
+|-
+|Light Smoke
+|colspan="2"|$1,500
+|-
+|Dark Smoke
+|colspan="2"|$3,500
+|-
+|Limo
+|colspan="2"|$5,000
+|}
+
+==Gallery==
+===Design===
+<!--Please ensure you have read the Manual of Style [GTA_Wiki:Manual_of_Style/Vehicles/Design_Galleries] before uploading and adding images to the Current Design Gallery. Failure to meet these guidelines will result in the images being removed and deleted, and repeated offences may result in a warning.-->
+
+{{Design Gallery Vehicle
+|front_quarter_image = Kuruma(Armored)-GTAO-FrontQuarter.png
+|top_image           = Kuruma(Armored)-GTAO-Top.png
+|rear_quarter_image  = Kuruma(Armored)-GTAO-RearQuarter.png
+|front_image         = Kuruma(Armored)-GTAO-Front.png
+|side_image          = Kuruma(Armored)-GTAO-Side.png
+|rear_image          = Kuruma(Armored)-GTAO-Rear.png
+|engine_image        = Kuruma(Armored)-GTAO-Engine.png
+|underside_image     = Kuruma(Armored)-GTAO-Underside.png
+|inside_image        = Kuruma(Armored)-GTAO-Inside.png
+|detail_image        = Kuruma-GTAO-Badges.png
+|open_other_image    = Kuruma(Armored)-GTAO-Open.png
+|dashboard_image     = Kuruma(Armored)-GTAO-Dashboard.png
+}}
+
+===Images===
+{{Gallery
+|Karuma_Armored_GTAV_Official_Screenshot.jpg|Official screenshot of the '''Kuruma (Armored)'''.
+|Kuruma_GTAO_Trailer.jpg|Rear view as seen in the trailer.
+|GTAV-Heists-Update18.jpg|The '''Kuruma (Armored)''' used as the getaway vehicle for [[The Fleeca Job]] in {{O}}.
+|Kuruma2-GTAO-Front.png|A '''Kuruma (Armored)''' in ''GTA Online''. ({{Small|[[:Image:Kuruma2-GTAO-Rear.png|Rear quarter view]]}})
+|KurumaArmoredGTAO-SSASA.png|The '''Kuruma (Armored)''' on [[Southern San Andreas Super Autos]] in the [[Grand Theft Auto V: Enhanced Edition|enhanced version]] of ''GTA Online''.
+|ImportExportBonusesWeek-GTAOe-FreeArmoredKurumaAdvert.jpg|Free '''Armored Kuruma''' advertisement.
+|KurumaArmored-GTAO-September2020Advert.jpg|Event week screenshot.
+|KurumaArmored-GTAO-June2021Advert.jpg|Event week screenshot. 
+}}
+
+==Locations==
+*It can be purchased from [[Southern San Andreas Super Autos]] for [[Money|$]]525,000 after completing [[The Fleeca Job]].
+**After the [[Cunning Stunts: Special Vehicle Circuit]] update, the vehicle is now available to players who have not completed the heist at the "full" cost of $698,250.
+*Awarded in a green/blue flip chameleon paint and license plated with "TOH" (thus referencing [[Eddie Toh]]) to players who complete Tier 4 of Original Heists in [[Career Progress]] as of the [[GTA Online: San Andreas Mercenaries|San Andreas Mercenaries]] update.
+
+==Prominent Appearances in Gameplay==
+{{H4|Heists}}
+*[[Fleeca Job - Kuruma]] {{nd}} It is featured during this mission.
+*[[The Fleeca Job]] {{nd}} It is used as the getaway vehicle during this mission.
+
+{{H4|Freemode Events}}
+*[[Moving Target]] {{nd}} It may appear as a target during this event.
+
+==Notable Owners==
+*The [[Kkangpae]] owned a black armored Kuruma until it was stolen by the {{GTAOP}} in order to use it as a getaway vehicle during The Fleeca Job.
+
+==Rockstar Games Website==
+{{RSSC
+|name          = Kuruma (Armored)
+|manufacturer  = Karin
+|class         = Sports 
+|image         = KurumaArmored-GTAO-RGSC-MainNew.jpg
+|caption       = Main image (after 2019).
+|image2        = KurumaArmored-GTAO-RGSC-Action.jpg
+|caption2      = "Action" image.
+|image3        = KurumaArmored-GTAO-RGSC-Main.jpg
+|caption3      = Main image (prior to 2019).
+|speed         = 78.873047
+|accel         = 77.5
+|braking       = 16.666668
+|traction      = 74.242424
+|seats         = 4
+|garage        = y
+|moddable      = y
+|premium       = y
+|super         = n
+|buy           = y
+|sell          = y
+|dealer        = sssa
+|schematic     = GenericSports
+}}
+
+==Oversights==
+*Despite having armored windows, players and [[Pedestrians|NPCs]] can shoot out of the car without damaging the car. Likewise, shooters outside the car will also be able to shoot through the windows and damage the occupants.
+*Despite having obvious armor and handling much heavier than its unarmored variant, the armored Kuruma is listed as having the same weight as its unarmored counterpart on [[Southern San Andreas Super Autos]].
+*Even if the Armored Kuruma's doors are detached, players inside still cannot use throwable weapons.
+*The vehicle sometimes spawns with the rear windows opened, which should be impossible as they should be too thick to roll down into the door panel. This is a known bug in {{O}} and happens mostly when it is spawned by the game after finishing a race or mission.
+
+==Specifications==
+===Model===
+{{Specifications Vehicle Model 
+|game1               = O
+|game1_modelname     = kuruma2
+|game1_texturename   = kuruma2
+|game1_handlingname  = KURUMA2
+|game1_textlabelname = KURUMA2
+|game1_ingamename    = Kuruma (Armored)
+|game1_swankness     = 2
+|game1_flags         = 
+{{Vehicle Flag List
+|game          = O
+|FLAG_DISABLE_THROUGH_WINDSCREEN
+|FLAG_AVERAGE_CAR
+|FLAG_POOR_CAR
+|modelFlags    = 02440010
+|handlingFlags = 08000000
+}}
+}}
+
+===Population===
+{{Specifications Vehicle Population
+|game1               = O
+|game1_popgroups     = {{No|None}}
+|game1_modelsets     = {{No|None}}
+|game1_frequency     = 50
+|game1_drivers       = {{No|None}}
+|game1_licenseplates = *Yellow Plate - 100%
+}}
+
+===Handling===
+{{Specifications Vehicle Handling
+|game1               = O
+|game1_maxvelocity   = 140
+|game1_gears         = 6
+|game1_drivetrain    = 0.33
+|game1_mass          = 3200
+}}
+
+===Audio===
+{{Specifications Vehicle Audio
+|game1               = O
+|game1_hornsound     = horn_list_saloon
+|game1_enginesound   = sportscar_1_eur_4cyl
+|game1_radio         = 1
+|game1_scannermanf   = karin
+|game1_scannermodel  = sportscar
+|game1_scannercat    = sportscar
+|game1_scannercolor  = none
+}}
+
+===Language===
+{{Specifications Vehicle Language
+|game1               = O
+|game1_langen        = Kuruma (Armored)
+|game1_langzh        = 骷髏馬 (附裝甲)
+|game1_langzhcn      = 骷髅马（装甲版）
+|game1_langfr        = Kuruma (blindée)
+|game1_langde        = Kuruma (gepanzert)
+|game1_langit        = Kuruma (Blindata)
+|game1_langjp        = クルマ(装甲)
+|game1_langko        = 구루마(방탄)
+|game1_langesmx      = Kuruma (Blindado)
+|game1_langpl        = Kuruma (opancerzony)
+|game1_langpt        = Kuruma (Blindado)
+|game1_langru        = Kuruma (бронир.)
+|game1_langes        = Kuruma (blindado)
+}}
+
+===Traffic Default Colors===
+{{Vehicle Color List
+|game=O
+|12,12,13,156
+}}
+
+==Trivia==
+*When purchased from Southern San Andreas Super Autos, and the player selects a black colour, the Kuruma will have a matte black paint for both primary and secondary colours. This is rather unique, as most vehicles will have classic black colour instead of matte.
+*Despite being inaccessible to all other vehicles, the armored Kuruma uses pure black tinted windows. However, said windows are only used on Kurumas that have spawned in through trainers, races or creator.
+*The windshield of the vehicle can be also tinted, though they will not obstruct the player's vision in [[First-Person View|first-person view]], appearing as normal windows.
+
+==See Also==
+*[[Kuruma]] {{nd}} Standard version.
+*[[Duke O'Death]] {{nd}} Another armored car with very similar armored plating.
+
+==References==
+{{Ref List}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtao vehicles|state=collapsed}}
+}}
+
+[[de:Kuruma]]
+[[es:Kuruma]]
+[[fr:Kuruma]]
+[[pl:Kuruma (opancerzona)]]
+[[pt:Kuruma]]
+[[ru:Kuruma (бронированный)]]
+
+[[Category:Vehicles in GTA Online: Heists]]
+[[Category:Sedans]]
+[[Category:Sport compact cars]]
+[[Category:Sports class]]
+[[Category:Armored vehicles]]
+[[Category:Vehicles manufactured by Karin]]
+[[Category:All wheel drive vehicles]]
+[[Category:Vehicles with bullet-resistant windows]]
+[[Category:Vehicles purchasable from Southern San Andreas Super Autos]]
+[[Category:Vehicles purchasable from Premium Deluxe Motorsport]]
+[[Category:Vehicles with Sultan interior]]

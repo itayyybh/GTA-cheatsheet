@@ -1,0 +1,272 @@
+{{Infobox gameplay
+|style               = V
+|name                = 
+|games               = {{games|V=y}}
+|type                = storyline
+|image               = FranklinandLamar-GTAVee-Mission.png
+|caption             = 
+|class               = 
+|strand              = [[Armenian]]{{Note|Based on the mission's internal script naming convention; does not represent an official in-game classification.}}
+|for                 = [[Simeon Yetarian]]
+|protagonists        = [[Franklin Clinton]]
+|target              = [[9F Cabrio]] and [[Rapid GT (cabrio)|Rapid GT]] (cabrio)
+|todo                = 
+|location            = 
+*[[Los Santos (HD Universe)|Los Santos]]
+**[[Isiah Friedlander's Office]]
+**[[Bertolt Beach House]]
+**[[Union Depository]]
+**[[Premium Deluxe Motorsport]]
+**[[Clinton Residence]]
+|fail                = 
+|fail_toomuch        = 
+*[[Wasted]]
+*[[Busted]]
+*Lamar died.
+*One of the cars was damaged. {{Tooltip|Before taking the cars.}}
+*The Cops were alerted.
+*Lamar was abandoned.
+*Franklin lost Lamar.
+*The car was abandoned.
+*The car was destroyed.
+*The car got stuck.
+*One of the cars was destroyed.
+*Both cars were destroyed.
+*Lamar's car is too damaged.
+*The Cops were led to the dealership.
+*One of the cars was damaged after dropping it off.
+*The dealership was trashed.
+*A vehicle was driven into the dealership.
+*One of the showroom cars was broken into.
+*There was a disturbance at the dealership.
+*Simeon's deal was disrupted.
+*Simeon died.
+*Jimmy died.
+|reward              = [[Money|$]]250
+|reward_achievements = "[[Welcome to Los Santos (Achievement)|Welcome to Los Santos]]" (10{{G}}/{{Trophy|Bronze}})
+|reward_abilities    = Ability to play as Franklin
+|reward_property     = Franklin's [[Clinton Residence|Safehouse]]
+|reward_content      = Franklin's [[Buffalo S]]
+|reward_toomuch      = 
+*[[Barbers#HD Universe|Barber Shops]]
+*[[Atomic Blimp]] (pre-order, [[Grand Theft Auto V/Editions|Special/Collector's Edition]], or [[Grand Theft Auto V#Enhanced and PC Versions|Enhanced version]] bonus)
+*[[Stunt Plane Time Trials]] (pre-order, Special/Collector's Edition, or Enhanced version bonus)
+*[[Ammu-Nation (HD Universe)|Ammu-Nation]]
+*[[Ammu-Nation Shooting Ranges]]
+*[[Los Santos Customs]]
+*[[Car Washes]]
+*[[Beeker's Garage]]
+*[[Movies (GTA V)|Movie Theaters]]
+*[[Vanilla Unicorn|Strip Club]]
+*[[Cable Car]]s
+*[[Ferris Whale|Fairground]] [[Leviathan (roller coaster)|Rides]]
+*[[Stunt Jumps in GTA V|Stunt Jumps]]
+*[[Soapboxers#Grand Theft Auto V|Soapboxers]]
+*[[Prostitutes#GTA V and Online|Prostitutes]]
+*[[Taxi Jobs in GTA V|Taxi Fares]]
+*[[Liberty City National Exchange|Stock]] [[Bawsaq.com|Markets]]
+*[[Robberies#Grand Theft Auto V and Grand Theft Auto Online|Convenience Stores]]
+*[[Monkey Mosaics]] {{E|EE&E}}
+*[[Peyote Plants in GTA V|Peyote Plants]] {{E|EE&E}}
+|requirements        = 
+|unlockedby          = [[Prologue (GTA V)|Prologue]]
+|unlocks             = [[Repossession]]
+|file_name           = {{Code|armenian1}} {{Small|(script)}}
+|tod                 = 08:00
+}}
+{{Quote|Franklin and Lamar repossess two convertibles for an Armenian car dealer, Simeon.|[[Rockstar Games Social Club]] description.}}
+'''Franklin and Lamar''' is a mission in {{V}}, given to [[Franklin Clinton]] by car dealer [[Simeon Yetarian]]. Fellow protagonist [[Michael De Santa]] also makes an appearance in the opening cutscene of the mission.
+
+==Description==
+{{Dialogue|p1=Lamar|d1=You the one all pumped up on doing this lick, nigga. I'm getting my money in the hood, I'm straight, fool. I'm cool.|p2=Franklin|d2=You cool? Cool what? Slinging dope and throwing up gang signs?|quotedetail=[[Franklin Clinton|Franklin]] and [[Lamar Davis|Lamar]] at the beginning of the mission.|sound=FranklinandLamar-GTAV-QuoteGTAWiki.ogg}}
+Nine years after the events of the [[Prologue (GTA V)|Prologue]], [[Michael De Santa]] is having a conversation with his therapist, [[Isiah Friedlander|Dr. Isiah Friedlander]]. Michael is growing increasingly unhappy at the fact that he is going through a midlife crisis, beginning to release a small amount of stress by shouting at Dr. Friedlander that the perfect life he dreamt of is disjointed, thus ending their brief session for the day.
+
+Michael heads outside and sits on a bench overlooking [[Del Perro Beach]]. This brings him into a chance encounter with [[Lamar Davis]] and [[Franklin Clinton]], who he reluctantly redirects to their repossession location of [[Bertolt Beach House]]. The story then turns to focus on Franklin as he anxiously questions Lamar's motives for proceeding with the repossession, as he doesn't see it as legitimate work. As they sneak onto the property, Franklin is given a choice between reposessing a [[9F Cabrio]] or a [[Rapid GT]]. If the player stays at the house after entering the vehicle, the car owner will pull Franklin from the car and start attacking him.
+
+After acquiring the vehicles, Franklin and Lamar engage in a high-speed chase throughout different parts of [[Los Santos (HD Universe)|Los Santos]] using the resposessed vehicles, with Lamar egging on Franklin to push the cars to their limit. If Franklin manages to pass Lamar during the race, he will react negatively, saying "How the fuck did you get ahead of me?". In the beginning of the chase, Franklin urges Lamar to drive carefully since Simeon cuts the cost from the employee's paychecks if the repossessed car is damaged. In return, Lamar suggests Franklin to work for [[JB Bradshaw]]'s [[LSPD Auto Impound|tow business]] if he needs money, to which Franklin refuses, as he does not want to be instrumental for JB and [[Tonya Wiggins|Tonya]] "smoking crack in peace". This dialogue ironically foreshadows Franklin's free help for JB and Tonya to tow vehicles later on in five different occasions starting with the [[Strangers and Freaks|mission]] [[Pulling Favors]], which are caused by JB's drug addiction.
+
+Franklin and Lamar end their chase at the [[Union Depository]] car park and exchange repartee with each other. If Franklin's car has sustained heavy damage by this point, Lamar will comment on the state of his vehicle. After hearing [[Los Santos Police Department (HD Universe)|LSPD]] sirens in the distance, the pair drive away in different directions to lose the unwanted police attention. Once the two-star [[Wanted Level in GTA V|wanted level]] is lost, Franklin meets Lamar at the back of the [[Premium Deluxe Motorsport]] dealership, where they witness their boss and owner of the car dealership, [[Simeon Yetarian]], berating a young man, [[Jimmy De Santa]], for making racist comments about him, which in actuality is part of Simeon's scheme to force Jimmy into purchasing  a [[BeeJay XL]], something that Lamar himself points out to Franklin. After Franklin and Lamar decide to leave the dealership, Simeon will continue to encourage Jimmy to purchase the car, with Jimmy getting in the car and starting it. When the conversation ends, Simeon tells Franklin to go away.
+
+Both Lamar and Franklin leave the dealership and head to Franklin's [[Clinton Residence|house]], where Lamar mocks Franklin's haircut after he's been denied access to Franklin's home. The mission concludes as Franklin walks around the house, which also leads to the brief introduction of his aunt, [[Denise Clinton]], and the basics of the game.
+
+==Objectives==
+*Choose one of the {{Color|v-hud-friendly|cars.}}
+*Return to {{Color|v-hud-friendly|Lamar.}}{{Note|If attempting to abandon Lamar.}}
+*Follow {{Color|v-hud-friendly|Lamar.}}
+*Get back in the {{Color|v-hud-friendly|car.}}{{Note|If exiting the car.}}
+*Park {{Color|v-hud-location|next to Lamar.}}
+*Lose the Cops.
+*Take the car back to the {{Color|v-hud-location|dealership.}}
+*Get in your {{Color|v-hud-friendly|car.}}
+*Go to {{Color|v-hud-location|Franklin's house.}}
+
+===Gold Medal Objectives===
+*Not a Scratch – Deliver the repossessed car with minimal damage.
+**Try to avoid crashing. Use Franklin's special ability to avoid collisions.
+*Focused Driver – Use Franklin's special ability for 7 seconds.
+**With the other objectives, this one should come naturally.
+*Winner – Win the race against Lamar.
+**Before entering the Union Depository, there will be two tunnels. Lamar drives through the right-hand tunnel. Drive through the left-hand tunnel and use Franklin's special ability to pass him.
+*We Come in Peace – Avoid hitting any aliens in the [[Backlot City|movie studio]].
+**Use Franklin's special ability to navigate the studio.
+
+==Rewards==
+The reward for completing the mission is $250 and the [[Welcome to Los Santos (Achievement)|Welcome to Los Santos]] [[Achievements and Trophies in GTA V|Achievement/Trophy]].
+
+Any bonus content, such as returning player bonuses ([[Xbox One|X1]]/[[PlayStation 4|PS4]]/[[Personal Computer|PC]] only), DLC weapons ([[Xbox 360|X360]]/[[PlayStation 3|PS3]] only), [[Interaction Menu]], [[Rockstar Games Social Club|Social Club]] content, or [[Grand Theft Auto V/Editions|Special/Collector's Edition]] and pre-order bonuses, will also be unlocked once the player leaves the safehouse.
+
+[[Pistol]], [[Micro SMG]], [[SMG]], [[Assault SMG]] (Rockstar Social Club bonus), [[Assault Rifle]], [[Knife]], [[Grenades]], and all five types of [[Body Armor]], are unlocked at [[Ammu-Nation (HD Universe)|Ammu-Nation]], including the [[Ammu-Nation Shooting Ranges|shooting range]] activity. The player can also go to [[Los Santos Customs]] and [[Beeker's Garage]], [[Car Washes]], [[Movies (GTA V)|Movie Theatres]], [[Barbers#HD Universe|Barber Shops]] (as suggested by Lamar after the mission), [[Vanilla Unicorn|Strip Club]], [[Cable Car]]s, and any fairground ride ([[Ferris Whale]] and [[Leviathan (roller coaster)|Leviathan]]), perform [[Stunt Jumps in GTA V|Stunt Jumps]], find [[Peyote Plants in GTA V|Peyote Plants]] (Enhanced Version), complete [[Taxi Jobs in GTA V|Taxi Fares]], use in-game [[Internet in GTA V|Internet]] (including [[Bawsaq.com|Stock]] [[Liberty City National Exchange|Markets]]), [[Robberies#Grand Theft Auto V and Grand Theft Auto Online|convenience stores]] are open from now on, as well as use the [[Atomic Blimp]] or complete [[Stunt Plane Time Trials]] (both are pre-order bonuses, also available in Enhanced Version).
+
+==Aftermath==
+===[[Lifeinvader]] Posts===
+*[[Darryl Knox]] – ''"Am I dreaming or did I just see you and lamar tearing up the [[Interstate 2|del perro freeway]] on some sick wheels??"''
+
+===[[Bleeter]] Posts===
+*@nobbly_head – ''"just saw 2 crazzzzy hoods racing boosted cars on del perro freeway sweet ass convertibles too!!"''
+
+===Post-Mission Phone Calls===
+====Phone Call 1====
+Only occurs if Franklin hasn't left his home.
+{{Dialogue
+|p1=Lamar    |d1=What's up, fool?
+|p2=Franklin |d2=What's up is we nothing but errand boys for fraudsters, dog. When we gonna get shit going?
+|p3=Lamar    |d3=Oh, he don't want to be a gangster, he wants to be a gangster... He wanna go legit or he don't wanna go legit, nigga, make up your mind!
+|p4=Franklin |d4=I just wanna get somewhere, dog, that's all. Somewhere, not nowhere, like now. Man, I'll see you later, homie.
+}}
+
+====Phone Call 2====
+{{Dialogue
+|p1=Simeon   |d1=Franklin!
+|p2=Franklin |d2=Eh, what's going down, homie?
+|p3=Simeon   |d3=The market, my boy. Liquidity's a bitch. Get over here so I can give you the new repo list.
+|p4=Franklin |d4=Alright, dog. I'll be around when I get a chance.
+}}
+
+If the repossessed car suffered heavy damage, an alternate second phone call will occur:
+
+{{Dialogue
+|p1=Franklin |d1=Hey, what's going down, Simeon?
+|p2=Simeon   |d2=Franklin, I must ask you: the last car you repossessed, it was in a terrible state. Was that how you found it?
+|p3=Franklin |d3=Uhh, yeah, man. The dude wrecked it
+|p4=Simeon   |d4=Ah, that's all I need to know for the insurance men. Come to the dealership, I have something to show you.
+}}
+{{Clear}}
+==Transcript==
+{{/Transcript}}
+
+==Gallery==
+===Walkthrough===
+{{Gallery
+|FranklinandLamar-GTAVee-SS1.png|Nine years later.
+|FranklinandLamar-GTAVee-SS2.png|[[Michael De Santa|Michael]] is talking to his shrink, [[Isiah Friedlander|Dr. Friedlander]].
+|FranklinandLamar-GTAVee-SS3.png|Dr. Friedlander calls time on the session.
+|FranklinandLamar-GTAVee-SS4.png|Outside, [[Franklin Clinton|Franklin]] and [[Lamar Davis|Lamar]] ask Michael if he knows where a house is.
+|FranklinandLamar-GTAVee-SS5.png|Franklin tells Lamar not to advertize their intentions out loud.
+|FranklinandLamar-GTAVee-SS6.png|Franklin and Lamar enter the yard.
+|FranklinandLamar-GTAVee-SS7.png|Choose one of the {{Color|v-hud-friendly|cars.}}
+|FranklinandLamar-GTAVee-SS8.png|Franklin chooses one of the convertibles, Lamar takes the other.
+|FranklinandLamar-GTAVee-SS9.png|Follow {{Color|v-hud-friendly|Lamar.}}
+|FranklinandLamar-GTAVee-SS10.png|Tutorial on using Franklin's [[Special Ability|special ability]].
+|FranklinandLamar-GTAVee-SS11.png|Using Franklin's special ability.
+|FranklinandLamar-GTAVee-SS12.png|Franklin and Lamar pass through the [[Union Depository]].
+|FranklinandLamar-GTAVee-SS13.png|Lose the Cops.
+|FranklinandLamar-GTAVee-SS14.png|Take the car back to the {{Color|v-hud-location|dealership.}}
+|FranklinandLamar-GTAVee-SS15.png|This is [[Simeon Yetarian|Simeon's]] Car Dealership. Franklin can come here to pick up missions.
+|FranklinandLamar-GTAVee-SS16.png|Simeon claims that his customer, [[Jimmy De Santa]], is a racist.
+|FranklinandLamar-GTAVee-SS17.png|Jimmy asking uses the n word in front of Lamar.
+|FranklinandLamar-GTAVee-SS18.png|Simeon decides to let him off.
+|FranklinandLamar-GTAVee-SS19.png|When it is suggested Jimmy can't afford the car, Jimmy lets him know that's no issue.
+|FranklinandLamar-GTAVee-SS20.png|Get in your {{Color|v-hud-friendly|car.}}
+|FranklinandLamar-GTAVee-SS24.png|Go to {{Color|v-hud-location|Franklin's house.}}
+|FranklinandLamar-GTAVee-SS21.png|Franklin annoys his aunt, [[Denise Clinton]], in the living room.
+|FranklinandLamar-GTAVee-SS22.png|Franklin cleans up his bedroom.
+|FranklinandLamar-GTAVee-SS23.png|Mission passed.
+}}
+
+===Trailer Screenshots===
+{{Gallery
+|Franklin&Lamar-GTAV-TrailerSS8.png|[[Isiah Friedlander|Dr. Friedlander]] asks [[Michael De Santa|Michael]] about [[Jimmy De Santa|Jimmy]]'s personality.
+|Franklin&Lamar-GTAV-TrailerSS9.png|Michael's reaction.
+|Franklin&Lamar-GTAV-TrailerSS7.png|[[Lamar Davis|Lamar]] asks Michael about the [[Bertolt Beach House|beach house]] location.
+|Franklin&Lamar-GTAV-TrailerSS3.png|Michael points out the house.
+|Franklin&Lamar-GTAV-TrailerSS1.png|[[Lamar]].
+|Franklin&Lamar-GTAV-TrailerSS2.png|[[Franklin Clinton|Franklin]].
+|FranklinAndLamar-GTAV-TrailerSS10.png|Franklin and Lamar.
+|FranklinAndLamar-GTAV-TrailerSS11.png|Franklin mocks their "legit business".
+|Franklin&Lamar-GTAV-TrailerSS4.png|Franklin speeds off with the stolen [[9F Cabrio]]. Someone (probably the owner) is seen in the background running after.
+|Franklin&Lamar-GTAV-TrailerSS5.png|Racing through [[Great Ocean Highway|U.S. Route 1]]. Note the use of an "SA Exempt" plate on the 9F Cabrio, instead of the standard San Andreas plate as seen in the final version.
+|Franklin&Lamar-GTAV-TrailerSS6.png|Racing through [[Del Perro]].
+}}
+
+===Official Screenshots===
+{{Gallery
+|Screenshot-GTAV-FranklinandLamar.jpg|Pre-release screenshot of Franklin and Lamar. Note the nighttime setting instead of the daytime setting as seen in the final version.
+|FranklinAndLamar-GTA5.jpg|The mission on [[Rockstar Games Social Club]].
+}}
+
+===Videos===
+{{Video Gallery
+|{{YouTube|hEKdENf5kGk|caption=Franklin and Lamar Mission Walkthrough}}
+|{{YouTube|VQ4TdGgWmQU|caption=First Person Walkthrough}}
+|{{YouTube|cWMqKdmmlLI|caption=PC 60FPS Walkthrough}}
+|{{YouTube|AW8RaDww4mc|caption=Gold Medal Guide - 4K 60fps}}
+}}
+
+==Gameplay Conditions==
+*In the original version of {{V|l=n}}, the [[Radio Stations in GTA V|radio]] is automatically tuned into [[West Coast Classics]] and the song playing when Franklin begins racing with Lamar is always "Appetite for Destruction" by {{WP|N.W.A}} In the [[Grand Theft Auto V: Enhanced Edition|Enhanced]] and [[Grand Theft Auto V and Online: PlayStation 5 and Xbox Series X/S Editions|Expanded & Enhanced]] editions, the radio is tuned into [[Radio Los Santos]], and the song playing instead is always "Bad News" by {{WP|Action Bronson}} and {{WP|Danny Brown}}.
+*In the enhanced version, a randomly colored [[Alpha]] can be seen in the parking area the red [[Carbonizzare]] enters.
+*Because of the scripted nature of the race, Lamar's car is both invulnerable and immovable. If Franklin manages to catch up to Lamar, he will be completely unable to affect Lamar's car in any way.
+*Franklin cannot use his special ability until the tutorial prompt tells the player how to activate it.
+*As with other driving-focused missions in {{V|l=n}}, much of the traffic over the course of the race portion of the mission is scripted:
+**A [[Youga]], a [[Flatbed]], a [[Manana]] and four Intruders along the [[Great Ocean Highway]].
+**A Manana and three Intruders on the [[Bay City Incline]].
+**An Intruder and two Mananas on [[Bay City Avenue]].
+**A [[PCJ 600]], a [[Burrito]], nine Mananas and eleven Intruders along [[North Rockford Drive]].
+**Two Burritos, three Mananas, five Intruders and a group of cyclists along [[Marathon Avenue]].
+**A Manana driving down [[Heritage Way]].
+**An Intruder and a backing up [[Benson]] on [[Red Desert Avenue]].
+**A [[Packer]], a Youga, two PCJ 600s, four Intruders and five Mananas on or near [[South Rockford Drive]].
+**Three Mananas and three Intruders on [[Prosperity Street]].
+**Two Bensons, six Mananas and six Intruders on [[Palomino Avenue]].
+**An Intruder travelling along [[Lindsay Circus]].
+**Two Mananas and six Intruders along [[Calais Avenue]].
+**A [[Bus]], a PCJ 600, two Intruders and three Mananas on [[Vespucci Boulevard]].
+**A Burrito and four Intruders within the adjacent parking lot, two Intruders on [[San Andreas Avenue]].
+**A sole Intruder on [[Las Lagunas Boulevard]].
+**A Benson on [[Alta Street]].
+
+==Oversights==
+*After the [[Cutscenes|cutscene]] turns into gameplay, Michael will no longer be sitting on the bench.
+*When Franklin grabs Lamar's arm, only one car can immediately be seen parked behind them. In the next shot, however, many more can be seen.
+*If Franklin is ahead of Lamar inside the [[Backlot City|movie studio]], and avoids the aliens, Lamar may occasionally hit the aliens himself, preventing the player from obtaining the "We Come in Peace" gold medal objective despite not hitting the aliens themselves.
+
+==Trivia==
+*The ending cutscene of the mission, where Franklin parts with Lamar, who in return mocks Franklin's haircut and love life, would later grow to become a popular internet meme in the early 2020s.
+**In 2021, [[Shawn Fonteno]] and [[Slink Johnson]] reprised their roles as Franklin and Lamar respectively to {{URL|https://www.youtube.com/watch?v{{=}}cU0oHq9Y6Ws|re-enact}} the cutscene at the end of the mission.
+**The ending cutscene would also be referenced at the end of the mission [[Short Trip - Fire It Up]], released with [[GTA Online: The Contract|The Contract]] update in [[2021]]. In the scene, Lamar berates Franklin about his poor family harmony in a similar delivery and tone, with some lines of dialogue directly shared from the original cutscene.
+*This mission shares similarities to the {{SA}} mission [[Test Drive]], in which [[Carl Johnson|CJ]] and [[Cesar Vialpando|Cesar]] steal [[Sultan (3D Universe)|two]] [[Elegy (3D Universe)|cars]] from [[Otto's Autos]] and must escape from the police.
+*This mission also shares similarities to the {{SA}} mission [[Sweet & Kendl]], in which [[Ryder]] tells CJ to get a haircut as it's embarrassing to be seen with him.
+
+==Notes==
+{{Note List}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Gtav missions|state=collapsed}}
+}}
+[[de:Franklin und Lamar]]
+[[es:Franklin y Lamar]]
+[[fr:Franklin et Lamar]]
+[[hu:Franklin and Lamar]]
+[[pl:Franklin i Lamar]]
+[[pt:Franklin e Lamar]]
+[[ru:Franklin and Lamar]]
+[[tr:Franklin and Lamar]]
+[[vi:Franklin and Lamar]]
+[[zh:Franklin and Lamar]]
+
+[[Category:Gameplay in GTA V]]
+[[Category:Storyline missions]]
+[[Category:Armenian series]]

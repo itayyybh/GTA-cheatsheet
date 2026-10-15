@@ -1,0 +1,636 @@
+{{PageTabber
+|page1 = [[Kuruma|HD Universe]]
+|page2 = [[Kuruma (3D Universe)|3D Universe]]
+}}
+{{Infobox vehicle
+|style           = 
+|name            = Kuruma
+|image_label     = 
+|front_image     = Kuruma-GTAOe-FrontQuarter.png
+|rear_image      = Kuruma-GTAOe-RearQuarter.png
+|caption         = A '''Kuruma''' in {{O}}.
+|aka             = 
+|games           = {{Games|O={{DLC|mpheist}}}}
+|mentioned       = 
+|type            = sportcompact
+|class           = [[:Category:Sports class|Sports]]
+|body_style      = [[:Category:Sedans|4-door sedan]]
+|purpose         = 
+|capacity        = 4 {{Small|(driver and 3 passengers)}}
+|radar_icon      = 
+|manufacturer    = [[Karin]]
+|make_year       = 
+|price           = [[Money|$]]126,350 {{Small|([[Southern San Andreas Super Autos]])}}
+|trade_price     = $95,000 {{Small|(Southern San Andreas Super Autos)}}
+|spawn           = No
+|spawn_traffic   = 
+|spawn_cargen    = 
+|spawn_scenarios = 
+|spawn_specific  = 
+|variants        = [[Kuruma (Armored)]]
+|basevariant     = 
+|lineup          = 
+}}
+{{Quote|The perfect car to go with your flesh tunnel earrings, frosted spikes, and oversize jeans. Buy this and you'll never fail to be mistaken for a small town drug dealer again.|[[Southern San Andreas Super Autos]] description.}}
+The [[Karin]] '''Kuruma''' (Japanese: '''車'''; English: '''Car''') is a four-door sedan featured in {{O}} as part of the [[GTA Online: Heists|Heists]] update.
+
+The car [[Kuruma (3D Universe)|returns]] from the {{3D}} where it assumed the design of a Japanese sedan, albeit slightly larger and less sporty in design.
+
+==Influence==
+The overall shape of the car seems to be a mix of the {{WP|Mitsubishi Lancer Evolution|Mitsubishi Lancer Evolution X}}, as evidenced by the overall design and front fascia, and the {{WP|Subaru WRX#VA|2015–2016 Subaru WRX STI}}, as seen in the rear wing, headlight layout, C-pillar, boot, and hood scoop. The side vent also seems to be a mix of both Evo and WRX side vents, with the shape of the vent following the body line of the WRX's vents, while having dimensions closer to the Evo's vents.
+
+===Liveries===
+*The "Redwood Rally" livery is based on {{URL|http://widecars.com/images/736x/a8/4d/8f/a84d8f3d59a264a4f5a1efcf67d78d93.jpg|Tommi Mäkinen's Malboro Mitsubishi Lancer}}.
+*The "Classic Rally Side Stripes" livery is based on the {{URL|https://di-uploads-pod12.dealerinspire.com/universitymitsubishi/uploads/2021/05/university-mitsubishi-lancer-evo-tommi-makinen-edition.jpg|Mitsubishi Lancer Evo VI Tommi Makinen edition}}.
+*The "Disruption Logistics" livery is based on [https://www.ewrc.cz/images/2018/photos/sammy_ark_rally_kamuy_2018/thi_36679851_2161013520798922_6877576193881669632_o.jpg this Advan Mitsubishi Lancer Evo X rally car].
+*The "Stance Andreas" livery is based on the [https://www.downshiftaus.com/2011/unbeatable-hks-ct230r-evo/ HKS Hipermax Mitsubishi Lancer Evo VIII] time attack car.
+
+==Design==
+On the front, the central portion is predominated by a trapezium-shaped split mesh grille, featuring a chrome trim on the surrounding, a plastic wide separation acting as the bumper and a manufacturer emblem on the upper grille, as well as a plastic insert below the grille, having pointy ends aligned with the body-coloured sections beside it. Next to the lower grille there are two intakes with plastic trim, circular fog lamps on the lower outer corners and LED stripes above these, while the areas next to the upper grille have a set of dual headlamps, turn signal and light strips surrounded by chrome trimmings, denoting an aggressive aspect. The bonnet sports an intake/scoop on the middle.
+
+The sides of the car have a slight concave design passing through the doors, with the front fenders having thin vertical exit vents with a chrome detail above. The greenhouse area features plastic trim around the windows and on the roof, black mirror shells and what look like vortex generators with additional brake lights.
+
+On the rear, the car features a boot with a chrome detail over the license plate, a medium spoiler and the corresponding badges. The tail lamps follow a similar pattern to the headlamps, consisting of inner brake with reverse lamps on the boot, and marker with turning lamps on the edges. The bumper features red marker lights on the edges and a plastic section on the centre, with mouldings for the twin exit, twin exhaust tubes. The interior is shared with the [[Sultan]].
+
+The primary colour of the car is applied on the bodywork and the interior stitching, while the secondary colour seem to be applied on certain modifications. The Kuruma shares its stock rim design with the second generation [[Baller]] and the [[Surano]].
+
+==Performance==
+The Kuruma has a modeled twin-cam straight six engine, placed longitudinally in a front engine, all wheel drive layout (a rather unique distribution of 1/3 of the engine power to the front wheels and the rest to the rear wheels). According to [[Southern San Andreas Super Autos]], the car has a 6-speed gearbox, a top speed of 147mph and weights 2,866lbs. The Kuruma features a turbo dump-valve sound effect by default, although the player can add another turbo for a significantly higher acceleration.
+
+Due to the lightweight chassis and top-heaviness on the car, The Kuruma has a tendency to lift onto two wheels and even flip during sharp, high speed turns, or roll the car. It is slightly bested by the [[Sultan]] in terms of top speed. However, in terms of grip, the Sultan stands a heavy ground when attacking corners at high speed. The Kuruma tends to slide attempting to attack corners at similar speeds. Off-road, the Kuruma is one of the fastest cars in the game, with its high traction allowing for high speeds on off-road terrain which allows it to keep up to even some Super cars.
+
+The Kuruma does not deform easily when crashed, as it can only be scratched or lose body parts (it still has bodywork deformation, albeit to a lesser extend). The same is true with the [[Panto]] and [[Coquette Classic]].
+
+==Variants==
+{| class="wikitable sortable" width="100%"
+!class="unsortable" width="200px"|Image
+!Vehicle
+!class="unsortable"|Description
+!class="unsortable"|Notes
+|-
+|[[File:KurumaArmored-GTAOe-FrontQuarter.png|thumb|center|200px|The '''Kuruma (Armored)''' in {{O}}.]]
+|[[Kuruma (Armored)]]
+|Armored variant of the Kuruma appearing in {{O}}. Features window and door plating and heavy resistance to explosions.
+|Added to {{O}} as part of the [[GTA Online: Heists|Heists]] update.
+|-
+|}
+
+==Modifications==
+{| class="wikitable mw-collapsible mw-collapsed" width="100%"
+!colspan="2"|Category
+!Modification
+!Price
+!class="unsortable" width="200px"|Image
+|-
+|colspan="2" rowspan="6"|Armor
+|No Armor
+|colspan="2"|$1,000
+|-
+|Armor Upgrade 20%
+|colspan="2"|$7,500
+|-
+|Armor Upgrade 40%
+|colspan="2"|$12,000
+|-
+|Armor Upgrade 60%
+|colspan="2"|$20,000
+|-
+|Armor Upgrade 80%
+|colspan="2"|$35,000
+|-
+|Armor Upgrade 100%
+|colspan="2"|$50,000
+|-
+|colspan="2" rowspan="4"|Brakes
+|Stock Brakes
+|colspan="2"|$1,000
+|-
+|Street Brakes
+|colspan="2"|$20,000
+|-
+|Sport Brakes
+|colspan="2"|$27,000
+|-
+|Race Brakes
+|colspan="2"|$35,000
+|-
+|colspan="2" rowspan="4"|Bumpers
+|Stock Front Bumper
+|$2,200
+|[[File:Kuruma-GTAO-Bumpers-StockFrontBumper.png|thumb|center|200px]]
+|-
+|Body Color Front Splitter
+|$4,600
+|[[File:Kuruma-GTAO-Bumpers-BodyColorFrontSplitter.png|thumb|center|200px]]
+|-
+|Secondary Color Front Splitter
+|$7,400
+|[[File:Kuruma-GTAO-Bumpers-SecondaryColorFrontSplitter.png|thumb|center|200px]]
+|-
+|Carbon Front Splitter
+|$11,700
+|[[File:Kuruma-GTAO-Bumpers-CarbonFrontSplitter.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="4"|Engine
+|EMS Upgrade, Level 1
+|colspan="2"|$9,000
+|-
+|EMS Upgrade, Level 2
+|colspan="2"|$12,500
+|-
+|EMS Upgrade, Level 3
+|colspan="2"|$18,000
+|-
+|EMS Upgrade, Level 4
+|colspan="2"|$33,500
+|-
+|colspan="2" rowspan="4"|Exhausts
+|Stock Exhaust
+|$260
+|[[File:Kuruma-GTAO-Exhausts-StockExhaust.png|thumb|center|200px]]
+|-
+|Oval Exhaust
+|$750
+|[[File:Kuruma-GTAO-Exhausts-OvalExhaust.png|thumb|center|200px]]
+|-
+|Race Exhaust
+|$1,800
+|[[File:Kuruma-GTAO-Exhausts-RaceExhaust.png|thumb|center|200px]]
+|-
+|Chrome Tip Exhaust
+|$3,000
+|[[File:Kuruma-GTAO-Exhausts-ChromeTipExhaust.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="2"|[[Car Bomb|Explosives]]
+|Ignition Bomb
+|colspan="2"|$5,000
+|-
+|Remote Bomb
+|colspan="2"|$7,500
+|-
+|colspan="2"|Horns
+|''Main article: [[Vehicle Customization in GTA V/Horns]]''
+|colspan="2"| -
+|-
+|rowspan="3"|Lights
+|rowspan="2"|Headlights
+|Stock Lights
+|colspan="2"|$600
+|-
+|Xenon Lights
+|colspan="2"|$7,500
+|-
+|Neon Kits
+|''Main article: [[Vehicle Customization in GTA V/Lights]]''
+|colspan="2"| -
+|-
+|colspan="2" rowspan="16"|Livery
+|None
+|$
+|[[File:Kuruma-GTAO-LiveryFront-None.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-None.png|Rear quarter view]])}}]]
+|-
+|Black Single Side Stripes
+|$18,240
+|[[File:Kuruma-GTAO-LiveryFront-BlackSingleSideStripes.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-BlackSingleSideStripes.png|Rear quarter view]])}}]]
+|-
+|White Single Side Stripes
+|$19,380
+|[[File:Kuruma-GTAO-LiveryFront-WhiteSingleSideStripes.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-WhiteSingleSideStripes.png|Rear quarter view]])}}]]
+|-
+|Classic Rally Side Stripes
+|$20,520
+|[[File:Kuruma-GTAO-LiveryFront-ClassicRallySideStripes.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-ClassicRallySideStripes.png|Rear quarter view]])}}]]
+|-
+|Black Thick Race Stripes
+|$21,660
+|[[File:Kuruma-GTAO-LiveryFront-BlackThickRaceStripes.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-BlackThickRaceStripes.png|Rear quarter view]])}}]]
+|-
+|White Thick Race Stripes
+|$22,800
+|[[File:Kuruma-GTAO-LiveryFront-WhiteThickRaceStripes.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-WhiteThickRaceStripes.png|Rear quarter view]])}}]]
+|-
+|Black Double Race Stripes
+|$23,370
+|[[File:Kuruma-GTAO-LiveryFront-BlackDoubleRaceStripes.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-BlackDoubleRaceStripes.png|Rear quarter view]])}}]]
+|-
+|White Double Race Stripes
+|$23,939
+|[[File:Kuruma-GTAO-LiveryFront-WhiteDoubleRaceStripes.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-WhiteDoubleRaceStripes.png|Rear quarter view]])}}]]
+|-
+|Paint Drip
+|$24,510
+|[[File:Kuruma-GTAO-LiveryFront-PaintDrip.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-PaintDrip.png|Rear quarter view]])}}]]
+|-
+|[[Disruption Logistics]]
+|$25,080
+|[[File:Kuruma-GTAO-LiveryFront-DisruptionLogistics.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-DisruptionLogistics.png|Rear quarter view]])}}]]
+|-
+|Karin Race
+|$25,650
+|[[File:Kuruma-GTAO-LiveryFront-KarinRace.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-KarinRace.png|Rear quarter view]])}}]]
+|-
+|[[Redwood Cigarettes|Redwood Rally]]
+|Unreleased
+|[[File:Kuruma-GTAO-LiveryFront-RedwoodRally.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-RedwoodRally.png|Rear quarter view]])}}]]
+|-
+|[[Stance Andreas]]
+|FREE<ref name="Stance">Unlocked for the players who completed Tier 3 of Original Heists in Career Progress.</ref>
+|[[File:Kuruma-GTAO-LiveryFront-StanceAndreas.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-StanceAndreas.png|Rear quarter view]])}}]]
+|-
+|[[Junk Energy Drink|Junk]]
+|Unreleased
+|[[File:Kuruma-GTAO-LiveryFront-Junk.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-Junk.png|Rear quarter view]])}}]]
+|-
+|Solid Camo
+|Unreleased
+|[[File:Kuruma-GTAO-LiveryFront-SolidCamo.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-SolidCamo.png|Rear quarter view]])}}]]
+|-
+|[[Yogarishima|Yogarishima Camo]]
+|FREE<ref name="Yogarishima">Unlocked for the players who purchased the vehicle through LS Car Meet between August 15 and August 21, 2024.</ref>
+|[[File:Kuruma-GTAO-LiveryFront-YogarishimaCamo.png|thumb|center|220px|{{Small|([[:File:Kuruma-GTAO-LiveryRear-YogarishimaCamo.png|Rear quarter view]])}}]]
+|-
+|colspan="2" rowspan="2"|Loss/Theft Prevention
+|Tracker
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|Full Coverage
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="5"|Plates
+|Blue on White 1
+|colspan="2"|$200
+|-
+|Blue on White 2
+|colspan="2"|$200
+|-
+|Blue on White 3
+|colspan="2"|$200
+|-
+|Yellow on Blue
+|colspan="2"|$300
+|-
+|Yellow on Black
+|colspan="2"|$600
+|-
+|colspan="2"|Respray
+|''Main article: [[Vehicle Customization in GTA V/Respray Colors]]''
+|colspan="2"| -
+|-
+|colspan="2" rowspan="2"|Roll Cages
+|No Roll Cage
+|$700
+|[[File:Kuruma-GTAO-RollCages-NoRollCage.png|thumb|center|200px]]
+|-
+|Roll Cage and Chassis Upgrade
+|$1,100
+|[[File:Kuruma-GTAO-RollCages-RollCageandChassisUpgrade.png|thumb|center|200px]]
+|-
+|colspan="2"|Sell
+|Sell Vehicle
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="7"|Skirts
+|Stock Skirts
+|$2,500
+|[[File:Kuruma-GTAO-Skirts-StockSkirts.png|thumb|center|200px]]
+|-
+|Body Color Street Skirt
+|$5,500
+|[[File:Kuruma-GTAO-Skirts-BodyColorStreetSkirt.png|thumb|center|200px]]
+|-
+|Secondary Color Street Skirt
+|$8,000
+|[[File:Kuruma-GTAO-Skirts-SecondaryColorStreetSkirt.png|thumb|center|200px]]
+|-
+|Carbon Street Skirt
+|$10,500
+|[[File:Kuruma-GTAO-Skirts-CarbonStreetSkirt.png|thumb|center|200px]]
+|-
+|Body Color Slick Skirt
+|$14,000
+|[[File:Kuruma-GTAO-Skirts-BodyColorSlickSkirt.png|thumb|center|200px]]
+|-
+|Secondary Color Slick Skirt
+|$14,500
+|[[File:Kuruma-GTAO-Skirts-SecondaryColorSlickSkirt.png|thumb|center|200px]]
+|-
+|Carbon Slick Skirt
+|$15,000
+|[[File:Kuruma-GTAO-Skirts-CarbonSlickSkirt.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="6"|Spoilers
+|Stock Spoiler
+|$6,000
+|[[File:Kuruma-GTAO-Spoilers-StockSpoiler.png|thumb|center|200px]]
+|-
+|Secondary Color Stock Spoiler
+|$7,050
+|[[File:Kuruma-GTAO-Spoilers-SecondaryColorStockSpoiler.png|thumb|center|200px]]
+|-
+|Carbon Wing
+|$10,000
+|[[File:Kuruma-GTAO-Spoilers-CarbonWing.png|thumb|center|200px]]
+|-
+|Color Coded Wing
+|$13,000
+|[[File:Kuruma-GTAO-Spoilers-ColorCodedWing.png|thumb|center|200px]]
+|-
+|Carbon Wing Type II
+|$14,000
+|[[File:Kuruma-GTAO-Spoilers-CarbonWingTypeII.png|thumb|center|200px]]
+|-
+|GT Wing
+|$16,000
+|[[File:Kuruma-GTAO-Spoilers-GTWing.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="5"|Suspension
+|Stock Suspension
+|colspan="2"|$200
+|-
+|Lowered Suspension
+|colspan="2"|$1,000
+|-
+|Street Suspension
+|colspan="2"|$2,000
+|-
+|Sport Suspension
+|colspan="2"|$3,400
+|-
+|Competition Suspension
+|colspan="2"|$4,400
+|-
+|colspan="2" rowspan="4"|Transmission
+|Stock Transmission
+|colspan="2"|$1,000
+|-
+|Street Transmission
+|colspan="2"|$29,500
+|-
+|Sports Transmission
+|colspan="2"|$32,500
+|-
+|Race Transmission
+|colspan="2"|$40,000
+|-
+|colspan="2" rowspan="2"|Turbo
+|None
+|colspan="2"|$5,000
+|-
+|Turbo Tuning
+|colspan="2"|$50,000
+|-
+|colspan="2"|Wheels
+|''Main article: [[Vehicle Customization in GTA V/Wheels]]''
+|colspan="2"| -
+|-
+|colspan="2" rowspan="4"|Windows
+|None
+|colspan="2"|$500
+|-
+|Light Smoke
+|colspan="2"|$1,500
+|-
+|Dark Smoke
+|colspan="2"|$3,500
+|-
+|Limo
+|colspan="2"|$5,000
+|}
+
+==Gallery==
+===Design===
+{{Design Gallery Vehicle
+|game                 = O
+|front_quarter_image = Kuruma-GTAO-FrontQuarter.png
+|top_image           = Kuruma-GTAO-Top.png
+|rear_quarter_image  = Kuruma-GTAO-RearQuarter.png
+|front_image         = Kuruma-GTAO-Front.png
+|side_image          = Kuruma-GTAO-Side.png
+|rear_image          = Kuruma-GTAO-Rear.png
+|engine_image        = Kuruma-GTAO-Engine.png
+|underside_image     = Kuruma-GTAO-Underside.png
+|inside_image        = Kuruma-GTAO-Inside.png
+|detail_image        = Kuruma-GTAO-Badges.png
+|open_other_image    = Kuruma-GTAO-Open.png
+|dashboard_image     = Kuruma-GTAO-Dashboard.png
+}}
+===Images===
+{{Gallery
+|Kuruma-GTAO-SSASA.png|The '''Kuruma''' on [[Southern San Andreas Super Autos]] in the enhanced version of {{O}}.
+|Kuruma-GTAO-RoofBrakeLights.png|The rooftop brake lights on the Kuruma, absent on the armored variant.
+}}
+
+==Locations==
+*Can be purchased from [[Southern San Andreas Super Autos]] for $95,000 after completing [[The Fleeca Job]]. 
+**After the [[Cunning Stunts: Special Vehicle Circuit]] update, the vehicle is now available to players who have not completed the heist at the "full" cost of $126,350.   
+***From November 4th, 2021, the Kuruma’s full price was $758,100 exclusively on the PC version of the game. This was later reverted. {{Vague}}
+*Often used by [[Kkangpae]] when buying [[Special Cargo]] or completing [[Vehicle Cargo]] missions. It can be stolen, but it cannot be stored in the player's garage.
+
+==Prominent Appearances in Gameplay==
+The Kuruma frequently appears as the vehicle of choice of the [[Kkangpae]].
+
+{{H3|Further Adventures in Finance and Felony}}
+*[[Special Cargo/Steal Missions#Deal Gone Wrong|Special Cargo Steal Mission: Deal Gone Wrong]] {{nd}} Used by Kkangpae chasers.
+
+{{H3|Import/Export}}
+*[[Vehicle Cargo/Steal Missions#Tail|Vehicle Cargo Steal Mission: Tail]] {{nd}} Used by the enemy to drive to the location of [[Vehicle Cargo]], to be [[:File:Vehicle Import Tail GTAO Start Little Seoul.png|tailed]] by the [[GTA Online Protagonist|player]]. Will also be used to chase the player back to their [[Vehicle Warehouses]] if the tail was detected or be [[:File:Vehicle Import Tail GTAO NPC Kurumas Empty.png|abandoned on the route]] if the player was undetected.
+*[[Special Vehicle Work]]: [[Firewall Protection]] {{nd}} Used by the agents.
+
+{{H3|Gunrunning}}
+*[[Supplies/Steal Missions|Supplies Steal Missions]] {{Vague}} {{nd}} Frequently used in these missions.
+
+{{H3|After Hours}}
+*[[Nightclub Management: Recover supplies]] {{nd}} If the enemies are Kkangpae, their black accessible Kuruma will be parked near the stolen [[Mule]] with alcohol. Also, after returning the truck, the player will be chased by the enemies on (also accessible) Kurumas.
+
+{{H3|The Diamond Casino & Resort}}
+*Two [[Casino Work]] missions:
+**[[Lost in Transit]] {{Small|(if the enemies are Kkangpae)}}
+**[[Safe Bet]] {{Small|(if the enemies are Kkangpae)}}
+
+{{H3|The Diamond Casino Heist}}
+*[[The Diamond Casino Heist]]
+**[[Casino Heist]] {{nd}} If [[Eddie Toh]] is selected as the driver, the Kuruma will be provided as the initial vehicle.
+{{Gallery|Kuruma-GTAOee-CasinoHeistCar.jpg|The '''Kuruma''' provided as a departure vehicle by [[Eddie Toh]] for The Diamond Casino Heist.}}
+*[[Gerald's Last Play]]
+**[[Last Play - Go Figure]] {{nd}} Two blue Kkangpae's Kurumas are parked near several locations. Also, similar accessible enemy Kurumas arrive to some locations when the player starts collecting the figurines.
+
+{{H3|Los Santos Tuners}}
+*[[Contracts (mission series)|Auto Shop Robberies]]
+**[[The Union Depository Contract]]
+***[[Planning Work: Elevator Key]] {{nd}} Used by the Kkangpae.
+*[[Exotic Exports (GTA Online)|Exotic Exports]] {{nd}} This is one of the hundred possible cars that can be requested by [[Brucie Kibbutz]] for delivery.
+
+{{H3|The Criminal Enterprises}}
+*[[Clubhouse Contracts|Clubhouse Contract]]: [[Life and Deathbikes]] — If the enemies are Kkangpae, the player must destroy two their parked Kurumas: a white one and a blue one. The vehicles cannot be entered.
+
+==Notable Owners==
+*[[Kkangpae]] gang members can be seen driving Kurumas in several missions.
+
+==Rockstar Games Website==
+{{RSSC
+|name          = Kuruma
+|manufacturer  = Karin
+|class         = Sports 
+|image         = Kuruma-GTAO-RGSC-MainNew.jpg
+|caption       = Main image (after 2019).
+|image2        = Kuruma-GTAO-RGSC-Action.jpg
+|caption2      = "Action" image.
+|image3        = Kuruma-GTAO-RGSC-Main.jpg
+|caption3      = Main image (prior to 2019).
+|speed         = 78.873047
+|accel         = 77.5
+|braking       = 16.666668
+|traction      = 74.242424
+|seats         = 4
+|garage        = y
+|moddable      = y
+|premium       = y
+|super         = n
+|buy           = y
+|sell          = y
+|dealer        = sssa
+|schematic     = GenericSports
+}}
+
+==Oversights==
+*After the [[GTA Online: Los Santos Tuners|Los Santos Tuners]] update, all the windows of the vehicle are unbreakable. Therefore, the vehicle's occupants are unable to get shot by normal bullets, just like the [[Kuruma (Armored)]]. However, even with the doors open or off, the occupants cannot get shot.  
+**When using throwables, the player's hand phases through the windows.
+**Gunshot holes do not show anywhere on the vehicle.
+***These issues were fixed in [[GTA Online: The Contract|The Contract]] update.
+*When opening the hood, the engine can be seen. However, when rolling the car over, there is no visible engine from the bottom, only an empty space and the "upper" side of the engine bay.
+
+==Specifications==
+===Model===
+{{Specifications Vehicle Model
+<!--GTA Online-->
+|game1               = O
+|game1_modelname     = kuruma
+|game1_texturename   = kuruma
+|game1_handlingname  = KURUMA
+|game1_textlabelname = KURUMA
+|game1_ingamename    = Kuruma
+|game1_swankness     = 2
+|game1_flags         = 
+{{Vehicle Flag List
+|game          = V
+|FLAG_AVERAGE_CAR
+|FLAG_POOR_CAR
+|modelFlags    = 00440010
+|handlingFlags = 
+|advancedFlags = 
+}}
+}}
+
+===Population===
+{{Specifications Vehicle Population
+<!--GTA Online-->
+|game1               = O
+|game1_popgroups     = {{No|None}}
+|game1_modelsets     = {{No|None}}
+|game1_frequency     = 50
+|game1_drivers       = {{No|None}}
+|game1_licenseplates = 
+*Standard White – 60%
+*White Plate 2 – 40%
+}}
+
+===Handling===
+{{Specifications Vehicle Handling
+<!--GTA Online-->
+|game1               = O
+|game1_maxvelocity   = 143
+|game1_gears         = 6
+|game1_enginetype    = 
+|game1_drivetrain    = 0.33
+|game1_mass          = 1500
+}}
+
+===Audio===
+{{Specifications Vehicle Audio
+<!--GTA Online-->
+|game1               = O
+|game1_hornsound     = horn_list_saloon
+|game1_enginesound   = sportscar_1_eur_4cyl
+|game1_radio         = 4
+|game1_scannermanf   = karin
+|game1_scannermodel  = sportscar
+|game1_scannercat    = sportscar
+|game1_scannercolor  = none
+}}
+
+===Language===
+{{Specifications Vehicle Language
+<!--GTA Online-->
+|game1               = O
+|game1_langen        = Kuruma
+|game1_langzh        = 骷髏馬
+|game1_langzhcn      = 骷髅马
+|game1_langfr        = Kuruma
+|game1_langde        = Kuruma
+|game1_langit        = Kuruma
+|game1_langjp        = クルマ
+|game1_langko        = 구루마
+|game1_langesmx      = Kuruma
+|game1_langpl        = Kuruma
+|game1_langpt        = Kuruma
+|game1_langru        = Kuruma
+|game1_langes        = Kuruma
+}}
+
+===Traffic Default Colors===
+{{Vehicle Color List
+|collapse = y
+|game     = O
+|0,0,10,156,0,0
+|1,1,5,156,0,0
+|2,2,7,156,0,0
+|4,4,111,156,0,0
+|6,6,111,156,0,0
+|111,111,111,156,0,0
+|30,30,36,156,0,0
+|65,65,68,156,0,0
+|34,34,33,156,0,0
+|111,111,0,156,0,0
+|64,64,68,156,0,0
+|37,37,106,156,0,0
+|68,68,64,156,0,0
+|5,5,111,156,0,0
+|7,7,5,156,0,0
+|9,9,4,156,0,0
+}}
+
+==Trivia==
+*Besides the meaning of "Car" in Japanese, "Kuruma" may also be a reference to the {{WP|Toyota Camry}}, the bestselling midsize sedan in the [[United States of America|United States]], with "Camry" being an Anglicized phonetic transcription of the Japanese word kanmuri (冠, かんむり) for "crown". (Toyota has a naming tradition of using the word "crown" for primary models, starting with the {{WP|Toyota Crown}} in 1955, continuing with the {{WP|Toyota Corona}} and {{WP|Toyota Corolla}}, the Latin words for "crown" and "small crown", respectively.)
+
+==See Also==
+*[[Kuruma (Armored)]] {{nd}} Armored variant.
+
+==References==
+{{Ref List}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtao vehicles|state=collapsed}}
+}}
+
+[[de:Kuruma]]
+[[es:Kuruma]]
+[[fr:Kuruma]]
+[[pl:Kuruma]]
+[[pt:Kuruma]]
+[[ru:Kuruma]]
+{{Title|disambig=y}}
+[[Category:Vehicles in GTA Online: Heists]]
+[[Category:Sport compact cars]]
+[[Category:Sedans]]
+[[Category:Tuners]]
+[[Category:Gang vehicles]]
+[[Category:All wheel drive vehicles]]
+[[Category:Vehicles manufactured by Karin]]
+[[Category:Vehicles purchasable from Southern San Andreas Super Autos]]
+[[Category:Vehicles purchasable from Premium Deluxe Motorsport]]
+[[Category:Sports class]]
+[[Category:Vehicles eligible for Imani Tech upgrades]]

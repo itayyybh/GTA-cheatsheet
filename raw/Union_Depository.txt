@@ -1,0 +1,80 @@
+{{Infobox business
+|style         = darklogo
+|image         = UnionDepository-GTAV-Logo.png
+|games         = {{Games|V=y|O=y}}
+|locations     = [[Pillbox Hill]], [[Los Santos (HD Universe)|Los Santos]]
+|type          = bank
+}}
+{{Quote|The {{WP|Holy Grail}}. The Union Depository. Now, they say it cannot be hit. Hasn't been yet.|[[Lester Crest]] to [[Michael De Santa]] in [[Casing the Jewel Store]].}}
+The '''Union Depository''' is a bank in {{V}} and {{O}}.
+
+==Description==
+Though not explicitly confirmed as such in-game, the Union Depository seems to act as the country's central bank, as implied by its name and ties to the federal government. While [[Lester Crest]] claims during the mission [[Surveying the Score]] that the bank holds roughly $200 million worth of gold bars all belonging to the United States government,{{Ref|name=unclesam|ref={{Quote|Around two hundred million dollars' worth of gold bricks, all taken from kindly {{WP|Uncle Sam}}.|[[Lester Crest]] during the mission [[Surveying the Score]].}}}} in the Subtle approach of the [[The Big Score (GTA V)|Big Score]] heist, the bank's [[Union Depository Bank Manager|manager]] instead claims the gold in the vault belongs to [[China]],{{Ref|name=unionmorechineselately|ref={{Dialogue|p1=Trevor|d1=Woo! There is a lot of gold in here.|p2=Manager|d2=We're just holding onto it for the Chinese.|quotedetail=[[Trevor Philips]] and the [[Union Depository Bank Manager]] during the Subtle approach of [[The Big Score (GTA V)|The Big Score]].}}}} suggesting the bank's primary purpose is to store the gold reserves of foreign governments.
+
+The bank's logo is an open red padlock, which humorously implies that the bank is poorly secured and vulnerable. The logo spells out the bank's initials when viewed sideways, with the shackle of the lock representing the "U" and the lock body representing the "D."
+
+Its [[Los Santos (HD Universe)|Los Santos]] branch, located at 17 [[Power Street]], is the 5th tallest building in the city. The building features an underground loading bay and parking garage, which is only open during certain missions and is otherwise inaccessible. The building is in constant vigilance by guards in the interior and a special [[Los Santos Police Department (HD Universe)|LSPD]] unit. A [[Security Guards|security guard]] is always guarding the bank's entrance on Power Street.
+
+==Influence==
+The Union Depository's name and role as the holder of foreign governments' gold{{Ref|name=unionmorechineselately}} are specifically based on the {{WP|Federal Reserve Bank of New York}}, with its interior and vault directly modeled after said bank's fictionalized depiction in the 1995 film ''{{WP|Die Hard with a Vengeance}}''. Its occupation of a tall, modern skyscraper may be loosely inspired by the {{WP|Federal Reserve Bank of Boston}}, the only {{WP|Federal Reserve Bank}} to be housed in such a building.
+
+The tower itself appears to be a combination of two buildings in {{WP|Downtown Los Angeles}}; the polygonal shape, diagonal orientation, location relative to [[Maze Bank Tower]] and the [[FIB Building]], and occupation by a banking institution are derived from the former Mellon Bank Center{{Note|In 2012, the building was vacated by {{WP|Mellon Financial|Mellon Bank}} and purchased by {{WP|CBRE Group|CBRE}}; while the building now bears CBRE's signage, it lacks an official name, being referred to only by its address.}} at {{URL|https://maps.app.goo.gl/tfEChN2NnxgKKhRd8|400 South Hope Street}} in {{WP|Bunker Hill, Los Angeles|Bunker Hill}}, while the height and architectural features are modeled after the nearby {{WP|Gas Company Tower}} at {{URL|https://maps.app.goo.gl/iV9KZQ3MzpKGhghWA|555 West 5th Street}} in the {{WP|Financial District, Los Angeles|Financial District}}.
+
+==Employees==
+*Unnamed [[Union Depository Bank Manager|bank manager]]
+
+==Events of ''Grand Theft Auto V''==
+{{Spoilers}}
+*[[Franklin and Lamar]] {{nd}} Franklin and Lamar drive their two repossessed cars through the car park beneath the bank and get ambushed on the other side by police.
+*[[Surveying the Score]] {{nd}} Franklin, Michael and Lester survey the bank.
+*[[The Big Score (GTA V)|The Big Score]] {{nd}} [[Michael De Santa|Michael]], [[Franklin Clinton|Franklin]], [[Trevor Philips|Trevor]], and [[Lester Crest|Lester]] rob the bank of around $200 million in gold ingots by one of two ways, depending on the player's approach.
+**''Obvious'' - Franklin uses a [[cutter]] underground to drill through to the building vault, planting explosives on the vault after drilling. Trevor and one of the selected drivers use a helicopter to fly the stolen gold to [[Blaine County]] to a train while under attack by [[Merryweather Security]]. Michael and the selected gunman distract the cops by pretending to be attempting to rob the bank above ground.
+**''Subtle'' - The crew intercepts two [[Securicar]]s passing through a tunnel that are on their way to the Depository. There, they take the Securicars and one of the guards, [[Casey]]. Stealing the other guards' uniforms and planning on posing as the [[Gruppe Sechs (HD Universe)|Gruppe Sechs]] guards they ambushed, who were on their way to pick up the gold, they successfully trick the [[Union Depository Bank Manager|bank manager]] and peacefully get the gold, after which, they make their way to a hiding spot next to [[Vanilla Unicorn]], where they are attacked by [[Merryweather Security]] operatives.
+
+==Events of ''Grand Theft Auto Online''==
+*[[Escape Escort]] {{nd}} Two [[SecuroServ]] clients break into the Union Depository. Up to 4 {{GTAOP}}s must use specialised [[Ramp Buggy|Ramp Buggies]] to break out the clients. The building is surrounded by police units and roadblocks, and the lower garage access door is open.
+*[[Planning Work: Vault Code]] {{nd}} The player has to steal a [[Police Maverick]], make their way over to the Union Depository, and scan the car park for the [[Union Depository Bank Manager|bank manager]]'s car.
+*[[The Union Depository Contract/Finale|The Union Depository Contract]] {{nd}} Using a stolen elevator keycard and vault code extorted from the [[Corrupt Union Depository Businessman|corrupt businessman]] and bank manager, the player breaks into the Union Depository and steals a full bag of gold from the vault, before evading LSPD and delivering it to the [[Unnamed FIB client|FIB client]].
+
+==Gallery==
+{{Gallery
+|header = Exterior
+|UnionDepository-GTAV.png|General view of the skyscraper.
+|UnionDepository-GTAV-OverheadView.png|Overhead view of the building.
+|UnionDepository-Entrance-GTAV.png|The building's main entrance on 17 [[Power Street]].
+|UnionDepository-GTAV-CarPark.png|Overview of the car park.
+}}
+{{Gallery
+|header = Ground level
+|UnionDepository-GTAV-WesternEntrance.png|The western entrance into the loading bay.
+|UnionDepository-GTAV-EasternEntrance.png|The eastern entrance into the loading bay.
+|UnionDepository-GTAV-LoadingBay.png|The loading bay.
+|UnionDepository-GTAV-LoadingBayAltView.png|Alternative view of the loading bay.
+|UnionDepository-GTAV-Corridor.png|The corridor to the elevator.
+|UnionDepository-GTAV-Corridor2.png|
+|UnionDepository-GTAV-Elevator.png|The elevator.
+}}
+{{Gallery
+|header = Underground level
+|UnionDepository-GTAV-VaultCorridor.png|The corridor to the vault.
+|UnionDepository-GTAV-VaultDoor.png|Entrance to the vault.
+|UnionDepository-GTAV-Vault.png|The vault.
+|UnionDepository-GTAV-VaultAltView.png|
+}}
+
+==Notes==
+{{Note List}}
+
+==References==
+{{Ref List}}
+
+[[Category:Businesses in GTA Online]]
+[[Category:Businesses in GTA V]]
+[[Category:Financial companies]]
+[[Category:Market infrastructure companies]]
+
+[[de:Union Depository]]
+[[es:Union Depository]]
+[[fr:Union Depository]]
+[[pl:Bank Rezerw Federalnych]]
+[[ru:Федеральное хранилище]]

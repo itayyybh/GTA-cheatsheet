@@ -1,0 +1,487 @@
+{{Infobox vehicle
+|style           = 
+|name            = 
+|front_image     = Adder-GTAV-front.png
+|rear_image      = Adder-GTAV-rear.png
+|caption         = An '''Adder''' in {{VO}}.
+|aka             = 
+|games           = {{games|V=y|O=y}}
+|mentioned       = 
+|type            = supercar
+|class           = [[:Category:Super class|Super]]
+|body_style      = [[:Category:Coupes|2-door coupé]]
+|purpose         = 
+|capacity        = 2 {{Small|(driver and passenger)}}
+|radar_icon      = 
+|manufacturer    = [[Truffade]]
+|make_year       = 
+|price           = [[Money|$]]1,000,000 {{Small|([[Legendary Motorsport]])}}
+|trade_price     = 
+|spawn           = 
+|spawn_traffic   = No
+|spawn_cargen    = No
+|spawn_scenarios = No
+|spawn_specific  = Yes
+|variants        = 
+|basevariant     = 
+|lineup          = 
+}}
+{{Quote|If cars were porn, this would be the ultimate DVDA scene. Give the liberals something to really protest about with the least environmentally-friendly car on the planet! The Adder's monstrous 8-liter engine burns fuel faster than a blazing oil refinery, but it reaches speeds of 250mph, making it the perfect all-round car for life in a busy urban metropolis.|[[Legendary Motorsport]] description.}}
+The [[Truffade]] '''Adder''' is a two-door supercar featured in {{V}} and {{O}}.
+
+==Influence==
+The Adder is heavily based on the {{WP|Bugatti Veyron#Bugatti Veyron 16.4 Super Sport, World Record Edition (2010–2011)|Bugatti Veyron 16.4 Super Sport}}, as evident by the general shape, greenhouse area, rear fascia, and roof, with a major influence from the {{URL|https://www.autoexpress.co.uk/bugatti/veyron/61222/290mph-bugatti-veyron|Bugatti Super Veyron concept renders}} by AutoExpress.co.uk, seen primarily in the side profile and some front and rear fascia elements. The front intakes and grille seem to be taken from the {{WP|Audi TT#TT RS|Audi TT Mk2 RS}}, while the headlights have a somewhat similar shape to the {{WP|Saturn Curve}}, although the layout is similar to {{WP|Bugatti Veyron#Bugatti Veyron (2005–2011)|the original Veyron}}. The tail lights are based on typical {{WP|Aston Martin}}s, such as the {{WP|Aston Martin Vantage (2005)|2005 Aston Martin Vantage}}, as they are flattened C-shaped tail lights. 
+
+==Design==
+The design of the Adder leans towards a bulky profile in comparison to most supercars, yet retaining aerodynamic features from these. The front bumper features large ducts near the base, featuring chrome trims passing on the upper side and leading to the outer edges. The bumper's bottom edge is raised for the width beneath the main grille, which seems to bear a black/polymer extender on it. The main grille is depicted as a wide, curved trapezium-like element, with the [[Truffade]] emblem mounted centrally on it. On the upper area besides the grille, a set of circular headlamps can be seen on black housings, each one consisting of twin main lamps and an outer turn signal.
+
+The Adder's interior uses the same "Super GT" textures and dials also used on the [[9F]] and [[Rapid GT]], albeit featuring a Truffade emblem on the right-side dashboard, as well as the Truffade 'T' logo on the steering wheel.
+
+The Adder is prominently painted in a primary colour for the bodywork and the stitches on the interior, while the secondary colour will be applied in the form of twin stripes on the bonnet and a panel on the rear. Interestingly, the rear panel gives the impression of an apparent pop-up mechanical spoiler (a feature derived from the Bugatti Veyron), but unfortunately, the Adder does not have this feature. The rims have a unique design, consisting of 20 spokes that alternate between wide, semi-curved spokes and thinner, straighter ones.
+
+==Performance==
+As befitting the car's real life counterpart, the Adder boasts exceptional engine power, so much that it remains among the best-performing cars in a straight line. However, the car is somewhat sluggish around corners, owing to its prominent understeer. Its poor handling is exacerbated by the absence of a spoiler upgrade. It can be difficult to utilize the Adder’s top speed due to its subpar acceleration, being outpaced by most supercars in that respect. Fortunately, the Adder’s AWD layout partially alleviates these shortcomings, helping to jolt the car forward from a standstill and provide additional stability at high speed.
+
+The large chassis and overall shape gives it a strong and rigid design, which is something the player would want when crashing or colliding. The deformation rate is slow, though the wheels tend to lock up or give a positive camber when done so. The front of the car also has a tendency to "slip" or skitter off other cars it touches when at high speeds.
+
+The Adder's statistical stock top speed is 115 mph / 186 km/h.
+*EMS Engine Upgrade 1 produces 117 mph / 188 km/h.
+*EMS Engine Upgrade 2 produces 118 mph / 190 km/h.
+*EMS Engine Upgrade 3 produces 119 mph / 193 km/h.
+*EMS Engine Upgrade 4 produces 121 mph / 194 km/h.
+Fully-upgraded, the car tops out at just under 125 mph on flat roads. Although once the fastest supercar in a straight line, it has since strayed far from first position, beaten by over a dozen others ranging from the [[FMJ]], [[Visione]], and [[Tezeract]] up to the [[Banshee 900R]], [[Deveste Eight]], and [[811]].
+
+The Adder features two side-by-side engine covers derived from the [[9F]] (albeit laid backwards), intended to emulate the W16 engine from the real-life counterpart. Said engine is coupled to a 6-speed gearbox and is laid out longitudinally in a mid-engine, all-wheel drive layout, giving the car some excellent take off and traction. The engine sound is shared with the 9F, being a high-revving sound with a muffled exhaust note. The website states that the Adder boasts an 8-liter engine, pushing 1100 bhp to the wheels, giving it what was originally stated to be a top speed of 250mph. However, the website as of an enhanced version patch states it can reach up to only 215 mph. In-game, the Adder cannot reach either of these speeds under normal circumstances.
+
+Prior to the [[GTA Online: Lowriders|Lowriders]] update, [[Legendary Motorsport]] stated the car was powered by a 8 Liter 1100hp engine capable of pushing the car of up to 250 mph and with a 0-60 mph time of 3 seconds. After the Lowriders update, the car's acclaimed top speed was changed to 215 mph. With the website's refresh after the [[GTA Online: Further Adventures in Finance and Felony|Further Adventures in Finance and Felony]] update, the website no longer states the car's top speed.
+
+==Modifications==
+{| class="wikitable mw-collapsible mw-collapsed" width="100%"
+!colspan="2"|Category
+!Modification
+!Cost (''GTA V'')
+!Cost (''GTA Online'')
+|-
+|colspan="2" rowspan="6"|Armor
+|No Armor
+|$500
+|$1,000
+|-
+|Armor Upgrade 20%
+|$2,500
+|$7,500
+|-
+|Armor Upgrade 40%
+|$6,250
+|$12,000
+|-
+|Armor Upgrade 60%
+|$10,000
+|$20,000
+|-
+|Armor Upgrade 80%
+|$17,500
+|$35,000
+|-
+|Armor Upgrade 100%
+|$25,000
+|$50,000
+|-
+|colspan="2" rowspan="4"|Brakes
+|Stock Brakes
+|$500
+|$1,000
+|-
+|Street Brakes
+|$10,000
+|$20,000
+|-
+|Sport Brakes
+|$13,500
+|$27,000
+|-
+|Race Brakes
+|$17,500
+|$35,000
+|-
+|colspan="2" rowspan="4"|Engine
+|EMS Upgrade, Level 1
+|$4,500
+|$9,000
+|-
+|EMS Upgrade, Level 2
+|$6,250
+|$12,500
+|-
+|EMS Upgrade, Level 3
+|$9,000
+|$18,000
+|-
+|EMS Upgrade, Level 4
+|$16,750
+|$33,500
+|-
+|colspan="2" rowspan="2"|[[Car Bomb|Explosives]]
+|Ignition Bomb
+|N/A
+|$5,000
+|-
+|Remote Bomb
+|N/A
+|$7,500
+|-
+|colspan="2"|Horns
+|''Main article: [[Vehicle Customization in GTA V/Horns]]''
+| -
+| -
+|-
+|rowspan="3"|Lights
+|rowspan="2"|Headlights
+|Stock Lights
+|$300
+|$600
+|-
+|Xenon Lights
+|$1,450
+|$7,500
+|-
+|Neon Kits
+|''Main article: [[Vehicle Customization in GTA V/Lights]]''
+| -
+| -
+|-
+|colspan="2" rowspan="2"|Loss/Theft Prevention
+|Tracker
+|N/A
+| style="background-color:black;text-align: center;"|Too Hot
+|-
+|Full Coverage
+|N/A
+| style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="5"|Plates
+|Blue on White 1
+|$50
+|$200
+|-
+|Blue on White 2
+|$50
+|$200
+|-
+|Blue on White 3
+|$50
+|$200
+|-
+|Yellow on Blue
+|$75
+|$300
+|-
+|Yellow on Black
+|$150
+|$600
+|-
+|colspan="2"|Respray
+|''Main article: [[Vehicle Customization in GTA V/Respray Colors]]''
+| -
+| -
+|-
+|colspan="2"|Sell
+|Sell Vehicle
+|N/A
+| style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="5"|Suspension
+|Stock Suspension
+|$100
+|$200
+|-
+|Lowered Suspension
+|$500
+|$1,000
+|-
+|Street Suspension
+|$1,000
+|$2,000
+|-
+|Sport Suspension
+|$1,700
+|$3,400
+|-
+|Competition Suspension
+|$2,200
+|$4,400
+|-
+|colspan="2" rowspan="4"|Transmission
+|Stock Transmission
+|$500
+|$1,000
+|-
+|Street Transmission
+|$14,750
+|$29,500
+|-
+|Sports Transmission
+|$16,250
+|$32,500
+|-
+|Race Transmission
+|$20,000
+|$40,000
+|-
+|colspan="2" rowspan="2"|Turbo
+|None
+|$2,500
+|$5,000
+|-
+|Turbo Tuning
+|$12,500
+|$50,000
+|-
+|colspan="2"|Wheels
+|''Main article: [[Vehicle Customization in GTA V/Wheels]]''
+| -
+| -
+|-
+|colspan="2" rowspan="4"|Windows
+|None
+|$100
+|$500
+|-
+|Light Smoke
+|$200
+|$1,500
+|-
+|Dark Smoke
+|$450
+|$3,500
+|-
+|Limo
+|$700
+|$5,000
+|}
+
+==Gallery==
+===Design===
+{{Design Gallery Vehicle
+|game                = VO
+|front_quarter_image = Adder-GTAV-FrontQuarter.png
+|top_image           = Adder-GTAV-Top.png
+|rear_quarter_image  = Adder-GTAV-RearQuarter.png
+|front_image         = Adder-GTAV-FrontView.png
+|side_image          = Adder-GTAV-Side.png
+|rear_image          = Adder-GTAV-RearView.png
+|engine_image        = Adder-GTAV-Engine.png
+|underside_image     = Adder-GTAV-Underside.png
+|inside_image        = Adder-GTAV-Inside.png
+|detail_image        = Truffade-GTAV-Badges.png
+|open_other_image    = Adder-GTAV-Other.png
+|dashboard_image     = Adder-GTAV-Dashboard.png
+}}
+===Images===
+{{Gallery
+|game   = VO
+|Adder-GTAV-LocationMap.jpg|Adder spawn location in front of [[Sessanta Nove]], [[Rockford Hills]].
+|Adder-GTAV-PortolaDrive2.jpg|Adder spawn location
+|Adder-GTAV-PortolaDrive3.jpg|Adder spawn location.
+|Adder-GTAV-PortolaDrive.jpg|The black and orange '''Adder''' parked at [[Portola Drive]].
+|Adder-GTAV-PortolaDrive4.jpg|The white and blue '''Adder''' parked at Portola Drive.
+|Adder-GTAV-LegendaryMS.png|The '''Adder''' on [[Legendary Motorsport]].
+|Adder-GTAV-ActiveSpoiler.jpg|The Adder as seen on the Legendary Motorsport website. Note the spoiler.
+|Adder-GTAO-February2021Advert.jpg|Event week screenshot.
+}}
+===Official Screenshots===
+{{Gallery
+|game   = O
+|Adder-GTAO-LuckyWheelReward.jpg|[[Lucky Wheel]] reward.
+|Adder-GTAOe-LuckyWheelReward-February2024.jpg|[[Lucky Wheel]] reward, February 2024.
+}}
+
+==Locations==
+===''Grand Theft Auto V''===
+*Can be purchased from [[Legendary Motorsport]] for [[Money|$]]1,000,000.
+*Spawns frequently in front of [[Sessanta Nove]] at [[Portola Drive]], [[Rockford Hills]] as a reference to the {{WP|Bugatti Veyron#Special versions 2|Bugatti Veyron Grand Sport Bijan Pakzad Edition}}.
+*While the player cannot steal Devin Weston's Adder from his [[Devin Weston's Mansion|house]] after [[Blitz Play]] (the 'enter vehicle' button won't work), it is possible to obtain it at the beginning of [[I Fought the Law...#How to Obtain the Vehicles|I Fought the Law]].
+*While switching to Franklin, the relatively common scenario wherein he is stuck in traffic rarely happens in [[Downtown Vinewood]], often surrounded by several uncommon cars, usually with a black Adder spawning left of his [[Buffalo S]].
+**There may be up to three Adders in this particular scenario; however, this is even rarer.
+
+===''Grand Theft Auto Online''===
+*Can be purchased from Legendary Motorsport for $1,000,000.
+*Spawns at Portola Drive in the same location as in story mode but only if there is another Adder nearby to act as a spawn seed. However, since it is valued at significantly over $100,000, it is fitted with a tracker and cannot be stored in a garage.
+*Rarely driven by the [[Joyrider]] (original version only).
+
+==Prominent Appearances in Gameplay==
+===''Grand Theft Auto V''===
+*[[Blitz Play]]
+*[[I Fought the Law...]]
+
+===''Grand Theft Auto Online''===
+====Los Santos Tuners====
+*[[Exotic Exports (GTA Online)|Exotic Exports]] {{nd}} This is one of the hundred possible cars that can be requested by [[Brucie Kibbutz]] for delivery.
+
+==Notable Owners==
+{{H3|game=V}}
+*[[Devin Weston]] owns a black Adder as seen in [[Blitz Play]]. It is also seen at the beginning of the mission [[I Fought the Law...]].
+
+==Rockstar Games Website==
+{{RSSC
+|name          = Adder
+|manufacturer  = Truffade
+|class         = Super 
+|image         = Adder-GTAV-RGSC-MainNew.jpg
+|caption       = Main image (after 2019).
+|image2        = Adder-GTAV-RGSC-Action.jpg
+|caption2      = "Action" image for ''GTA V''.
+|image3        = Adder-GTAO-RGSC-Action.jpg
+|caption3      = "Action" image for ''GTA Online''.
+|image4        = Adder-GTAV-RGSC-Main.jpg
+|caption4      = Main image (prior to 2019).
+|speed         = 85.848213
+|accel         = 79.999992
+|braking       = 33.333336
+|traction      = 75.757576
+|seats         = 2
+|garage        = y
+|moddable      = y
+|premium       = y
+|super         = n
+|buy           = y
+|sell          = y
+|dealer        = lms
+|schematic     = GenericSuper
+}}
+
+==Specifications==
+===Model===
+{{Specifications Vehicle Model 
+|game1               = VO
+|game1_modelname     = adder
+|game1_texturename   = adder
+|game1_handlingname  = ADDER
+|game1_textlabelname = ADDER
+|game1_ingamename    = Adder
+|game1_swankness     = 5
+|game1_flags         = 
+{{Vehicle Flag List
+|game          = V
+|FLAG_NO_BOOT
+|FLAG_SPORTS
+|FLAG_SPAWN_ON_TRAILER
+|FLAG_EXTRAS_REQUIRE
+|FLAG_EXTRAS_STRONG
+|FLAG_RICH_CAR
+|FLAG_NO_BROKEN_DOWN_SCENARIO
+|FLAG_COUNT_AS_FACEBOOK_DRIVEN
+|FLAG_HAS_INTERIOR_EXTRAS
+|FLAG_CAN_HAVE_NEONS
+|modelFlags    = 00440010
+}}
+}}
+
+===Population===
+{{Specifications Vehicle Population
+|game1               = VO
+|game1_popgroups     = {{No|None}}
+|game1_modelsets     = {{No|None}}
+|game1_frequency     = 30
+|game1_drivers       = {{No|None}}
+|game1_licenseplates = Standard White - 100%
+}}
+===Handling===
+{{Specifications Vehicle Handling
+|game1               = VO
+|game1_maxvelocity   = 160
+|game1_gears         = 6
+|game1_drivetrain    = 0.2
+|game1_mass          = 1800
+}}
+===Audio===
+{{Specifications Vehicle Audio
+|game1               = VO
+|game1_hornsound     = horn_list_sports
+|game1_enginesound   = supercar_4_eur_v8
+|game1_radio         = 10
+|game1_scannermanf   = truffade
+|game1_scannermodel  = adder
+|game1_scannercat    = sportscar,performancecar
+|game1_scannercolor  = none
+}}
+
+===Language===
+{{Specifications Vehicle Language
+|game1               = VO
+|game1_langen        = Adder
+|game1_langzh        = 靈蛇
+|game1_langzhcn      = 灵蛇
+|game1_langfr        = Adder
+|game1_langde        = Adder
+|game1_langit        = Adder
+|game1_langjp        = アダー
+|game1_langko        = 애더
+|game1_langesmx      = Adder
+|game1_langpl        = Adder
+|game1_langpt        = Adder
+|game1_langru        = Adder
+|game1_langes        = Adder
+}}
+
+===Traffic Default Colors===
+{{Vehicle Color List
+|collapse = y
+|game     = VO
+|1,0,7,156,0,0
+|4,12,111,156,0,0
+|111,2,70,156,0,0
+|3,13,5,156,0,0
+|75,0,68,156,0,0
+|5,30,111,156,0,0
+|29,38,37,156,0,0
+|36,27,37,156,0,0
+|89,39,91,156,0,0
+|0,41,3,156,0,0
+}}
+
+==Beta Content==
+{{Beta|game=V|type=vehicle|changes=y}}
+*At some point, the Adder had a spoiler. It could have possibly functioned similar to the spoiler found on the [[T20]]. This can be seen on the [[Legendary Motorsport]] banner at the top of the webpage, after the [[Ill-Gotten Gains Part 1]] update.
+*According to the Adder's rear-light textures, the car was originally named "venem".<ref>x64e.rpf\levels\gta5\vehicles.rpf\adder.ytd</ref>
+
+==History==
+*Could be won from the [[Lucky Wheel]] in [[The Diamond Casino & Resort]] during the [[Previon Week]] and [[Powersurge Week]] events.
+*Was awarded for the [[Prize Ride Challenge]] at the [[LS Car Meet]] during the [[SM722 Week]] event.
+
+==Trivia==
+*The Adder shares its name with a {{WP|Vipera berus|venomous snake}} native to [[Europe]] and {{WP|North Asia|northern Asia}}.
+
+==See Also==
+*[[Nero]] {{nd}} A [[Truffade]] hypercar that is technically the successor to the Adder.
+*[[Thrax]] {{nd}} Another Truffade hypercar with similar design.
+
+==References==
+{{Ref List}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtav vehicles|state=collapsed}}
+{{Navbox gtao vehicles|state=collapsed}}
+}}
+[[de:Adder (V)]]
+[[es:Adder]]
+[[fr:Adder]]
+[[hu:Adder]]
+[[pl:Adder]]
+[[pt:Adder]]
+[[ru:Adder]]
+
+[[Category:Vehicles in GTA V]]
+[[Category:Vehicles in GTA Online]]
+[[Category:Supercars]]
+[[Category:Coupes]]
+[[Category:Super class]]
+[[Category:All wheel drive vehicles]]
+[[Category:Vehicles manufactured by Truffade]]
+[[Category:Vehicles purchasable from Legendary Motorsport]]
+[[Category:Vehicles purchasable from Luxury Autos]]
+[[Category:Vehicles with SuperGT interior]]

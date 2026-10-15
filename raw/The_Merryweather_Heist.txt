@@ -1,0 +1,351 @@
+{{Infobox gameplay
+|name                      = The Merryweather Heist
+|image                     = GTA5-mission-heist-themerryweatherheist-custom.jpg.jpg
+|caption                   = <span style="color:#ffb347">The freighter approach (top) and the offshore approach (bottom).</span>
+|games                     = {{Games|V=y}}
+|strand = [[Docks]]{{Note|Based on the mission's internal script naming convention; does not represent an official in-game classification.}}
+|for                       = {{For|game=V|heisttrevor}}
+|style                     = V
+|class                     = heist
+|target                    = [[Merryweather Security|Merryweather]] high-tech device
+|location                  = 
+*[[Floyd's Apartment]] {{Small|(start)}}
+*[[SS Bulker]]
+*[[Pier 400]] {{Small|(end) (Freighter)}}
+*[[Sandy Shores Airfield]] {{Small|(end) (Offshore)}}
+|protagonists              = 
+*[[Trevor Philips]]
+*[[Michael De Santa]]
+*[[Franklin Clinton]]
+|todo_toomuch              = 
+|fail_toomuch              = 
+*[[Wasted]]
+*[[Busted]]
+<center>{{Color|#ffb347|Freighter}}</center>
+*The police were alerted during the heist.
+*[[Franklin Clinton|Franklin]] ran out of sniper ammo.
+*Franklin was left behind.
+*[[Merryweather Security|Merryweather]] alerted with Michael out of position.
+*Franklin/Michael left the area.
+*The bombs exploded too early.
+*Michael ran out of sticky bombs.
+*Michael/Trevor abandoned the heist.
+*The [[Submersible|submersible]] was grounded.
+
+<center>{{Color|#ffb347|Offshore}}</center>
+
+*[[Floyd Hebert|Floyd]] died.
+*[[Wade Hebert|Wade]] died.
+*Trevor/Franklin/Michael was left behind.
+*The submersible was destroyed.
+*The [[Cargobob]] was destroyed.
+*The Cargobob was abandoned.
+*Merryweather weren't dealt with quickly enough.
+|reward_achievements       = [[Subversive]]
+|unlocks                   = 
+*[[Blitz Play]] {{Small|(if [[Trash Truck]], [[Tow Truck (mission)|Tow Truck]], [[Boiler Suits]], [[Masks]], [[Getaway Vehicle]], [[The Hotel Assassination]] ,[[Did Somebody Say Yoga?]] and [[Hood Safari]] are completed first)}}
+*[[Sonar Collections Dock]]
+*[[Submersible]] at [[Sandy Shores Airfield]] {{Small|(if the Offshore approach is chosen)}}
+|unlockedby                = 
+*[[By the Book]]
+*[[Minisub]]
+*[[Cargobob (mission)|Cargobob]] {{Small|(Only if the offshore method was selected)}}
+|file_name        = <code>docks_heist</code>
+}}
+{{Quote|Trevor gets Michael and Franklin on board to steal a prototype Merryweather Security are testing at sea.|''GTA V'' description at [[Rockstar Games Social Club]]}}
+'''The Merryweather Heist''' is a [[Heists in GTA V|heist]] mission in {{V}}, undertaken by [[Michael De Santa]], [[Franklin Clinton]] and [[Trevor Philips]].
+
+As the mission [[Three's Company]] features the first meeting of Trevor and Franklin, it and the mission [[By the Book]] must be completed before the main heist is unlocked, though the preparation missions can be done in advance of this.
+
+==Description==
+===Preparation===
+In order to perform the heist, Trevor must perform a couple of [[Heist Setups|preparation missions]] to obtain the necessary equipment. The number of preparation missions depends on the approach, though both approaches require the player to acquire a [[Submersible]].
+
+====Freighter====
+For this approach, only one preparation mission ([[Minisub]]) is required. If this approach is chosen, Trevor phones Franklin and advises him to visit the [[Ammu-Nation Shooting Ranges|Shooting Range]] to improve his shooting skills.
+
+====Offshore====
+Two preparation missions ([[Cargobob (mission)|Cargobob]] and [[Minisub]]) are required for this approach. If this approach is chosen, Trevor phones Michael and advises him to visit the [[Flight School]] to improve his pilot skills.
+
+===Mission===
+Depending on the chosen method in [[Scouting the Port]], the entire mission will play out in one of two ways:
+
+====Freighter====
+''Despite Franklin being advised to visit the Shooting Range, this is not compulsory''.
+
+Trevor, Michael and Franklin meet at [[Floyd Hebert|Floyd's]] [[Floyd's Apartment|apartment]], where Trevor explains the plan. Trevor and Franklin get into Trevor's [[Bodhi|truck]] and drive to the [[Miriam Turner Overpass]]. Trevor drops Franklin off and Franklin heads to the vantage point. A few in-game hours pass and the mission resumes at dusk. The player is [[Switch Scenes|switched]] to Michael, who is waiting next to the [[SS Bulker|freighter]] in a [[Dinghy]]. Michael dives into the [[water]] and makes his way onto the freighter.
+
+Michael boards the freighter and makes his way inside, whilst Franklin covers him by killing the [[Merryweather Security|Merryweather]] guards with a [[Sniper Rifle|sniper rifle]]. Franklin kills the guards, and Michael plants four [[Sticky Bombs|sticky bombs]] in various positions on the ship.
+At this point, Michael is spotted by some other guards. The player is switched to Franklin, who kills the guards pursuing Michael and shoots down a Merryweather [[Buzzard Attack Chopper|helicopter]]. Once the guards have been killed, Michael leaves the freighter and Franklin detonates the bombs, sinking the freighter in the process.
+The player regains control of Michael, who is searching the freighter's wreckage using [[Scuba Suit|dive gear]]. Michael locates the device, which is then collected by Trevor, who is piloting a [[Submersible]]. On shore, Floyd uses a crane to lift the Submersible onto the dock. At this point, [[Lester Crest]] arrives wearing hospital clothing, and warns the trio that the device they've stolen is a highly-dangerous super weapon and that they must return it immediately. Trevor refuses, but Michael promises to find another "score" for Trevor. Lester leaves with Floyd to return the device, while Michael and Franklin drive off, leaving an angered Trevor alone on the harbour.
+
+====Offshore====
+''Despite Michael being advised to visit the Flight School, this is not compulsory.''
+
+Trevor, Michael and Franklin meet at Floyd's apartment, where Trevor explains the plan. Trevor, Michael and Franklin get into Trevor's truck and Michael drives them to the [[Sandy Shores Airfield]]. The trio arrive at the airfield, where Trevor enters the Submersible delivered by [[Wade Hebert|Wade]] and Floyd in the [[Packer]]. Michael uses the [[Cargobob]] to lift the Submersible, and they fly to the Merryweather test site in the [[Pacific Ocean (HD Universe)|Pacific Ocean]], near [[Paleto Cove]]. Michael releases the Submersible close to the test site, and Trevor uses a [[Trackify]] app to locate the device. Trevor finds the device and ascends to the surface. The player is switched to Michael, who lifts the Submersible out of the ocean with the Cargobob. En route to the airstrip, the Cargobob is attacked by Merryweather helicopters and boats, but Franklin manages to fend off the pursuers with a [[Combat MG]].
+
+Michael lands the Cargobob back at the airfield. At this point, Lester Crest appears and warns the trio to return the device as it is a highly-dangerous super weapon, and would make them targets for the authorities. Trevor refuses, but relents when Michael promises to find him another "score". Lester leaves with Wade to return the device and Michael drives off with Franklin. Trevor repeatedly hits his head on a wooden forklift pallet out of rage.
+
+==Objectives==
+===Freighter=== 
+*Get in a vehicle. {{Small|(Trevor)}}
+*Drive to the {{Color|v-hud-location|bridge.}} {{Small|(Trevor)}}
+*Go to the {{Color|v-hud-location|vantage point.}} {{Small|(Franklin)}}
+*Snipe the {{Color|v-hud-enemy|guards.}} {{Small|(Franklin)}}
+*Protect Michael as he plants the bombs. {{Small|(Franklin)}} 
+*Plant the first bomb at the {{Color|v-hud-location|bow pillar.}} {{Small|(Michael)}}
+*Plant the second bomb at the {{Color|v-hud-location|first mast.}} {{Small|(Michael)}}
+*Plant the third bomb at the {{Color|v-hud-location|second mast.}} {{Small|(Michael)}}
+*Go to the ship's stern {{Color|v-hud-location|entrance.}} {{Small|(Michael)}}
+*Detonate the bombs. {{Small|(Franklin)}}
+*Locate the {{Color|v-hud-pickup|device}} amongst the wreckage. {{Small|(Michael)}}
+*Go to the {{Color|v-hud-pickup|device.}} {{Small|(Trevor)}}
+*Return the device to the {{Color|v-hud-location|safe area.}} {{Small|(Trevor)}}
+
+===Offshore===
+*Find a four-seater vehicle. {{Small|(Michael)}}
+*Drive to the {{Color|v-hud-location|airstrip.}} {{Small|(Michael)}}
+*Get in the {{Color|v-hud-friendly|Cargobob.}} {{Small|(Michael)}}
+*Use the grappling hook to pick up the {{Color|v-hud-friendly|submersible.}} {{Small|(Michael)}}
+*Fly to the {{Color|v-hud-location|test site.}} {{Small|(Michael)}}
+*Release the submersible near to the {{Color|v-hud-location|test site.}} {{Small|(Michael)}}
+*Use the Trackify app to locate the device. {{Small|(Trevor)}}
+*Go to the {{Color|v-hud-location|device.}} {{Small|(Trevor)}}
+*Ascend to the surface level. {{Small|(Trevor)}}
+*Pick up the {{Color|v-hud-friendly|submersible.}} {{Small|(Michael)}}
+*Fly to the {{Color|v-hud-location|airstrip.}} {{Small|(Michael)}}
+*Defend against the oncoming attack from {{Color|v-hud-enemy|Merryweather.}} {{Small|(Franklin)}}
+*Change your position to the rear of the Cargobob. {{Small|(Franklin)}}
+*Fly to the {{Color|v-hud-location|airstrip.}} {{Small|(Michael)}}
+*Fly low over the {{Color|v-hud-location|airstrip}} and release the submersible. {{Small|(Michael)}}
+
+===Gold Medal Objectives===
+====Freighter====
+*Headshots - Kill 12 enemies with a headshot
+*Accuracy - Finish with a shooting accuracy of at least 80%
+**Aim for the head with all enemies to achieve both.
+*Ninja - Kill 12 enemies using stealth attacks
+**Stay in stealth mode while deploying the sticky bombs, and use the silenced [[Combat Pistol]] to shoot the guards.
+**Kill all enemies as Franklin, as he is in stealth mode the whole time.
+*No Alarms - Get to the ship interior without being detected
+**Place sticky bombs on pillars rather than throwing them, and use the ladder after placing the first pillar. This stops guards hearing disturbances.
+**Use the thermal scope on Franklin's sniper rifle to shoot all the guards before they can see Michael.
+*Container Hunter - Find the container within 60 seconds
+**Drive the sub straight towards the wreckage. There will be a red flashing light on the device.
+
+====Offshore====
+*Salvager - Find the container within 02:00  
+**Stay as high as possible until almost level with the device, due to rocks on the ocean floor.
+*Time - Complete within 14:30 
+**Skip [[cutscenes]].
+*Show no Mercenary - Eliminate all pursuing Merryweather enemies
+**Engage the pursuers, do not evade them.
+*Weathering the Storm - Escape the pursuing Merryweather enemies in less than 4 minutes
+**Self explanatory; kill the guards as fast as possible. Killing them faster helps with the time objective.
+
+==Aftermath==
+===Post-Mission Phone Call===
+{{Dialogue
+|p1=Trevor   |d1=Ah, Brother O'Neil.
+|p2=Elwood   |d2=FUCK YOU, MAN!
+|p3=Trevor   |d3=Whoa, whoa, whoa, you're the guy stealing contracts.
+|p4=Elwood   |d4=You BURNED my farm, KILLED my brothers!
+|p5=Trevor   |d5=You had too many brothers, they needed culling.
+|p6=Elwood   |d6=You're FUCKING DEAD!
+|p7=Trevor   |d7=Aren't we all? We live and we die, that's our curse. Hey, you want to expedite the situation, come fucking find me: Vespucci Beach, Los Santos, you inbred hillbilly fuck.
+|p8=Elwood   |d8=I'LL BE THERE, MAN!!! I DON'T KNOW WHEN, BUT I'LL BE THERE!!!
+}}
+
+===[[Weazel News]] (Radio)===
+''"Container ship sinks in the [[Port of Los Santos|port]] of [[South Los Santos]]. Witnesses describe a scene of chaos in Los Santos harbor earlier as several explosions could be seen on board a container ship, which subsequently sunk into the harbor. Reports suggest nothing was stolen and foul play is non-suspected in the incident."''
+
+===[[Daily Globe]] Newspaper===
+''Containership sinks into LS harbour: Merryweather fumble their first play.''
+
+''Shelia Hitano - Daily Globe''
+
+"''Explosions ran through the Port of South Los Santos last night and a container ship sunk into the harbor. This isn't how [[Don Percival]], CEO of Merryweather Security Consulting, wanted to celebrate his company getting clearance to work at the [[Port of Los Santos]]. Along with a high value courier service, running a special security detail at the Port is one of the main contracts Merryweather have taken on since Congress gave them a domestic pass. Despite some witnesses claiming to hear gunfire, Percival insisted that the ship was sunk due to explosions in a malfunctioning gas tank. Anti-Merryweather activists point to a similar incident in the [[Sudan]] where Merryweather soldiers, drunk and full of steroids, accidentally engaged other Merryweather soldiers in a "combat situation", then attempted to blame it on local insurgents. A full investigation into the incident has been launched.''"
+
+===[[Lifeinvader]] Posts===
+{{Small|(Michael's Lifeinvader)}}
+{{LifeinvaderMessage
+|image   = LifeInvader GTAV Lester Profile large.png
+|name    = Lester Crest
+|text    = Next time you pick a job maybe try something that isn't going to start World War 3? When did you get so stupid? Oh wait, yes, during the last 10 years you've spent sitting in the sun drinking yourself to death. I forgot.
+|mission = '''The Merryweather Heist'''
+}}
+
+===[[Bleeter]] Posts===
+{{Small|(Freighter method)}}
+{{Bleet
+|bleeterimage  = rockford_captain67
+|bleetername   = rockford_captain67
+|bleeterquote  = First the overcooked duck breast, now thanks to some terrorists blowing up a boat at the Port of South Los Santos the Yacht Club wants to install an x-ray machine. What next...women in the clubhouse?
+}}
+{{Bleet
+|bleeterimage = jacksonbbj_1996
+|bleetername  = jacksonbbj_1996
+|bleeterquote = teachers tellin us about the highjacking of submarine from the shiping terminal and i say it should be called a lowjacking coz a subnmarines under water lol! hahahahha class in total stitches
+}}
+
+{{Small|(Offshore method)}} 
+{{Bleet
+|bleeterimage  = Generic
+|bleetername   = geraldinok6
+|bleeterquote  = We tell everyone we have the greatest military on earth but we can't stop some hoods stealing helicopters from an army base on home soil? Pathetic. The world is laughing at us, [[Joe Lawton|President Lawton]]!!
+}}
+{{Bleet
+|bleeterimage = Generic
+|bleetername  = plonkafreddie
+|bleeterquote = Im cruising down on Great Ocean Highway look out at the sea and think i see a firework display on this big boat... then I look again...and realize theyre godamn gunshots!!!!
+}}
+{{Clear}}
+==Transcript==
+{{Main|The Merryweather Heist (Freighter)/Transcript}}
+{{Main|The Merryweather Heist (Offshore)/Transcript}}
+
+==Gallery==
+===Walkthroughs===
+<tabber>
+Freighter=
+{{Gallery
+|TheMerryweatherHeist-GTAVee-SS1.png|[[Trevor Philips|Trevor]] tells [[Michael De Santa|Michael]] and [[Franklin Clinton|Franklin]] that he didn't bother asking [[Lester Crest|Lester]] to assist.
+|TheMerryweatherHeist-GTAVee-SS2.png|Trevor tells them that they are sinking a [[SS Bulker|freighter]] into the [[Port of Los Santos]].
+|TheMerryweatherHeist-GTAVee-SS3.png|Drive to the {{Color|v-hud-location|bridge.}}
+|TheMerryweatherHeist-GTAVee-SS4.png|Go to the {{Color|v-hud-location|vantage point.}}
+|TheMerryweatherHeist-GTAVee-SS5.png|Franklin gets in position on the bridge overlooking the freighter.
+|TheMerryweatherHeist-GTAVee-SS6.png|Snipe the {{Color|v-hud-enemy|guards.}}
+|TheMerryweatherHeist-GTAVee-SS7.png|Michael climbs onto the freighter.
+|TheMerryweatherHeist-GTAVee-SS8.png|Plant the first bomb at the {{Color|v-hud-location|bow pillar.}}
+|TheMerryweatherHeist-GTAVee-SS9.png|Plant the second bomb at the {{Color|v-hud-location|first mast.}}
+|TheMerryweatherHeist-GTAVee-SS10.png|Protect Michael as he plants the bombs.
+|TheMerryweatherHeist-GTAVee-SS11.png|Plant the third bomb at the {{Color|v-hud-location|second mast.}}
+|TheMerryweatherHeist-GTAVee-SS12.png|Go to the ship's stern {{Color|v-hud-location|entrance.}}
+|TheMerryweatherHeist-GTAVee-SS13.png|Michael enters the ship.
+|TheMerryweatherHeist-GTAVee-SS14.png|Franklin defends the ship against [[Merryweather Security|Merryweather]] reinforcements.
+|TheMerryweatherHeist-GTAVee-SS15.png|Michael exits and Franklin helps defend him as he jumps off the ship.
+|TheMerryweatherHeist-GTAVee-SS16.png|Detonate the bombs.
+|TheMerryweatherHeist-GTAVee-SS17.png|The freighter explodes and tips numerous containers into the water.
+|TheMerryweatherHeist-GTAVee-SS18.png|Locate the {{Color|v-hud-pickup|device}} amongst the wreckage.
+|TheMerryweatherHeist-GTAVee-SS19.png|Michael find the device.
+|TheMerryweatherHeist-GTAVee-SS20.png|Go to the {{Color|v-hud-pickup|device.}}
+|TheMerryweatherHeist-GTAVee-SS21.png|Return the device to the {{Color|v-hud-location|safe area.}}
+|TheMerryweatherHeist-GTAVee-SS22.png|As the device is pulled from the water, Lester arrives and reveals that the device is a super weapon.
+|TheMerryweatherHeist-GTAVee-SS23.png|Trevor is forced to send the device back to avoid the group being hunted by the government.
+|TheMerryweatherHeist-GTAVee-SS24.png|Heist passed.
+}}
+|-|
+Offshore=
+{{Gallery
+|TheMerryweatherHeist-Offshore-GTAVee-SS1.png|Trevor meets with Floyd and Wade in Floyd's apartment.
+|TheMerryweatherHeist-Offshore-GTAVee-SS2.png|Trevor forces Floyd to massage a knot in his leg.
+|TheMerryweatherHeist-Offshore-GTAVee-SS3.png|Franklin and Michael enter the apartment.
+|TheMerryweatherHeist-Offshore-GTAVee-SS4.png|Trevor tells Michael that by keeping Lester out of the job they save 20 percent.
+|TheMerryweatherHeist-Offshore-GTAVee-SS5.png|Trevor tells them that the target is whatever Merryweather are testing.
+|TheMerryweatherHeist-Offshore-GTAVee-SS6.png|Drive to the {{Color|v-hud-location|airstrip.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS7.png|Floyd and Wade show up with the Submersible.
+|TheMerryweatherHeist-Offshore-GTAVee-SS8.png|Get in the {{Color|v-hud-friendly|Cargobob.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS9.png|Use the grappling hook to pick up the {{Color|v-hud-friendly|submersible.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS10.png|Fly to the {{Color|v-hud-location|test site.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS11.png|Release the submersible near to the {{Color|v-hud-location|test site.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS12.png|Use the Trackify app to locate the device.
+|TheMerryweatherHeist-Offshore-GTAVee-SS13.png|Go to the {{Color|v-hud-location|device.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS14.png|Ascend to the surface level.
+|TheMerryweatherHeist-Offshore-GTAVee-SS15.png|Pick up the {{Color|v-hud-friendly|submersible.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS16.png|Fly to the {{Color|v-hud-location|airstrip.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS17.png|Defend against the oncoming attack from {{Color|v-hud-enemy|Merryweather.}}
+|TheMerryweatherHeist-Offshore-GTAVee-SS18.png|Fly low over the {{Color|v-hud-location|airstrip}} and release the submersible.
+|TheMerryweatherHeist-Offshore-GTAVee-SS19.png|Lester shows up, angry at Trevor for stealing from the government.
+|TheMerryweatherHeist-Offshore-GTAVee-SS20.png|Franklin and Michael find out that the device is a super weapon.
+|TheMerryweatherHeist-Offshore-GTAVee-SS21.png|Lester suggests dropping the device back into the sea, Trevor reluctantly agrees.
+|TheMerryweatherHeist-Offshore-GTAVee-SS22.png|Michael and Trevor leave, Michael promises to find Trevor another score.
+|TheMerryweatherHeist-Offshore-GTAVee-SS23.png|Trevor hits his head numerous times on the wall.
+|TheMerryweatherHeist-Offshore-GTAVee-SS24.png|Mission passed.
+}}
+</tabber>
+
+===Images===
+{{Gallery
+|MerryweatherHeist-GTAV-next.jpg|The mission in an official screenshot from the [[Grand Theft Auto V/Editions|Enhanced Edition]].
+}}
+
+===Videos===
+====Freighter====
+{{Video Gallery
+|{{YouTube|J70UwAQvx-U|caption=The Merryweather Heist (Freighter) Mission Walkthrough}}
+|{{YouTube|ogb1a9JNdqY|caption=First Person Walkthrough}}
+|{{YouTube|ufMY-8OXaDI|caption=PC 60FPS Walkthrough}}
+|{{YouTube|ORn4Xc5w3Hg|caption=Gold Medal Guide - 4K 60fps}}
+}}
+
+====Offshore====
+{{Video Gallery
+|{{YouTube|y2RVLX1OCXE|caption=The Merryweather Heist (Offshore) Mission Walkthrough}}
+|{{YouTube|3vJN3VcsaqY|caption=First Person Walkthrough}}
+|{{YouTube|yhpvx-M9hjg|caption=PC 60FPS Walkthrough}}
+|{{YouTube|hlj9GfXUUOA|caption=Gold Medal Guide - 4K 60fps}}
+}}
+
+==Oversights==
+*There is a glitch present during the freighter approach. The optional achievement of 80% accuracy will not be awarded even if the player's accuracy is 100%, making it impossible to achieve a gold medal for this mission. This can be fixed by deleting the patch (which could only be deleted in a cracked console or on a [[Personal Computer|PC]]) and ignoring the game's request to reinstall the patch. This glitch is not present in the offshore approach.
+*A glitch on both next gen and old gen versions during the freighter method may result in [[Franklin Clinton|Franklin]] losing the ability to zoom in and out with the [[Sniper Rifle|sniper rifle]] after the [[Cutscenes|cutscene]] showing Michael entering the ship, rendering it next to impossible to complete this part of the mission.
+*If the freighter method was chosen, after completing the mission and [[Switch Scenes|switching]] to Michael, he'll have maximum ammo on all his weapons.
+*A glitch can occur after this mission is completed. If [[Michael De Santa|Michael]] bought weapons from a [[Ammu-Nation (HD Universe)|gun shop]] before this mission, they will disappear when finishing this mission. The cause of this glitch is unknown.
+*A glitch can occur if replaying the offshore approach. Michael and Franklin may drive to the [[Sandy Shores Airfield|airfield]] with [[Trevor Philips|Trevor]] already in the [[Submersible|submarine]] once they arrive, and the [[Cargobob]] will be there. Franklin will assume it to be the chopper, and it will be flyable, but the ability to pick up and drop the submarine from the Cargobob may be unavailable.
+
+==Trivia== 
+===General===
+*The freighter approach to the heist has been implied to be the [[canon]] approach: 
+**The heist was originally going to be called "The Port of LS Heist".
+**No matter which method is chosen, [[EyeFind]] will still report that the freighter was attacked; however, the [[Bleeter]] posts will be different. This could just be an oversight.
+**In the mission [[The Wrap Up]], [[Dave Norton]] mentions [[Trevor Philips|Trevor]] robbing [[Merryweather Security|Merryweather]]'s "[[Minor Turbulence|planes]], [[Derailed|trains]] and boats".
+**In a hang out between the trio after [[The Third Way]], Trevor mentions the heists all three of them did together, including this one. No matter what approach has been taken, he will mention "the operation Merryweather was running out the Port of LS".
+**Interestingly, the [[SS Bulker]] is still intact and active as a freighter as of [[2019]], as one of the [[Heist Prep: Getaway Vehicles|Getaway Vehicles]] prep missions for [[The Diamond Casino Heist]] requires the player to steal the vehicles from the freighter. Assuming this approach was canon, with the state it was in after the heist, the freighter would have no longer been seaworthy and most likely would have been scrapped.
+***Alternatively, the Offshore approach may have been added to the game relatively late in development (the mentions of the Port being robbed and the aforementioned original name support this) rather than it not being canon.
+*If the offshore method is chosen, the dialogue between Trevor and Michael on the way to the airfield will change depending on whether the player completed the first two [[Flight School]] lessons as Michael.
+**If the player didn't complete any Flight School lesson, Trevor will be mad at Michael.
+**If the player completed only the first lesson, or if they attained a bronze medal in either of the first two lessons, Michael will say that he took the lessons, but didn't "go crazy" with them.
+**If the player completed the first two lessons with a silver or gold medal, Trevor will be pleased.
+*If the freight method is chosen, the dialogue between Trevor and Franklin on the way to the [[Miriam Turner Overpass|bridge]], will change depending on whether the player, as Franklin, has completed the [[Ammu-Nation Shooting Ranges|Shooting Range]] or not.
+**Trevor will be pleased if Franklin did as he suggested, otherwise, Trevor will blame him in the dialogue.
+*The Submersible used during this mission is much more durable than the one found at the [[Sonar Collections Dock]]. It is able to withstand the pressure at the farthest point (0.15 miles) that the player can descend to in the ocean, which normally the submersible will be destroyed in free roam.
+*The exact nature of the device that is the target of the heist is unknown, Trevor speculates that it may be a new type of generator or bomb. [[Lester Crest|Lester]] simply refuses to take possession of it and orders Trevor to return it before Merryweather and the [[United States of America|US]] {{WP|Federal government of the United States|Government}} hunt them all down, saying that it's an "experimental super weapon".
+*Scenes from both approaches of this mission appeared in the official [[Grand Theft Auto V/Trailers|trailer]] for the game.
+*Franklin will receive an e-mail from [[Brother Adrian]] after this mission, asking him to go to their [[Childrenofthemountain.com|website]] to join the [[Children of the Mountain]] brotherhood. However, this does not appear to be the case on [[PlayStation 4|PS4]] version.
+*Although one would think the events of this mission would impact Merryweather's finances, they seem to have no impact on its stock price, or that of its competitor, [[Gruppe Sechs (HD Universe)|Gruppe Sechs]].
+*Although listed as the second [[Heists in GTA V|heist]], it is possible to engage in the third heist, [[Blitz Play]], first, making this the third heist.
+
+===Freighter===
+*In the [[Beta Content in GTA V|beta]], [[Wade Hebert|Wade]] was wearing [[Fooliganz|Fooligan]] makeup in the initial [[Cutscenes|cutscene]].
+*If Trevor drives Franklin to the sniper nest location in his [[Bodhi|truck]], Franklin will randomly either get into the front seat alongside Trevor or hop into the back of the truck.
+**Additionally, if Trevor's truck or any other vehicle isn't around to drive Franklin to his vantage point, Franklin's [[Buffalo S|car]] will immediately appear to do the task.
+*If the mission [[Hood Safari]] has been completed previously to this mission, Trevor and Franklin will mention the events of that mission on the way to the bridge.
+*Franklin makes a reference to the events of the mission [[Three's Company]] while the [[Buzzard]] is trying to kill him. He says, "This is the second time one of those evil helicopters comes after me, Trevor and the [[Federal Investigation Bureau|FIB]] are bad news!".
+**Moreover, the [[protagonist]]s' tasks are similar to the ones they had in that mission, with Michael dressed in all-black attire locating the designated cargo, Franklin perched above an elevated area providing sniper support, and Trevor controlling the transportation used to extract their cargo.
+*During the ending scene, Lester can be seen arriving at the pier in a [[Taxi]] on the [[PlayStation 3]] and [[Xbox 360]] versions of the game. In the [[Grand Theft Auto V: Enhanced Edition|enhanced version]], however, the Taxi is nowhere to be seen.
+*This approach is similar to events depicted in [[Bomb Da Base: Act II]] in {{III}}, as the [[protagonist]] (Franklin/[[Claude]]) uses a sniper rifle to give fire assistance and eliminate enemies in order for another character (Michael/[[8-Ball]]) to plant bomb(s) and sink a cargo ship.
+
+===Offshore===
+*After the mission ends, the Submersible will always spawn in a small courtyard by the side of the warehouse in the [[Sandy Shores Airfield]] permanently. The player will need a Cargobob to take the submarine back to the [[water]] so it can be used.
+
+==Notes==
+{{Note List}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Gtav missions|state=collapsed}}
+}}
+
+[[de:Der Merryweather-Raubüberfall]]
+[[es:El golpe a Merryweather]]
+[[fr:Le Coup de Merryweather]]
+[[pl:Skok na Merryweather]]
+[[pt:O Golpe à Merryweather]]
+[[ru:The Merryweather Heist]]
+
+[[Category:Gameplay in GTA V|Merryweather Heist, The]]
+[[Category:Storyline missions|Merryweather Heist, The]]
+
+[[Category:Heists]]

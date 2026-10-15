@@ -1,0 +1,674 @@
+{{Infobox vehicle
+|aka             = {{Tooltip|in-game name in TBoGT and refered as such in GTA V and GTA Online.|Buzzard}}
+|name            = Buzzard Attack Chopper
+|image_label     = V
+|front_image     = BuzzardAttackChopper-GTAV-front.png
+|rear_image      = BuzzardAttackChopper-GTAV-rear.png
+|caption         = A '''Buzzard Attack Chopper''' in {{VO}}.
+|image_label2    = TBOGT
+|front_image2    = Buzzard-TBoGT-front.png
+|rear_image2     = Buzzard-TBoGT-rear.png
+|caption2        = A '''Buzzard''' in {{TBOGT}}.
+|image_label3    = VI
+|front_image3    = BuzzardAttackChopper-GTAVI-Trailer2.png
+|rear_image3     = 
+|caption3        = The rear of a '''Buzzard Attack Chopper''' in the [[Grand Theft Auto VI/Trailers#Trailer 2|second trailer]] for {{VI}}.
+|class           = [[:Category:Helicopters class|Helicopters]] {{Small|(''GTA V'' & ''GTA Online'')}}
+|body_style      = [[:Category:Five-bladed helicopters|Five-bladed]] [[:Category:Utility helicopters|utility helicopter]]
+|capacity        = 
+*2 {{Small|(pilot and passenger, ''TBoGT'')}}
+*4 {{Small|(pilot and 3 passengers, ''GTA V'' & ''GTA Online'')}}
+|games           = {{Games|TBOGT=y|V=y|O=y|VI=y}}
+|mentioned       = 
+|type            = singleheli
+|manufacturer    = [[Nagasaki]]
+|price           = 
+*[[Money|$]]2,000,000 {{Small|(''GTA V'')}}
+*$1,750,000 {{Small|(''GTA Online'')}} {{Small|([[Warstock Cache & Carry|Warstock Cache & Carry]])}}
+|basevariant     = [[Buzzard]]
+|lineup          = 
+|swankness       = 4/5 {{Small|(''TBoGT'' & ''GTA V'')}}
+|dashtype        = Aircraft {{Small|(needle)}}<br>[[File:Aircraft-Dials-GTAV.png|thumb|center|170px]]Flyer {{Small|(dial texture)}}<br>[[File:Flyer-GTAV-DialSet.png|thumb|center|170px]]
+|inttxd          = Maverick
+|wheeltype       = Sport
+|flags           = 
+<center>'''TBoGT'''</center>
+{{Expand|'''Buzzard'''|
+{{Flags|FLAG_NO_BOOT}}<br>
+}}
+{{Expand|'''Minigun'''|
+{{Flags|GUN}}<br>
+{{Flags|CAN_FREE_AIM}}<br>
+{{Flags|HEAVY}}<br>
+}}
+{{Expand|'''Rocket Launchers'''|
+<center>Weapon</center>
+{{Flags|GUN}}<br>
+{{Flags|CAN_FREE_AIM}}<br>
+{{Flags|HEAVY}}<br>
+<center>Ammo</center>
+{{Flags|THROWN}}<br>
+{{Flags|EXPLOSION_BASED_ON_IMPACT}}<br>
+{{Flags|ADD_SMOKE_ON_EXPLOSION}}<br>
+}}
+----
+<center>'''GTA V'''</center>
+{{Expand|'''Buzzard Attack'''|
+{{Flags|FLAG_NO_BOOT}}<br>
+{{Flags|FLAG_DRIVER_NO_DRIVE_BY}}<br>
+{{Flags|FLAG_NO_RESPRAY}}<br>
+{{Flags|FLAG_DONT_SPAWN_IN_CARGEN}}<br>
+{{Flags|FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS}}<br>
+{{Flags|FLAG_DONT_SPAWN_AS_AMBIENT}}<br>
+{{Flags|FLAG_DONT_TIMESLICE_WHEELS}}<br>
+{{Flags|FLAG_USE_PILOT_HELMET}}<br>
+}}
+{{Expand|'''Minigun'''|
+{{Flags|Gun}}<br>
+{{Flags|UsableOnFoot}}<br>
+{{Flags|Vehicle}}<br>
+{{Flags|ForceEjectShellAfterFiring}}<br>
+{{Flags|ApplyVehicleDamageToEngine}}<br>
+}}
+{{Expand|'''Rocket Launchers'''|
+<center>Ammo</center>
+{{Flags|AddSmokeOnExplosion}}<br>
+<center>Projectile</center>
+{{Flags|DestroyOnImpact}}<br>
+{{Flags|ProcessImpacts}}<br>
+{{Flags|DoGroundDisturbanceFx}}<br>
+<center>Weapon</center>
+{{Flags|Gun}}<br>
+{{Flags|CanLockonInVehicle}}<br>
+{{Flags|Homing}}<br>
+{{Flags|Vehicle}}<br>
+{{Flags|EnforceAimingRestrictions}}<br>
+{{Flags|HomingToggle}}<br>
+}}
+{{Expand|'''Searchlight'''|
+{{Flags|OnlyFireOneShotPerTriggerPress}}<br>
+{{Flags|Vehicle}}<br>
+}}
+|modelsets       = <!--null-->
+|modelname       = buzzard
+|handlingname    = BUZZARD
+|textlabelname   = BUZZARD
+|roadspawn       = Parked {{Small|(All games)}}
+|roadspawnmaxcol = 10
+|roadspawnfreq   = 100 {{Small|(''TBoGT'' & ''GTA V'')}}
+|roadspawntrailer= <!--null-->
+|roadspawnidendis= 20
+|roadspawndrivers= s_m_m_pilot_02
+|roadspawngroups = <!--null-->
+|roadspawnlicense= <!--null-->
+|engineacceleration= 
+|exhaustacceleration= 
+|idle            = 
+|deceleration    = 
+}}
+{{Quote|The Buzzard is a light, compact helicopter for military or millionaire use. With a 5-bladed main rotor and a top speed of 175mph, it's widely considered to be the best performing helicopter in its class. These hardly ever drop out of the sky like a stone. Helicopters are one of the safest ways to travel.|[[Warstock Cache & Carry]] description, ''GTA V'' and ''GTA Online''.}}
+The [[Nagasaki]] '''Buzzard Attack Chopper''' (formerly named "'''Buzzard'''") is a light attack [[Helicopters|helicopter]] featured in {{TBOGT}}, {{V}}, {{O}} and due to appear in {{VI}}.
+
+==Description==
+===''Grand Theft Auto VI''===
+{{Upcoming|game=VI|section=y}}
+A Buzzard Attack Chopper, piloted by [[Jason Duval]], can be seen chasing an [[Airboat 09]] through the [[Grassrivers]] in the [[Grand Theft Auto VI/Trailers#Trailer 2|second trailer]] (2:18). It features moderate but noticeable design updates compared to its appearance in {{VO}}, including the addition of a side-mounted gun and a fully redesigned cockpit.
+
+==Influence==
+===HD Universe===
+The Buzzard is evidently based on the {{WP|Boeing AH-6|AH-6}}, an attack variant of the {{WP|MD Helicopters MH-6 Little Bird|MH-6 Little Bird}} light observation helicopter, with the tail similar to the MH-6's predecessors, the {{WP|Hughes OH-6 Cayuse|OH-6 Cayuse}} and the {{WP|MD Helicopters MD 500|MD 500C}}. It also features a {{WP|Forward looking infrared|forward-looking infrared pod (FLIR)}} under the cabin, similar to the real-life {{WP|file=MH-6 Little Bird.jpg|AH/MH-6M Little Bird variant}}. 
+
+The vehicle is [[Vehicle Mounted Weapons|armed]] with miniguns that resemble the {{WP|M134 Minigun}}s and are fed by a large ammo box on the rear bay, as well as additionally featuring rocket pods, each one loaded with eight rockets that resemble {{WP|Hydra 70}} unguided rockets.
+
+==Design==
+===''The Ballad of Gay Tony''===
+{{quote|The ultimate party starter: light, maneuvrable and armed with rockets and a high-calibre machine gun.|''TBoGT'' Official Website.}}
+Compared to the [[Maverick]] or the [[Annihilator]], the Buzzard is depicted with a rather compact fuselage and a bubble glass canopy, having a curved front face with a small circular light on top and a large FLIR camera/searchlight pod, as well as curved side doors for the occupants. Around the middle/rear section, the aircraft has open sides that expose the rear bay, two small stub wings and short skids with tall struts, as well as an elevated section on top that partially surrounds the main rotor shaft, four small fins beside it and a large circular exhaust on the rear end of the fuselage. The tail boom is relatively small in comparison to most helicopters, having the tail rotor on the left and a single horizontal stabilizer on the right. The vehicle bears the registration "17 340" on the front, the sides of the upper section and the upper vertical stabilizer.
+
+The interior of the cockpit denotes its small appearance, fitted with a small flight instrument panel on the center and visible rudder pedals, while a tall wall separates the front section from the rear bay. Despite the open rear bay, the aircraft cannot carry passengers on it.
+
+The Buzzard that [[Luis Fernando Lopez|Luis]] obtained for [[Yusuf Amir]] was a prototype display model [[Sexy Time|stolen from an arms deal]]. It was later repainted from black to gold by Yusuf – this difference would be first recognized during the mission [[Not So Fast]], where Luis uses it to land on the roof of the Libertonian. The [[Liberty City Police Department (HD Universe)|LCPD]] will call it a "black/gold helicopter", depending on which version Luis uses – the black Buzzard acquired by a cheat code or the gold Buzzard from Yusuf at the end of the game. The vehicle is also considered "illegal" in [[Liberty City (HD Universe)|Liberty City]].
+
+The helicopter is only seen in a single primary color, being either the default black color or the special gold color.
+
+===''Grand Theft Auto V'' and ''Online''===
+Returning in ''Grand Theft Auto V'' and ''Grand Theft Auto Online'', the Buzzard Attack Chopper retains the same design and features. However, the small light on the front face can be toggled on/off like most vehicles, while the light on the FLIR camera/searchlight works when the engine is on. The rear bay is also able to hold two rear occupants, due to the repositioning of the ammo belts towards the sides of the rear bay box, the slight cut-out of the stub wings and the addition of two side steps. In the enhanced version, the flight instrument panel uses a dedicated "Flyer" dial set derived from the [[Maverick]] and the [[Police Maverick]].
+
+Buzzard Attack Choppers are now mass-produced and issued for law enforcement/military use. An [[Buzzard|unarmed civilian variant]] is also available. In addition, NPC pilots can operate the mounted camera/searchlight, which is unable to be rotated unlike the [[Police Maverick]]'s version.
+
+Again, the aircraft is only available in a single primary color, which is set to black on naturally-generated examples, although other color options are also available.
+
+The aircraft is still armed with miniguns and rocket launchers, both retaining the same model as the previous iteration.
+
+==Performance==
+===''The Ballad of Gay Tony''===
+{{Quote|We call this little baby the "Buzzard"! She will pick the bones of your enemies clean.|[[Frickie Van Hardenburg]]}}
+====Vehicle====
+Designed as a light exploration/attack helicopter, the Buzzard has an excellent maneuverability, able to turn quickly and move with a reasonable top speed (though not as fast as the [[Annihilator]]). The Buzzard's weakness, however, is its bubble canopy and low bullet protection, which can prove dangerous to the pilot and passenger when faced with heavy weapons like the [[Combat MG|Advanced MG]] or the [[Automatic Shotgun]] with explosive rounds. Like all helicopters, one of the weak spots is the rear rotor, when destroyed, it will spin out of control.
+
+True to its real-life inspirations, the Buzzard is powered by a single {{WP|Turboshaft|turboshaft engine}} located on the rear section, evidenced by the single rear exhaust seen below the tail boom. Said engine powers the 5-bladed rotor, delivering good engine output to ascend quickly. The rotor sound is rather unique, appearing to be a higher-pitched variation of the one from the [[Maverick]], with a slightly faster pacing due to the five blades on the main rotor.
+
+====Weaponry====
+The Buzzard is equipped with a set of two weapons operated by the pilot:
+*'''Minigun:''' The miniguns on the Buzzard are much more effective than those on the Annihilator – they have a much faster rate of fire, a narrower spread, and are fired both simultaneously, unlike the Annihilator, which only fires one gun at a time. They do considerably less damage than the Annihilator's guns, although they never overheat, which allows for continuous fire.
+*'''Rocket Launcher:''' The rocket launchers are a faster variation of the [[RPG]], with a higher fire rate but a slightly decreased range. While powerful and devastating, players should be careful to not fire a rocket at low altitudes (lower than about a person's height); before a rocket takes flight, it is first dropped out of the container, then takes flight when the fuse lights itself. At ground level, however, the fuse does not have enough time to ignite, thus making the rocket explode when it hits the ground and destroying the helicopter in the process.
+
+====''TBoGT'' Overview====
+<tabber>
+Buzzard=
+{{Aircraftstats-gtaiv
+|handling_top_speed       = 99.4 / 160 / 86.4
+|handling_mass            = 3800 / 8377.6
+|website_acceleration     = 
+|website_top_speed        = 
+|website_engine           = 
+|website_mass             = 
+|observed_acceleration    = 
+|observed_top_speed       = 
+|observed_engine          = Single turboshaft engine, 5-bladed rotor
+|observed_engine_location = Middle/Rear
+}}
+|-|
+Miniguns=
+{{Weaponstats-gtaiv
+|file_damage               = 100
+|file_fire_rate            = 0
+|file_range                = 
+50 / 164 {{Small|(Lock-on)}}<br>
+200 / 656.1 {{Small|(Weapon)}}
+|file_ammo                 = 1
+|file_reload_speed         = 66
+|stated_fire_rate          = 
+|stated_range              = 
+|stated_ammo               = 
+|observed_damage           = Lethal
+|observed_fire_rate        = 910 RPM
+|observed_ammo             = Unlimited
+|observed_reload_mechanism = 
+|observed_reload_speed     = 0.07 seconds
+}}
+|-|
+Rocket Launchers=
+{{Weaponstats-gtaiv
+|file_damage               = 100
+|file_fire_rate            = 66 {{Tooltip|Projectile|180}}
+|file_range                = 
+50 / 164 {{Small|(Lock-on, Launcher only)}}<br>
+80 / 262.5 {{Small|(Weapon)}}
+|file_ammo                 = 1
+|file_reload_speed         = 400
+|stated_fire_rate          = 
+|stated_range              = 
+|stated_ammo               = 
+|observed_damage           = Lethal {{Small|(Rocket only)}}
+|observed_fire_rate        = 240 RPM
+|observed_ammo             = 16 rockets (unlimited)
+|observed_reload_mechanism = 
+|observed_reload_speed     = 0.4 seconds
+}}
+</tabber>
+
+===''Grand Theft Auto V'' and ''Online''===
+====Vehicle====
+The Buzzard handles similarly to how it did in ''TBoGT''; it is still a quick and maneuverable helicopter. Despite its small size, the Buzzard is still a very fast helicopter with a top speed of approximately 135 knots, but will lose altitude when going full speed. The relatively small profile makes it a versatile choice for landing in areas where other larger helicopters would struggle, and despite the short skids, it is quite stable to land on uneven areas and does not lose balance easily. The increased capacity also allows for quick transportation and additional defense from the rear passengers.
+
+The Buzzard is powered by the same single turboshaft engine located on the rear section. However, the rotor sound has a much faster pace and a fairly moderate noise compared to its previous iteration.
+
+====Defense====
+The Buzzard's small frame and good maneuverability makes it easier to avoid enemy homing missiles compared to some of its larger cousins, such as the [[Savage]], [[Annihilator]], or [[Cargobob]]. However, only one hit from a [[Homing Launcher]], [[RPG]], or any standard explosive will destroy the aircraft. The helicopter can only withstand two to three explosive rounds from the [[Heavy Sniper Mk II]] before exploding. In addition, the Buzzard's large cockpit windows almost completely expose the pilot to enemy gunfire, and the helicopter itself cannot withstand very much damage before the engines begin to smoke. Just like all helicopters, the Buzzard's engines will begin to fail and give out entirely over the course of approximately two minutes and twenty seconds, assuming no further damage is taken.
+
+Similar to the [[Police Maverick]], NPC-operated Buzzards are vulnerable to large-caliber rounds being shot to the tail rotor, causing them to lose control and crash to the ground. 
+
+====Weaponry====
+{{Help Text|Use [Button] to swap between guns and rockets.}}
+*'''Machine Gun''': The Buzzard's minigun functions are largely identical to the ones from ''TBoGT''. The two miniguns, one on each side, have a fire rate of 900 rounds per minute, and their damage is the same as the [[Assault Rifle]], being extremely powerful weapons capable of destroying enemy vehicles or aircraft after a couple seconds of sustained fire. However, the weapons are laser-accurate, with no bullet spread and have a range of 180 meters/591 feet. It should be noted that the reticle is set for long-range shots, meaning the player will struggle against targets on close range, unless the player manages to set the reticle towards the target (usually by tilting the helicopter backwards), or switching to first-person/hood view.
+*'''Missiles''': The rocket launchers on the Buzzard are a bit different compared to the ones from ''TBoGT'', as they can fire guided or unguided missiles. These missiles have a lifespan of about five seconds and are able to chase targets effectively, at the cost of sub par tracking, as they may miss the target. They have a lock-on range of 300 meters and have a maximum range of 540 meters. Their projectile speed is 388.8 kph/108 m/s. The missiles have a short "reload" time, where if two missiles are fired in quick succession, the pilot cannot fire another one until after a short four-second cooldown. The co-pilot of the aircraft can also take responsibility of aiming and firing the missiles with a mounted camera. However, these missiles have a slower firing rate and greatly reduced travel speed.
+
+====''GTA V'' and ''Online'' Overview====
+<tabber>
+Buzzard Attack=
+{{Aircraftstats-gtav
+|&online                  = y
+|handling_top_speed       = 99.4 / 160 / 86.4
+|handling_mass            = 3800 / 8377.6
+|handling_fuel_tank       = 100
+|website_acceleration     = 
+|website_top_speed        = 175 / 281.6 / 152.1
+|website_engine           = 
+|website_mass             = 
+|observed_acceleration    = 
+|observed_top_speed       = 
+|observed_vertical_rate   = 
+|observed_engine          = Single turboshaft engine, 5-bladed rotor
+|observed_engine_location = Middle/Rear
+|rsc_image                = BuzzardAttackChopper-GTAV-RSCStats.PNG
+|rsc_top_speed            = {{PercentBar|76.751122|width=150}}
+|rsc_acceleration         = {{PercentBar|98.214287|width=150}}
+|rsc_braking              = 
+|rsc_agility              = {{PercentBar|100|width=150}}
+}}
+|-|
+Machine Gun=
+{{Weaponstats-gtav
+|&online                   = y
+|file_damage               = 
+{{Tooltip|HitLimbs modifier|15}} ({{Tooltip|(multiplayer)|24}})<br>
+{{Tooltip|LightArmor modifier|22.5}}<br>
+{{Tooltip|Default|30}}
+|file_fire_rate            = 0.04 (1500 RPM)
+|file_range                = 180 / 590.5
+|file_ammo                 = 750
+|file_reload_speed         = <!--null-->
+|stated_fire_rate          = 
+|stated_range              = 
+|stated_ammo               = 
+|observed_damage           = 
+|observed_fire_rate        = 1800 RPM
+|observed_range            = 180 / 590.5
+|observed_ammo             = Unlimited
+|observed_reload_mechanism = 
+|observed_reload_speed     = 
+|rsc_image                 = 
+|rsc_damage                = {{PercentBar|30|width=150}}
+|rsc_fire_rate             = {{PercentBar|98|width=150}}
+|rsc_accuracy              = {{PercentBar|10|width=150}}
+|rsc_range                 = {{PercentBar|65|width=150}}
+|rsc_clip_size             = {{PercentBar|100|width=150}}
+}}
+|-|
+Missiles=
+{{Weaponstats-gtav
+|&online                   = y
+|file_damage               = 
+|file_fire_rate            = 2 (30 RPM)
+|file_range                = 300 / 984.2 {{Small|(Lock-on & Weapon)}}
+|file_ammo                 = 1 ({{Tooltip|Projectile|20}})
+|file_reload_speed         = 2
+|stated_fire_rate          = 
+|stated_range              = 
+|stated_ammo               = 
+|observed_damage           = Explosive {{Tooltip|Projectile only|[?]}}
+|observed_fire_rate        = 30 RPM
+|observed_range            = 
+300 / 984.2 {{Small|(Lock-on)}}<br>
+540 / 1771.6 {{Small|(Weapon)}}
+|observed_ammo             = 16 rockets (unlimited)
+|observed_reload_mechanism = 
+|observed_reload_speed     = 4 seconds (per launcher)
+|rsc_image                 = 
+|rsc_damage                = {{PercentBar|0|width=150}}
+|rsc_fire_rate             = {{PercentBar|0|width=150}}
+|rsc_accuracy              = {{PercentBar|10|width=150}}
+|rsc_range                 = {{PercentBar|100|width=150}}
+|rsc_clip_size             = {{PercentBar|1|width=150}}
+}}
+|-|
+Searchlight=
+{{Weaponstats-gtav
+|&online                   = y
+|file_damage               = 0
+|file_fire_rate            = 2 (30 RPM)
+|file_range                = 50 / 164 {{Small|(Lock-on & Weapon)}}
+|file_ammo                 = 1
+|file_reload_speed         = <!--null-->
+|stated_fire_rate          = 
+|stated_range              = 
+|stated_ammo               = 
+|observed_damage           = 
+|observed_fire_rate        = 
+|observed_range            = 
+|observed_ammo             = 
+|observed_reload_mechanism = 
+|observed_reload_speed     = 
+|rsc_image                 = 
+|rsc_damage                = {{PercentBar|0|width=150}}
+|rsc_fire_rate             = {{PercentBar|0|width=150}}
+|rsc_accuracy              = {{PercentBar|10|width=150}}
+|rsc_range                 = {{PercentBar|35|width=150}}
+|rsc_clip_size             = {{PercentBar|1|width=150}}
+}}
+</tabber>
+
+==Modifications==
+===''Grand Theft Auto Online''===
+Upon being converted into a personal aircraft, the Buzzard Attack Chopper can only be repainted with a primary color, which covers all of the aircraft's body. The markings cannot be removed, however.
+
+{| class="wikitable"
+!Category
+!Modification
+|-
+|Respray
+|''Main article: [[Vehicle Customization in GTA V/Respray Colors]]''
+|-
+|Remove
+|Remove Aircraft
+|}
+
+==Gallery==
+===Design===
+<!--Please ensure you have read the Manual of Style [GTA_Wiki:Manual_of_Style/Vehicles/Design_Galleries] before uploading and adding images to the Current Design Gallery. Failure to meet these guidelines will result in the images being removed and deleted, and repeated offences may result in a warning.-->
+{{Design Gallery Vehicle
+|front_quarter_image = BuzzardAttackChopper-GTAV-frontQuarter.png
+|top_image           = BuzzardAttackChopper-GTAV-topView.png
+|rear_quarter_image  = BuzzardAttackChopper-GTAV-rearQuarter.png
+|front_image         = BuzzardAttackChopper-GTAV-frontView.png
+|side_image          = BuzzardAttackChopper-GTAV-sideView.png
+|rear_image          = BuzzardAttackChopper-GTAV-rearView.png
+|engine_image        = BuzzardAttackChopper-GTAV-engineBay.png
+|underside_image     = BuzzardAttackChopper-GTAV-undersideView.png
+|inside_image        = BuzzardAttackChopper-GTAV-insideView.png
+|detail_image        = BuzzardAttackChopper-GTAV-Decals.png
+|open_other_image    = BuzzardAttackChopper-GTAV-detailView.png
+|dashboard_image     = BuzzardAttackChopper-GTAV-Dashboard.png
+}}
+
+===Images===
+====''The Ballad of Gay Tony''====
+{{Gallery
+|SexyTime-TBoGT-LuisUsingBuzzard.png|[[Luis Fernando Lopez|Luis]] attacking [[Van Hardenburg's Yacht]] using a '''Buzzard''' in [[Sexy Time]].
+|Buzzard-TBOGT-Gold-front.png|[[Yusuf Amir]]'s golden '''Buzzard'''. ({{Small|[[:File:Buzzard-TBOGT-Gold-rear.png|Rear quarter view]]}})
+|Buzzard-TBOGT-Gold.jpg|A high angle view of the golden '''Buzzard'''.
+}}
+
+====''Grand Theft Auto V''====
+{{Gallery
+|BuzzardAttackChopper-GTAV-Front.png|A '''Buzzard Attack Chopper''' in the original version of {{V}}.
+|Artwork-Buzzard-GTAV.jpg|Artwork of '''Buzzard Attack Chopper''' seen on ''GTA V''{{'}}s box art.
+|Buzzard_GTAV_Rocket.png|A rocket fired from a '''Buzzard'''.
+|Buzzard-GTAV-AndFranklin.jpg|Another enhanced version promotional screenshot, featuring a '''Buzzard'''.
+|KortzCenter-GTAV-DestroyedHelicopter.png|The '''Buzzard''' wreck at [[Kortz Center]] after "[[The Wrap Up]]".
+|BuzzardAttackChopper-GTAV-Warstock.png|The '''Buzzard Attack Chopper''' on [[Warstock Cache & Carry]].
+}}
+
+====''Grand Theft Auto Online''====
+{{Gallery
+|HeistsBuzzard-Firing-GTAV.jpg|A '''Buzzard''' attacking gunmen on the [[Los Santos Naval Port]].
+|ElRubioSecurity-GTAO-BuzzardAttack.png|'''Buzzard Attack Chopper''' [[El Rubio's Private Security|enemy air support]] in [[Cayo Perico]] during [[The Cayo Perico Heist/Finale|The Cayo Perico Heist]].
+|AirQuota-GTAO-BuzzardAttackChopper.png|[[Heads-Up Display|HUD]] icon in [[Air Quota]].
+|FakeDidierSachsTShirt-GTAO-Advert.jpg|[[GTA Online Bonuses (March 2019 Part 2)|Event Week]] screenshot. 
+|Buzzard-GTAO-January2021Advert.jpg|[[Manchez Scout Week|Event Week]] screenshot.
+|BuzzardAttackChopper-GTAO-Advert.gif|'''Buzzard Attack Chopper''' in a promotional advert ([[GTA Online Bonuses (March 2020 Part 2)|March 2020 Event Week]]).
+}}
+
+====''Grand Theft Auto VI''====
+{{Gallery
+|BuzzardAttackChopper-GTAVI-Trailer2-1.png|A view of the '''Buzzard Attack Chopper'''{{'}}s cockpit in the [[Grand Theft Auto VI/Trailers#Trailer 2|second trailer]].
+}}
+
+==Locations==
+===''The Ballad of Gay Tony''===
+====Singleplayer====
+*[[Yusuf Amir]] gives his golden Buzzard to the player as a gift after completing the game. It will be then available at the [[Westminster Helipad]] beside the golf club on the [[West River]]. It replaces the [[Swift]] that was parked there.
+*Can be spawned via cheat code, by dialing the number: 359-555-2899 (FLY-555-BUZZ).
+*There is one way to obtain the black Buzzard without entering the cheat code stated above. After destroying the boats in "[[Sexy Time]]," land the black Buzzard on a road. Get into a car or bike, and drive away from it but keep the camera fixed on the Buzzard. After the player has failed the mission, reverse and it will be there.
+
+====Multiplayer====
+In multiplayer, there are multiple locations where Buzzards can be found:
+*The first two can be found at [[Francis International Airport (HD Universe)|Francis International Airport]], on the helipads.
+*One can be found at the heliport in southern Algonquin.
+*One can be found at the helipad on the West River where the golden Buzzard is in single player.
+*One can be found at the [[Van Hardenburg's Yacht|yacht]] just south of [[Acter Industrial Park]] and east of [[Happiness Island]].
+
+===''Grand Theft Auto V''===
+*Can be bought from [[Warstock Cache & Carry]] for [[Money|$]]2,000,000.
+**It may rarely spawn in a unique white paint scheme in story mode.
+*Can be found at [[Fort Zancudo]].
+*On top of the [[NOOSE Headquarters]] on [[Sustancia Road]] in [[Palomino Highlands]], [[Los Santos County]]. Despite its location, it can be obtained safely without triggering a wanted level.
+*Can be spawned with the following cheat code button combinations:
+:*'''[[Xbox 360]] / [[Xbox One]]'''
+
+<div style="margin-left: 70px">
+{{Button|B}}{{Button|B}}{{Button|LB}}{{Button|B}}{{Button|B}}{{Button|B}}{{Button|LB}}{{Button|LT}}{{Button|RB}}{{Button|Y}}{{Button|B}}{{Button|Y}}
+</div>
+
+
+:*'''[[PlayStation 3]] / [[PlayStation 4]]'''
+
+<div style="margin-left: 70px">
+{{Button|circle}}{{Button|circle}}{{Button|l1}}{{Button|circle}}{{Button|circle}}{{Button|circle}}{{Button|l1}}{{Button|l2}}{{Button|r1}}{{Button|triangle}}{{Button|circle}}{{Button|triangle}}
+</div>
+
+
+:*'''[[Personal Computer|PC]]''': <code>BUZZOFF</code>
+:*1-999-289-9633 (BUZZ-OFF)
+
+===''Grand Theft Auto Online''===
+*Spawns on numerous helipads, such as [[Paleto Bay Sheriff's Office|Paleto Bay Police Station]] and [[Los Santos International Airport (HD Universe)|LSIA]], at [[Rank]] 43 or higher.
+*Commonly parked at [[Los Santos Naval Port]].
+*Can be bought on Warstock Cache & Carry for $1,750,000.
+**Prior to the [[Cunning Stunts: Special Vehicle Circuit]] update, the vehicle could only be purchased after reaching rank 43.
+**It can then be ordered after via [[Pegasus Lifestyle Management]], where it will spawn on the nearest helipad.
+**In the [[Enhanced Edition|enhanced version]], it is classed as a small vehicle when stored in a [[Hangars|Hangar]].
+*Can be requested by a [[Organizations#VIP/CEO|VIP]] (and any bodyguards of the organisation) for $25,000 (or for free if owned as a Pegasus vehicle) from the Interaction Menu > VIP Vehicles. It will always spawn in matte black and will spawn near the player where there is enough space, save for traffic lights and road signs, from which the chopper may get a small amount of damage when taking off.
+*Yusuf's golden Buzzard can be obtained by completing Tier 4 of The Chop Shop [[Career Progress|career progress]]. It can only be stored in the hangar.
+
+==Prominent Appearances in Gameplay==
+===''The Ballad of Gay Tony''===
+*[[Sexy Time]]
+*[[Not So Fast]]
+*[[Departure Time]]
+
+===''Grand Theft Auto V''===
+*[[Three's Company]]
+*[[Cargobob (mission)|Cargobob]]
+*[[The Merryweather Heist]]
+*[[Derailed]]
+*[[The Bureau Raid]] (Roof Entry)
+*[[The Wrap Up]]
+*[[Legal Trouble]] {{nd}} A Buzzard Attack Chopper can be seen taking off in the airport during the mission.
+*[[The Big Score (GTA V)|The Big Score]] (Obvious)
+*[[The Third Way]]
+
+===''Grand Theft Auto Online''===
+*[[By Land, Sea and Air]]
+*[[Mixed Up With Coke]]
+*[[Flight School]] ("Shooting Range")
+
+====Heists====
+*[[Prison Break]]
+**[[The Prison Break]]
+*[[Humane Raid]]
+**[[Humane Raid - Insurgents]]
+**[[Humane Raid - Valkyrie]]
+**[[The Humane Labs Raid]]
+
+====Freemode Events Update====
+*Two [[Freemode Events]]
+**[[Kill List]] {{nd}} Can appear as a vehicle. 1 to 4 players can participate.
+**[[Kill List Competitive]] {{Small|(no longer available)}} – Could appear as a vehicle. 1 to 4 players could participate.
+
+====Import/Export====
+*Two [[Special Vehicle Work]] missions
+**[[Breakdown Recovery]]
+**[[End of Transmission]]
+
+====Gunrunning====
+*Five [[Mobile Operations]]
+**[[Severe Weather Patterns]]
+**[[Half-track Bully]]
+**[[Exit Strategy]]
+**[[Offshore Assets]]
+**[[Mole Hunt]]
+*[[Supplies/Steal Missions|Supplies Steal Missions]] {{Vague}} – May spawn as enemy aircraft, particularly involving stealing a [[Technical Custom]].
+*[[Supplies/Sell Missions|Supplies Sell Missions]] {{Vague}} – May spawn as enemy aircraft, particularly involving making deliveries in the [[Marshall]] on hilltops.
+
+====Smuggler's Run====
+*Two{{Fact}} [[Air Freight Cargo/Steal Missions|Air Freight Cargo Steal Missions]]
+**[[Air Freight Cargo: Rival base|Rival base]] {{nd}} If the location is the [[Thomson Scrapyard]], may appear as targets the player must destroy with an [[LF-22 Starling]] plane. Another one appears as the vehicle with the cargo near the aforementioned location.
+**[[Air Freight Cargo: Titan rendezvous|Titan rendezvous]] {{nd}} Spawn as enemy aircraft.
+*[[Adversary Modes|Adversary Mode]]: [[Bombushka Run]] (Buzzard team) {{Small|(no longer available)}}
+
+====The Doomsday Heist====
+*Adversary Mode: [[Air Quota]] (vehicle list 2)
+
+====The Diamond Casino & Resort====
+*Used by attacking enemies in the following four [[Survival]]s:
+**[[Meth Lab Survival]]
+**[[Project 4808C: Grapeseed]]
+**[[Project 4808D: Desert]]
+**[[Project 4808F: Pillbox]]
+
+====The Cayo Perico Heist====
+*[[The Cayo Perico Heist]]
+**[[Heist Prep: Disrupt Air Support]]
+**[[The Cayo Perico Heist/Finale|Finale]] {{Small|(If Heist Prep: Disrupt Air Support is not completed)}}
+*Used by attacking enemies in the following two Survivals:
+**[[Kortz Survival]]
+**[[Quarry Survival]]
+
+====Los Santos Tuners====
+*[[The E.C.U Job]]
+**[[The E.C.U Job/Finale|Finale]]
+*[[The Data Contract]]
+**[[The Data Contract/Finale|Finale]]
+
+====The Contract====
+*[[The Contract: Dr. Dre|VIP Contract]]
+**[[Nightlife Leak]]
+***[[Investigation: The Marina]]
+**[[High Society Leak]]
+***[[High Society Leak/Finale|Finale]]
+*[[Short Trips]]
+**[[Short Trip - Fire It Up]]
+
+====Los Santos Drug Wars====
+*[[First Dose]]
+**[[First Dose 6 - Off the Rails]]
+*[[Last Dose]]
+**[[Last Dose 1 - This is an Intervention]]
+
+====Agents of Sabotage====
+*[[The FIB Files]]
+**[[The Black Box File]]
+***[[The Black Box File/Finale|Finale]] {{nd}} Two Buzzard Attack Choppers escort a [[Cargo Plane]] carrying the black box, which the player must shoot down. Also, three Buzzard Attack Choppers and one [[Buzzard]] will chase the player after they collect the black box underwater and come to the surface.
+
+==Notable Owners==
+===''The Ballad of Gay Tony''===
+*[[Abdul Amir]]
+*[[Frickie Van Hardenburg]]
+*[[Luis Lopez]]
+*[[Yusuf Amir]]
+
+===''Grand Theft Auto V''===
+*[[International Affairs Agency|IAA]]
+*[[Federal Investigation Bureau|FIB]]
+*[[Merryweather Security]]
+*[[Military (HD Universe)|Military]]
+
+===''Grand Theft Auto Online''===
+*IAA
+*FIB
+*Merryweather Security
+*Military
+*[[Kkangpae]]
+*[[Madrazo Cartel]]
+*[[The Professionals]]
+*[[Bogdan's Crew]]
+*[[Cliffford Mercenaries]]
+*[[Duggan Crime Family]]
+*[[El Rubio's Private Security]]
+*[[Johnny Guns]]
+*[[Ben Brooks]]
+*[[Los Santos Vagos (HD Universe)|Los Santos Vagos]]
+
+==Rockstar Games Website==
+===''Grand Theft Auto V'' and ''Online''===
+{{RSSC
+|type          = heli
+|name          = Buzzard Attack Chopper
+|manufacturer  = Nagasaki
+|class         = Helicopters 
+|image         = BuzzardAttackChopper-GTAV-RGSC-MainNew.jpg
+|caption       = Main image (after 2019).
+|image2        = BuzzardAttackChopper-GTAV-RGSC-Action.jpg
+|caption2      = "Action" image for ''GTA V''.
+|image3        = BuzzardAttackChopper-GTAO-RGSC-Action.jpg
+|caption3      = "Action" image for ''GTA Online''.
+|image4        = BuzzardAttackChopper-GTAV-RGSC-Main.jpg
+|caption4      = Main image (prior to 2019).
+|speed         = 76.751122
+|accel         = 98.214287
+|agility       = 100
+|seats         = 4
+|garage        = n
+|moddable      = n
+|premium       = n
+|super         = n
+|buy           = y
+|sell          = n
+|dealer        = ws
+}}
+
+==Specifications==
+===Traffic Default Colors===
+{{Vehicle Color List
+|game=TBOGT
+|0,0,0
+}}
+{{Vehicle Color List
+|game=V
+|0,0,5,156
+}}
+
+==Events==
+===''Grand Theft Auto Online''===
+*Logging in on 28 December 2018 awarded players a free purchase of the Buzzard Attack Chopper, regardless of their level.
+
+==Trivia==
+===General===
+*The name "Buzzard" may be a reference to the "Buzzard 1" callsign for the [[Police Maverick (3D Universe)|Police Maverick]] helicopter, heard during the {{SA}} mission, "[[Reuniting the Families]]".
+*The name may also be a reference to the AH/MH-6 Little Bird Attack Helicopter, as a Buzzard is a type of bird.
+
+===''The Ballad of Gay Tony''===
+*Oddly, the ammo belts are placed onto the minigun's barrels.
+
+===''Grand Theft Auto V'' and ''Online''===
+*Despite the description saying it "hardly falls like a stone from the sky", ironically it is destroyed numerous times throughout the {{V}} story.
+*Similar to the [[P-996 LAZER]] and [[Savage]], when controlled by NPCs, the Buzzard Attack Chopper can move its miniguns in any direction, both vertically and laterally.
+*The cheat code used to spawn the Buzzard Attack Chopper is the same cheat used to spawn the [[Rhino (HD Universe)|Rhino]] tank in {{VC}} and ''Grand Theft Auto: San Andreas'', with a few button modifications.
+*The front-mounted spotlight can be moved depending of where the player is looking, having a fast rotation speed. It is noticeable when switching to the cinematic camera, where the same device could keep its direction.
+**This is absent in the Enhanced version, although one can still see the spotlight moving when customizing the Buzzard Attack Chopper at the [[Hangars|Hangar]].
+**Sometimes, NPC Buzzards will have the spotlights on, but they remain facing forwards.
+
+==See Also==
+*[[Buzzard]] {{nd}} Unarmed counterpart appearing in {{V}} and {{O}}.
+*[[Hunter (disambiguation)|Hunter]] {{nd}} An attack helicopter featured in the {{3D}} and ''Grand Theft Auto Online''.
+*[[Annihilator]] {{nd}} An armed law-enforcement helicopter featured in {{IV}} and its episodes, as well as in ''Grand Theft Auto Online''.
+*[[Sea Sparrow (disambiguation)|Sea Sparrow]] {{nd}} Another light attack helicopter featured in the 3D Universe and ''Grand Theft Auto Online''.
+*[[APC]] {{nd}} Another armed attack vehicle in {{TBOGT}} and ''Grand Theft Auto Online''.
+*[[Savage]] {{nd}} Another attack helicopter featured in ''Grand Theft Auto Online'' as part of the [[GTA Online: Heists|Heists]] update.
+*[[Valkyrie]] {{nd}} Another light attack helicopter featured exclusively for ''Grand Theft Auto Online'' as part of the Heists update.
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtaiv vehicles|state=collapsed}}
+{{Navbox gtav vehicles|state=collapsed}}
+{{Navbox gtao vehicles|state=collapsed}}
+{{Navbox gtavi vehicles|state=collapsed}}
+{{SecuroServ|state=collapsed}}
+}}
+[[Category:Vehicles in TBOGT]]
+[[Category:Vehicles in GTA V]]
+[[Category:Vehicles in GTA Online]]
+[[Category:Vehicles in GTA VI]]
+[[Category:Single-rotor helicopters]]
+[[Category:Utility helicopters]]
+[[Category:Military vehicles]]
+[[Category:Five-bladed helicopters]]
+[[Category:Armed vehicles]]
+[[Category:Vehicles manufactured by Nagasaki]]
+[[Category:Vehicles used by Merryweather]]
+[[Category:Vehicles used by the FIB]]
+[[Category:Vehicles purchasable from Warstock Cache & Carry]]
+[[Category:Vehicles requested via Pegasus Lifestyle Management]]
+[[Category:Vehicles requested via SecuroServ]]
+[[Category:Small vehicles storable in a Hangar]]
+[[Category:Helicopters class]]
+
+[[de:Buzzard-Kampfheli (V)]]
+[[es:Buzzard]]
+[[pl:Szturmowy Buzzard]]
+[[ru:Штурмовой Buzzard]]

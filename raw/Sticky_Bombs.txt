@@ -1,0 +1,248 @@
+{{Infobox weapon
+|name          = Sticky Bombs
+|image         = StickyBomb-GTAVee.png
+|caption       = The '''Sticky Bomb''' in {{VO}}.
+|aka           = {{Tooltip|GTA V; The Bureau Raid|Fire Bomb}}
+|slot          = Throwable
+|type          = Explosive
+|ammo          = 
+*25 units
+*30 units {{Small|(''GTA Online''; [[Bunker Shooting Range]] reward)}}
+|games         = {{Games|TBOGT=y|V=y|O=y}}
+|manufacturer  = 
+|sold in       = 
+*[[Armando Torres]] {{Small|(''TBOGT'')}}
+*[[Ammu-Nation (HD Universe)|Ammu-Nation]] {{Small|(''GTA V'' & ''GTA Online'')}}
+*[[Agencies|Agency Armory]] {{Small|(''GTA Online'')}}
+*[[Gun Van]] {{Small|(''GTA Online'')}}
+|price         = [[Money|$]]800 {{Small|(''TBOGT''; [[Weapon Vehicles|Gun van]])}}<br>
+$400 {{Small|(''GTA V'')}}<br>
+*$360 {{Small|(Bronze medal discount)}}<br>
+*$340 {{Small|(Silver medal discount)}}<br>
+*$300 {{Small|(Gold medal discount)}}<br>
+$600 {{Small|(''GTA Online'')}}
+|unlockedby    = 
+*[[Bang Bang]] {{Small|(''TBOGT'')}}
+*[[Friends Reunited]] {{Small|(''GTA V'')}}
+|unlockedafter =
+*[[Rank]] 19 {{Small|(''GTA Online'')}}
+|origin        = 
+|caliber       = 
+|firemode      = Throwable
+|reticle       = 
+*None
+*Generic {{Small|(''TBOGT''; lock-on)}}
+|anim          = Thrown
+|flags         = 
+{{Expand|'''TBoGT'''|
+{{Flags|THROWN}}<br>
+{{Flags|CAN_AIM}}<br>
+{{Flags|CAN_FREE_AIM}}<br>
+{{Flags|ANIM_RELOAD}}<br>
+{{Flags|ANIM_CROUCH_FIRE}}<br>
+{{Flags|ADD_SMOKE_ON_EXPLOSION}}<br>
+{{Flags|SILENCED}}<br>
+}}
+----
+{{Expand|'''GTA V'''|
+<center>'''Weapon'''</center>
+{{Flags|CarriedInHand}}<br>
+{{Flags|Silenced}}<br>
+{{Flags|CanLockonOnFoot}}<br>
+{{Flags|CanFreeAim}}<br>
+{{Flags|AnimReload}}<br>
+{{Flags|AnimCrouchFire}}<br>
+{{Flags|Thrown}}<br>
+{{Flags|UsableOnFoot}}<br>
+{{Flags|UsableInCover}}<br>
+{{Flags|AllowCloseQuarterKills}}<br>
+{{Flags|ManualDetonation}}<br>
+{{Flags|HasLowCoverSwaps}}<br>
+{{Flags|DisableLeftHandIkWhenOnFoot}}<br>
+{{Flags|UseFPSAimIK}}<br>
+{{Flags|UseFPSSecondaryMotion}}<br>
+{{Flags|AttachFPSLeftHandIKToRight}}<br>
+{{Flags|DisableFPSScope}}<br>
+<center>'''Ammo'''</center>
+{{Flags|AddSmokeOnExplosion}}<br>
+<center>'''Projectile'''</center>
+{{Flags|Sticky}}<br>
+{{Flags|ProcessImpacts}}<br>
+{{Flags|CanBePlaced}}<br>
+{{Flags|NoPullPin}}<br>
+{{Flags|CanBeDestroyedByDamage}}<br>
+}}
+|filename      = 
+*STICKY BOMB {{Small|(''TBOGT''; File note)}}
+*EPISODIC_16 {{Small|(''TBOGT''; File name)}}
+*STICKYBOMB {{Small|(''GTA V'')}}
+*pe {{Small|(''GTA V''; Model name)}}
+*STKYBMB {{Small|(''GTA V''; Stat name)}}
+|spawnmap      = 
+*No {{Small|(''TBOGT'')}}
+*Yes {{Small|(''GTA V'')}}
+|spawnped      = <!--null-->
+|spawnvehicle  = <!--null-->
+|firingfx      = 
+|reloadingfx   = 
+}}
+{{Quote|A plastic explosive charge fitted with a remote detonator. Can be thrown and then detonated or attached to a vehicle then detonated.|{{V|l=n}} description on [[Ammu-Nation (HD Universe)|Ammu-Nation]] and [[Rockstar Games Social Club|Social Club]].}}
+'''Sticky Bombs''' are throwable explosives featured in {{TBOGT}}, {{V}}, and {{O}}.
+
+==Design==
+===''The Ballad of Gay Tony''===
+{{Quote|Tag vehicles or objects for remote detonation.|''The Ballad of Gay Tony'' website description.}}The Sticky Bomb is a {{WP|C-4 (explosive)|C-4}}-like explosive with a tripwire-triggered mechanism taped onto it. When thrown, the bombs emit a steady beep and a yellow light flashes. When activated the beep rises in pitch and speed, and the light turns red, then after less than a second, they detonate.
+
+===''Grand Theft Auto V'' and ''Online''===
+The Sticky Bomb gains a new design and is now comprised of two M112 C-4 explosive sticks with a remote-controlled time bomb taped onto it. There is a small red light attached to the device to help mark it when placed and, like in its previous iteration, emits a steady beep, though not as noisy.
+
+==Performance==
+===''The Ballad of Gay Tony''===
+The Sticky Bomb has the primary advantage of being a controlled explosive and having a controlled detonation, making it useful for timing explosives when the target is on the blast radius, which is similar to that of a [[Grenades|grenade]]. As expected from its name, they can be thrown and stick to any surface they hit, which gives it another advantage over grenades as there is no need to be concerned they might bounce away from the target and either miss or worse, come back to the player and kill them in the process. Unlike [[Satchel Charges]] from {{SA}}, these bombs do not stick to people. They can then be detonated by pressing Down on the D-pad or shooting them.
+
+Up to 10 Sticky Bombs (2 in multiplayer) can be placed; throwing out the 11<sup>th</sup> (3<sup>rd</sup> in multiplayer) will cause the first one to disappear. The bombs have a 90 second fuse, so if an armed bomb is left undetonated for 90 seconds, it will automatically detonate. If the player is in a vehicle of any kind and they try to hold the sticky bomb until it detonates, it will not explode even after 90 seconds has gone by. It will start to beep slowly, and after about 60 seconds the beeping will get faster, but it will still not explode. If the player throws it out after holding it for a long time, the timer will reset as it is thrown out, so holding the bomb will not affect the time it takes to detonate.
+
+Because of the beeping sound and the yellow light, the player might take difficulties to take out other players, as they can see or hear the bomb and they might either avoid passing over there or destroying them with another weapon, so the player may need to find alternatives. One of the best methods is that the player just need to open a car door (preferably to the side other players do not use to enter the vehicle) and stick the bomb to the inside of the door, so when the door closes, the bomb is inside the vehicle. This prevents other players from seeing the bomb.
+
+====''TBOGT'' Overview====
+{{Weaponstats-gtaiv
+|file_damage               = Explosive {{Small|({{Tooltip|Multiplayer modifier (player)|x2}})}}
+|file_fire_rate            = 
+|file_range                = 
+|file_ammo                 = 1
+|file_reload_speed         = 
+|stated_fire_rate          = 
+|stated_range              = 
+|stated_ammo               = 
+|observed_damage           = Lethal {{Small|(Explosion only)}}
+|observed_fire_rate        = 
+|observed_ammo             = Single unit
+|observed_reload_mechanism = 
+|observed_reload_speed     = 
+}}
+
+===''Grand Theft Auto V'' and ''Online''===
+The Sticky Bomb is no different from the ''TBOGT'' iteration. Although they cannot stick to pedestrians in Story Mode, they can stick to them, as well as other players in Online. The limit for placed bombs has been amplified to 20 (5 in {{O|l=n}}). When the limit is reached, a message appears on the screen indicating it, and, like in ''TBOGT'', the first one disappears when the 21<sup>st</sup> (6<sup>th</sup> in ''GTA Online'') is placed. Unlike in ''TBOGT'', they will not explode over time.
+
+Sticky Bombs can be used as a cheaper replacement for the [[car bomb]] in ''GTA Online''. The player just need to open a car door (preferably to the side other players do not use to enter the vehicle) and stick the bomb to the inside of the door, so when the door closes, the bomb is inside the vehicle. This prevents other players from seeing the bomb, by applying the car bomb trick mentioned above, they can ensure no other players can see them.
+
+The weapon can be useful in drive-bys, due to the fact it deals a large amount of damage, can stick to any vehicle, and can be detonated at any time (which allows them to be used somewhat like landmines). However, the player must be careful to ensure that their own car does not get caught in the blast radius, if using them against a vehicle in close proximity. Another factor to take in mind is how fragile they are, as shooting them will cause them to explode. If they are placed onto a vertical surface and rammed by a car, they will detonate. When armed, the Sticky Bomb will explode when shot from the player's hand; the vehicle they are inside will be destroyed, regardless if the vehicle has any sort of protection to explosions.
+
+Sticky Bombs are more damaging against tanks, inflicting 28.57% more than any normal explosion. The [[Rhino (HD Universe)|Rhino]] (in free roam) can be destroyed with three Sticky Bombs, while the [[TM-02 Khanjali]]/[[APC]] can be destroyed with six Sticky Bombs.
+
+====''GTA V'' and ''Online'' Overview====
+{{Weaponstats-gtav
+|&online = y
+|file_damage               = 0 {{Small|(Base damage)<br>}}500 {{Small|(direct)}}<br>75 {{Small|(edge)}}
+|file_fire_rate            = 0
+|file_range                = 30 / 98
+|file_ammo                 = 1 ({{Tooltip|Max Ammo|25}})
+|file_reload_speed         = 
+|stated_fire_rate          = 
+|stated_range              = 
+|stated_ammo               = 
+|observed_damage           = 
+|observed_fire_rate        = 
+|observed_ammo             = Single Unit
+|observed_reload_mechanism = 
+|observed_reload_speed     = 
+|rsc_image                 = StickyBomb-GTAV-RSCStats.PNG
+|rsc_damage                = {{PercentBar|95|width=150}}
+|rsc_fire_rate             = {{PercentBar|10|width=150}}
+|rsc_accuracy              = {{PercentBar|30|width=150}}
+|rsc_range                 = {{PercentBar|10|width=150}}
+|rsc_clip_size             = {{PercentBar|10|width=150}}
+}}
+
+==Image Gallery==
+===In-game model===
+{{Gallery
+|StickyBomb-TBOGT.png|{{TBOGT}}.
+|TBRBomb.jpg|A "Fire Bomb" featured in [[The Bureau Raid]], using a vertically stretched model of the ''TBOGT'' sticky bomb ([[PlayStation 3|PS3]] and [[Xbox 360]] versions).
+|FranklinClinton-GTAV-StickyBomb.JPG|[[Franklin Clinton|Franklin]] with a '''Sticky Bomb'''.
+}}
+
+===HUD icon===
+{{Gallery
+|StickyBomb-TBOGT-icon.png|''The Ballad of Gay Tony''.
+|StickyBomb-GTAV-HUD.png|{{V}}.
+|StickyBomb-GTAVPC-HUD.png|{{V|l=n}}, [[Enhanced Version|enhanced version]].
+}}
+
+===First-Person View===
+{{Gallery
+|StickyBomb-GTAV-Holding.png|Holding a '''Sticky Bomb'''.
+|StickyBomb-GTAV-Aiming.png|Aiming with a '''Sticky Bomb'''.
+}}
+
+==Locations==
+===''The Ballad of Gay Tony''===
+*They are given to the player in the missions [[Bang Bang]], [[Kibbutz Number One]], and [[Going Deep]].
+*Available for purchase at [[Armando Torres|Armando]]'s gun van for [[Money|$]]800 after the completion of Bang Bang.
+*Found in [[Luis' Apartment|Luis' safehouse]] after completing 40 [[Drug Wars]] and Bang Bang.
+
+===''Grand Theft Auto V''===
+[[File:Gta5.weapon.pickups.png|thumb|Weapon pickups map including the Sticky Bombs house construction location in {{V|l=n}}.]]
+*Can be bought from [[Ammu-Nation (HD Universe)|Ammu-Nation]] after [[Friends Reunited]], for $400 each bomb.
+*Sticky Bombs are equipped by the protagonists in the following missions:
+**[[Wade Hebert|Wade]] gives [[Trevor Philips|Trevor]] 25 of them in Friends Reunited, which are later used to destroy trailers.
+**11 bombs are given to [[Michael De Santa|Michael]] if the freighter approach is chosen for [[The Merryweather Heist]].
+**5 sticky bombs are given to [[Franklin Clinton|Franklin]] in the mission [[Blitz Play]].
+**5 are given to Michael during [[Derailed]].
+**11 bombs will be given to Franklin if the obvious approach is chosen for [[The Big Score (GTA V)|The Big Score]].
+*Can be found on second floor of the unfinished building located on the corner of [[Vespucci Boulevard]] and [[Prosperity Street]] in [[Vespucci Canals]].
+*Found in the yard of one of the houses in [[West Vinewood]].
+*Found at several places underwater around [[wrecks]].
+**Can be found underwater beneath the train bridge in [[Banning]].
+**Can be found at the crash site of the [[Merryweather]] [[Cargo Plane|cargo plane]] after the mission [[Minor Turbulence]], located almost directly North of [[Stab City]] in the [[Alamo Sea]].
+
+===''Grand Theft Auto Online''===
+*Can be bought from Ammu-Nation for $600 each, after reaching [[Rank]] 19.
+*Found in a box that's located nearby the Rival Operation during one of the Bunker resupply missions.
+*Available in the [[Facilities#Security|Facility security room]] if the Security upgrade is installed.
+*Available in the [[Hangar]], on the catwalk above the sleeping quarters.
+
+==Trivia==
+===''The Ballad of Gay Tony''===
+*When the player throws sticky bombs in a cover, the character pulls an invisible pin as with a [[Grenades|grenade]]. This is due to reused animations for throwables.
+*If the player detonates sticky bombs in free roam, nearby NPCs ([[pedestrians]] and drivers alike) will try to beat up [[Luis Fernando Lopez|Luis]].
+
+===''Grand Theft Auto V''===
+*When equipped, the Sticky Bomb will have four different readings on the device screen, which are:
+**88:88
+**SAFE
+**ARMED
+**BOMB
+*In the last-gen versions, if the player chooses the "Fire Crew" option for [[The Bureau Raid]], Michael will have to plant incendiary bombs. These bombs are vertically stretched versions of the ''TBOGT'' Sticky Bomb. In the [[Enhanced Version|enhanced versions]], however, the model was changed to their own model used throughout the game.
+
+===''Grand Theft Auto Online''===
+*As of the [[Independence Day Special|1.15 Update]], Sticky Bombs can now be stuck to everyone besides [[Passive Mode|passive players]].
+*After completing Level 2 [[Bunker]] [[Bunker Shooting Range|Shooting Range]] challenge, one is able to carry 5 extra Sticky Bombs (30 in total); this also applies to other throwables.
+
+==See Also==
+*[[Satchel Charges]] {{nd}} {{SA}} equivalent.
+*[[Remote Grenade]] {{nd}} {{VC}} equivalent.
+*[[Proximity Mines]] {{nd}} A similar explosive featured in {{CW}}, {{V}}, and {{O}}.
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox weapons|state=collapsed}}
+{{Navbox gtaiv weapons|state=collapsed}}
+{{Navbox gtav weapons|state=collapsed}}
+{{Navbox gtao weapons|state=collapsed}}
+}}
+
+[[de:Haftbomben]]
+[[es:Bomba lapa]]
+[[fi:Tarrapommit]]
+[[pl:Bomba przylepna]]
+[[ru:Бомба-липучка]]
+[[Category:Weapons in TBOGT]]
+[[Category:Weapons in GTA V]]
+[[Category:Weapons in GTA Online]]
+[[Category:DLC Weapons in GTA IV]]
+[[Category:Explosive weapons]]
+[[Category:Thrown weapons]]
+[[Category:Thrown class]]

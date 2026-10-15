@@ -1,0 +1,485 @@
+{{Infobox vehicle
+|name            = Insurgent
+|aka             = 
+*LAPV {{Small|([[Agent 14]])}}
+*Insurgent (Covered) {{Small|([[Rockstar Games Website]])}}
+|front_image     = Insurgent-GTAO-front.png
+|rear_image      = Insurgent-GTAO-rear.png
+|caption         = An '''Insurgent''' in {{O}}.
+|class           = [[:Category:Off-Road class|Off-Road]]
+|body_style      = [[:Category:SUVs|4-door SUV]]
+|capacity        = 6 {{Small|(driver, 3 passengers and two hanging on the sides)}}
+|manufacturer    = [[HVY]]
+|price           = [[Money|$]]897,750 {{Small|([[Warstock Cache & Carry]])}}
+|trade_price     = $675,000 {{Small|(Warstock Cache & Carry)}}
+|spawn           = No
+|games           = {{Games|O={{DLC|mpheist}}}}
+|mentioned       = 
+|type            = lighttruck
+|variants        = 
+*[[Insurgent Pick-Up]]
+*[[Insurgent Pick-Up Custom]]
+|radar_icon      = {{HUDIcons|game=O|playerguncar}}
+}}
+{{quote|Ironically named light armored personnel vehicle. Perfect for crushing small rebellions in a dictatorship or wiping out peaceful protests in an alleged democracy.|[[Warstock Cache & Carry]] description.}}
+The [[HVY]] '''Insurgent''' is am armored personnel vehicle featured in {{O}} as part of the [[GTA Online: Heists|Heists]] update.
+
+==Influence==
+The Insurgent is a SUV-like Light Armored Personnel Vehicle (LAPV) that is inspired by the {{WP|Terradyne Armored Vehicles Gurkha|Terradyne Armored Vehicles}} and {{WP|Nimr (vehicle manufacturer)|NIMR LLC}} line of tactical armored vehicles, with some influences from the {{WP|Knight XV|Conquest Knight XV}} for the grille layout. The front and sides are very likely to have been influenced by the [https://www.alpineco.com/vehicles-we-armor/armored-pit-bull-vx Alpine Armoring Pitbull VX], while the general shape of the greenhouse area seems to take influence from the {{WP|Plasan Sand Cat#Oshkosh Sand Cat|Oshkosh Sandcat}}. The vehicle also draws loose inspiration from the {{WP|Marauder (vehicle)|Marauder}}, given the raised suspension, semi-squared door windows and a similar tail lights setup.
+
+==Design==
+The Insurgent is a large and bulky vehicle evidently purposed as a military vehicle, whose front end features a reinforced bumper and dual grilles with multiple vent holes facing downwards, intended to protect the radiator while providing the necessary air flow. Its hood is completely sealed for total protection to the engine, featuring a large vent and metal plates around it.
+
+The sides are distinguished by the bulky fenders and the armored details on the doors, with an extra set of windows for the rear compartment and the side steps and roof rails. The single windshield also features a bolted-on detail. A hatch can be seen on the roof, though it is unusable.
+
+The rear end is basically composed of the dual set of square tail lights, a reinforced bumper and a large unopenable door. The rear compartment is detailed with a floor plate and two benches. The underside feature sump guards just near the axles, along with large, armored wheels with rugged, high-profile tires.
+
+The SUV's primary color is applied onto the bodywork and the sump guards, while the secondary color is applied onto the parts holding the winch, front towing hooks, hood vent and bars, side roof rails, roof hatch hinges, fenders, rear towing hooks and the bolt details on the rear bumper. The stock wheels are also painted with a separated color, though this is only seen when purchased and will revert back to the default alloy color when changed.
+
+==Performance==
+====Vehicle====
+In terms of overall performance, the acceleration is somewhat lacking due to its heavy weight, but it has an acceptable top speed. The Insurgent's immense weight helps to keep it grounded when cornering, and contributes to it having good handling for a vehicle of its stature. It has a decent cornering radius and understeer is relatively minor. The Insurgent is abnormally sensitive in the air, and may be prone to crash landings if the user is not careful. However, it is able to quickly recover from rolling over. Though the engine model or bay cannot be seen, the sound is similar to that of the [[Landstalker]]'s, but slightly smoother, coupled to a 6-speed gearbox in a front engine, all-wheel drive layout.
+
+The Insurgent's sheer weight means that it is a formidable vehicle towards other players. The Insurgent can cripple or even disable many other road vehicles if given a direct hit at full speed, and will usually run over lighter cars, deforming them and often breaking wheels or axles. It also seems to have a degree of top-heaviness that is evident while airborne, however it makes up for it by being able to recover abnormally fast from a rollover, relative to its class. It can also ram parked vehicles and continue to drive without any noticeable damage, and it will only show body deformation after a large number of collisions.
+
+====Armor====
+The Insurgent is distinctive by its armored body, which is able to withstand more damage than the average car, even able to withstand direct impacts from explosive weapons, comparable to a [[Rhino (HD Universe)|Rhino Tank]]. However, the Insurgent has large windshields and windows, making their occupants vulnerable to gunfire from the front, and despite the fact that there is a barrier between the rear seats and the covered compartment, players can still be shot through it.
+
+{{Verify|Needs proper endurance test.}}
+With a driver inside (otherwise the explosion resistance will be cut in half), the Insurgent can take the following:
+*7 [[Sticky Bombs]].
+*3 Tank shells from a [[Rhino (HD Universe)|Rhino Tank]] cannon (a 4th one will destroy it).
+*22 homing missiles.
+*18 explosive rounds from the [[Heavy Sniper Mk II]].
+*16 KEP rounds from the [[Railgun]].
+*7 direct [[RPG]] shots.
+*40-45 seconds of constant [[Minigun]] fire, aimed directly at the engine.
+*1 Flak cannon round from the [[Anti-Aircraft Trailer]].
+
+==Variants==
+{|class="wikitable sortable" width="100%"
+!class="unsortable" width="200px"|Image
+!Vehicle
+!class="unsortable"|Description
+!class="unsortable"|Notes
+|-
+|[[File:InsurgentPickUp-GTAO-front.png|thumb|center|200px|An '''Insurgent Pick-Up''' in {{O}}.]]
+|[[Insurgent Pick-Up]]
+|rowspan=2|A pick-up variant of the Insurgent in ''GTA Online'', complete with external rollbar and a roof-mounted, user-operated turret. A customizable version also exists.
+|Added as part of the [[GTA Online: Heists|Heists]] update for {{O}}.
+|-
+|[[File:InsurgentPickUpCustom-GTAO-front.png|thumb|center|200px|An '''Insurgent Pick-Up Custom''' in {{O}}.]]
+|[[Insurgent Pick-Up Custom]]
+|Added as part of the [[GTA Online: Gunrunning|Gunrunning]] update for {{O}}.
+|}
+
+==Modifications==
+{| class="wikitable mw-collapsible mw-collapsed" width="100%"
+!colspan="2"|Category
+!Modification
+!Cost
+|-
+|colspan="2" rowspan="4"|Brakes
+|Stock Brakes
+|$1,000
+|-
+|Street Brakes
+|$20,000
+|-
+|Sport Brakes
+|$27,000
+|-
+|Race Brakes
+|$35,000
+|-
+|colspan="2" rowspan="4"|Engine
+|EMS Upgrade, Level 1
+|$9,000
+|-
+|EMS Upgrade, Level 2
+|$12,500
+|-
+|EMS Upgrade, Level 3
+|$18,000
+|-
+|EMS Upgrade, Level 4
+|$33,500
+|-
+|colspan="2" rowspan="2"|[[Car Bomb|Explosives]]
+|Ignition Bomb
+|$5,000
+|-
+|Remote Bomb
+|$7,500
+|-
+|colspan="2"|Horns
+|''Main article: [[Vehicle Customization in GTA V/Horns]]''
+| -
+|-
+|rowspan="3"|Lights
+|rowspan="2"|Headlights
+|Stock Lights
+|$600
+|-
+|Xenon Lights
+|$7,500
+|-
+|Neon Kits
+|''Main article: [[Vehicle Customization in GTA V/Lights]]''
+| -
+|-
+|colspan="2" rowspan="2"|Loss/Theft Prevention
+|Tracker
+|
+|-
+|Full Coverage
+|
+|-
+|colspan="2" rowspan="5"|Plates
+|Blue on White 1
+|$200
+|-
+|Blue on White 2
+|$200
+|-
+|Blue on White 3
+|$200
+|-
+|Yellow on Blue
+|$300
+|-
+|Yellow on Black
+|$600
+|-
+|colspan="2"|Respray
+|''Main article: [[Vehicle Customization in GTA V/Respray Colors]]''
+| -
+|-
+|colspan="2"|Sell
+|Sell Vehicle
+|
+|-
+|colspan="2" rowspan="5"|Suspension
+|Stock Suspension
+|$200
+|-
+|Lowered Suspension
+|$1,000
+|-
+|Street Suspension
+|$2,000
+|-
+|Sport Suspension
+|$3,400
+|-
+|Competition Suspension
+|$4,400
+|-
+|colspan="2" rowspan="4"|Transmission
+|Stock Transmission
+|$1,000
+|-
+|Street Transmission
+|$29,500
+|-
+|Sports Transmission
+|$32,500
+|-
+|Race Transmission
+|$40,000
+|-
+|colspan="2" rowspan="2"|Turbo
+|None
+|$5,000
+|-
+|Turbo Tuning
+|$50,000
+|-
+|colspan="2"|Wheels
+|''Main article: [[Vehicle Customization in GTA V/Wheels]]''
+| -
+|-
+|colspan="2" rowspan="4"|Windows
+|None
+|$500
+|-
+|Light Smoke
+|$1,500
+|-
+|Dark Smoke
+|$3,500
+|-
+|Limo
+|$5,000
+|}
+
+==Gallery==
+===Design===
+<!--Please ensure you have read the Manual of Style [GTA_Wiki:Manual_of_Style/Vehicles/Design_Galleries] before uploading and adding images to the Current Design Gallery. Failure to meet these guidelines will result in the images being removed and deleted, and repeated offences may result in a warning.-->
+{{Design Gallery Vehicle
+|game=O
+|front_quarter_image = Insurgent-GTAO-FrontQuarter.png
+|top_image           = Insurgent-GTAO-Top.png
+|rear_quarter_image  = Insurgent-GTAO-RearQuarter.png
+|front_image         = Insurgent-GTAO-Front.png
+|side_image          = Insurgent-GTAO-Side.png
+|rear_image          = Insurgent-GTAO-Rear.png
+|engine_image        = Insurgent-GTAO-Engine.png
+|underside_image     = Insurgent-GTAO-Underside.png
+|inside_image        = Insurgent-GTAO-Inside.png
+|detail_image        = Insurgent-GTAO-Detail.png
+|open_other_image    = Insurgent-GTAO-Open.png
+|dashboard_image     = Insurgent-GTAO-Dashboard.png
+}}
+
+===Images===
+{{Gallery
+|GTAV-Heists-Update-25.jpg|Promotional screenshot of the '''Insurgent''' during [[Humane Raid - Insurgents]].
+|ArmoredSUV-GTAV.jpg|A team of players with an '''Insurgent''' during the [[Humane Raid - Deliver EMP]] setup mission.
+|GTAV-Insurgent-Variants.png|The '''Insurgent'''{{'}}s variants. Note the tail light issue on the armed variant.
+|HumaneRaidInsurgents-JobImage-GTAO.jpg|"Humane Raid - Insurgents" Job Image, featuring the '''Insurgent''' and displaying its armor specs.
+|Insurgent-GTAO-InsideRear.png|Inside the rear of the '''Insurgent'''.
+|Insurgent-GTAO-April2021Advert.jpg|Event week screenshot.
+|Insurgent-GTAOe-LuckyWheelReward.jpg|[[Lucky Wheel]] advertisement.
+}}
+
+==Locations==
+*The Insurgent can be purchased on [[Warstock Cache & Carry]] for [[Money|$]]675,000 after completing [[The Humane Labs Raid]].
+**After the [[Cunning Stunts: Special Vehicle Circuit]] update, the vehicle is now available to players who have not completed the heist at the "full" cost of $897,750.
+
+==Prominent Appearances in Gameplay==
+====Heists====
+*[[Humane Raid]]
+**[[Humane Raid - Insurgents]] {{nd}} It is driven by a [[GTA Online Protagonist|player]] as part of the mission objectives.
+**[[Humane Raid - Deliver EMP]] {{nd}} An Insurgent is driven by a player as part of the mission objectives. Other Insurgents can also be found in the [[Humane Labs and Research]] premises; however, they cannot be accessed or obtained.
+
+====Gunrunning====
+*[[Supplies/Steal Missions#Merryweather Convoy|Supplies Steal Mission: Merryweather Convoy]] {{nd}} An Insurgent may appear as a resupply vehicle for the player's [[Bunkers|Bunker]].
+*[[Supplies/Sell Missions#Insurgent (Multiplayer Co-Op Exclusive)|Stock Sell Mission: Insurgent]] {{nd}} Insurgents are provided as the delivery vehicles.
+
+====The Doomsday Heist====
+*[[The Doomsday Heist]]
+**Act II
+***[[Setup: Salvage Hard Drives]] {{nd}} A few Insurgents are used by [[Bogdan's Crew]].
+
+====The Diamond Casino & Resort====
+*[[Forest Survival]] {{nd}} Used by attacking enemies.
+
+====The Cayo Perico Heist====
+*[[Quarry Survival]] {{nd}} Used by attacking enemies.
+
+====Agents of Sabotage====
+*[[The Brute Force File]]
+**[[The Brute Force File/Private Military Armor|Private Military Armor]] {{nd}} If the [[Merryweather Security|Merryweather]] lockup is located at Humane Labs and Research, a closed grey Insurgent will be parked next to it.
+{{Gallery
+|Insurgent-GTAO-front-SellWeaponsModded.png|The '''Insurgent''' in the Sell Weapons mission. {{Small|([[:File:Insurgent-GTAO-rear-SellWeaponsModded.png|Rear quarter view]])}}
+}}
+
+==Notable Owners==
+*[[Merryweather Security]]
+
+==Rockstar Games Website==
+{{RSSC
+|name          = Insurgent
+|manufacturer  = HVY
+|class         = Off-Road 
+|image         = Insurgent-GTAO-RGSC-MainNew.jpg
+|caption       = Main image (after 2019).
+|image2        = Insurgent-GTAO-RGSC-Action.jpg
+|caption2      = "Action" image.
+|image3        = Insurgent-GTAO-RGSC-Main.jpg
+|caption3      = Main image (prior to 2019).
+|speed         = 69.751678
+|accel         = 50
+|braking       = 20
+|traction      = 60.606064
+|seats         = 6
+|garage        = y
+|moddable      = y
+|premium       = y
+|super         = n
+|buy           = y
+|sell          = y
+|dealer        = ws
+|schematic     = GenericInsurgent2
+}}
+
+==Specifications==
+===Model===
+{{Specifications Vehicle Model 
+|game1               = O
+|game1_modelname     = insurgent2
+|game1_texturename   = insurgent2
+|game1_handlingname  = INSURGENT2
+|game1_textlabelname = INSURGENT2
+|game1_ingamename    = Insurgent
+|game1_swankness     = 1
+|game1_flags         = 
+{{Vehicle Flag List
+|game          = O
+|FLAG_AVERAGE_CAR
+|FLAG_POOR_CAR
+|FLAG_IS_OFFROAD_VEHICLE
+|FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS
+|FLAG_IS_BULKY
+|FLAG_USE_SMALLER_OPEN_DOOR_RATIO_TOLERANCE
+|FLAG_DISABLE_BUSTING
+|modelFlags    = 02220010
+|handlingFlags = 04220000
+}}
+}}
+
+===Population===
+{{Specifications Vehicle Population
+|game1               = O
+|game1_popgroups     = {{No|None}}
+|game1_modelsets     = {{No|None}}
+|game1_frequency     = 30
+|game1_drivers       = {{No|None}}
+|game1_licenseplates = *Standard White - 100%
+}}
+
+===Handling===
+{{Specifications Vehicle Handling
+|game1               = O
+|game1_maxvelocity   = 130
+|game1_gears         = 6
+|game1_drivetrain    = 0.04
+|game1_mass          = 8600
+}}
+
+===Audio===
+{{Specifications Vehicle Audio
+|game1               = O
+|game1_hornsound     = horn_list_insurgent
+|game1_enginesound   = suv_1_eur_v6
+|game1_radio         = 0
+|game1_scannermanf   = hvy
+|game1_scannermodel  = utilitytruck
+|game1_scannercat    = utilitytruck
+|game1_scannercolor  = none
+}}
+
+===Language===
+{{Specifications Vehicle Language
+|game1               = O
+|game1_langen        = Insurgent
+|game1_langzh        = 叛亂份子
+|game1_langzhcn      = 叛乱分子
+|game1_langfr        = Insurgent
+|game1_langde        = Insurgent
+|game1_langit        = Insurgent
+|game1_langjp        = インサージェント
+|game1_langko        = 인서전트
+|game1_langesmx      = Insurgent
+|game1_langpl        = Insurgent
+|game1_langpt        = Insurgent
+|game1_langru        = Insurgent
+|game1_langes        = Insurgent
+}}
+
+===Traffic Default Colors===
+{{Vehicle Color List
+|game=O
+|13,13,18,13
+|152,152,18,152
+|153,153,18,153
+|154,154,18,154
+|133,133,18,133
+}}
+
+==Trivia==
+*The Insurgent and Insurgent Pick-Up's textures are named "dillo", likely short for Armadillo. This is likely the vehicle's beta name.<ref>'''File Names''': <code>dillo_interior</code>, <code>dillo_lights_gun</code>, <code>dillo_lights</code>.</ref>
+*Neither variant of the Insurgent has an engine model due to the bonnet/hood being impossible to open or remove. This is also the case for the [[Zentorno]].
+*It should be noted that when the player is driving in a ''GTA Online'' free-roam lobby, the player will appear as a "turreted vehicle" blip on the radar which is visually similar to the Insurgent itself, regardless of which variant they are driving. This is intended to warn nearby players of the Insurgent's presence as a 'dangerous vehicle', as the Insurgent's durability, speed and sheer weight make it difficult to destroy.
+**This would be also an oversight, as, despite not having any sort of weapon, handling files suggests it has the same item as its armed counterpart.<ref>'''File Data''':<br><pre><SubHandlingData>
+		<Item type="CVehicleWeaponHandlingData">
+          <uWeaponHash>
+            <Item>VEHICLE_WEAPON_TURRET_INSURGENT</Item>
+            <Item />
+            <Item />
+          </uWeaponHash>
+          <WeaponSeats content="int_array">
+            8 
+            0 
+            0 
+          </WeaponSeats>
+          <fTurretSpeed content="float_array">
+            10.000000	
+            0.000000	
+          </fTurretSpeed>
+          <fTurretPitchMin content="float_array">
+            -1.000000
+            0.000000	
+          </fTurretPitchMin>
+          <fTurretPitchMax content="float_array">
+            0.707000	
+            0.000000	
+          </fTurretPitchMax>
+          <fTurretCamPitchMin content="float_array">
+            -0.500000	
+            0.000000	
+          </fTurretCamPitchMin>
+          <fTurretCamPitchMax content="float_array">
+            0.000000	
+            0.000000	
+          </fTurretCamPitchMax>
+          <fBulletVelocityForGravity content="float_array">
+            0.000000	
+            0.000000	
+          </fBulletVelocityForGravity>
+          <fTurretPitchForwardMin content="float_array">
+            -0.080000	
+            0.000000	
+          </fTurretPitchForwardMin>
+          <fUvAnimationMult value="0.000000" />
+          <fMiscGadgetVar value="0.000000" />
+          <fWheelImpactOffset value="0.000000" />
+        </Item>
+        <Item type="NULL" />
+        <Item type="NULL" />
+      </SubHandlingData></pre></ref>
+*Strangely, despite being a lot lighter than the [[Rhino (HD Universe)|Rhino Tank]] in the handling files, the [[Cargobob]] can barely even lift the Insurgent off the ground, unlike the Rhino Tank. This puts its weight in excess of 60 tons.
+*When the [[GTA Online: Heists|Heists]] update was first released, the Insurgent, when purchased, would have maxed (100%) armor (with there not even being an "armor" customization tab at mod shops), bulletproof tires already installed, and players within it could not be shot out from the rear. However, the 100% armor and bulletproof rear panel features were removed in later updates, though it still has bulletproof tires by default.{{fact}}
+*Upon release of the [[GTA Online: Heists|Heists]] update, the Insurgent had a minor handling issue where the front wheels received 4% of the power from the engine. This issue was also present on the [[Insurgent Pick-Up|armed variant]].
+**This was fixed in the [[Ill-Gotten Gains Part 1]] update, so the Insurgent's front wheels receive 40% of the power instead.
+*Originally, the rear door could be opened via the [[Interaction Menu]], where it can be selected as the "Trunk". This was removed after the [[Festive Surprise 2015]] update, rendering it unopenable.
+*The Insurgent seems to have a missing exhaust system as fumes can be seen coming out from one of the bottom side body panels. This is the same case with the Albany [[Roosevelt]].
+*The Insurgent has no default radio station. The radio will be switched off when the player enters the vehicle.
+
+==See Also==
+*[[Insurgent Pick-Up]] {{nd}} Armed variant.
+*[[Insurgent Pick-Up Custom]] {{nd}} An armed Personal Vehicle variant of the Pick-Up.
+*[[Nightshark]] {{nd}} Another armored truck manufactured by [[HVY]].
+*[[Menacer]] {{nd}} Another armored truck manufactured by [[HVY]].
+*[[FBI Truck]] {{nd}} 3D Universe equivalent.
+
+==References==
+{{Scrollbox|
+{{Ref List}}
+}}
+== Navigation ==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtao vehicles|state=collapsed}}
+{{CovertOps|state=collapsed}}
+}}
+[[Category:Vehicles in GTA Online: Heists]]
+[[Category:Light trucks]]
+[[Category:Armored personnel carriers]]
+[[Category:Off-roading vehicles]]
+[[Category:Military vehicles]]
+[[Category:Armored vehicles]]
+[[Category:All wheel drive vehicles]]
+[[Category:Vehicles manufactured by HVY]]
+[[Category:Vehicles used by Merryweather]]
+[[Category:Vehicles purchasable from Warstock Cache & Carry]]
+[[Category:Vehicles purchasable from Premium Deluxe Motorsport]]
+[[Category:Off-Road class]]
+
+[[es:Insurgent]]
+[[pl:Insurgent]]
+[[pt:Insurgent]]
+[[ru:Insurgent]]

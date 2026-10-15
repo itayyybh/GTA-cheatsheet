@@ -1,0 +1,499 @@
+{{/infobox}}
+{{Protagonists|defaulttab=HD}}
+{{Quote|Look homie, I don't mind dying. You feel me? But I just want to die over something that matters, homie. That's what Forum Gangsters should really be about.|Franklin Clinton to [[Lamar Davis]] in the mission "[[Chop (mission)|Chop]]" in {{V}}.|sound=Franklin-GTAV-Quote.ogg}}
+'''Franklin Clinton''' is one of the three [[protagonist]]s (along with [[Michael De Santa]] and [[Trevor Philips]]) of {{V}}, and a major character in {{O}} as part of [[GTA Online: The Contract|The Contract]] update. He also appears as one of the two playable characters of the [[Short Trips]] mission series and the [[Double Down]] [[Adversary Modes]], along with [[Lamar Davis]].
+
+Franklin is a small-time gangster born and raised in [[Los Santos (HD Universe)|Los Santos]] who aspires to leave behind the gang life and become a successful criminal and businessman. A member of the [[Chamberlain Gangster Families]] for most of his life, he and his best friend [[Lamar Davis]] formed the independent [[Forum Drive Families|Forum Gangsters]] to stay away from CGF's "retro gangster" nonsense. Franklin's ambitious dreams are eventually given a chance to become reality after meeting Michael De Santa, who takes him on as a protégé and brings him along on several high-profile jobs, but also ropes him into his various personal problems.
+
+Prior to his physical debut in {{O|l=n}}, Franklin was mentioned by Lamar Davis in the missions "[[Mall or Nothing]]"<!--female protagonist only--> and "[[Community Outreach]]", and by [[Hao]] recalling "[[Hao Street Races|Shift Work]]" during the [[LS Car Meet]] introduction. With the addition of The Contract update in [[2021]], Franklin returns as a successful entrepreneur and multi-millionaire who owns and runs the [[F. Clinton and Partner]] agency with his new partner, the {{GTAOP}}.
+
+Franklin is voiced by [[Shawn Fonteno]], who is the cousin of [[Young Maylay]], the voice actor of [[Carl Johnson]], the protagonist of {{SA}}.
+
+==Background==
+Franklin was born in [[South Los Santos]], [[State of San Andreas (HD Universe)|San Andreas]], in [[1988]]. He never knew his father and his mother became a cocaine addict when Franklin was very young. As a child, Franklin often heard stories about how his father was violent and physically abusive towards his mother, possibly causing her to turn to cocaine to escape being abused. Franklin's father left while his mother was still pregnant with him. His mother's addiction eventually led to her death when Franklin was a little boy.
+
+Following his mother's death, he moved in with his maternal grandparents. This is where Franklin met [[Tonya Wiggins]] and [[JB Bradshaw]]. Despite being constantly spoiled by his grandmother, Franklin had decided to take on the role of a street hustler. One of his first jobs was selling cigarettes with Bradshaw. The scheme was successful until Franklin's grandfather caught them in the act. In Tonya's words, his grandfather "gave chase to both him and Bradshaw all around South Los Santos". After the death of his grandparents, Franklin and his aunt [[Denise Clinton|Denise]] moved into a [[Clinton Residence|house]] on [[Forum Drive]] left to them by Franklin's grandmother in her will.
+
+Franklin attended [[Davis High School]] along with [[Lamar Davis]], [[Tanisha Jackson]] and Tonya, but was expelled for assaulting a teacher.{{Ref|name=hometown|ref={{Dialogue|p1=Franklin|d1=Listen... where I grew up, there was opportunities. Not a lot, but some. Some kids got out, some got dragged down. We all made a choice. And I chose being an idiot. Turns out the only person I ever wanted to impress wasn't impressed.|p2=Michael|d2=Really?|p3=Franklin|d3=She values education - I got thrown out of school for beating up a teacher.|quotedetail=Franklin to Michael during [[Friendships in GTA V|Friend Activities]] {{Small|{{URL|https://youtu.be/Seg7NNVQCT8?t{{=}}4488|(Video)}}}}}}}} Around this time, he began the life of a gangbanger and dope dealer and started committing various petty crimes such as carjackings and small-time bank robberies with Lamar. During their first bank robbery, they stole $2,000 but could not keep the money because a dye pack exploded, making it worthless. Franklin also worked for a local drug dealer named Marcus, whom later fall out and killed.{{Ref|name=Marcus|ref={{Dialogue|p1=Lamar|d1=That's how shit work, ain't it? You do some jobs for a fool, develop a little uneasy relationship, and then they ask you to do something above and beyond. You fall out, fools get capped, then you start all over again with some other fool.|p2=Franklin|d2=Where the fuck you get that from? That ain't my life, dummy.|p3=Lamar|d3=How 'bout the boy with the eye, from around the way? Marcus, or somethin'? You was slanging for him and then he got what was comin', right?|p4=Franklin|d4=That was different. That dude had it coming.|quotedetail=Franklin and Lamar about Marcus in [[Repossession]].}}}}
+
+At some point, Franklin dated Tanisha, but they split up due to her brother's death and her fearing that Franklin's criminal lifestyle will bring her harm. In [[2013]], Franklin moved beyond the role of street dealer when he and Lamar began working for Armenian businessman [[Simeon Yetarian]], who owns a [[Premium Deluxe Motorsport|car dealership]] acting as a front for loansharking and extortion. Yeterian would sell cars to people who couldn't afford them and when they'd default on the exorbitant interest payments, Franklin and Lamar would repossess the cars.
+
+While growing up, Franklin and Lamar were casual acquaintances with [[Requisitions Officer|another boy]] that lived two blocks away, who would come to respect Franklin. He would later sign up with the military, as he considered that his only alternative to gang life. Franklin and Lamar also knew a girl named Perlie, and later in her life, her daughter [[Imani]].
+
+==Plot==
+===''Grand Theft Auto V''===
+{{Quote|Eh, remember, we got to be careful with these rides, homie. 'Cause Simeon ain't about to dock my pay again...|Franklin to Lamar during [[Franklin and Lamar]]}}
+[[File:FranklinAndLamar-GTA5.jpg|thumb|280px|Franklin and Lamar begin their repossession.]]
+Franklin is first seen on a [[Franklin and Lamar|repossession]] job with Lamar, soon after a chance encounter with his future crime partner, [[Michael De Santa]], who unknowingly directs them to their assigned repossession. Later, Franklin and Lamar are assigned by Simeon to [[Repossession|repossess]] a [[Bagger]] in a [[Los Santos Vagos (HD Universe)|Vagos]]-controlled area of [[Vespucci]]. While searching for the bike, the two are confronted by the Vagos and a shootout begins when Lamar pulls a gun on them. The duo is then forced to fight their way out of the neighborhood. They find the bike, but the [[Esteban Jimenez|owner]] was killed during the shootout. Knowing the repossession is meaningless, Lamar takes the bike for himself, and Simeon blames Franklin for the bike's theft.
+
+While recovering a [[BeeJay XL]] sold to [[Jimmy De Santa]], his father Michael (who had been hiding in the back seat) holds a [[Pistol]] to Franklin's head. [[Complications|Under orders from Michael, Franklin drives the car through the window of Simeon's dealership]], receiving a payment from Michael himself for doing what he called "a job well done". Because Franklin drove through the dealership and Lamar did not return the bike, Simeon fires both of them shortly after.
+
+[[File:FranklinClinton-GTA5-SS2-0.jpg|thumb|280px|left|Franklin helping Michael pull down the house.]]
+After losing his job at the dealership, Franklin approaches Michael about a drink he offhandedly offered him when he cost Franklin his repo job. Franklin helps Michael rescue Jimmy from his [[Marquis|yacht]], which was [[Father/Son|stolen]] with Jimmy on it during an attempted sale. Later, after Michael catches his wife [[Amanda De Santa|Amanda]] [[Marriage Counseling|post-coitus]] with her [[Kyle Chavis|tennis coach]], Michael and Franklin chase him to a [[Martin Madrazo's house|house]] in the [[Vinewood Hills]]. Believing the house to belong to the tennis coach, Michael and Franklin use a [[Bison|pickup truck]] to pull the deck down, destroying the house. After returning to the [[Michael's mansion|De Santa Residence]], drug lord [[Martin Madrazo]] appears and reveals that it was his lover's house, not the tennis coach's. He attacks Michael with a baseball bat and demands that Michael pay for the repairs to the house, which will cost $2,500,000.
+
+[[File:FranklinAndLamarKidnap-GTAV-FranklinAndLamarTryToKidnapD.png|thumb|280px|Franklin and Lamar try to kidnap D.]]
+Franklin is brought along by Lamar to [[Chop (mission)|kidnap]] a [[Ballas (HD Universe)|Balla]] gang member named [[D]] for no other reason than that Lamar saw "opportunity". He and Lamar meet up and travel in Lamar's van to [[Vinewood Boulevard]] and encounter D down an alley, but he makes an escape on a motorbike with the two in hot pursuit. With the help of Lamar's dog [[Chop]], the two succeed in capturing D, however, they are forced to free him when Lamar inadvertently reveals their location to the police while talking on his mobile phone. Things took a turn for the worse when [[Stretch (character)|Stretch]] returns from his prison sentence and goes to a drug deal at [[Rogers Salvage & Scrap]] which was actually an [[The Long Stretch|ambush]]. Stretch kills D and the trio escape with Franklin angry at Stretch for coming back.
+
+After some time has passed, Michael contacts Franklin to enlist him for the [[The Jewel Store Job|Vangelico Jewelry Store heist]], which Franklin accepts as he sees this as his first legitimate payday and a major opportunity to prove himself. The heist is successful and Madrazo receives his money, with Michael and Franklin splitting the rest between themselves.
+
+Michael, under orders from FIB agent [[Dave Norton]], later [[Dead Man Walking|infiltrates a morgue and kills several guards]]. In a panic, Michael calls Franklin and reveals that he is affiliated with the [[Federal Investigation Bureau|FIB]], though Franklin continues to trust Michael due to the latter offering him help while he was in a tough financial position. Franklin also decides to work with Michael, in hopes that there will be better payment from jobs with him.
+
+[[File:HoodSafari-GTA5.jpg|thumb|280px|left|Lamar, Trevor and Franklin escape [[Grove Street (HD Universe)|Grove Street]].]]
+During [[Three's Company|his various]] [[Blitz Play|jobs with]] Michael, Franklin is introduced to [[Trevor Philips]] and [[Lester Crest]], two of Michael's acquaintances from his former bank robbing days. Franklin's work causes him to distance himself from the Families. When Franklin returns to his house, Lamar and Denise heckle him for his "disloyalty". As Franklin explains that he doesn't want to be caught up in the routine of gang life again and wants the opportunity to make a success of himself, Trevor suddenly appears, wanting to "make new friends". Lamar informs Franklin that Stretch has arranged a drug deal with some Ballas, and Trevor decides to join them.
+
+The trio (along with Chop) drive to a house in [[Grove Street (HD Universe)|Grove Street]], where Lamar is offered a sample from a cocaine brick, and is about to buy it before Trevor intervenes. Trevor snatches the brick from the dealer, and discovers the brick is actually drywall. A [[Hood Safari|shootout]] erupts, and Franklin, Trevor and Lamar are forced to fight their way out of Grove Street when their van is disabled. Moments after the shootout, the [[Los Santos Police Department (HD Universe)|LSPD]] shows up to chase them. Franklin and Trevor follow Lamar through a narrow alley into the [[Los Santos River (HD Universe)|Los Santos Storm Drain]]. They steal three [[Seashark|Jetskis]] and head towards the open sea, eventually evading the police. Should Franklin follow Lamar, he tells him that he thinks Stretch set them up in an attempt to kill Lamar.
+
+Eventually, Franklin and Michael are convinced by Trevor to [[The Merryweather Heist|steal an experimental super weapon]] from a private security company called [[Merryweather Security|Merryweather]]. The heist is a success, but shortly after, Lester arrives and angrily tells the trio to put the weapon back, as if they take it, they will be hunted by every known agency on the planet. While Trevor wants to keep it anyway, both Franklin and Michael agree that it isn't worth it. Trevor concedes and arranges for it to be taken back. 
+
+[[File:FranklinClinton-GTA5-Devin2.jpg|thumb|280px|right|Devin asking Franklin to steal some rare cars for him.]]
+Franklin gets employed by billionaire [[Devin Weston]], who asks him, Trevor, Michael, and later Lamar to [[I Fought the Law...|steal some]] [[Eye in the Sky|rare cars]] [[Deep Inside|for him]] so that he can export them to Asia. He also gets employed by Lester for several [[Lester's Assassinations|assassination jobs]], which allow him to move to a [[3671 Whispymound Drive|spacious mansion]], which belonged to Lester but needed someone to live in it to make it seem legit.
+
+Unaware that Michael and Trevor were hiding in Trevor's [[Sandy Shores]] [[Trevor's Trailer|trailer]] after [[Caida Libre|a job for Madrazo went south]], Franklin begins looking for them. Arriving at the [[Floyd's Apartment|condo]] Trevor was using as a Los Santos base to inquire with his associates, cousins [[Wade Hebert|Wade]] and [[Floyd Hebert|Floyd]], about the matter, Franklin finds that Trevor has been [[Predator (mission)|targeted]] by the remaining [[O'Neil Brothers|O'Neil brothers]], who are angry and vengeful at Trevor due to his [[Crystal Maze|earlier attack on the O'Neil household]], resulting in the deaths of most of the O'Neils and the destruction of their [[O'Neil Ranch|farm]]. Franklin chases the O'Neils, who crash because of an [[Deer|elk]] on the road and escape into a forest in [[Raton Canyon]]. Eventually, Trevor and Michael arrive by [[Frogger|helicopter]]. Using a [[Sniper rifle|rifle]], fitted with a thermal scope, Michael shoots [[Walton O'Neil|Walton]] and [[Wynn O'Neil]] dead, but can't get a clear shot of [[Elwood O'Neil|Elwood]], who is hiding behind a rock and firing [[RPG|rockets]] towards the helicopter. With the help of Chop, Franklin locates and kills Elwood, after which he and Chop are picked up by Trevor and Michael and safely returned to [[Sandy Shores Airfield]].
+
+During this time, Franklin will receive a phone call from an unknown person, revealed to be Michael's wife [[Amanda De Santa|Amanda]]. She asks him if her husband is okay, to which he replies that he's not, but that he's alive and she should call him. Amanda claims that she doesn't want to talk to Michael, but is calling just to make sure that he's not dead. She thanks him and also tells him not to tell Michael that she called.
+
+{{Quote|Hey! Hey! Enough! You got me out here. You roped me into your crazy world of bullshit. If it was lies, New Age shit, and arguments about how good life used to be, I could have stayed my ass in Los Santos.|Franklin stopping Michael and Trevor's argument during [[The Paleto Score]]}}
+Franklin helps Trevor and Michael [[The Paleto Score|rob]] the [[Blaine County Savings Bank]], as it contains millions of dollars deposited there by [[Los Santos County Sheriff|Blaine County's corrupt law enforcement]] who extort money from all the local weed farms and meth labs. Using [[Military Hardware|stolen]] military body armour and machine guns, Trevor, Michael, Franklin, and one gunman successfully rob the Paleto bank, taking a small cut each and giving the larger profit to Haines and Norton so they can purchase the required equipment for a [[Monkey Business|robbery]] at the [[Humane Labs and Research]] chemical plant, much to the team's irritation.
+
+[[File:PackMan-GTAV.jpg|thumb|280px|left|Franklin is disappointed when he still hasn't been paid.]]
+Franklin later receives a call from Lamar, who informs him that he's stolen the final car on Weston's list. Franklin meets Lamar and the two drive to [[Little Bighorn Avenue]] where Trevor is waiting with a [[Packer]] filled with the other cars the group have obtained for Weston. Franklin drives the car onto the last remaining spot on the Packer, after which he, Lamar, and Trevor begin the drive to the drop-off point. When the police discover the cars and give chase on the way, Franklin decides to unhitch one of the stolen cars, a [[JB 700]], and use its weapons to destroy the police cars. Trevor keeps the Packer steady while Franklin makes his way along the cargo carrier, eventually reaching the JB 700. Using the 700's caltrops and newly included guns, Franklin manages to take out the police pursuit. They drop off the cars, but Devin angers the trio by [[Pack Man|refusing to pay them]], promising to "invest" their money and pay them at a later date.
+
+[[File:FranklinClinton-GTA5-SS1.jpg|thumb|right|280px|Franklin confronts Trevor about Michael's whereabouts.]]
+Annoyed, Franklin calls Michael, but discovers that his phone is down. Confused, he calls Lester, who relays that his phone has been on and off since [[Bury the Hatchet|he left for]] [[Ludendorff]] and suggests asking Trevor about it. When Trevor encounters Franklin at his aunt's house, he inquires where Michael is, to which Trevor explains that the [[Los Santos Triads]] kidnapped Michael while they were in Ludendorff. Franklin asks for his help rescuing him, but Trevor refuses, claiming Michael is "dead" to him, having discovered that Michael was responsible for [[Prologue (GTA V)|a set up heist that they took part in]], [[2004|many years prior]].
+
+With Trevor's refusal to join him, Franklin decides to rescue Michael alone. He eventually tracks Michael's phone signal to a [[Raven Slaughterhouse|slaughterhouse]] using [[Trackify|an app]] sent to his phone by Lester. After a shootout against the Triads, Franklin succeeds in [[Fresh Meat (mission)|rescuing]] Michael, and the two make their escape from the abattoir, where Franklin learns that Michael had aligned with Norton in order to get out of his criminal life and distance himself from the borderline psychotic Trevor.
+
+Franklin and Michael are called for one more job for [[Steve Haines]]: [[The Bureau Raid|breaking into the FIB building]] and removing incriminating evidence, as the Research Lab raid had resulted in his arrest, damaging his reputation. Infiltrating the [[FIB Headquarters|building]], the team manages to recover the data and escapes. They meet up with Lester and celebrate their victory with alcohol. After Michael leaves to settle things with the FIB, Franklin relaxes with Lester.
+
+[[File:LamarDown-Mission-GTAV.png|thumb|left|280px|Michael, Franklin, and Trevor prepare to rescue Lamar.]]
+A while later, Franklin is visited at his house by his ex-girlfriend Tanisha, who tells him that Stretch [[Lamar Down|set Lamar up again]] with a large group of the Ballas, who are holding him hostage at the [[Paleto Forest Sawmill]]. While Franklin is initially reluctant to help due to Lamar's stubborn insistence on sticking to a lifestyle that has done nothing for them, he is eventually convinced to do so. While on his way towards the sawmill, he asks Lester to contact Michael and Trevor to aid him in rescuing Lamar. The trio arrive and proceed to take out the Ballas. While bringing Lamar home, he and Franklin get into a small dispute, arguing about Franklin's many efforts to save Lamar from problems he got himself into and Lamar's feeling of abandonment on Franklin's part, though they agree that Stretch likely sold out to the Ballas while in prison. Franklin advises Lamar to remain civilized, to abandon his gang-banging lifestyle, and get a proper job.
+
+After Lamar is dropped off, Franklin is suddenly confronted by the FIB agents blackmailing Michael, Steve Haines and Dave Norton, who task Franklin to [[Something Sensible|kill]] Trevor, due to his violent behavior and general liability. Franklin refuses, asking them to recruit Michael to do it instead, but Norton explains that Michael is unable to because Trevor doesn't trust Michael and won't allow him anywhere near him.
+
+Around this time, Franklin and the team [[Surveying the Score|plan]] and execute [[The Big Score (GTA V)|their final heist]], stealing millions of dollars' worth of gold bullion from the [[Union Depository]]. They succeed and leave the gold with Lester, who will transfer them their cuts once a buyer for the gold is found.
+
+====Ending====
+After the heist, Franklin is visited by Devin Weston who orders him to [[The Time's Come|kill]] Michael after he [[Legal Trouble|inadvertently caused the death]] of [[Molly Schultz|his lawyer]], refused to shut down [[Meltdown (film)|a movie]] he was producing, and [[Meltdown (GTA V)|interfered in his attempt to have his family killed]]. Franklin must choose to [[Something Sensible|kill Trevor]], kill Michael, or [[The Third Way|take on a suicide mission to save them both]]. Ultimately, Franklin chooses the third option.
+
+<tabber>
+Option C=
+=====The Third Way=====
+Franklin contacts Lester and goes to meet him at his house to discuss the situation. Upon arriving, he tells Lester that Steve Haines wants him to kill Trevor and Devin Weston wants him to kill Michael and is struggling with how he's supposed to kill both. Lester comes up with an idea to take out all of their enemies at once by using their greed to their advantage. Weston and Haines are contacted and informed that [[Grand Banks Steel Foundry|foundry]] is where the gold stolen from the crew's final heist is located. Franklin contacts and picks up Lamar, who offers extra support, as he is surprised Franklin would help his friends "for a change". They arrive at the foundry with Lamar as the lookout while Franklin goes inside and finds Michael and Trevor arguing. After convincing them to stop and reach a common ground, the trio take positions around the foundry.
+
+As Weston's hired Merryweather operatives and Haines's FIB team arrive, the trio opens fire, beginning a large scale shootout, which they eventually win. After the fighting ends, they contact Lester who provides them the locations of their enemies. Trevor goes after Steve Haines, Michael goes after Stretch, and Franklin goes after [[Wei Cheng]]; each killing a different person's enemy in order to not associate the initial person with their enemy's death. Afterwards, Franklin meets Michael and Trevor, who kidnapped Devin in his car, at the foothills of [[Mount Chiliad (HD Universe)|Mount Chiliad]]. Seeing the defeated Devin, Franklin mocks him by saying "My bad homie. I picked C. Ain't that a bitch?" After further taunting Devin on their victory, the trio push his car off the cliff and into the ocean, where it promptly explodes, killing Devin. The three agree to end their criminal partnership with each other but promise to remain friends.
+
+Afterwards, Franklin receives an email from the CEO of Merryweather, thanking him for taking out Devin, as he was able to buy back Devin's shares of the company at a reduced price. He lets Franklin know that no reply is necessary and to not mess with his business ventures again. Franklin receives a call from Tanisha who lets him know that she is about to get married and to stay out of trouble. With all of their enemies gone, the trio and their respective friends are able to hang out with no restrictions.
+|-|
+Option A=
+=====Something Sensible=====
+{{NonCanonEvent}}
+Franklin meets Trevor near an [[Murrieta Oil Field|oil field]] with the latter completely unaware of the true meaning behind the meeting. Trevor laments the fact that Michael has been backstabbing him and but that he and Franklin are still friends. Franklin, however, pulls a gun on Trevor and explains that he is the crazy one, not him or Michael. Growing angry, Trevor remarks that he has been nothing but truthful to him which Franklin accepts while still holding Trevor at gunpoint. Betrayed, Trevor leaps back into his car and speeds off with Franklin close behind. The chase takes the pair around the city and eventually ends back at the oil fields. During the chase, Franklin calls Michael for help.
+
+Michael soon arrives and rams Trevor's truck with his car, causing him to crash into a gas storage tank. Now covered in gasoline, Trevor pulls himself out of his car and crawls through a growing puddle of gas while accusing the pair of being Judases and angrily cursing them. Franklin can shoot the gasoline, however if he hesitates, Michael will shoot it instead. The gasoline ignites, burning Trevor to death after which the gas tank explodes. Walking away, Michael and Franklin reflect on Trevor's psychotic nature and that it was his constant unpredictable craziness that caused his death. The pair then split up with Franklin remarking that the whole event has been an "illuminating experience", which Michael responds to by telling him to survive and that everything else is "bullshit".
+
+Afterwards, Franklin calls Haines, asking him to take care of Devin Weston, as he did not do what he asked. Haines lets Franklin know that he will but tells him to not contact him again. Franklin and Michael are still able to hang out (Unless they encounter each other in the street before Michael contacts him), though their friendship is visibly weakened, the pair often reminding themselves that they made the right choice. Jimmy calls Franklin and asks what happened to Trevor, to which Franklin responds that Steve Haines's men killed him. After this call, Jimmy and Franklin are unable to hang out. Lamar calls Franklin and tells him that he was right about his suspicions on Stretch and that he has to lay low for awhile. As such, the pair can only hang out at night. Franklin receives a call from Tanisha who lets him know that she is about to get married and to stay out of trouble. Lester contacts Franklin to let him know that he split Trevor's cut from their final heist between Franklin and Michael.
+
+After killing Trevor, Michael will begin to feel indifferent towards Franklin despite having a hand in the murder, eventually breaking ties with him.
+{{NonCanonEvent|end}}
+|-|
+Option B=
+=====The Time's Come=====
+{{NonCanonEvent}}
+Michael with meets Franklin in the [[Grand Senora Desert|desert]] to reflect on their partnership. However, he catches on to Franklin's intention to kill him and escapes in his car with Franklin in pursuit, eventually ending up at the [[Palmer-Taylor Power Station]]. They continue the chase on foot to one of the chimney walkways and after a minor scuffle, Franklin pushes Michael off the edge, quickly grabbing him while he hangs precariously from the rail. Here, Franklin can choose to save him or drop him, but either way, Michael falls to his death. Devastated and remorseful, Franklin walks away from the station and calls Lamar, asking to hang out.
+
+Afterwards, Franklin calls Devin, asking him to take care of Steve Haines, as he did not do what he asked. Weston lets Franklin know that Haines has already been taken care of, but Franklin has run out of uses for Weston, who tells him to not contact him again. Franklin receives two calls from Jimmy. In the first call, Jimmy asks Franklin if he knows where Michael is, to which Franklin claims that he does not. In the second call, Jimmy has learned of Michael's death and asks Franklin what he knows about it. When Franklin stammers in his responses to Jimmy's questions, he deduces that Franklin had something to do with it and angrily hangs up. After this, Jimmy and Franklin are unable to hang out.
+
+Franklin also receives an email from Amanda, claiming that she knows he was responsible for Michael's death and to stay away from her family. Franklin responds, claiming that he was not involved. Lamar calls Franklin and tells him that he was right about his suspicions on Stretch, and that has to lay low for a while. As such, the pair can only hang out at night. Franklin receives a call from Tanisha, who lets him know that she is getting married and to stay out of trouble. Lester contacts Franklin to let him know that him and Trevor won't see any of Michael's cut from the heist, as he chose to give it to Michael's family.
+
+After killing Michael, Trevor asks Franklin via email if he had a hand in Michael's murder. Franklin replies by saying he did not kill Michael, but Trevor responds by saying he does not believe him. If Franklin approaches Trevor, he will berate Franklin, saying that Michael was too good for him, and despite his animosity towards Michael, Trevor implies he would have eventually forgiven him. Trevor ends the conversation by warning Franklin to never approach him again.
+{{NonCanonEvent|end}}
+</tabber>
+
+===''Grand Theft Auto Online''===
+====The Contract====
+{{Quote|Man, if you told me a few years ago I end up in this legit-ass business... (laughs) I'd laugh at your fucking face.|Franklin Clinton to his business partner, the {{GTAOP}}, in {{O}}.|sound=FranklinClinton-GTAOe-Quote-Agency.ogg}}
+{{Quote|Now, the streets, I know real good, 'cause that's where I'm from. But now I work with rich folk who got rich folk problems, and no fuckin' idea how to deal with 'em.|sound=FranklinClinton-GTAOe-Quote.ogg|Franklin Clinton}}
+[[File:F.Clinton&Partner-GTAOe-TheCrew.jpg|thumb|280px|Franklin Clinton in [[2021]], along with [[Lamar Davis]] (left), [[Imani]] (right), and [[Chop]].]]
+Having walked away from [[The Big Score (GTA V)|the Union Depository heist]] with somewhere between $9 million and $42 million, Franklin went on to become a legitimate businessman through investments and other plays. Despite [[Tanisha Jackson|Tanisha]] bidding Franklin an amicable goodbye the day before her wedding with [[Jayden]] at the end of ''GTA V'', her relationship with Jayden somehow ended and she reunited with Franklin. Tanisha married Franklin, moved into his home at [[3671 Whispymound Drive]], and started a family with him. As of December [[2021]], the house is now adorned with children's toys and a slide in the backyard, and an ornamental front wall sign reading "The Clintons". By this time, their children have already started going to school.
+
+In 2021, Franklin and his new partner, the {{GTAOP}}, co-found [[F. Clinton and Partner]], a new "celebrity solutions agency" catering to the Vinewood elite in need of solutions to high-society problems. Franklin also welcomes aboard [[Imani]], the tech-savvy daughter of one of his old friends from [[Chamberlain Hills]], and relents to Lamar imposing himself on their new partnership. Franklin still has Chop, now an elderly rottweiler. Through Imani, Franklin is made aware of the ''GTA Online'' Protagonist's criminal history and commends them for their accomplishments. Franklin also mentions to the player their mutual contacts Trevor and Lester and fondly remembers their adventures together.
+
+Upon starting his partnership with the ''GTA Online'' Protagonist, Franklin admits he missed getting his hands dirty and compares his new agency's scope of work to the [[Father/Son|personal drama]][[Marriage Counseling|-laden situations]] he helped Michael with early in their friendship. It is revealed during [[On Course]] that Franklin still keeps in touch with Michael; their [[Agency Security Guard]] also alludes to turning Trevor away when he hoped to visit Franklin, who was not in the office at the time.
+
+[[DJ Pooh]] has been reaching out to Franklin about an exciting potential client: his close friend, [[Dr. Dre]], whose phone containing unreleased music was stolen [[2020|one year ago]], before he was supposed to take a [[Heist Prep: Gather Intel|flight]] to [[Cayo Perico]] to host a [[Cayo Perico Beach Party|beach party]]. Franklin takes the ''GTA Online'' Protagonist to meet Dr. Dre at the [[Los Santos Golf Club]], where DJ Pooh, [[Jimmy Iovine]], and Dre himself are playing golf. When two golfers interrupt to demand that they be allowed to play, threatening to use their connections to evict Dre and his friends from the golf course, a furious Dre snaps his golf club over his knee. The terrified golfers flee, and the protagonist and Franklin proceed to chase them in golf carts, ramming them into submission.
+
+[[File:TheContract-GTAOe-ReleaseNewswire-ImaniAtWork.jpg|thumb|300px|left|Franklin and Imani tracking down [[Johnny Guns]].]]
+Impressed by what he saw, Dr. Dre decides to officially hire F. Clinton and Partner to recover his phone. Imani, using data [[Setup: Data Recovery|recovered]] by the player from the [[FIB Headquarters]], discovers that, on top of Dre's stolen phone, three unreleased tracks from the phone are being demoed out by different people. One is a [[North Side Vagos leader|member]] of the [[Los Santos Vagos (HD Universe)|Los Santos Vagos]], one is a [[Club Promoter|club promoter]] with ties to the [[Los Santos Triads|Triads]], and one is an [[Ben Brooks|affluent billionaire]] who dabbles in cryptocurrencies. Thus, Dre asks Franklin and the ''GTA Online'' Protagonist to recover the music before the tracks are leaked to the public.
+
+After taking all three men down and retrieving the stolen music, Imani finds that the last person who has Dre's phone is [[Johnny Guns]], a rival executive and producer for [[WesLos Records]]. Dre then tells Franklin and the ''GTA Online'' Protagonist that they need to recover the phone at all costs, while vowing to kill Guns himself. Shortly after, however, Guns sends his [[Johnny Guns' Hired Gunmen|hired gunmen]] to [[Studio Time|attack]] Dre's recording studio, [[Record A Studios]], in an attempt to murder him. The protagonist defends the studio, after which Imani is able to pinpoint Guns' exact location. Franklin instructs the protagonist to [[Don't Fuck With Dre|find and subdue Guns]], but keep him alive as Dr. Dre plans to personally exact retribution on him.
+
+====Short Trips====
+{{Main|Short Trips}}
+After dealing with Johnny Guns, [[DJ Pooh]] invites the ''GTA Online'' Protagonist, an associate, Franklin and Lamar for a [[Short Trip - Seed Capital|tour inside]] Dr. Dre's recording studio. Lamar attempts to make his own rap with a beat provided by DJ Pooh, while the ''GTA Online'' Protagonist and their associate go take a smoke in the room next door. Franklin later joins them, but Lamar stops him from smoking weed as he mentions that Tanisha will be annoyed if Franklin gets high. When Franklin and Lamar check on their partners, they have become so high that they are having "an out-of-body experience".
+
+[[File:ShortTrips-SeedCapital-GTAOe-VagosTakeTruck.png|thumb|280px|Lamar and Franklin witnessing the Mule being stolen.]]
+Lamar then pulls Franklin out to deal with some business, asking DJ Pooh to look after their partners in their absence. Franklin and Lamar get in the latter's [[Emperor]] and travel to his warehouse to check on his storage of weed. When they reach the warehouse, however, Lamar realizes that it is being raided by the Vagos, and both he and Franklin proceed to fight them. Chop also assists in the fight by biting a Vagos member and leading the two to enter the warehouse. Just as they clear the compound of Vagos and are about to leave, however, Franklin and Lamar see his company delivery [[Mule|truck]] being driven off. It is loaded with half of Lamar's stock, prepared for delivery.
+
+Promptly following it, the two are able to catch up with the driver and hide in the back of the truck. However, their bickering alerts the truck's driver to their presence, and he calls in a hit. Within moments, an entire Vagos hitsquad arrives and begins shooting at the back of the truck, forcing Franklin and Lamar to shoot back. After the truck stops in an alleyway opposite the [[Oriental Theater]], Franklin and Lamar get out and eliminate the remaining Vagos, including the driver, from whom they recover the keys. However, as they return to the truck, they witness it explode due to the damage it had sustained during the gunfight.
+
+[[Short Trip - Fire It Up|Some time later]], Lamar asks for Franklin's assistance in storming the Vagos' weed business in [[Blaine County]] as payback for them having destroyed his product in the Mule Truck. They reach the Vagos' first weed warehouse on [[Marina Drive]] near the [[Alamo Sea]] and attack the Vagos. After defeating them, they pick up Jerry Cans containing flammable fertilizer that they pour over the weed, and set it on fire to burn it all down. Exiting the warehouse, more Vagos arrive in weaponized [[Technical]]s, and Franklin and Lamar escape in a Technical with a mounted minigun while being chased by Vagos in [[Manana]]s and [[Buzzard Attack Chopper|Buzzard Attack Choppers]].
+
+[[File:ShortTrips-FireItUp-GTAOe-RaceFranklinWins.png|thumb|280px|left|Lamar and Franklin arriving at the Vagos warehouse.]]
+They eventually reach the Vagos' next warehouse on Chianski Passage near Grapeseed, where they use fertilizer again to set the weed on fire. They then take one of the Vagos' [[Youga Classic]]s filled with equipment for growing weed that Lamar can use, again fending off Vagos along the way, now in [[Baller ST]]s and [[Faction Custom]]s. After losing the Vagos, the pair arrive at Franklin's home, where Lamar asks to come in. When Franklin refuses because "his kids are inside", Lamar proceeds to roast him over his parental skills, similarly to how he [[Franklin and Lamar|roasted]] him over his "yee-yee ass haircut" eight years ago.
+
+[[Short Trip - OG Kush|After a while]], Lamar and Franklin go to the recording studio for a third time, where Lamar again asks for Franklin's assistance. He starts by showing him his new [[Youga Custom|LD Organics van]] which is "made of weed", saying that the entire van is made of "LD Organics Patented Marijuana Bioplastic". Franklin considers this a bad move and asks Lamar how he's planning to put it in a blunt if it's a part of the van itself, to which Lamar just asks him to follow along.
+
+He tells Franklin that he was able to make a connection with actor [[Jimmy Boston]] from the [[Epsilon Program (HD Universe)|Epsilon Program]] to promote [[LD Organics]], as having a celebrity endorse the brand will definitely bring more attention to the business. However, Franklin, having been in the big scene and interacted with people with big personalities, warns Lamar of the oddities of such famous people and tells him to be careful of "them Kifflom freaks" as they are known to be shady. Lamar downplays it, but tells Franklin to be ready with a sniper rifle in a nearby crane just in case. As they approach the meeting site, Lamar mentions that he posted a selfie of himself at his "top-secret location" on Snapmatic, which is later revealed to have included info that gave it away to the Vagos.
+
+[[File:ShortTrips-OGKush-GTAOe-FranklinInPosition.png|thumb|280px|Franklin providing cover to Lamar with a sniper rifle.]]
+Once they reach the meeting point with Jimmy and his fellow Epsilonist [[Marnie Allen]] at the [[Redwood Lights Track]], Franklin goes to the nearby crane with his sniper rifle while Lamar talks business with Jimmy and Marnie. Jimmy reveals his plans to rebrand Lamar's business with Jimmy's face as "Boston Bakes". Lamar, realizing Jimmy was never serious about endorsing him and just wanted to use him to promote his own brand, becomes annoyed. Franklin then calls him to tell him not to go through with the deal, as the Vinewood elite always try to take away all the recognition.
+
+As they are talking, Franklin suddenly sees Vagos coming towards them in [[Primo Custom|Primo Customs]] and warns Lamar. Lamar immediately tells Jimmy and Marnie to get away while he and Franklin clear the area of the arriving Vagos. Once the area is clear, Franklin and Lamar start driving the van back into the city. Along the way, Lamar admits that the deal was a bad idea and that he shouldn't have expected success overnight.
+
+During the drive, more Vagos attack Franklin and Lamar and shoot at the van which, coupled with the sun's heat, causes the weed body panels to start burning, leading to both Franklin and Lamar getting high. Initially, they assume that the smell is coming from someone else smoking nearby and that the entire city has the smell, but they eventually realise that it is their own van burning. They manage to fight off the Vagos and try to drive the van back to Lamar's compound, but Lamar, seeing an opportunity, decides to take the van towards [[Tequi-la-la]] instead, hoping to use it as a publicity stunt to show the quality of his product. However, as they are both high, they end up crashing the van into the club.
+
+[[File:ShortTrips-OGKush-GTAOe-TequiLaLaHigh.png|thumb|280px|left|Franklin and Lamar outside Tequi-la-la with the burning weed van.]]
+A crowd quickly forms around the scene to investigate the crash, and Lamar immediately seizes the opportunity to promote his business. As the people start feeling the effects of the burning weed, they enjoy it and begin taking pictures and cheering for LD Organics. Franklin and Lamar take several pictures together before the former mentions needing to get home to Tanisha. Following some brief banter and Lamar offering Franklin an "internship" at LD Organics, Franklin walks off down the street in style.
+
+====The Chop Shop====
+In late [[2023]], Franklin was invited by [[DJ Pooh]] to a nightclub party hosted by [[Dâm-Funk]] for [[West Coast Classics]]' 10th anniversary. As part of the radio station's promotion, DJ Pooh gave away media sticks containing a pre-recorded audio of Dâm-Funk's ''Even the Score'' live mix for those who missed the party.
+
+At the 20-minute mark of the mix, Franklin tries to give a shoutout to DJ Pooh on the microphone. However, Lamar takes the microphone off his hands, annoyed that Franklin is "always winning", and tries to give a shoutout himself, although interrupted by Franklin. This results in Dâm-Funk calling the nightclub security to separate the duo fighting over the microphone.
+
+====A Safehouse in the Hills====
+In late [[2025]], while fighting [[KnoWay Mercenaries]] alongside the ''GTA Online'' Protagonist during the mission [[Home Sweet Home (GTA Online)|Home Sweet Home]], Michael De Santa remarks that he can see why the protagonist and Franklin make a good team, and asks them to tell Franklin that "[Michael] said hi". He also mentions that he "love[s] that kid", confirming that Michael and Franklin have remained close friends.
+
+==Description==
+===Appearance===
+In {{V|l=n}}, Franklin has been described as "fit" and "fashion conscious". He is 6' 1"<ref>[[File:Nightclubs-Raids-GTAOe-DefendNightclub-FranklinsWallet.png|thumb|275px|left|Close-up of the wallet]][[File:FranklinClinton-GTAVe-Wallet-Texture-prop_open_wallet_01.png|thumb|275px|left|Texture file of the wallet]]{{clr}}</ref> (1.85 m) in height. He is mostly seen wearing a blue button-up shirt over a white long-sleeved t-shirt, dark blue jeans with white stripes and a pair of wheat-colored boots. In the ''"Michael, Trevor and Franklin"'' artwork, he is seen wearing a light yellow plaid button-up shirt and stonewashed blue jeans. He also sported the same outfit in "The Trunk" artwork. He is seen in the "Franklin and Chop" artwork wearing a tank-top, khaki shorts along with a bracelet on his right wrist and a black watch on his left wrist. In "Three's Company", he is seen wearing his L.S. sweater, black jeans and Desert Boots. Initially, Franklin shows aproval to clothing from Ponsonby's and Suburban, while being neutral towards the cheaper, gang related options at Binco and The discount shop. Following the mission The Hotel Assassination, Franklin's taste in clothing changes, from then on he shows total disdain to Binco and The Discount shop and is only neutral to Suburban. During friendship activities with Michael, Franklin may state that he used to be fatter, but managed to lose weight. Michael claims that he can "kind of see it". Lamar also chides him for not wanting to walk around the block to the van, claiming "...you need to walk with your fat ass," in the mission [[Chop (mission)|Chop]]. [[Omega]] also claims that Franklin has "slightly excessive adipose tissue".
+
+In {{O|l=n}}, Franklin appears to have aged by 2021, and now has noticable gray hairs, and now sports a heavy stubble beard. He has two outfits he wears in The Contract update; one is a light gray suit with a black t-shirt underneath, a platinum "LS" chain and black sneakers, while his other outfit is only worn during the [[Short Trips]] and consists of a unbuttoned plaid shirt with a gray t-shirt and an alloy chain, black jeans, a [[Güffy]] cap and grey sneakers. Both outfits contain clothes which can also be purchased by the ''GTA Online'' Protagonist.
+
+===Personality===
+{{Quote|I don't have much of a heart.|Franklin to [[Tonya Wiggins]] in [[Pulling One Last Favor]]}}
+Franklin is described as ambitious, but perhaps to a fault, and very eager to take on new illegal challenges. He is also described as a "logical way of showing a young man with a lot of hope", with Dan Houser claiming that this would be a nice contrast from Michael. He also is a person that, even though is being mentored by Michael in crime, mentors Michael in life. This helps build up the Father-Son relationship between the two.
+
+Franklin is much calmer than both Michael, who has a very short temper, and Trevor, who is a violent sociopath. This calm personality is often displayed during missions where he keeps it cool while fulfilling the task at hand, and when he is forced to act as the peacekeeper between Michael and Trevor when they get into an argument. Though Lamar drives him crazy at times, Franklin still cares for his best friend as he saves him from the Ballas with the help of Trevor and Michael during the events of [[Lamar Down]]. He is also the same toward the two, as he is seen helping them out with most of their problems, like when Amanda cheats on Michael and he and the latter chase Amanda's tennis coach during [[Marriage Counseling]], and when he helps Trevor and Michael hunt down the remaining O'Neil brothers during Predator. This, however, also leads to others around him to consider him "disloyal", most notably his Aunt Denise, to such an extent that Denise threatens to call the police on him if he sets foot in their yard. Despite what Denise says, Franklin does demonstrate loyalty for people that are close to him and for people who change his life, like Lamar, who is Franklin's best friend, and Michael, who helped him become a "three-bit" gangster and high-profile criminal.
+
+Unlike Michael or Trevor however, his relationships with those close to him are even more fragile and in the end fail to heal the rift with his associates, unlike Michael and, to a lesser extent, Trevor. His messy breakup with Tanisha is left unresolved and ends on less than satisfactory terms when she chooses to marry another man over saving their relationship. His aunt turns his room into a safe shelter for women after he moves out and Stretch remains on antagonistic terms with Franklin. Franklin also potentially jeopardizes his relationship with his partners in crime Michael, Lamar and Trevor should the player choose to kill either Trevor or Michael as the survivor loses their trust in Franklin, and Lamar is forced to hide from Stretch.
+
+Many characters in the game (Denise, Lamar, Tonya, Stretch, Tanisha, and even Michael and Trevor in ending A and B) accuse Franklin of being disloyal, arrogant, and abandoning his "homies". For the most part, however, these accusations seem unfounded - ironically, most of these discussions happen while Franklin is actually helping out his friends. Franklin's hostility towards Stretch becomes justified late in the game when it becomes clear Stretch has betrayed him and Lamar. However, if the player chooses ending A or ending B, the above accusations are confirmed.
+
+Franklin's ambition is also his greatest weakness. In all of his work, aside from [[Lester's Assassinations|Lester's assassination jobs]], [[The Jewel Store Job|several]] [[The Paleto Score|major]] [[The Big Score (GTA V)|heists]] he was roped into, and Michael's repayment for doing him a favor, Franklin never earns a single cent out of his dealings due to his shortsightedness and poor choice of people to work with. All of Lamar's jobs ended up with both of them nearly being killed by the Ballas and his work for Weston ends with him being [[Pack Man|taken]] [[The Time's Come|advantage of]] in both instances where he does his bidding.
+
+Despite not knowing them very well, Franklin also gets along with Michael's family, as shown when Jimmy befriends him and when Amanda responds kindly whenever Franklin greets her while she is home. He doesn't get along with Stretch very well, due to Stretch trying to pull Franklin back into the life that put him in jail in the first place, Stretch's reckless and unintelligent personality, and later on, his disloyalty; he [[The Long Stretch|sells]] [[Lamar Down|out]] people who are associated with Franklin.
+
+In contrast to Michael and especially Trevor, Franklin is an incredibly tidy person, always trying to keep his image, his vehicles, and his house clean. This is evident in some [[Switch Scenes|switch cutscenes]], where he can be seen cleaning his [[Buffalo S]] and his [[Bagger]]. While his personal bedroom at the Clinton Residence was somewhat messy, after moving into his [[3671 Whispymound Drive|mansion]] he makes an effort to do house chores like taking out the garbage or ironing his clothes. He likes also to keep his body in shape, as he's seen doing exercise, like pull ups on the free-use bars at [[Vespucci Beach]], or push-ups in his room or the backyard, and after moving, next to his pool. He is also mindful of what he eats; when having [[Phat Chips]], he will remark on what level of exercise he will have to perform to work off the calories, or how he needs to buy some healthy food (so that he doesn't end up reaching for junk food instead).
+
+Franklin seems to suffer from depression/self-hatred due to the perceived lack of success and his breakup with Tanisha, when he is high on marijuana he often comments on how empty and alone he feels. He shows some regret with his decision to become a criminal but feels he is in too deep to walk away. In a similar vein to Trevor during shootouts, Franklin might shout at his enemies to shoot him. His lack of initiative hints at insecurity, which further demonstrates a possible mood disorder. Lamar calls Franklin a "moody motherfucker" when giving him the Bagger they stole from Simeon after repossessing it. His Switch Scenes implies he is lonely, as many show him roaming around the city alone, and further in the story, he rarely leaves his house due to lack of friends and family who are on good terms with him. The situation improves or worsen at the end of the game depending on the choices he makes involving Michael and Trevor. If he chooses to save them, he finds new-found support with them as dysfunctional but great friends, however if chooses to kill either of them, the other person breaks off contact with Franklin and Lamar goes into hiding. Franklin is also quite tolerant of other people's sexualities as he says to [[Beverly Felton|Beverly]] that he doesn't care if [[Clay Jackson]] is gay.
+
+Franklin does not appear to be able to handle pressure very well. If the player chooses to kill either Michael or Trevor, Franklin tries to justify his actions by claiming it "wasn't really his decision," or that he "didn't have a choice". He lacks initiative and assertiveness when confronted by people who were more influential than he was. Rather than attempting to bargain with Haines or Weston to at least pay him for betraying his closest friends, he only realizes after committing the deed that he was ultimately used and discarded by both of them when asking for more opportunities to work for them. If the player chooses the Deathwish ending, Franklin will initially complain to Lester that he "can't kill both of 'em" before eventually coming up with a plan to spare them both.
+
+===Relationships===
+*'''[[Michael De Santa]]''' - After meeting Michael and completing a job with him, both men developed a father-son relationship. This was mostly because Franklin never really had a family of his own and saw Michael as a person with more professional skill and as a real criminal that could mentor him in the life of crime. It seems that Michael has a better relationship with Franklin than with his own son. After Franklin meets Michael at the oil derricks in East LS, he decides to help him since he has helped him make more money than he ever did drug dealing and gang banging. Michael is fairly protective of Franklin. During the drive in [[The Paleto Score]], when Trevor keeps asking Franklin about his first score, Michael tells Trevor to leave Franklin alone. Later in the same mission, Michael continuously checks in on Franklin, calls him "son", and helps him onto the train before boarding it himself. In the mission [[The Time's Come]], Franklin chases Michael and, even if the player wants to save him, Michael falls to his death. Franklin claims the reason he had to kill him was because Michael was trying to take advantage of him, but he eventually regrets killing him. He leaves a message on Lamar's voice-mail, talking about one running and their legs giving and not being able to run anymore, which is what Michael had said to Franklin in [[Fresh Meat (mission)|Fresh Meat]]. Despite all this, Franklin perhaps has the most personal issues with Michael, who is a main source of grief for him as he was responsible for a majority of Franklin's problems throughout the storyline, from his untimely termination at his repo job to being forced to repay a debt to the Mexican mob over petty slights and later being forced to work for the FIB.
+*'''[[Trevor Philips]]''' - Trevor and Franklin's first meeting was nowhere near perfect, as he was cautious of the new recruit and even insulted him and Michael for their father-son like relationship. He was eventually able to put his trust into Michael's judgement of Franklin, and the two were finally able to get along. Unlike Michael, Trevor does not do anything to get Franklin in trouble. In the optional ending that involves killing Trevor, he protests that he has been nothing but straight and true with him. Franklin seems to regret killing him, but also perceives Trevor as a threat to him and Michael. In the ending where Franklin kills Michael, he will cut off ties with him and claim that he's dead to him. However, in the Deathwish ending, while hanging out with Franklin, Trevor states that he's proud of him.
+*'''[[Lamar Davis]]''' - As stated above, Franklin's relationship with Lamar is a bit unsettled, as Lamar is seen as a funny yet dangerous maniac, and is also one of the main people holding Franklin back to the criminal life. Despite this, Franklin still considers him his best friend and, on multiple occasions throughout the game, he risks his life to save Lamar and help him out. By the end of the storyline, they seem to get along more calmly than before, especially within the Deathwish ending, where Lamar is pleasantly surprised to hear Franklin's need to help Michael and Trevor, as he always assumed that Franklin was only looking out for himself, but he does not hesitate to offer him assistance.
+**As of 2021, with [[GTA Online: The Contract|The Contract]] update, it is revealed that Franklin and Lamar are still friends. Lamar, now a cannabis entrepreneur, still does many of the things that he used to in 2013, but Franklin and Lamar now trust each other a lot more. Lamar also makes fun of Franklin's domesticated lifestyle several times following his marriage.
+*'''[[Denise Clinton]]''' - Franklin and his aunt have a less than amicable relationship. They don't get along and Franklin is frequently annoyed with his aunt's feminist meetings and her desire for Franklin to move out. He generally considers her an airhead and claims that she has gotten even more out-of-touch with reality in recent times. Ultimately, he leaves the house as his former room is turned into a safe shelter for women, and Franklin and his aunt mutually cut ties. Despite his hostile relationship and eventual estrangement from Denise, Franklin still recognizes her as a relative and is implied to still somewhat respect her, as images of her are present in his Vinewood Hills mansion and his agency.
+*'''[[Lester Crest]]''' - Franklin is introduced to Lester through Michael, and the two develop a healthy relationship over the course of their work together. While Lester was initially wary of Franklin, being the "amateur" in Michael's jewelry store heist crew, Franklin proved his worth, so much that Lester personally offers Franklin assassination missions to manipulate the stock market. One such mission allows Lester to buy a [[3671 Whispymound Drive|luxurious house in Vinewood Hills]], which he gifts to Franklin, claiming he needs someone to live in it for "tax reasons". Lester's friendship proves to be crucial for Franklin in his times of need, such as when he had to rescue Lamar, and later on, Michael and Trevor.
+**In 2021, it is revealed that Franklin keeps at least a measure of contact with Lester, referring to him as "''an old friend''". Lester was also perfectly comfortable with divulging to Franklin that he and the ''GTA Online'' Protagonist [[The Diamond Casino Heist|robbed]] [[The Diamond Casino & Resort]], which, despite a background check, Franklin was unaware of.
+*'''Michael's family''' - Unlike Trevor, Franklin is generally civil with the De Santa family. [[Amanda De Santa|Amanda]] and Franklin seem to have a friendly relationship and will exchange kind words. [[Jimmy De Santa|Jimmy]] looks up to Franklin since he admires the gangster lifestyle, even mimicking their jargons when he speaks. Franklin discourages Jimmy to do so as it could get him into trouble. Franklin does not seem to know [[Tracey De Santa|Tracey]] that well, but can make small talk with her when he visits Michael's house.
+*'''[[Simeon Yetarian]]''' - Simeon is an Armenian car salesman, who uses the business as a front for his repo activity. He employs Franklin as his repo-man. Their relationship is shown to be in poor condition, as Simeon does not fulfill many of Franklin's requests. Eventually, Franklin cut his ties with Simeon after being forced to drive through his dealership's front window. Years later, however, it's shown that Franklin did at least have some pride in Simeon choosing him as 'Employee of the Month' despite his dismissal of it at the time, having kept the plaque from Premium Deluxe Motorsport.
+*'''[[Stretch (character)|Stretch]]''' - Franklin and Stretch have/had an antagonistic relationship, frequently trading insults and threats. Franklin also felt hostility towards Stretch for sending him and Lamar on numerous set-ups. He also dislikes the Families OG for, in his mind, trying to keep him and Lamar around as simple gangsters. He did, however, say to Lamar that Stretch could join their own gang, though that was likely a lie. Like most of Franklin's former associates, Franklin cuts ties with Stretch and only decides to deal with him when he realizes Stretch is a potential threat to Lamar's safety. In the Deathwish ending, after Michael kills Stretch, Franklin states Stretch was not his friend, just a guy who played him and Lamar, while thanking Michael for getting rid of him.
+*'''[[Tanisha Jackson]]''' - Tanisha is Franklin's ex-girlfriend who broke up with him over his criminal lifestyle. To Tanisha, Franklin changed very little, despite his improved wealth compared to Lamar, as he earned his money through violence and illegal means. Despite the end of the relationship, she still cares for him and Lamar and, in [[Lamar Down]], she asked Franklin to save his friend from death. Franklin also wishes her the best when she announces her marriage to Jayden, a doctor whom she met.
+**As revealed in {{O|l=n}} in The Contract update, Franklin and Tanisha got back together sometime between 2013 and 2021, and eventually married with children, as evidenced by several references made to it by Lamar as well as Franklin himself in the [[Short Trip]] missions. Tanisha visited the Agency once while looking for Franklin, and is stated to attend parties and socialize with others of her and Franklin's social status. A red [[Astron|Pfister Astron]] can be found outside Franklin's Vinewood home with the license plate "TAN1SHA".
+*'''[[Devin Weston]]''' - Antagonistic with Franklin, he is seen as an extremely useful pawn throughout their dealings. However, in every scenario where both parties are involved, Weston always comes out on top. From the car thefts which left Franklin and Lamar penniless, to leaving Franklin uncompensated and leaving him hung out to dry as well, Franklin is often forced to work for him and can be ironically compared to Simeon. Franklin also holds a special dislike for Weston's borderline racist behavior towards him, such as imitating stereotypical street slang. In [[The Time's Come]], Franklin carries out Devin's wish to kill Michael, but Weston doesn't pay him, instead insulting him while telling him to stay away. In [[The Third Way]], when all the protagonists capture Weston, Franklin taunts him with his choice before helping Michael and Trevor to kill him by pushing the car he was locked in off a cliff.
+*'''{{GTAOP}}''' - The ''GTA Online'' Protagonist first comes to Franklin's attention when their mutual friend, Lamar, lists them as a potential business partner for his celebrity solutions agency, [[F. Clinton and Partner]]. Upon doing a background check and becoming impressed at their willingness to 'get their hands dirty' for the sake of their work, Franklin immediately brings them on as an investor and co-CEO. Franklin also learns later on from Lester that he worked with the Protagonist as well.
+
+===Skills and Attributes===
+Franklin is the youngest of the three protagonists and is capable of tackling challenging tasks that Michael and Trevor cannot, and has a level of physical prowess that both Michael and Trevor lack. As being a repossession agent, he is a skilled driver behind the wheel of any car. As shown during the GI demo, he was described as being able to make short work of the agents that were interrogating the target and is often seen as a competent gunman throughout the game.
+
+Franklin's [[Special Ability]] allows him to slow down time while driving, improving his driving handling.
+
+His special ability can only be used while driving any four-wheeled vehicle or motorcycle. When activated, it allows him to easily take corners at full speed and escape possible accidents with ease. By enhancing this skill, its maximum storage capacity is increased, which also increases the duration the ability can be activated. Franklin's Special Ability begins at one-third of maximum capacity (10 seconds), and it lasts for 30 seconds when at maximum capacity. The special ability also applies to drive-by shootings, as well as when driving the Rhino tank, making Franklin able to land even more precise shots while operating the main cannon.
+
+==Prominent Appearances in Gameplay==
+===''Grand Theft Auto V''===
+*''For the list of Franklin Clinton's mission appearances, see [[Franklin Clinton/Appearances]].''
+===''Grand Theft Auto Online''===
+====The Contract====
+=====[[The Contract: Dr. Dre]]=====
+*[[On Course]] <small>(Boss)</small>
+*[[Setup: Data Recovery]] <small>(Boss)</small>
+*[[Investigation: The Nightclub]] <small>(Boss)</small>
+*[[Investigation: The Marina]] <small>(Boss)</small>
+*[[Nightlife Leak/Finale|Nightlife Leak]] <small>(Boss)</small>
+*[[Investigation: The Country Club]] <small>(Boss)</small>
+*[[Investigation: Guest List]] <small>(Boss)</small>
+*[[High Society Leak/Finale|High Society Leak]] <small>(Boss)</small>
+*[[Investigation: Davis]] <small>(Boss)</small>
+*[[Investigation: The Ballas]] <small>(Boss)</small>
+*[[South Central Leak/Finale|South Central Leak]] <small>(Boss)</small>
+*Cutscene after completing all [[The Contract: Dr. Dre|Data Leak]] finales.
+*[[Studio Time]] <small>(Voice/Boss)</small>
+*[[Don't Fuck With Dre]] <small>(Boss)</small>
+
+=====[[Short Trips]]=====
+*[[Short Trip - Seed Capital]] <small>(Playable character)</small>
+*[[Short Trip - Fire It Up]] <small>(Playable character)</small>
+*[[Short Trip - OG Kush]] <small>(Playable character)</small>
+
+=====[[Security Contracts]]=====
+*[[Security Contract: Asset Protection]] <small>(Boss)</small>
+*[[Security Contract: Gang Termination]] <small>(Boss)</small>
+*[[Security Contract: Rescue Operation]] <small>(Boss)</small>
+*[[Security Contract: Liquidize Assets]] <small>(Boss)</small>
+*[[Security Contract: Recover Valuables]] <small>(Boss)</small>
+*[[Security Contract: Vehicle Recovery]] <small>(Boss)</small>
+
+=====[[Payphone Hits]]=====
+*[[Payphone Hit: The Hitmen]] <small>(Voice/Boss)</small>
+*[[Payphone Hit: The Popstar]] <small>(Voice/Boss)</small>
+*[[Payphone Hit: The Tech Entrepreneur]] <small>(Voice/Boss)</small>
+*[[Payphone Hit: The Trolls]] <small>(Voice/Boss)</small>
+*[[Payphone Hit: The Judge]] <small>(Voice/Boss)</small>
+*[[Payphone Hit: The Dealers]] <small>(Voice/Boss)</small>
+*[[Payphone Hit: The CEO]] <small>(Voice/Boss)</small>
+*[[Payphone Hit: The Cofounder]] <small>(Voice/Boss)</small>
+
+=====Adversary Modes=====
+*[[Double Down]] <small>(Playable character; "Hold Outs" Team)</small><!--Game mode/Non canon/Not related to the storyline-->
+
+==Reception==
+Just like Michael and Trevor, Franklin has received a very positive response from critics and fans of the series.
+
+===Dan Houser's Description of Franklin===
+"''Franklin was the idea of this street hustler in the modern world where the glory days – if there ever were glory days of gang banging – had long since passed. When some of the illusions of this life have been shattered, what do you do now having been in that world? That seemed like an interesting character; a guy in his mid-to-late 20s who wants to move forward but doesn't really know how and is being held back by some of his more idiotic and dangerous friends.''"
+
+"''The idea with Franklin was someone stepping outside their comfort zone and their normal way of doing things, because that way, even though they're still in their mid-20s or whatever, that hasn't worked. That world that they thought they'd be in and be able to make a success of has, thanks to the modern world or the changes in the economy or whatever it is, just failed. It doesn't really exist. They're now looking for something new. A new opportunity. They've gotten their qualifications and gotten all their experience and all they're good at is driving and robbing. How do actually go forward and who do you get to a kind of mentor you? That was a good contrast. The gang-banger in the post-gang-banging world.''"
+
+==Character Trailer==
+{{YouTube|kfzrQGU6jhM|size=475px|align=center}}
+
+==Quotes==
+*"''Bitchass bullshit.''" - Franklin's trade mark quote. Said many times through the game, and commonly heard when he crashes the car he is driving.
+*"''I boost cars! And pop motherfuckers! Maturity is not really my fucking thing.''" - Franklin to Molly Schultz.
+*"''If the Bureau ain't gonna take you to court, them motherfuckers just hustlers anyway. And ain't finna let no motherfucking cat think he is so motherfucking crazy run me up a tree. Fuck that.''" - Franklin on the Bureau and Trevor.
+*"''So you giving me a lecture about not being a good enough gangbanger?''" - Franklin to his aunt.
+*"''He's just another N---- from the hood... him, Stretch and all the motherfucking clowns. All they wanna do is drag a motherfucker down and live in the past.''" - Franklin to Tanisha about all his old friends in the hood.
+*"''Shit, I can't feel anything, I can't feel my fucking toes right now. Man, my toes are dead. Or my soul.''" - Franklin while smoking weed.
+*"''Come on, man. I mean, we just took the biggest score in the history of scores, and you bitches just wanna moan? "My momma never loved me. My friends never loved me. I'm mad because I'm rich. I'm sad because I'm successful." Man, this shit is pathetic. Both of you.''" - Franklin despises Michael's and Trevor's behavior, after the [[The Big Score (GTA V)|Union Depository heist]].
+*"''Man, y'all gotta keep your fuckin' heads right and end this shit. If not, man, I'll put bullets in both you motherfuckers.''" - Franklin to Michael and Trevor before confronting [[Merryweather Security|Merryweather]] and the [[Federal Investigation Bureau|FIB]] in The Third Way.
+*"''My bad, homie. I picked C. Ain't that a bitch?''" - Franklin taunting Devin in The Third Way.
+*"''Nothing's real in this town, N----. Particularly where you and Stretch concerned.''" - Franklin to Lamar during Hood Safari.
+*"Now that's why you my motherfuckin' Partner." - Franklin to Imani about the ''GTA Online'' Protagonist after he finds out the player owns a Penthouse and a Super Yacht.
+
+==Phone Services==
+With the release of [[GTA Online: The Contract|The Contract]] update, players can call Franklin to access one of the following options:
+
+===Request Security Contract===
+{{Quote|Request Security Contract.|Instructional Message.}}
+This option triggers a random [[Security Contracts]] mission, which can be activated by becoming a VIP/CEO of an [[Organizations|organization]] or an [[Motorcycle Clubs|MC]] president.
+
+===Request Payphone Hit===
+{{Quote|Request Payphone Hit.|Instructional Message.}}
+This option will activate a [[Payphone Hits|Payphone Hit]] at the nearest payphone. It will be marked on the map with {{HUDIcons|game=O|payphone|blue}}.
+
+===Company SUV===
+{{Quote|Request that the Company SUV be delivered nearby.|Instructional Message.}}
+This option will spawn the [[Agencies|Agency]] SUV nearby. It will be marked with {{HUDIcons|game=O|jubilee}} on the map.
+
+===SUV Service===
+{{Quote|Request the Company SUV to return you to your Agency.|Instructional Message.}}
+This option requests the Agency SUV marked on the map with {{HUDIcons|game=O|suvservice|blue}} that works similarly to calling a [[Taxi]]. By default, the SUV will bring the player to the Agency, but one can choose a different location by setting a waypoint on the [[GPS]]. The player also has the option to hurry the limo driver or leave the vehicle at any point during the drive.
+
+===Supply Stash===
+{{Quote|Request a Supply Stash containing ammo, health and armor.|Instructional Message.}}
+The player can request a supply stash for $5,000. After requesting, it will be stashed near the player and will be marked with {{HUDIcons|game=O|rucksack}}.  The option has a cooldown of ten minutes. Collecting the supply stash will replenish the player's health and armor. Plus, they will get two [[Grenades]], two [[Sticky Bombs]], two rockets for the [[RPG]], and two magazines for each type of firearm.
+
+==Gallery==
+{{Gallery
+|game = V
+|gtav_franklin.jpg|Franklin at his neighbourhood.
+|gta-v-franklin-and-lamar.jpg|Franklin and [[Lamar]].
+|FranklinClinton-GTA5-Denise.jpg|Franklin and [[Denise Clinton|his aunt]].
+|Possible Franklins House-GTA V.jpg|Franklin's first house.
+|BuffaloS-GTAV-Front-Franklin.png|Franklin's unique white [[Buffalo S]]. This type of Buffalo cannot be found anywhere else in {{V|l=n}}.
+|WMCBagger-Front-GTAV.png|Franklin's green [[Bagger]].
+|Franklinclinton_childhood.jpg|A photo of a younger Franklin.
+|Franklinclinton_grandparents.jpg|Possible photo of Franklin's grandparents.
+|Franklin&Woman-GTAV-Portrait.png|Portrait of Franklin with a female who appears to be close to him.<ref>[[File:Franklin&Woman-GTAV-Portrait-Texture.png|100px]]</ref>
+|FranklinClinton-GTAV-Model.jpg|Character model of Franklin Clinton
+|FranklinBusinessCard.png|Franklin's business card.
+|FranklinClinton-GTAV-CharacterWheelPortrait.png|Character Wheel portrait.
+|FranklinClinton-GTAV.png|Franklin in the original version of {{V|l=n}}.
+|FranklinClinton-GTAVe-InGame.png|Franklin as he appears during normal gameplay in the Enhanced Version.
+}}
+
+====Official Screenshots====
+{{Gallery
+|Screenshot-FranklinDesertEagle-GTAV.jpg|
+|Screenshot-Speedophiles-GTAV.jpg|
+|MotorbikeChase-GTAV.jpg|
+|StealingCars-GTAV.jpg|
+|GangWar-GTAV.jpg|
+|Binoculars-GTAV.jpg|
+|FranklinMotorbike-GTAV.jpg|
+|FranklinAirport-GTAV.jpg|
+|Franklin&Bagger-GTAV.jpg|
+|Carjacking-GTAV.jpg|
+|BikeGetaway-GTAV.jpg|
+|Bike&Traffic-GTAV.jpg|
+|Franklin&PumpShotgun-GTAV.jpg|
+|GTAV-Screenshot22.jpg|
+|GTAV-Screenshot14.jpg|
+|Franklin-and-GSF.GTAV.jpg|
+|Franklin-GTAV-Driveshooting.jpg|
+|Franklin-Balcony-GTAV.jpg|
+|Franklin-GTAV-Drivebyshooting.jpg|
+|TheLongStretch-GTAV-PRScreenshot.jpg|
+|Franklin-GTAV-Quad.jpg|
+|FranklinGSDNG.jpeg|
+|TrinityBuzzardNG.jpeg|
+|TheLongStretch-GTAV-next.jpg|
+|FranklinClinton-GTAV-SteveHaines.jpg|
+|TheBureauRaid-GTAV-RoofApproachRappellingDown.jpg|
+|BureauRaid-GTAV-next.jpg|
+}}
+
+====Artworks====
+{{Gallery
+|Artwork-FranklinClinton-GTAV.jpg|
+|Artwork-MichaelFranklinTrevor-GTAV.jpg|
+|Artwork-MichaelFranklinTrevor2-GTAV.jpg|
+|Artwork-FranklinVinewoodHills-GTAV.jpg|
+|Artwork-TrevorFranklinMichael-GTAV.jpg|
+|Artwork-TheTrunk-GTAV.jpg|
+|Artwork-CashAndCarry-ByLand-GTAV.jpg|
+|Boxart-Franklin-GTAV.png|
+|Artwork-FranklinBandana-GTAV.jpg|
+|Artwork-FranklinThreesCompany-GTAV.jpg|
+|Artwork-FranklinAndChop-GTAV.jpg|
+|Artwork-BlitzPlay-GTAV.jpg|
+|Artwork-TheDesert-GTAV.jpg|
+|Artwork-TheBigScore-GTAV.jpg|
+|Artwork-TheHunt-GTAV.jpg|
+|Artwork-FranklinTrevorMichael-GTAV.png|
+}}
+{{Gallery
+|game = O
+|TheContract-GTAOe-Trailer-F.Clinton&PartnerOfficeInterior.png|Franklin at his office.
+|TheContract-GTAOe-Trailer-Franklin.png|Franklin's introduction after the player purchases the Agency.
+|OnCourse-GTAOe-PoohIntroduces.png|Franklin at the [[Los Santos Golf Club]] during the mission [[On Course]].
+|OnCourse-GTAOe-FranklinCallsDre.png|Calling Dr. Dre after chasing the two golfers.
+|ShortTrips-GTAOe-NextTrip.png|Franklin at the [[Record A Studios]] smoking room with Lamar.
+|ShortTrips-SeedCapital-GTAOe-Lamar'sIdea.png|Franklin and Lamar during [[Short Trip - Seed Capital]].
+|ShortTrips-FireItUp-GTAOe-LamarRoastsFranklinPartII.png|Franklin being roasted by Lamar during [[Short Trip - Fire It Up]].
+|ShortTrips-OGKush-GTAOe-FranklinInterrupts.png|Franklin during [[Short Trip - OG Kush]].
+|Agencies-GTAOe-FranklinsBagger-FrontQuarter.png|Franklin's [[Bagger]] parked in the Agency garage. <small>([[:File:Agencies-GTAOe-FranklinsBagger-RearQuarter.png|Rear quarter view]])</small>
+|Agencies-GTAOe-FranklinsBuffaloSTX-FrontQuarter.png|Franklin's [[Buffalo STX]] parked in the Agency garage. <small>([[:File:Agencies-GTAOe-FranklinsBuffaloSTX-RearQuarter.png|Rear quarter view]])</small>
+|Ignus-GTAOe-FranklinClinton-FrontQuarter.png|Franklin's [[Ignus]] parked outside his house. <small>([[:File:Ignus-GTAOe-FranklinClinton-RearQuarter.png|Rear quarter view]])</small>
+}}
+
+====Official Screenshots====
+{{Gallery
+|TheContract-GTAOe-ReleaseNewswire-FranklinAtHome.jpg|Franklin Clinton at [[3671 Whispymound Drive|The Clintons House]].
+|TheContract-GTAOe-ReleaseNewswire-ImaniAtWork.jpg|Franklin and Imani looking for Dr. Dre's phone.
+|TheContract-GTAOe-Trailer-F.Clinton&PartnerOfficeInterior.png|Franklin and Chop's office.
+|PayphoneHits-GTAOe.jpg|[[Payphone Hits]] advert.
+|FClintonandPartner-GTAOe-FranklinsCard.jpg|Franklin's agency debit card.<ref>[https://www.instagram.com/p/CX-C2jSlh8q/ Posted by Shawn Fonteno on Instagram in December 26, 2021]</ref>
+|ShortTrips-GTAOe-PromotionalScreenshot.jpg|Promotional screenshot for the [[Short Trips]].
+|ShortTrips-GTAOe-PromotionalScreenshot-SeedCapital.jpg|Promotional screenshot for Seed Capital.
+|ShortTrips-GTAOe-PromotionalScreenshot-FireItUp.jpg|Promotional screenshot for Fire It Up.
+|ShortTrips-GTAOe-PromotionalScreenshot-OGKush.jpg|Promotional screenshot for OG Kush.
+|GTAOnlineBonusesMarch2022-GTAOe-PayphoneHitsAdvert.jpg|Franklin at the Agency.
+|Franklin'sSupplyStashes-GTAOe-March2022Advert.jpg|Advert for Supply Stashes from Franklin.
+|GTAOnlineBonusesDecember2022Part1-GTAOe-Header.jpg|[[GTA Online Bonuses (December 2022 Part 1)|Advert]] for Short Trips.
+}}
+
+====Artworks====
+{{Gallery
+|GTAOnlineTheContract-AnnouncementArtwork.jpg|[[GTA Online: The Contract|The Contract]] announcement artwork, featuring Franklin to the far right.
+|GTAOnline-TheContract-Artwork.jpg|The Contract official artwork, featuring Franklin reloading a [[Heavy Rifle]].
+|TheContract-GTAOe-ReleaseNewswire-StudioArtwork.png|Artwork of Dr. Dre's [[Record A Studios|recording studio]], featuring Franklin to the far left.
+|ShortTrip-GTAOe-Artwork.jpg|First promotional artwork for the Short Trips, featuring Lamar and Franklin.
+|ShortTrips-GTAOe-Artwork.jpg|Second promotional artwork for the Short Trips, featuring Lamar and Franklin.
+}}
+
+==Trivia==
+===General===
+*Franklin Clinton and the [[Protagonists in GTA London|''GTA London'' Protagonists]] are currently the only protagonists in the series who appear as playable characters during the storylines of two different ''Grand Theft Auto'' titles.
+
+===''Grand Theft Auto V''===
+*Despite his date of birth never being mentioned in-game, Franklin's license plates read "FC1988" ("FC" being his initials, and 1988 being his possible birth year).
+*According to second stage of [[Children of the Mountain]] side quest, his e-mail address is Frankie@eyefind.info.
+*In the gameplay trailer, beta appearances, and official artwork, Franklin had a stripe cut out of his hair on the upper-right corner of his forehead. Although it is not part of Franklin's default appearance, the same haircut can be bought at a barber shop. Oddly enough, Franklin's icon in the [[Character Wheel]] still reflects his earlier design with the stripe cut out.
+*Franklin's default in-game ringtone is a slowed-down version of "Bump To The Music" by Fatamarse, which was featured on [[Lips 106]], a radio station from {{III}}.
+*After [[Drinking|drinking]] with Jimmy, he asks Franklin if he ever "shit the bed", causing him to get defensive and be mocked by Jimmy. Also, while [[Weed|high]], he questions whether he "shit [him]self", saying in his mind, "not again".
+*In "[[Eye in the Sky]]", it is revealed that Franklin was once arrested for Public Exposure. According to him, it was due to him [[wp:Sagging (fashion)|sagging]] in public and the LSPD committing "racial profiling". This disgusts Trevor.
+*Franklin's favourite radio stations are [[Radio Los Santos]], [[West Coast Classics]], and [[The Lab]]. He also appears to like [[Blonded Los Santos 97.8 FM]] and [[iFruit Radio]], which are anachronistic as both stations did not exist until [[2017]] and [[2019]] respectively. When [[Hao Street Races|racing]], he always turns to [[Soulwax FM]].
+*According to Tonya Wiggins, Franklin "fooled around" with her behind a [[Burger Shot (HD Universe)|Burger Shot]] when he was [[2001|13]]. Franklin, however, denies it and claims that nothing serious happened.
+**This is mentioned again by Lamar in idle dialogue at Record A Studios with ''The Contract'' update.
+*It is likely that Franklin is a Christian, or at the very least has studied the Bible at some point in his life. He immediately recognized the verse that Michael sarcastically used, after pulling down the house in "Marriage Counseling," as coming from the book of Matthew. He is also described as believing in a "white man's God." Another possible reference to Franklin's religious standing is his ability to purchase a torso tattoo quoting a biblical manuscript from 2 Corinthians 12:9 which reads: "...My grace is sufficient for you, for my power is made perfect in weakness." Pre-release artwork of Franklin shows him with a praying hands tattoo in his neck, further supporting this theory.
+**Additionally, the tattoo resembles an item found in "[[w:c:lanoire:The Silk Stocking Murder|The Silk Stocking Murder]]", a Homicide case in [[wp:L.A. Noire|L.A. Noire]], another video game edited by [[Rockstar Games]].
+*Of the three protagonists, Franklin appears to have the most compassion for animals, possibly because he is the only main character to have a [[Chop|pet]]. When he runs over a wild animal, he usually responds with compassionate quotes, such as: "''Sorry, little dude!''" or "''Watch out, little dude!''" whereas Michael usually responds with sarcasm and Trevor with dark humor.
+*Franklin's special ability may be a reference to the Zone special ability from ''[[wp:Midnight Club 3: DUB Edition|Midnight Club 3: Dub Edition]]'' and ''[[wp:Midnight Club: Los Angeles|Midnight Club: Los Angeles]]'' (other Rockstar Games titles), which allows the player to slow down time for better handling while driving.
+*Franklin's signature color is green, most likely due to his connection with the Chamberlain Gangster Families. This is seen when using his special ability by screen fading green, while Michael's ability fades blue and Trevor's fades orange.
+**The selection of the protagonist's signature colors may be a reflection of the character's personalities and/or their individual story arcs. Green is the color of intellect and wealth, reflecting Franklin's focus on gaining money and his desire to move up in the world of organized crime.
+*Even after Franklin left Forum Drive to live at [[Vinewood Hills]] and after he stopped hanging out with his gang, he is still true to his membership with [[The Families]]. This is shown when he gets respect from other members, the player can give him tattoos that involve the gang in any way, and none of the clothing that Franklin wears is purple (not even the [[Los Santos Panic]] clothing he can purchase at Suburban have purple on them).
+*If the player throws Molotovs at Franklin's house as Michael or Trevor, he might text the player saying: "''U trying to burn my house down?''".
+*Franklin is the only protagonist who cannot play [[tennis]].
+*Franklin has an unfinished military bomb suit found in the game's files, suggesting that originally, in The Paleto Score, he would have robbed the bank lobby along with Michael and Trevor rather than the [[Heist Crew Members in GTA V|gunman]] in the final version.
+*Both Franklin and Michael are known to smoke cigarettes. At Franklin's mansion, [[Redwood Cigarettes]] packs can be found scattered on tables, along with multiple ashtrays.
+*If the player enters the in-game website PsychicShoutout and speaks with Mrs. Marcy as Franklin, she will say that she sees Lamar in her visions, having sex on Franklin's bed. This is a possible hint that Lamar had an affair with Denise Clinton, due to his multiple positive comments about her appearance. Another reference on that matter is that during the mission, "Hood Safari", Lamar is seen leaving Franklin's house with her.
+*Franklin is the only protagonist to be able to use lockpicks. Usage of lockpicks is extremely useful when trying to steal parked cars (smashing windows get detected by the police), and to avoid attracting attention of pedestrians and bystanders when stealing a parked car. The only problem with lockpicks is that the player is not able to choose whether or not Franklin uses them. However, approaching a vehicle without attacking beforehand tends to invoke their use. Franklin tends not to use lockpicks if he is in a hurry or when he's provoked (i.e. if the police sees him, he shoots or attacks, or gets shot at).
+**Franklin never lockpicks SUVs, vans, and other vehicles with a higher door handle, resulting in him always smashing the locked car door windows when entering.
+**Oddly, Franklin never lockpicks the [[Furore GT]], even without being provoked.
+*Franklin sleeps for the most normal amount of time out of all the 3 protagonists. When saving the game as Franklin, the game skips ahead 8 hours. Michael sleeps for 6 while Trevor sleeps for 12. Franklin also sleeps in the fetal position, which is the most common sleeping position in the world.
+*Franklin shares many similarities with [[Carl Johnson]], the protagonist of {{SA}}.
+**They are both young African-American men born and currently residing in [[Los Santos (3D Universe)|Los]] [[Los Santos (HD Universe)|Santos]].
+**They are both very calm, and are interested in making money and rising to the top of the criminal underworld, often to the dismay of those close to them.
+**By another coincidence, Franklin and Carl's voice actors are cousins.
+**Both of them are also affiliated with The Families.
+**They both never knew their father.
+*Franklin is the only protagonist of ''GTA V'' who survives in all three endings. As a result of this, many of his missions (including all of his Strangers and Freaks missions) are required for [[100% Completion in GTA V|100% Completion]].
+*Franklin is a fan of the [[Los Santos Corkers Baseball Team]], the [[Los Santos Kings]] ice hockey team and the [[LS Jardineros]] soccer team.
+*Originally Franklin was able to play tennis judging by sound effects found in the game files.
+
+===''Grand Theft Auto Online''===
+*Franklin's role in ''[[GTA Online: The Contract|The Contract]]'' update makes him the first protagonist in the series to have also played the role of a [[deuteragonist]].
+*Franklin's new profession as a celebrity fixer has been compared to the fictional character  Ray Donovan; from the crime drama TV series of the same name on Showtime.
+*If the ''GTA Online'' Protagonist stands in front of Franklin in his Agency office long enough, Franklin could be heard commending them for their accomplishments such as robbing the Diamond Casino and successfully running a Nightclub, which he admitted going to prior to meeting them. He could also mention mutual accomplices such as Trevor and Lester, fondly reminiscing their adventures together. This is apparently because Imani had caught Franklin up to speed with the player's criminal history.
+*While having not met [[Pavel]] before, Franklin mentioned he was approached by him, informing that the player had also hit "[[Cayo Perico|an island in the Caribbean]]".
+*Franklin has learned about golf and considers it a "''borin'-ass game''", but acknowledges that important deals get made while on the golf course. He, therefore, owns a set of golf clubs but keeps them in his office at the Agency rather than at home.
+*He thinks of the internet as "''a huge and terrible place that I still don't understand''", nor can he decipher Imani's texts which are apparently full of internet slang. Despite this, however, he is capable of navigating message boards and is aware of what NFTs (non-fungible tokens) are.
+*Franklin may say to the player while in the Agency that owning a [[Hangars|hangar]] must be "convenient as shit" and that he wishes he owned one. However, in {{V|l=n}}, he can. This may be an oversight, or purchasing the hangar for Franklin is not [[canon]]. He may also mention that he has never owned a [[Nightclubs|nightclub]], whereas in {{V|l=n}}, he, Michael or Trevor may own [[Pitchers]] or [[The Hen House]].
+
+==References==
+{{Scrollbox|{{Ref List}}}}
+*[[Grand Theft Auto V/GameInformer December 2012|''GameInformer'' December issue]].
+*[http://www.polygon.com/2012/11/14/3643990/gta-5-writer-explains-the-decision-to-develop-for-current-gen-consoles] - Info from Polygon.
+*[http://www.gtaforums.com/index.php?showtopic=533133&st=0] - Info from a translated interview with [[Dan Houser]].
+*[http://www.gtaforums.com/index.php?showtopic=533265&hl=] - Info from another translated interview with [[Dan Houser]].
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox gta|state=collapsed}}
+{{Navbox gtav characters|state=collapsed}}
+{{Navbox gtao characters|state=collapsed}}
+}}
+
+[[de:Franklin Clinton]]
+[[es:Franklin Clinton]]
+[[it:Franklin Clinton]]
+[[ja:フランクリン・クリントン]]
+[[pl:Franklin Clinton]]
+[[pt:Franklin Clinton]]
+[[ru:Франклин Клинтон]]
+[[uk:Франклін Клінтон]]
+[[zh:Franklin Clinton]]
+[[Category:Characters in GTA Online: The Contract]]
+[[Category:Characters in GTA V]]
+[[Category:Male characters]]
+[[Category:Gangsters]]
+[[Category:Mission givers]]
+[[Category:Protagonists]]
+[[Category:Children of the Mountain]]
+[[Category:Friends]]

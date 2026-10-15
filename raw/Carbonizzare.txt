@@ -1,0 +1,520 @@
+{{Infobox vehicle
+|name            = Carbonizzare
+|aka             = 
+|image_label     = V
+|front_image     = Carbonizzare-GTAVee-FrontQuarter.png
+|rear_image      = Carbonizzare-GTAVee-RearQuarter.png
+|caption         = A '''Carbonizzare''' in {{VO}}.
+|image_label2    = VI
+|front_image2    = Carbonizzare-GTAVI-AnExtendedLook.png
+|rear_image2     = 
+|caption2        = The rear of a '''Carbonizzare''' in ''[[An Extended Look]]'' for {{VI}}.
+|games           = {{games|V=y|O=y|VI=y}}
+|mentioned       = 
+|type            = sports
+|class           = [[:Category:Sports class|Sports]] {{Small|(''GTA IV'' & ''GTA Online'')}}
+|body_style      = [[:Category:Convertibles|2-door cabriolet]]
+|purpose         = 
+|capacity        = 2 {{Small|(driver and passenger)}}
+|radar_icon      = 
+|manufacturer    = [[Grotti]]
+|make_year       =
+|price           = [[Money|$]]195,000 {{Small|(''GTA Online'') ([[Legendary Motorsport]]; [[#Locations|no longer available]])}}
+|trade_price     = 
+|spawn           = Yes
+|spawn_traffic   = Yes
+|spawn_cargen    = Yes
+|spawn_scenarios = Yes
+|spawn_specific  = No
+|variants        = 
+|basevariant     = 
+|lineup          = 
+}}
+{{quote|It's no shock that a country in which a man had no qualms about dressing in a canary-yellow thong would know how to produce vehicles that get you noticed. The Carbonizzare is the ultimate sports car for the millionaire who wants people to know that they're a millionaire.|[[Legendary Motorsport]] description, ''GTA Online''.}}
+The [[Grotti]] '''Carbonizzare''' is a two-door sports car appearing in {{V}} and {{O}}, and due to appear in {{VI}}.
+
+==Description==
+===''Grand Theft Auto VI''===
+{{Upcoming|game=VI}}
+The Carbonizzare's presence in {{VI}} was first spotted in the game's [[Grand Theft Auto VI/Trailers#Trailer 1|first trailer]], where a red Carbonizarre can be seen parked along [[Shore Drive]] in [[Vice Beach (HD Universe)|Vice Beach]] (0:31). 
+
+==Influence==
+The Carbonizzare's design appears to primarily draw inspiration from the {{WP|Aston Martin V12 Zagato}}, incorporating features from the {{WP|Ferrari California}}, mainly the car's retractable hardtop feature, as the V12 Zagato does not feature any folding roof mechanism, but also the shape of the rear windshield and the mirrors. The headlights, front bumper air intakes, and integrated LED daytime running lights closely resemble those of the {{URL|https://www.emanualonline.com/blog/transtar-racing-dagger-gt-supercars-that-never-were/|TranStar Racing Dagger GT}}. Furthermore, the tail lights seem to be derived from the {{WP|Ferrari F430}}, while the diffuser shows some resemblance to that of the {{WP|Ferrari 458}}.
+
+==Design==
+===''Grand Theft Auto V'' and ''Online''===
+The Carbonizzare takes on a simplistic, but modern and sporty design, with LED daytime running lights lining the headlights as well as the front intakes. Numerous elements of the car are covered in carbon fiber, such as the rear vents & diffuser, as well as the wing mirrors. The rear of the car prominently displays the Grotti name as chrome badging across the trunk lid, between a set of circular twin brake lights. This hood/bonnet opens to reveal the engine bay and a built-in strut brace.
+
+The car used the "Schafter Brown" interior, a derivative of the interior found on the [[Schafter (second generation)|Schafter]] and the [[Tailgater]] with a unique tan color. features a tan coloured interior, in a similar manner to the [[Super Diamond]].
+
+The car only utilizes the primary color slot, used for the body and the interior stitching. It uses a set of wheels similar to the "Hypher" high-end rims available in [[Los Santos Customs]].
+
+===''Grand Theft Auto VI''===
+{{Upcoming|game=VI}}
+The Carbonizzare appears in the [[Grand Theft Auto VI/Trailers#Trailer 1|first trailer]] for {{VI}}, retaining most of its previous design, but with updated, higher-quality taillight textures and a subtly thicker, more conventional fender-to-taillight junction.
+
+==Performance==
+===''Grand Theft Auto V'' and ''Online''===
+The Carbonizzare is a fairly middle-of-the-road Sports car, with good acceleration and top speed. Its handling is very well balanced between understeer and oversteer, making it easy to drive and hard to spin out. Understeer is more pronounced at higher speeds but is easily manageable. Crash deformation is acceptable compared to other Sports cars, but it won't take many collisions for performance-reducing damage to occur. While very well balanced in its entirety, the Carbonizzare's lack of distinction makes it a fairly meager choice for a racing vehicle. Overall, the Carbonizzare is a solid choice for newer players but lacks potential in more skilled hands.
+
+This car features a front-mounted modelled twin-cam inline-4 engine with a cylindrical air filter mounted on its intake manifold. Despite being modelled as a inline-4, it sounds more like a high revving, flat-plane V12. It has a 6-speed transmission and a front engine, rear wheel drive layout.
+
+==Modifications==
+===''Grand Theft Auto V'' and ''Online''===
+{|class="wikitable mw-collapsible mw-collapsed" width="100%"
+!colspan="2"|Category
+!Modification
+!Cost (''GTA V'')
+!Cost (''GTA Online'')
+!width="200px"|Image
+|-
+|colspan="2" rowspan="6"|Armor
+|No Armor
+|$500
+|colspan="2"|$1,000
+|-
+|Armor Upgrade 20%
+|$2,500
+|colspan="2"|$7,500
+|-
+|Armor Upgrade 40%
+|$6,250
+|colspan="2"|$12,000
+|-
+|Armor Upgrade 60%
+|$10,000
+|colspan="2"|$20,000
+|-
+|Armor Upgrade 80%
+|$17,500
+|colspan="2"|$35,000
+|-
+|Armor Upgrade 100%
+|$25,000
+|colspan="2"|$50,000
+|-
+|colspan="2" rowspan="4"|Brakes
+|Stock Brakes
+|$500
+|colspan="2"|$1,000
+|-
+|Street Brakes
+|$10,000
+|colspan="2"|$20,000
+|-
+|Sport Brakes
+|$13,500
+|colspan="2"|$27,000
+|-
+|Race Brakes
+|$17,500
+|colspan="2"|$35,000
+|-
+|colspan="2" rowspan="4"|Engine
+|EMS Upgrade, Level 1
+|$4,500
+|colspan="2"|$9,000
+|-
+|EMS Upgrade, Level 2
+|$6,250
+|colspan="2"|$12,500
+|-
+|EMS Upgrade, Level 3
+|$9,000
+|colspan="2"|$18,000
+|-
+|EMS Upgrade, Level 4
+|$16,750
+|colspan="2"|$33,500
+|-
+|colspan="2" rowspan="2"|Exhausts
+|Stock Exhaust
+|$130
+|$260
+|[[File:Carbonizzare-GTAO-Exhausts-StockExhaust.png|thumb|center|200px]]
+|-
+|Dual Exit Exhaust
+|$375
+|$750
+|[[File:Carbonizzare-GTAO-Exhausts-DualExitExhaust.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="2"|[[Car Bomb|Explosives]]
+|Ignition Bomb
+|N/A
+|colspan="2"|$5,000
+|-
+|Remote Bomb
+|N/A
+|colspan="2"|$7,500
+|-
+|colspan="2" rowspan="2"|Hoods
+|Stock Hood
+|$800
+|$1,600
+|[[File:Carbonizzare-GTAO-Hoods-StockHood.png|thumb|center|200px]]
+|-
+|Carbon Hood
+|$1,500
+|$3,000
+|[[File:Carbonizzare-GTAO-Hoods-CarbonHood.png|thumb|center|200px]]
+|-
+|colspan="2"|Horns
+|''Main article: [[Vehicle Customization in GTA V/Horns]]''
+| -
+|colspan="2"| -
+|-
+|rowspan="3"|Lights
+|rowspan="2"|Headlights
+|Stock Lights
+|$300
+|colspan="2"|$600
+|-
+|Xenon Lights
+|$1,450
+|colspan="2"|$7,500
+|-
+|Neon Kits
+|''Main article: [[Vehicle Customization in GTA V/Lights]]''
+| -
+|colspan="2"| -
+|-
+|colspan="2" rowspan="2"|Loss/Theft Prevention
+|Tracker
+|N/A
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|Full Coverage
+|N/A
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="5"|Plates
+|Blue on White 1
+|$50
+|colspan="2"|$200
+|-
+|Blue on White 2
+|$50
+|colspan="2"|$200
+|-
+|Blue on White 3
+|$50
+|colspan="2"|$200
+|-
+|Yellow on Blue
+|$75
+|colspan="2"|$300
+|-
+|Yellow on Black
+|$150
+|colspan="2"|$600
+|-
+|colspan="2"|Respray
+|''Main article: [[Vehicle Customization in GTA V/Respray Colors]]''
+| -
+|colspan="2"| -
+|-
+|colspan="2"|Sell
+|Sell Vehicle
+|N/A
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="3"|Spoilers
+|None
+|$3,000
+|$6,000
+|[[File:Carbonizzare-GTAO-Spoilers-None.png|thumb|center|200px]]
+|-
+|Mid Level Spoiler
+|$3,750
+|$7,050
+|[[File:Carbonizzare-GTAO-Spoilers-MidLevelSpoiler.png|thumb|center|200px]]
+|-
+|High Level Spoiler
+|$5,000
+|$10,000
+|[[File:Carbonizzare-GTAO-Spoilers-HighLevelSpoiler.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="5"|Suspension
+|Stock Suspension
+|$100
+|colspan="2"|$200
+|-
+|Lowered Suspension
+|$500
+|colspan="2"|$1,000
+|-
+|Street Suspension
+|$1,000
+|colspan="2"|$2,000
+|-
+|Sport Suspension
+|$1,700
+|colspan="2"|$3,400
+|-
+|Competition Suspension
+|$2,200
+|colspan="2"|$4,400
+|-
+|colspan="2" rowspan="4"|Transmission
+|Stock Transmission
+|$500
+|colspan="2"|$1,000
+|-
+|Street Transmission
+|$14,750
+|colspan="2"|$29,500
+|-
+|Sports Transmission
+|$16,250
+|colspan="2"|$32,500
+|-
+|Race Transmission
+|$20,000
+|colspan="2"|$40,000
+|-
+|colspan="2" rowspan="2"|Turbo
+|No Turbo
+|$2,500
+|colspan="2"|$5,000
+|-
+|Turbo Tuning
+|$12,500
+|colspan="2"|$50,000
+|-
+|colspan="2"|Wheels
+|''Main article: [[Vehicle Customization in GTA V/Wheels]]''
+| -
+|colspan="2"| -
+|-
+|colspan="2" rowspan="4"|Windows
+|None
+|$100
+|colspan="2"|$500
+|-
+|Light Smoke
+|$200
+|colspan="2"|$1,500
+|-
+|Dark Smoke
+|$450
+|colspan="2"|$3,500
+|-
+|Limo
+|$700
+|colspan="2"|$5,000
+|}
+
+==Gallery==
+===Design===
+{{Design Gallery Vehicle
+|game                = VO
+|front_quarter_image = Carbonizzare-GTAV-FrontQuarter.jpg
+|top_image           = Carbonizzare-GTAV-Top.jpg
+|rear_quarter_image  = Carbonizzare-GTAV-RearQuarter.jpg
+|front_image         = Carbonizzare-GTAV-Front.jpg
+|side_image          = Carbonizzare-GTAV-Side.jpg
+|rear_image          = Carbonizzare-GTAV-Rear.jpg
+|engine_image        = Carbonizzare-GTAV-Engine.jpg
+|underside_image     = Carbonizzare-GTAV-Underside.jpg
+|inside_image        = Carbonizzare-GTAV-Inside.jpg
+|detail_image        = Carbonizzare-GTAV-Badges.png
+|open_other_image    = Carbonizzare-GTAV-Open.jpg
+|dashboard_image     = Carbonizzare-GTAV-Dashboard.jpg
+}}
+===Images===
+{{Gallery
+|game = VO
+|Carbonizzare-GTAV-LegendaryMS.png|The '''Carbonizzare''' on [[Legendary Motorsport]].
+|Carbonizzare-GTAVee-FrontQuarter-RoofDown.png|A '''Carbonizzare''' with its roof down. {{Small|([[:File:Carbonizzare-GTAVee-RearQuarter-RoofDown.png|Rear quarter view]])}}
+}}
+===Trailer Screenshots===
+{{Gallery
+|game = VI
+|Carbonizzare-GTAVI-Trailer1-2.png|The rear of a '''Carbonizzare''' driving along [[Interstate 404]] in the [[Grand Theft Auto VI/Trailers#Trailer 1|first trailer]] (0:25).
+|Carbonizzare-GTAVI-Trailer1.png|The rear of a '''Carbonizzare''' along [[Shore Drive]] in the first trailer (0:31).
+|Carbonizzare-GTAVI-Trailer1-3.png|A '''Carbonizzare''' parked near an intersection in [[Crosstown]] in the first trailer (0:45).
+}}
+===Official Screenshots===
+{{Gallery
+|game = V
+|Carbonizzare-GTAV-LSCAdvertisement.jpg|Promotional pre-release image for [[Los Santos Customs]].
+|Carbonizzare-GTAV-screenshot.jpg|Official pre-release screenshot of the '''Carbonizzare'''.
+|Carbonizzare-GTAV-Screenshot2.jpg|A pre-release screenshot for the [[Grand Theft Auto V: Enhanced Edition|enhanced edition]] of ''Grand Theft Auto V''.
+}}
+===Videos===
+{{Video Gallery
+|game = VO
+|[[File:Carbonizzare-GTAVee-FrontQuarter-RoofAnimation.mp4|thumb|275px|center|Animation of the '''Carbonizzare'''{{'}}s retractable roof. {{Small|([[:File:Carbonizzare-GTAVee-RearQuarter-RoofAnimation.mp4|Rear quarter view]])}}]]
+}}
+
+==Locations==
+===''Grand Theft Auto V''===
+*Can be found around [[Galileo Observatory]], both parked and in traffic.
+*One usually spawns parked on [[Marlowe Drive]] in [[Vinewood Hills]].
+*Spawns outside [[Solomon Richards|Solomon Richard's]] studio before and during the [[Legal Trouble]] mission, along with a [[Rapid GT]] and a [[Surano]]. Can be kept after the mission if used.
+*Can be found in [[Rockford Hills]].
+*There is a chance for it to spawn either in the parking lot at the [[Vinewood Racetrack]], or on the roads surrounding it.
+*Several can be found in the [[Kortz Center]] parking lot in [[The Wrap Up]].
+
+===''Grand Theft Auto Online''===
+*Available for purchase from [[Legendary Motorsport]] for [[Money|$]]195,000.
+**No longer available in the enhanced versions of the game; [[:Category:Vehicles removed for purchase in GTA Online: San Andreas Mercenaries|removed]] from the website as part of the [[GTA Online: San Andreas Mercenaries|San Andreas Mercenaries]] update.
+
+==Prominent Appearances in Gameplay==
+===''Grand Theft Auto Online''===
+*[[Simeon's Export Requests]] {{nd}} This vehicle may be randomly requested for delivery by [[Simeon Yetarian]].
+*[[Exotic Exports (GTA Online)|Exotic Exports]] {{nd}} This is one of the hundred possible cars that can be requested by [[Brucie Kibbutz]] for delivery.
+
+==Rockstar Games Website==
+===''Grand Theft Auto V'' and ''Online''===
+{{RSSC
+|name          = Carbonizzare
+|manufacturer  = Grotti
+|class         = Sports 
+|image         = Carbonizzare-GTAV-RGSC-MainNew.jpg
+|caption       = Main image (after 2019).
+|image2        = Carbonizzare-GTAV-RGSC-Action.jpg
+|caption2      = "Action" image for ''GTA V''.
+|image3        = Carbonizzare-GTAO-RGSC-Action.jpg
+|caption3      = "Action" image for ''GTA Online''.
+|image4        = Carbonizzare-GTAV-RGSC-Main.jpg
+|caption4      = Main image (prior to 2019).
+|speed         = 84.775108
+|accel         = 87.5
+|braking       = 26.666668
+|traction      = 72.121216
+|seats         = 2
+|garage        = y
+|moddable      = y
+|premium       = y
+|super         = n
+|buy           = y
+|sell          = y
+|dealer        = lms
+|schematic     = GenericSports
+}}
+
+==Radio Stations==
+{{Defaultradioheader|name=Carbonizzare}}
+{{Defaultradio|game=VO|defaultgroup=rap}}
+
+==Specifications==
+===Model===
+{{Specifications Vehicle Model
+|game1               = VO
+|game1_modelname     = carbonizzare
+|game1_texturename   = carbonizzare
+|game1_handlingname  = CARBONIZ
+|game1_textlabelname = CARBONIZ
+|game1_ingamename    = Carbonizzare
+|game1_swankness     = 5
+|game1_flags         = 
+{{Vehicle Flag List
+|game          = V
+|FLAG_SPORTS
+|FLAG_SPAWN_ON_TRAILER
+|FLAG_PARKING_SENSORS
+|FLAG_RICH_CAR
+|FLAG_HAS_INTERIOR_EXTRAS
+|modelFlags    = 00440010
+|handlingFlags = 00000001
+}}
+}}
+
+===Population===
+{{Specifications Vehicle Population
+|game1               = VO
+|game1_popgroups     = {{Popgroups|game=V|veh_rich}}
+|game1_modelsets     = GENTRY_MANNOR
+|game1_frequency     = 30
+|game1_drivers       = {{No|None}}
+|game1_licenseplates = Standard White - 100%
+}}
+
+===Handling===
+{{Specifications Vehicle Handling
+|game1               = VO
+|game1_maxvelocity   = 158
+|game1_gears         = 6
+|game1_enginetype    = 
+|game1_drivetrain    = 0
+|game1_mass          = 1600
+}}
+
+===Audio===
+{{Specifications Vehicle Audio
+|game1               = VO
+|game1_hornsound     = horn_list_sports
+|game1_enginesound   = supercar_2_eur_v8
+|game1_radio         = 
+|game1_scannermanf   = grotti
+|game1_scannermodel  = carbonizzare
+|game1_scannercat    = sportscar,performancecar
+|game1_scannercolor  = none
+}}
+
+===Traffic Default Colors===
+{{Vehicle Color List
+|game     = VO
+|28,0,0,156
+|0,0,0,156
+|1,0,4,156
+|30,0,30,156
+|49,0,57,156
+|65,0,74,156
+|88,0,89,156
+|4,0,111,156
+|5,0,111,156
+|7,0,5,156
+|12,86,0,156
+}}
+
+==Beta Content==
+===''Grand Theft Auto V''===
+{{Beta|game=V|type=vehicle|changes=y}}
+In the first official screenshot showcasing the Carbonizzare, it had no windscreen wipers. Furthermore, in the same screenshot, it had six spoke wheels, but interestingly, the outer part of the {{WP|Wheel hub assembly|wheel hub}} is visible, meaning that the wheel was inset too far into the body, or had not been correctly modeled to fit the car.
+
+===''Grand Theft Auto VI''===
+{{Beta|game=VI|type=vehicle|changes=y}}
+The Carbonizzare was nearly identical to its previous appearance in {{VO|ab=y|l=n}}, as seen in the [[Grand Theft Auto VI/Trailers#Trailer 1|first trailer]] for ''GTA VI'', before its redesign appeared in the [[Grand Theft Auto VI/Leaks#August 2026|August 2026 ''GTA VI'' leaks]] and ''[[An Extended Look]]''.
+{{Gallery
+|Carbonizzare-GTAVI-Trailer1-2.png|The rear of a beta '''Carbonizzare''' driving along [[Interstate 404]] in the [[Grand Theft Auto VI/Trailers#Trailer 1|first trailer]] (0:25).
+|Carbonizzare-GTAVI-Trailer1.png|The rear of a beta '''Carbonizzare''' along [[Shore Drive]] in the first trailer (0:31).
+|Carbonizzare-GTAVI-Trailer1-3.png|A beta '''Carbonizzare''' parked near an intersection in [[Crosstown]] in the first trailer (0:45).
+}}
+
+==Trivia==
+*''Carbonizzare'' is Italian for "to carbonize".
+*According to ambient audio files, the Carbonizzare is one of several named vehicles in-game that make up distant car sounds.<ref>'''File:''' x64\audio\sfx\ONESHOT_AMBIENCE.rpf, under name "carbonizare".</ref> Other vehicles include the [[Entity XF]], [[Cheetah]], [[Comet]], [[Daemon]], [[Banshee]], [[Vacca]] and [[Feltzer]].
+
+==References==
+{{Ref List}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtav vehicles|state=collapsed}}
+{{Navbox gtao vehicles|state=collapsed}}
+{{Navbox gtavi vehicles|state=collapsed}}
+}}
+[[de:Carbonizzare (V)]]
+[[es:Carbonizzare]]
+[[fr:Carbonizzare]]
+[[pl:Carbonizzare]]
+[[pt:Carbonizzare]]
+[[ru:Carbonizzare]]
+
+[[Category:Vehicles in GTA V]]
+[[Category:Vehicles in GTA Online]]
+[[Category:Vehicles in GTA VI]]
+[[Category:Sports cars]]
+[[Category:Convertibles]]
+[[Category:Vehicles manufactured by Grotti]]
+[[Category:Sports class]]
+[[Category:Vehicles removed for purchase in GTA Online: San Andreas Mercenaries]]
+[[Category:Vehicles purchasable from Legendary Motorsport]]
+[[Category:Vehicles purchasable from Premium Deluxe Motorsport]]
+[[Category:Vehicles with Schafter interior]]
+[[Category:Vehicles with retractable roofs]]

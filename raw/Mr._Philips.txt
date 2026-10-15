@@ -1,0 +1,317 @@
+{{Infobox gameplay
+|name = Mr. Philips
+|image = MrPhilips-GTA5.jpg
+|games          = {{Games|V=y}}
+|style          = V
+|type           = storyline
+|for = {{For|game=V|michaelmf}}
+|strand = [[Trevor (mission series)|Trevor]]{{Note|Based on the mission's internal script naming convention; does not represent an official in-game classification.}}
+|location = 
+*[[Michael's House]], [[Rockford Hills]] {{Small|(start)}}
+*[[McKenzie Field]], [[Grapeseed]]
+*[[Stab City]], [[Calafia Road]], [[Blaine County]]
+*[[Route 68]], [[Blaine County]]
+*[[Zancudo Avenue]], [[Sandy Shores]] {{Small|(end)}}
+|target = 
+*[[The Lost MC]]
+*[[Ortega]]
+|fail = 
+*[[Wasted]]
+*[[Busted]]
+*The Lost escapes
+*[[Wade Hebert|Wade]] or [[Ron Jakowski|Ron]] dies
+*Wade was abandoned
+*Ron was abandoned
+*Bodhi is destroyed
+*Trevor leaves the trailer park too early
+*All the drivers die, and can no longer be chased
+*The bikers are spooked
+*Trevor leaves without threatening Ortega or kills him too early
+|reward = 
+*Ability to play as Trevor.
+*[[Tattoo]] Parlors.
+*[[Offroad Races]].
+*[[Sawed-Off Shotgun]] available at [[Ammu-Nation (HD Universe)|Ammu-Nation]].
+*[[Antique Cavalry Dagger]] and [[Vintage Pistol]] available at [[Ammu-Nation (HD Universe)|Ammu-Nation]]. {{E|EE&E}}
+*[[Stock Car Racing]]. {{E|EE&E}}
+*[[Trevor Philips]] and [[Wade Hebert]] as [[Rockstar Editor|Director Mode]] characters. {{E|EE&E}}
+|protagonists = [[Trevor Philips]]
+|unlocks = *[[Trevor Philips Industries]]
+*[[Nervous Ron]]
+*[[Bail Bond]]
+|unlockedby = [[The Jewel Store Job]]
+|file_name      = <code>trevor1</code>
+|tod = 13:00
+|todo = 
+}}
+{{Quote|Trevor has something to discuss with the Lost Motorcycle Club.|''GTA V'' description at Rockstar Games Social Club
+}}
+'''Mr. Philips''' is a mission in {{V}}, which [[Trevor Philips]] performs independently. Fellow protagonists [[Michael De Santa]] and [[Franklin Clinton]] also appear in the opening cutscene.
+
+==Description==
+{{Quote|Who the fuck are you speaking to? Who? Who? I'm talking to you! Huh?! You fuck! Huh? Next time don't get in my fucking face! I just saw a fucking ghost and now I've got to hear your crap?! Get up! Get up! Fuck you, then!|Trevor Philips, to Johnny Klebitz, right after killing him.|sound=MrPhilips-GTAV-Dialogue.ogg}}
+After Franklin meets Michael at his house, they each have a drink to celebrate [[The Jewel Store Job|their successful heist]]. While they discuss business, [[Dave Norton]], the [[FIB]] agent who [[Prologue (GTA V)|offered]] him a deal then appears out of the blue and warns Michael that his involvement in the heist has alerted the FIB and may alert his former associate, [[Trevor Philips]]. Unconcerned by this, Michael brushes this aside by claiming that Trevor must be dead, before denying any involvement in the heist. Dave switches the television on to watch a news reporter interviewing the [[Albert Stalley|police officer]] Michael threatened outside the [[Vangelico|jewelry store]]. Michael switches the television off and again denies any involvement in the heist.
+
+Unbeknownst to Michael, Trevor is still alive. He overhears the news report while having sex with [[Ashley Butler]] in his [[Trevor's Trailer|trailer]] in [[Sandy Shores]]. The police officer being interviewed mentions a phrase used by one of the robbers: "''You forget a thousand things everyday, make sure this is one of them.''" Trevor instantly recognizes this as a phrase often used by Michael. Shocked by this, Trevor zips up his pants, grabs a [[Pisswasser|beer]] and walks out of the trailer, encountering [[The Lost MC|Lost MC]] leader [[Johnny Klebitz]] who is angry at Trevor for again having sex with Ashley. Trevor ignores Johnny as [[Wade Hebert]] and [[Ron Jakowski]] attempt to restrain him.
+
+A still shocked and confused Trevor continues to walk away with Johnny walking after him expressing his anger. Trevor eventually snaps and fires several insults at Johnny, before sarcastically telling Johnny to drop his pants so that they can have sex, believing that is the reason for his anger.
+
+An emotionally drained Johnny calms down, admitting to Trevor that he still loves Ashley. After feigning an attempt to console Johnny, Trevor grabs him by the throat and shoves him to the ground before smashing the beer bottle against his head and repeatedly stamping on it, killing him. After telling Johnny to get up before realizing he is dead, Trevor, Ron and Wade head off to Trevor's [[Bodhi|truck]], leaving a tearful Ashley to cradle Johnny's corpse.
+
+{{Quote|Hey, hey cowboy, do you mind that I fucked your old lady! Sorry, what was that? What? No, no? You don't mind? Oh, because you're a dead man, and the only sentient part of you left is this little bit of brain in the gristle on the end of my boot? Well, thank you very much, cowboy.|Trevor Philips, to [[Terry Thorpe]] and [[Clay Simons]], about Johnny's death.}}
+
+Knowing that the rest of the Lost will be very angry over their leader's death, Trevor decides to wipe out the local chapter of The Lost M.C. and their [[meth]] business from [[Blaine County]], before they have a chance to exact revenge. He drives with Wade and Ron to a [[R L Hunter & Sons|Lost hangout]] in [[Grapeseed]] where Terry Thorpe, Clay Simons, and other members of the Lost are hanging about. After Trevor announces and mocks Johnny's death, the members of The Lost retreat to their [[The Range|trailer park]] to notify the rest of the gang. Trevor follows them there and brutally kills the whole gang in his psychotic rage, including Terry and Clay.
+
+Afterwards, Trevor orders Wade to begin looking for Michael Townley, the "ghost" in [[Los Santos (HD Universe)|Los Santos]], and drives with Ron to a [[Ortega's Trailer|trailer]] belonging to the [[Varrios Los Aztecas (HD Universe)|Aztecas]] leader, [[Ortega]]. After pushing Ortega's trailer into the [[Zancudo River|adjacent river]], Trevor can kill or spare Ortega, solidifying his new position as Blaine County's meth dealing and illegal firearms trading kingpin. Sparing Ortega will make him reappear as another thug in [[Trevor Philips Industries]], killing him will not, and replaying the mission later on will have the game treat it as if the player spared him regardless.
+
+==Objectives==
+*Get in the {{Color|v-hud-friendly|truck.}}
+*Go to {{Color|v-hud-location|Grapeseed.}}
+*Follow the {{Color|v-hud-enemy|van.}}
+*Take down the {{Color|v-hud-enemy|bikers.}}
+*Go to the {{Color|v-hud-location|riverside trailer.}}
+*Push the trailer into the {{Color|v-hud-location|river.}}
+*Threaten {{Color|v-hud-enemy|Ortega.}}
+*Go to {{Color|v-hud-location|Ron's place.}}
+
+===Gold Medal Objectives===
+*No Survivors - Kill all fleeing bikers.
+**Take out all members on the left entrance road first, remembering to kill with headshots where possible, using Trevor's special ability can also help. After taking out the members on the left hand side of the park, proceed through the center of the park, taking out the members escaping on bikes from the left. Exploding the gas canisters next to the trailers on the right entrance road can also eliminate any remaining bikers. After the majority are killed, up to three remaining bikers will be indicated on the map with flashing blue/red markers, these bikers are the ones to be killed to gain the objective. If the player stuck to the left of the park, these members will usually flee to the main road, rather than the hills, making it easier to reach and kill them. They will not retaliate.
+*Headshots - Get 12 headshots.
+**Kill as many enemies as possible with a headshot. Using Trevor's special ability is advised, and using shotguns close range, with time to concentrate on the head of the target can also be effective
+*Time - Complete within 12:00.
+** Skip cutscenes and avoid chasing remaining members as a very last resort. Use the available shortcuts enroute if possible.
+*Trailer Trashed - Cause $5,000 damage to Ortega's trailer.
+**Make sure to push the trailer fully into the river by continuing the accelerate against it while it rolls down the banking.
+*Lost and Damned - Kill Terry and Clay during the chase.
+**As Trevor states at the beginning of the chase, the gang members in the van need to be kept while the two escort bikers can go; take out the bikers at the beginning of the chase to avoid losing them in the park later on.
+
+==Aftermath==
+*The player can now play as Trevor, and [[Trevor's Trailer|his trailer]] becomes available as a [[Safehouses in GTA V|safehouse]]. However, the player cannot play as Michael or Franklin for several missions (as it is mentioned that they are laying low after the [[The Jewel Store Job|heist]]) until they complete [[Friends Reunited]] (Franklin) and [[Fame or Shame (mission)|Fame or Shame]] (Michael).
+*It is possible to call both Ron and Wade after the mission. If the player does so, they will hear two unique conversations between the characters.
+**The first time Trevor is able to call Ron can only be triggered if the player stays in Trevor's trailer. Otherwise, Ron will call Trevor instead. Either way, they will discuss meeting with [[Tao Cheng]] at the [[Yellow Jack Inn]]. With any of these calls, the next mission, [[Trevor Philips Industries]], is unlocked.
+***The transcript in the first phone call between Ron and Trevor will vary depending on who calls first.
+*The protagonists can now use [[Tattoo Parlors]], and partake in [[Offroad Races]].
+*The Lost MC are now hostile towards Trevor and will always attack or pursue him if they notice him.
+*Trevor gets an email from [[Brad Snider|Brad]] in which Brad wishes Trevor well, as he wrote to Trevor after some time. He also states that he might be allowed to have visitors and encourages Trevor to turn himself in as [[Bolingbroke Penitentiary|prison]] isn't that bad and Trevor might like it, or at the very least to stay out of trouble. He grieves for [[Michael De Santa|Michael]] and hopes for his betterment in the afterlife. At last, he jokes about Trevor not asking him whether he has a boyfriend as a prison taboo and states that the taboo is not true unless Trevor wants it.
+**Trevor can send a response to this email and reveals to Brad that although it is hardly believable, [[Michael De Santa|Mike]] is alive and living in Los Santos, as he saw it on TV.
+**According to the mission [[By the Book]], it is revealed that it is actually [[Dave Norton]] who is impersonating Brad the whole time, as Brad has been dead for almost a decade.
+***This is proven true if [[The Time's Come]] (option B) or [[The Third Way]] (option C) are completed, as Dave will send Trevor an email confirming that he was the one who impersonated Brad the whole time. No email will be sent if [[Something Sensible]] (option A) is completed, as Trevor will be dead.
+*Trevor also gets an email from Ron about the [[Altruist Cult]] and their [[Altruist Camp|camp]] in the mountains, in which Trevor is informed about the [[Random Events in GTA V|lost souls]] that he can bring to them for salvation, in exchange for easy money, as the cultists want to have them for dinner.
+*The boarded up window at [[Premium Deluxe Motorsport]] (due to the previous one being destroyed in [[Complications]]) will be replaced with a new one. However, the new window is indestructible and cannot be damaged in any way. In addition, vehicles will no longer spawn inside the dealership, nor is the showroom accessible any longer.
+
+===Post-Mission Phone Calls===
+====Phone Call 1 (if Trevor calls Ron first)====
+*'''Ron''': Trevor... hi.
+*'''Trevor''': Why haven't you called about that new opportunity? If you've fucked things up for [[Trevor Philips Enterprises|TP Industries]]...
+*'''Ron''': No, no, no. I just thought with everything that's happening... just say the word. Mr. Cheng's ready...
+*'''Trevor''': The word. I've said it. I'm on my way.
+
+====Phone Call 1 (if Ron calls Trevor first)====
+*'''Trevor''': Speak.
+*'''Ron''': You know I don't like using these things. They're listening.
+*'''Trevor''': Then make it quick.
+*'''Ron''': That business thing's been set up. The Chinese guy, Mr. Cheng, is at the inn.
+*'''Trevor''': You said that on the phone? What the fuck is wrong with you?!? Dammit, Ron!!! Now, I'm going to have to discipline you, and you know how I feel about that!!!
+
+====Phone Call 2====
+*'''Wade''': Hey, Trevor.
+*'''Trevor''': You found Michael Townley?
+*'''Wade''': I was... I'm looking!
+*'''Trevor''': Look faster!
+
+====Phone Call 3====
+*'''Ron''': Boss.
+*'''Trevor''': I really feel we're close to a breakthrough, Ron.
+*'''Ron''': I hope, so Trevor. I really do. But I'm a little worried.
+*'''Trevor''': Of course you are...
+*'''Ron''': I mean, we've been here before, on the cusp of a big deal. Then, well...
+*'''Trevor''': Well what, Ron?
+*'''Ron''': Nothing.
+*'''Trevor''': No, not nothing. What? What? Don't make me say it a third time...
+*'''Ron''': Well, someone always upsets you...
+*'''Trevor''': So, you're saying I'm too sensitive for this career path?
+*'''Ron''': Exactly. You're a tortured soul. That's just what I meant.
+*'''Trevor''': You know, I think you may be right there.
+
+====Phone Call 4====
+*'''Wade''': Trevor?
+*'''Trevor''': Michael Townley, where is he?
+*'''Wade''': Ummm, uhhh, I don't know. Where?
+*'''Trevor''': Find him, you idiot!
+
+===[[Bleeter]] Posts===
+*@LostMotorcycleClub - "''rumors goin round that johnny klebitz been killed somewhere out in san andreas curse of the liberty city chapter lives on''"
+*@fukudad3 - "''my buddy mick tells me some crazy fuckers r waging war on the Lost at the alamo sea killed more bikers than lung cancer''"
+{{Clear}}
+==Gallery==
+===Walkthrough===
+{{Content Advisory}}
+{{Gallery
+|MrPhilips-GTAV-SS1.png|Michael and Amanda.
+|MrPhilips-GTAV-SS2.png|Michael opening a bottle of liquor.
+|MrPhilips-GTAV-SS3.png|"''Oh! Hey! There you are!''"
+|MrPhilips-GTAV-SS4.png|"''So, we all good?''"
+|MrPhilips-GTAV-SS5.png|"''Hell yeah, we all good, we did it!''"
+|MrPhilips-GTAV-SS6.png|"''Yeah, you fucking a-right we did it.''"
+|MrPhilips-GTAV-SS7.png|"''So, here's the shot, Lester's offloading the gems, he knows a guy, who can get us fifty cents on the dollar.''"
+|MrPhilips-GTAV-SS8.png|"''Hell, we might actually have a little spending left after we pay of that psychotic Mexican motherfucker.''"
+|MrPhilips-GTAV-SS9.png|"''So, that's that, right?''"
+|MrPhilips-GTAV-SS10.png|"''I hope so.''"
+|MrPhilips-GTAV-SS11.png|"''The whole job. Everything about it. Anyone who knows your file, what is wrong with you?''"
+|MrPhilips-GTAV-SS12.png|"''Davey! Long time no see!''"
+|MrPhilips-GTAV-SS13.png|"''And what about Trevor?''"
+|MrPhilips-GTAV-SS14.png|"''If that fruitcake realizes, no, no, finds out you're alive...''"
+|MrPhilips-GTAV-SS15.png|"''...you are D-O-N-E, fucked!''"
+|MrPhilips-GTAV-SS16.png|"''Hey, don't worry about Trevor, Trevor's dead. He's gotta be.''"
+|MrPhilips-GTAV-SS17.png|"''Besides, I didn't have nothin' to do with it.''"
+|MrPhilips-GTAV-SS18.png|"''Whatever the hell it is you're talking about.''"
+|MrPhilips-GTAV-SS19.png|"''Really?''"
+|MrPhilips-GTAV-SS20.png|"''The criminals are believed to have escaped with millions of dollars worth of gems, precious stones and engagement rings.''"
+|MrPhilips-GTAV-SS21.png|"''Albert Stalley had a lucky escape when the thieves ran straight into him.''"
+|MrPhilips-GTAV-SS22.png|"''Yeah, I was just doing my job, and I said to this guy "Hey, you gotta move these bikes."''"
+|MrPhilips-GTAV-SS23.png|"''I don't know anything about that.''"
+|MrPhilips-GTAV-SS24.png|"''This other guy runs out of the shop, pushes me over and says something like "You forget thousands of things everyday. Make sure this is one of 'em." That was pretty scary.''"
+|MrPhilips-GTAV-SS25.png|"''Back to you in the studio.''"
+|MrPhilips-GTAV-SS26.png|"''...''"
+|MrPhilips-GTAV-SS27.png|"''You wanna get lit now, sugar?''"
+|MrPhilips-GTAV-SS28.png|"''T-Trevor, baby... you wanna- you wanna smoke up now?''"
+|MrPhilips-GTAV-SS29.png|"''Don't do it, Johnny! Don't do it!''"
+|MrPhilips-GTAV-SS30.png|"''Trevor! You been with my girl again?! I'm speaking with you, asshole!''"
+|MrPhilips-GTAV-SS31.png|"''Don't do it, Johnny! I told him, Trevor! I told him!''"
+|MrPhilips-GTAV-SS32.png|"''We all get high! We all get high! But that don't make it right!''"
+|MrPhilips-GTAV-SS33.png|"''Leave it, Johnny. Leave it.''"
+|MrPhilips-GTAV-SS34.png|"''The crystal has got us, babe. But don't make it right. Don't make nothing right. Not what you've done with me.''"
+|MrPhilips-GTAV-SS35.png|"''I'm telling you, Johnny! Leave it!''"
+|MrPhilips-GTAV-SS36.png|"''I ain't leaving nothing!''"
+|MrPhilips-GTAV-SS37.png|"''Trevor! I'm talking to you, motherfucker!''"
+|MrPhilips-GTAV-SS38.png|"''Are you? And what are you saying?''"
+|MrPhilips-GTAV-SS39.png|"''Fucking my girl, man. It's wrong.''"
+|MrPhilips-GTAV-SS40.png|"''Well, I got to fuck someone. You want me to fuck you instead? Is that the problem here?''"
+|MrPhilips-GTAV-SS41.png|"''Take off your pants, cowboy, alright? Let's... let's fuck.''"
+|MrPhilips-GTAV-SS42.png|"''You think this is funny?''"
+|MrPhilips-GTAV-SS43.png|"''GET THEM OFF!''"
+|MrPhilips-GTAV-SS44.png|"''I told him to leave it, Trevor. I told him. Leave it. Leave it.''"
+|MrPhilips-GTAV-SS45.png|"''Shut up, Ron.''"
+|MrPhilips-GTAV-SS46.png|"''I'm about to fuck me a meth head, ain't I, cowboy? Get my boy sucked from his toothless gums, hm?''"
+|MrPhilips-GTAV-SS47.png|"''Fuck you, Trevor. I still love her.''"
+|MrPhilips-GTAV-SS48.png|"''Alright, cowboy. Hey, I know. Hey, c'mon. Shh... hey...''"
+|MrPhilips-GTAV-SS49.png|"''I didn't mean nothing by it, man. I just, I just... I messed up...''"
+|MrPhilips-GTAV-SS50.png|"''I know. I know, cowboy. It's okay, man.''"
+|MrPhilips-GTAV-SS51.png|"''Gimme me a hug, yeah... shh...''"
+|MrPhilips-GTAV-SS52.png|Trevor grabs Johnny by the throat...
+|MrPhilips-GTAV-SS53.png|And then throws his bottle at his head.
+|MrPhilips-GTAV-SS54.png|"''FUCKING SHIT! CUNT! CUNT! CUNT! CUNT!''"
+|MrPhilips-GTAV-SS55.png|"''Who the fuck are you speaking to?! Who?! Who?! I'm talking to you, huh?! You fuck!''"
+|MrPhilips-GTAV-SS56.png|"''Next time, don't get in my fucking face! I just saw a fucking ghost and I've got to hear your crap?!''"
+|MrPhilips-GTAV-SS57.png|"''Get up! Get up! Fuck you, then!''"
+|MrPhilips-GTAV-SS58.png|"''Johnny...''"
+|MrPhilips-GTAV-SS59.png|"''Fuck...''"
+|MrPhilips-GTAV-SS60.png|Get in the {{Color|#4ba1cf|truck.}}
+|MrPhilips-GTAV-SS61.png|Go to {{Color|#dece71|Grapeseed.}}
+|MrPhilips-GTAV-SS62.png|"''Whoa, whoa, whoa, whoa!''"
+|MrPhilips-GTAV-SS63.png|"''Hey, you seen Ashley? Johnny's looking for her.''"
+|MrPhilips-GTAV-SS64.png|"''Oh, you know, as a matter of fact, I just did, just ten minutes ago...''"
+|MrPhilips-GTAV-SS65.png|"''...yeah, I saw her on the end of this penis here.''"
+|MrPhilips-GTAV-SS66.png|"''Johnny ain't gonna be cool if you messing with her again.''"
+|MrPhilips-GTAV-SS67.png|"''Oh, really? What, you don't think so, huh? Well, why don't we just ask him then, huh?''"
+|MrPhilips-GTAV-SS68.png|"''Hey, hey, cowboy, you mind that I fucked your old lady?''"
+|MrPhilips-GTAV-SS69.png|"''Sorry, what was that? What?''"
+|MrPhilips-GTAV-SS70.png|"''No, no? You don't mind? Oh, because you're a dead man?''"
+|MrPhilips-GTAV-SS71.png|"''And the only sentient part of you left is this little bit of brain in the gristle on the end of my boot?''"
+|MrPhilips-GTAV-SS72.png|"''Well, thank you very much, cowboy!''"
+|MrPhilips-GTAV-SS73.png|"''Bullshit!''"
+|MrPhilips-GTAV-SS74.png|"''Oh, I like it! Denial!''"
+|MrPhilips-GTAV-SS75.png|"''That is first part of the grieving process, brothers. Now, let's all hold hands, huh?''"
+|MrPhilips-GTAV-SS76.png|"''Well, it looks like you got something you want to say, huh? You got something you need to say?''"
+|MrPhilips-GTAV-SS77.png|"''This better be bullshit!''"
+|MrPhilips-GTAV-SS78.png|"''Oh, where you guys going, huh? Let's go, ladies!''"
+|MrPhilips-GTAV-SS79.png|Follow the {{Color|#c92423|van.}}
+|MrPhilips-GTAV-SS80.png|"''Oh, look! Look, they're pulling up! You did it, Trevor. They're stopping.''"
+|MrPhilips-GTAV-SS81.png|Take down the {{Color|#c92423|bikers.}}
+|MrPhilips-GTAV-SS82.png|
+|MrPhilips-GTAV-SS83.png|"''Step right up! Step right up!''"
+|MrPhilips-GTAV-SS84.png|
+|MrPhilips-GTAV-SS86.png|"''Industrial accident!''"
+|MrPhilips-GTAV-SS87.png|
+|MrPhilips-GTAV-SS88.png|
+|MrPhilips-GTAV-SS89.png|Return to the {{Color|#4ba1cf|truck.}}
+|MrPhilips-GTAV-SS90.png|"''Can I get you two anything? Soda? Snacks? No? Get in the fucking truck!''"
+|MrPhilips-GTAV-SS91.png|"''Wade! What are you still doing here?''"
+|MrPhilips-GTAV-SS92.png|"''You said..''"
+|MrPhilips-GTAV-SS93.png|"''I said, go find a fucking ghost in Los Santos, alright? You looking for motivation?''"
+|MrPhilips-GTAV-SS94.png|Go to the riverside {{Color|#dece71|trailer.}}
+|MrPhilips-GTAV-SS95.png|"''Here he is. Let's wake him up.''"
+|MrPhilips-GTAV-SS96.png|"''What? With the truck? No, come on. Ortega runs the whole county.''"
+|MrPhilips-GTAV-SS97.png|"''He don't anymore.''"
+|MrPhilips-GTAV-SS98.png|Push the trailer into the {{Color|#dece71|river.}}
+|MrPhilips-GTAV-SS99.png|
+|MrPhilips-GTAV-SS100.png|"''What the fuck, Trevor?!''"
+|MrPhilips-GTAV-SS101.png|"''This is the fuck, my soggy friend! You are out of business, The Lost MC are out of business...''"
+|MrPhilips-GTAV-SS102.png|"''...the guns and the crank in this area go through Trevor Philips Enterprise, or they ain't going!''"
+|MrPhilips-GTAV-SS103.png|"''Saying something don't make it true!''"
+|MrPhilips-GTAV-SS104.png|Threaten {{Color|#c92423|Ortega.}}
+|MrPhilips-GTAV-SS105.png|"''OH! THAT FEELS BETTER!''"
+|MrPhilips-GTAV-SS106.png|Get in the {{Color|#4ba1cf|truck.}}
+|MrPhilips-GTAV-SS107.png|Go to {{Color|#dece71|Ron's place.}}
+|MrPhilips-GTAV-SS108.png|"''Get out of the car, Ron. I need time to think.''"
+|MrPhilips-GTAV-SS109.png|"''Run!''"
+|MrPhilips-GTAV-SS110.png|
+|MrPhilips-GTAV-SS111.png|Mission passed.
+}}
+
+===Videos===
+{{Video Gallery
+|{{YouTube|bo2JQ1v1zEU|caption=Mr. Philips Mission Walkthrough}}
+|{{YouTube|ZNCmwOW58Yc|caption=First Person Walkthrough}}
+|{{YouTube|Z4FtSVbDuF0|caption=PC 60FPS Walkthrough}}
+|{{YouTube|xOR2wP_OWiw|caption=Gold Medal Guide - 4K 60fps}}
+}}
+
+==Oversights==
+*[[Johnny Klebitz|Johnny]]'s jacket says "Vice President" despite him having become President of The Lost MC after {{TLAD}} mission [[This Shit's Cursed]].
+*If the player throws an explosive close to [[Ashley Butler|Ashley]] and Johnny (close enough so that Ashley reacts, but is not killed), she and Johnny will stand back up. If Trevor gets too close to them, Johnny will drop back dead and Ashley will run away.
+*When chasing the bikers, if the player destroys the [[Gang Burrito|van]], the player can continue to [[Stab City]]. When the player arrives at Stab City, however, the game will crash and Trevor will be unable to exit the vehicle.
+*If the player opens the pause menu during the first [[Cutscenes|cutscene]] (before Trevor's first appearance), the current character will be Trevor. The time of day will be 13:00.
+*When Trevor and Ron arrive at [[Ortega]]'s [[Ortega's Trailer|trailer]], the conversation between them in the following cutscene may not play, and the mission may continue directly from there.
+*Rarely, on the way back to [[Trevor's Trailer|Trevor's trailer]] after pushing Ortega's trailer into the river, Trevor's [[Bodhi]] may be limited to travelling below 60 mph, and cannot be exceeded until reaching the trailer.
+*Before completing the first objective, if the player dies when Trevor, Ron, and Wade are in Trevor's Bodhi, the old Ron and Wade will not get deleted when retrying the mission, leading to duplicated characters.
+*If the player fails the mission during the chase, they will be able to kill the member driving the van after they restart. The van will still continue to drive by itself after the player kills the driver. This can be seen {{URL|https://www.youtube.com/watch?v{{=}}ASyC-T0O2FE|here}}.
+
+==Trivia==
+*During the opening cutscene, Trevor zips up his pants after having sex with Ashley, despite the fact he is wearing sweatpants.
+*If the player kills Ashley before Wade has a chance to suggest killing her to cover their tracks, the player can hear unique dialogue where Trevor will remark on the fact that he would still like to destroy The Lost MC, although the rest of the dialogue will remain the same.
+*If the player starts this mission using Michael, they can see a unique conversation between Michael and [[Amanda De Santa|Amanda]] at the beginning of the cutscene. 
+*Before the mission, Franklin can explore the mansion's entryway, backyard, garage, kitchen, and upstairs level freely.
+*When talking with Dave, Michael brings up his belief of Trevor supposedly being dead. This was previously mentioned in Michael's conversation with Lester during [[Casing the Jewel Store]].
+*After choosing Ortega's fate, the radio station will be tuned into [[Rebel Radio]] and "I Ain't Living Long Like This" by {{WP|Waylon Jennings}} will always play, while Trevor drives himself and Ron back to their trailers.
+*If the player replays this mission, Trevor will be wearing his default set of clothing. However, if Trevor dies during the mission, he will respawn at the hospital wearing the clothes he was wearing before the mission.
+*If [[Trevor Philips Industries]] is replayed, [[Chef]] will act as if Trevor spared Ortega in this mission, even if he killed him.
+*During the chase sequence, one may find the following vehicles on the road: a white utility [[Bison]] passing the player at the start of the dirt road, a [[Scrap Truck]] after the sharp turn, a [[Dozer]] after passing a ramp, a rusty light blue [[Emperor]] before passing a wooden bridge, a green/dark blue [[Towtruck]] passing in front of a metal bridge and a dark gray [[Duneloader]] going to an adjacent road near a third bridge. The said vehicles will also drive faster than usual vehicles driving on the dirt road.
+*At certain points during the mission, Ron and Trevor will foreshadow the events of several later missions:
+**During the chase sequence, Ron will mention Lost MC members at [[Sandy Shores Airfield]].
+**On the way to Ortega's trailer, Ron will mention [[Tao Cheng|a Chinese contact]] and the [[O'Neil Brothers]].
+**On the way back to Trevor's trailer, Trevor will explain his [[Friends Reunited|plan to find]] and deal with [[Michael Townley]].
+*Players returning to Stab City after successfully completing this mission will find the destructible trailer containing the meth lab destroyed, regardless of whether it was destroyed during the mission.
+
+==Notes==
+{{Note List}}
+
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Gtav missions|state=collapsed}}
+}}
+
+[[de:Mr. Philips]]
+[[es:Sr. Philips]]
+[[fr:M. Philips]]
+[[pl:Pan Philips]]
+[[pt:Sr. Philips]]
+[[ru:Mr. Philips]]
+
+[[Category:Gameplay in GTA V]]
+[[Category:Choices]]
+[[Category:Real-world controversies]]
+[[Category:Storyline missions]]

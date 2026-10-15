@@ -1,0 +1,1024 @@
+{{Cleanup}}
+{{Infobox vehicle
+|front_image     = Zentorno-GTAVee-FrontQuarter.png
+|rear_image      = Zentorno-GTAVee-RearQuarter.png
+|caption         = A '''Zentorno''' in {{VO}}.
+|class           = [[:Category:Super class|Super]]
+|type            = supercar
+|body_style      = Hypercar
+|capacity        = 2 {{Small|(driver and passenger)}}
+|manufacturer    = [[Pegassi]]
+|price           = [[Money|$]]725,000 {{Small|([[Legendary Motorsport]])}}
+|games           = {{Games|V={{DLC|mpbusiness2}}|O={{DLC|mpbusiness2}}}}
+}}
+{{Quote|Make sure the other 99% know you're in a vehicle they can't afford with this loud, brash, in-your-face supercar from Pegassi. Insanely fast with a high-tech interior, this is as close as you can get to a fighter jet on wheels. The only thing that goes up quicker than the 0-60 on this bad boy is your insurance premium.|[[Legendary Motorsport]] description.}}
+The [[Pegassi]] '''Zentorno''' is a two-door hypercar featured in {{V}} and {{O}} as part of the [[High Life Update]].
+
+==Influence==
+The Zentorno is heavily based on the {{WP|Lamborghini Sesto Elemento}}, evident in its unique silhouette, side profile, distinctive mirrors, hexagonal rear vents accompanied by dual roof vents, and the characteristic front fascia. Additionally, its design is significantly influenced by the {{WP|Lamborghini Veneno}}, as reflected in its grille, sharper front end, hood vents, rear vents, roof vent design, diffuser, and the painted accents on the wheels and front diffuser. The "Racing Spoiler" tuning option draws inspiration from the Veneno's spoiler, albeit featuring double mounts and fins. The C-pillar vents appear to be derived from the {{WP|Lamborghini Egoista}}. The hexagonal exhausts are inspired by the {{WP|Lamborghini Aventador#Aventador J|Lamborghini Aventador J}}, while the shape of the rear bumper is taken from the {{WP|Lamborghini Aventador#Aventador LP 700-4 (2011–2016)|Aventador LP 700-4}}. The "Hyper Exit Exhaust" option is also based on the LP 700-4. The tail lights seem to combine features from the Veneno, Aventador, and {{WP|Lamborghini Huracán}}, while the rear design incorporates aspects from the Sesto Elemento, Veneno, Aventador, and {{WP|Lamborghini Gallardo#Lamborghini Gallardo LP 570-4 Super Trofeo Asia (2013)|Lamborghini Gallardo LP 570-4 Super Trofeo Asia}}. The rear might have also been influenced by the {{URL|https://www.lambocars.com/dmc-lp988-4-aventador-edizione-gt/|DMC LP988-4 "Edizione GT"}} body kit for the Aventador, which is based on the aesthetics of the Sesto Elemento and Veneno. The headlights are modelled after the {{WP|Honda NSX (second generation)#2011 onwards|2011 Acura/Honda NSX Concept}}. 
+
+Certain default colour schemes of the car also echo the Sesto Elemento, as they resemble its signature carbon-fibre-and-red coating, although substituting the colour red with orange, potentially alluding to the {{WP|Lamborghini Gallardo#Lamborghini Gallardo LP 570-4 Edizione Tecnica (2012–2013)|Lamborghini Gallardo LP 570-4 Edizione Tecnica}}.
+
+===Liveries===
+*The "Kisama" livery added in [[GTA Online: The Criminal Enterprises|The Criminal Enterprises]] update is based on a {{URL|https://cdnb.artstation.com/p/assets/images/images/008/911/433/large/khyzyl-saleem-performante-web.jpg|Lamborghini Huracan wrap created by Khyzyl Saleem}}.
+**Furthermore, two similar liveries named "Yellow Stripes" and "Street Kisama" are available for the [[Deveste Eight]] and [[Torero XO]], respectively.
+*The "Comic Book Racing" livery added in The Criminal Enterprises update is based on the {{URL|https://www.roadandtrack.com/motorsports/a30382402/2020-lamborghini-huracan-gt3-roar-pop-art-livery/|GEAR Racing Lamborghini Huracan GT3 livery}} by Andy Blackmore Design.
+
+==Design==
+{{Quote|A supercar that’s as aerodynamic as your corporate pipeline, and as savage as the abuse you hurl at your subordinates.|Career Builder description, ''GTA Online''.}}
+The Zentorno is designed as an exotic high-performance vehicle, with very aggressive styling cues and a low, sloped body for added aerodynamic effects. The front end is largely dominated by the numerous intakes, separated by {{WP|Carbon fiber reinforced polymer|carbon-fibre}} frames. The bonnet area features four small intakes on the centre and two triangle-shaped details over a carbon-fibre portion near the windscreen. The frontal area features two headlights located in black housings, as well as the manufacturer's emblem located between the lights.
+
+The sides of the car denote its aerodynamic profile, featuring concave details above the skirts and inset portions on the doors, together with vertical intakes on the rear fenders and diagonal body lines. Like the [[Infernus]], the Zentorno features scissor doors with rounded mirror shells near the cabin A-pillars. However, these doors do not rotate away from the vehicle body, giving it realistic mechanics. The greenhouse area features coloured front separations behind the A-pillars and carbon-fibre panels on the rear quarters, while the area behind the cabin has two roof intakes leading to the engine bay, two rows of six hexagonal vents on the centre, small vents on the sides and two more vents over the rear tail lamps, finished in carbon fibre.
+
+The rear of the car is predominated by carbon-fibre elements, being the bumper, diffuser, and the separations on the rear vents. A set of red LED strips can be seen on the upper side, with the car's name embossed in chrome letterings between these lights and the two hexagonal exhaust tubes at the bottom. The underside of the car is mostly carbon-plated, with exposed front axle arms, gearbox/diff and rear axle.
+
+Its interior and dial set is shared with the [[Vacca]], itself being a derivative of the one from the [[Banshee]] with yellow dials instead of blue. The manufacturer emblem can be seen on the horn cap.
+
+The Zentorno is prominently painted in a primary colour for the body, while the secondary colour is applied on the front bumper trim, the triangle-shaped details on the bonnet area, the lines seen on the vents and around the hexagonal vents on the engine bay, the rear bumper trim and the tyre details of the stock wheels. The car has 10-spoke rims with an angled detail on the ends and a blacked-out appearance.
+
+==Performance==
+Surprisingly, the Zentorno is very competitive with high-end supercars such as the [[RE-7B]] and [[Tempesta]] around a normal circuit due to its superb cornering speeds. It can also reach fairly high speeds, making it faster than the [[Entity XF]], [[Turismo R]], Infernus, and [[Cheetah]]. The engine in the Zentorno delivers incredibly smooth and alarmingly quick acceleration. In fact, the base stats of the car made it the fastest accelerating supercar in the game (possibly on par with the [[Voltic]]). The car features non-adjustable suspension that is about equal to, if not lower than Competition level, and because it is so close to the ground, the car cannot climb stairs (both forwards and backwards) and can also flip very easily when colliding with sidewalks. 
+
+The car's handling is extremely responsive, as it can take corners at high speeds with relative ease due to the lowered suspension and the good weight distribution. But due to the car having such a sensitive handling, It can become a deficit more than a benefit for people using a keyboard as it will turn at 100% power. The high-output engine may also become difficult to control for inexperienced drivers. The vehicle has very minimal oversteer, but it can still spin due to its handling power, but does not always lose control too easily.
+
+The Zentorno's grip can also become a big problem when driving on bumpy roads, if two or more wheels lift off the ground (even for a second), one (or more wheels) will still make such strong contact with the ground for the car to enter a spin. However, the four-wheel drive layout lowers the risk of this, and usually "fixes" itself back into driving forward, picking up speed on the way.
+
+Although no physical engine model exists in-game, the website stated that the Zentorno is powered by a 6.8 liter V12 engine that produces 750HP, which is somewhat reflected by the number of hexagonal vents on the rear (similar to how the Sesto Elemento is powered by a V10 engine and features exactly ten hexagonal vents). It has a 6-speed gearbox and an all-wheel drive layout (30% front, 70% rear distribution). The engine sound is typically high-revving, shared with the Cheetah.
+
+==Variants==
+===NPC-Modified Variants===
+====Business DLC Sports Modded====
+Pre-modified variants of the Zentorno can be seen parked or driving around [[Los Santos (HD Universe)|Los Santos]] randomly. Business DLC Sports Modded 1 has a unique primary color not available in [[Los Santos Customs]], [[Beeker's Garage]] or any other vehicle mod shop.
+
+*Both variants use the same modifications
+*Both vehicles have the same wheels
+*Both vehicles have a unique pearlescent color applied
+*Neither variant has any performance upgrades (engine, transmission, etc.)
+
+{{ModelSet
+|modelset_name        = Business DLC Sports Modded 1
+|modelset_file        = BUSINESS_DLC_SPORTS_MODDED_1
+|modelset_colorset    = 
+{{CarColV/Title}}
+{{CarColV|24|38|3|32}}
+|modelset_window      = {{No}}
+|modelset_livery      = {{No}}
+|modelset_modkit      = 
+{{Modkit
+|exhaust = Epic Ellipse Exhaust
+|hood    = Street Stripe Hood
+|spoiler = Racing Spoiler
+|skirts  = Street Skirt Secondary Color
+|chassis = Sideblades Secondary Color
+|wheels  = Shadow
+}}
+}}
+{{ModelSet
+|modelset_name        = Business DLC Sports Modded 2
+|modelset_file        = BUSINESS_DLC_SPORTS_MODDED_2
+|modelset_colorset    = 
+{{CarColV/Title}}
+{{CarColV|112|55|3|55}}
+|modelset_window      = {{No}}
+|modelset_livery      = {{No}}
+|modelset_modkit      = 
+{{Modkit
+|exhaust = Epic Ellipse Exhaust
+|hood    = Street Stripe Hood
+|spoiler = Racing Spoiler
+|skirts  = Street Skirt Secondary Color
+|chassis = Sideblades Secondary Color
+|wheels  = Shadow
+}}
+}}
+{{Gallery
+|Zentorno-GTAV-front-BusinessDLCSportsModded1.png|The Business DLC Sports Modded 1 '''Zentorno''' in ''[[Grand Theft Auto V]]''. ({{Small|[[:File:Zentorno-GTAV-rear-BusinessDLCSportsModded1.png|Rear quarter view]]}})
+|Zentorno-GTAV-front-BusinessDLCSportsModded2.png|The Business DLC Sports Modded 2 '''Zentorno''' in ''[[Grand Theft Auto V]]''. ({{Small|[[:File:Zentorno-GTAV-rear-BusinessDLCSportsModded2.png|Rear quarter view]]}})
+|Modified-Zentorno-Las-Lagunas-BLVD-GTA-V.jpg|Business DLC Sports Modded 2 '''Zentorno''' spawning in [[Pillbox Hill]].
+}}
+
+====Los Santos Customs Modded Single Player====
+Like the randomly spawning modified Zentornos, two sets of Zentornos may spawn outside Los Santos Customs, pre-modified. These again only spawn in single player. The vehicles appear in set color sets with the same modifications. They will not spawn with any of the default extra components. These variants are named "LS_CUSTOMS_MODDED_SP" and use the exact same modifications and colors as the Business DLC Sports Modded sets.
+
+{{Gallery
+|ZentornoCustomized-GTAVPC-Front.png|An NPC-modified Zentorno in the [[Grand Theft Auto V/Editions#Enhanced Edition|enhanced edition]] of ''GTA V''. {{Small|([[:File:ZentornoCustomized-GTAVPC-Rear.png|rear quarter view]])}}
+}}
+
+===Special Variants===
+====Moving Target====
+Pre-modified variants of the Zentorno can appear as a random Moving Target vehicle in the [[Freemode Events|Freemode Event]], [[Moving Target]], as part of the [[Freemode Events Update]]. The first and third sets cannot be recreated in [[Los Santos Customs]] or any other mod shop as they have unique Worn secondary colors.
+
+{{ModelSet
+|modelset_name        = Zentorno (1)*<ref>[[Zentorno]] case 1.<br><pre>
+case joaat("zentorno"):
+if (iVar0 == 0)
+{
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 0, 4, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 3, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 4, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 5, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 7, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 23, 8, false);
+vehicle::set_vehicle_colours(network::net_to_veh(Local_99.f_2), 27, 21);
+}
+</pre></ref>
+|modelset_colorset    = 
+{{CarColV/Title}}
+{{CarColV|27|21}}<br>
+Vehicle's pearlescent and wheel colors are randomly picked from the car's regular traffic color sets.
+|modelset_window      = {{No}}
+|modelset_livery      = {{No}}
+|modelset_modkit      = 
+{{Modkit
+|exhaust = Hyper Exit Exhaust
+|hood    = Street Stripe Hood
+|spoiler = Street Spoiler Secondary Color
+|skirts  = Street Skirt Secondary Color
+|chassis = Sideblades Secondary Color
+|wheels  = GT Chrome ([[Vehicle Customization in GTA V/Wheels#High End|High End]])
+}}
+}}
+{{ModelSet
+|modelset_name        = Zentorno (2)
+<ref>[[Zentorno]] case 2.<br><pre>
+else if (iVar0 == 1)
+{
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 0, 6, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 3, 2, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 4, 0, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 23, 18, false);
+vehicle::set_vehicle_mod_color_1(network::net_to_veh(Local_99.f_2), 3, 0, 0);
+vehicle::set_vehicle_mod_color_2(network::net_to_veh(Local_99.f_2), 3, 0);
+}
+</pre></ref>
+|modelset_colorset    = 
+{{CarColV/Title}}
+{{CarColV|0|0|0|0}}
+|modelset_window      = {{No}}
+|modelset_livery      = {{No}}
+|modelset_modkit      = 
+{{Modkit
+|exhaust = Twin Bore Exhaust
+|spoiler = Racing Spoiler
+|skirts  = Street Skirt Carbon
+|wheels  = Carbon Cheetah R ([[Vehicle Customization in GTA V/Wheels#High End|High End]])
+}}
+}}
+{{ModelSet
+|modelset_name        = Zentorno (3)*
+<ref>[[Zentorno]] case 3.<br><pre>
+else
+{
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 0, 2, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 4, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 5, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 7, 1, false);
+vehicle::set_vehicle_mod(network::net_to_veh(Local_99.f_2), 23, 4, false);
+vehicle::set_vehicle_colours(network::net_to_veh(Local_99.f_2), 57, 21);
+}
+</pre></ref>
+|modelset_colorset    = 
+{{CarColV/Title}}
+{{CarColV|57|21}}<br>
+Vehicle's pearlescent and wheel colors are randomly picked from the car's regular traffic color sets.
+|modelset_window      = {{No}}
+|modelset_livery      = {{No}}
+|modelset_modkit      = 
+{{Modkit
+|exhaust = Hyper Exit Exhaust
+|chassis = Sideblades Secondary Color
+|hood    = Street Stripe Hood
+|spoiler = Cruise Spoiler Carbon
+|wheels  = Supa Gee ([[Vehicle Customization in GTA V/Wheels#High End|High End]])
+}}
+}}
+{{Gallery
+|Zentorno-GTAO-front-MovingTarget1.png|[[Zentorno]] variation 1 in '''Moving Target'''. ({{Small|[[:File:Zentorno-GTAO-rear-MovingTarget1.png|Rear quarter view]]}})
+|Zentorno-GTAO-front-MovingTarget2.png|Zentorno variation 2 in '''Moving Target'''. ({{Small|[[:File:Zentorno-GTAO-rear-MovingTarget2.png|Rear quarter view]]}})
+|Zentorno-GTAO-front-MovingTarget3.png|Zentorno variation 3 in '''Moving Target'''. ({{Small|[[:File:Zentorno-GTAO-rear-MovingTarget3.png|Rear quarter view]]}})
+}}
+
+==Modifications==
+*Options marked {{Small|<sup>E</sup>}} are exclusive to the enhanced versions of {{VO}}, and were added as part of [[GTA Online: The Criminal Enterprises|The Criminal Enterprises]] update.
+
+{| class="wikitable mw-collapsible mw-collapsed" width="100%"
+!colspan="2"|Category
+!Modification
+!Cost (''GTA V'')
+!Cost ([[Grand Theft Auto Online|''GTA Online'']])
+!class="unsortable" width="200px"|Image
+|-
+|colspan="2" rowspan="6"|Armor
+|No Armor
+|$500
+|colspan="2"|$1,000
+|-
+|Armor Upgrade 20%
+|$2,500
+|colspan="2"|$7,500
+|-
+|Armor Upgrade 40%
+|$6,250
+|colspan="2"|$12,000
+|-
+| Armor Upgrade 60%
+|$10,000
+|colspan="2"|$20,000
+|-
+| Armor Upgrade 80%
+|$17,500
+|colspan="2"|$35,000
+|-
+| Armor Upgrade 100%
+|$25,000
+|colspan="2"|$50,000
+|-
+|colspan="2" rowspan="4"|Brakes
+|Stock Brakes
+|$500
+|colspan="2"|$1,000
+|-
+|Street Brakes
+|$10,000
+|colspan="2"|$20,000
+|-
+| Sport Brakes
+|$13,500
+|colspan="2"|$27,000
+|-
+| Race Brakes
+|$17,500
+|colspan="2"|$35,000
+|-
+|rowspan="6"|Bumpers
+|rowspan="4"|Front Bumpers
+|Stock Front Bumper
+|$1,100
+|$2,200
+|[[File:Zentorno-GTAOe-FrontBumpers-StockFrontBumper.png|thumb|center|200px]]
+|-
+|Custom Splitter <small><sup>E</sup></small>
+|$2,300
+|$4,600
+|[[File:Zentorno-GTAOe-FrontBumpers-CustomSplitter.png|thumb|center|200px]]
+|-
+|Street Splitter <small><sup>E</sup></small>
+|$3,700
+|$7,400
+|[[File:Zentorno-GTAOe-FrontBumpers-StreetSplitter.png|thumb|center|200px]]
+|-
+|Race Splitter <small><sup>E</sup></small>
+|$5,850
+|$11,700
+|[[File:Zentorno-GTAOe-FrontBumpers-RaceSplitter.png|thumb|center|200px]]
+|-
+|rowspan="2"|Rear Bumpers
+|Stock Rear Bumper
+|$1,100
+|$2,200
+|[[File:Zentorno-GTAOe-RearBumpers-StockRearBumper.png|thumb|center|200px]]
+|-
+|Painted Rear Trim <small><sup>E</sup></small>
+|$2,300
+|$4,600
+|[[File:Zentorno-GTAOe-RearBumpers-PaintedRearTrim.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="3"|Chassis
+| Stock Chassis 
+|$350
+|$700
+|[[File:Zentorno-GTAOe-Chassis-StockChassis.png|thumb|center|200px]]
+|-
+|Sideblades Primary Color
+|$550
+|$1,100
+|[[File:Zentorno-GTAOe-Chassis-SidebladesPrimaryColor.png|thumb|center|200px]]
+|-
+|Sideblades Secondary Color
+|$675
+|$1,350
+|[[File:Zentorno-GTAOe-Chassis-SidebladesSecondaryColor.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="4"|Engine
+|EMS Upgrade, Level 1
+|$4,500
+|colspan="2"|$9,000
+|-
+|EMS Upgrade, Level 2
+|$6,250
+|colspan="2"|$12,500
+|-
+| EMS Upgrade, Level 3
+|$9,000
+|colspan="2"|$18,000
+|-
+| EMS Upgrade, Level 4
+|$16,750
+|colspan="2"|$33,500
+|-
+|colspan="2" rowspan="9"|Exhausts
+|Stock Exhaust
+|$130
+|$260
+|[[File:Zentorno-GTAOe-Exhausts-StockExhaust.png|thumb|center|200px]]
+|-
+|Twin Bore Exhaust
+|$375
+|$750
+|[[File:Zentorno-GTAOe-Exhausts-TwinBoreExhaust.png|thumb|center|200px]]
+|-
+|Hyper Exit Exhaust
+|$899
+|$1,800
+|[[File:Zentorno-GTAOe-Exhausts-HyperExitExhaust.png|thumb|center|200px]]
+|-
+|Twin Ellipse Exhaust
+|$1,499
+|$3,000
+|[[File:Zentorno-GTAOe-Exhausts-TwinEllipseExhaust.png|thumb|center|200px]]
+|-
+|Epic Ellipse Exhaust
+|$4,770
+|$9,550
+|[[File:Zentorno-GTAOe-Exhausts-EpicEllipseExhaust.png|thumb|center|200px]]
+|-
+|Dual Quad Exits <small><sup>E</sup></small>
+|$350
+|$9,750
+|[[File:Zentorno-GTAOe-Exhausts-DualQuadExits.png|thumb|center|200px]]
+|-
+|Angular Triple Exits <small><sup>E</sup></small>
+|$350
+|$10,500
+|[[File:Zentorno-GTAOe-Exhausts-AngularTripleExits.png|thumb|center|200px]]
+|-
+|White Quad Exit <small><sup>E</sup></small>
+|$350
+|$12,000
+|[[File:Zentorno-GTAOe-Exhausts-WhiteQuadExit.png|thumb|center|200px]]
+|-
+|Quad Exit <small><sup>E</sup></small>
+|$350
+|$13,750
+|[[File:Zentorno-GTAOe-Exhausts-QuadExit.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="2"|Grilles
+| Stock Grille
+|$100
+|$200
+|[[File:Zentorno-GTAOe-Grilles-StockGrille.png|thumb|center|200px]]
+|-
+|Painted Grille Trim <small><sup>E</sup></small>
+|$375
+|$750
+|[[File:Zentorno-GTAOe-Grilles-PaintedGrilleTrim.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="2"|[[Car Bomb|Explosives]]
+|Ignition Bomb
+|N/A
+|colspan="2"|$5,000
+|-
+|Remote Bomb 
+|N/A
+|colspan="2"|$7,500
+|-
+|colspan="2" rowspan="5"|Hoods
+|Stock Hood
+|$800
+|$1,600
+|[[File:Zentorno-GTAOe-Hoods-StockHood.png|thumb|center|200px]]
+|-
+|Slippy Hood
+|$1,500
+|$3,000
+|[[File:Zentorno-GTAOe-Hoods-SlippyHood.png|thumb|center|200px]]
+|-
+|Street Stripe Hood
+|$2,500
+|$5,000
+|[[File:Zentorno-GTAOe-Hoods-StreetStripeHood.png|thumb|center|200px]]
+|-
+|Race Hood <small><sup>E</sup></small>
+|$4,000
+|$8,000
+|[[File:Zentorno-GTAOe-Hoods-RaceHood.png|thumb|center|200px]]
+|-
+|Pegassi Hood <small><sup>E</sup></small>
+|$4,800
+|$9,600
+|[[File:Zentorno-GTAOe-Hoods-PegassiHood.png|thumb|center|200px]]
+|-
+|colspan="2"|Horns
+|''Main article: [[Vehicle Customization in GTA V/Horns]]''
+| -
+|colspan="2"| -
+|-
+|rowspan="3"| Lights
+|rowspan="2"|Headlights 
+|Stock Lights
+|$300
+|colspan="2"|$600
+|-
+|Xenon Lights
+|$1,450
+|colspan="2"|$7,500
+|-
+|Neon Kits
+|''Main article: [[Vehicle Customization in GTA V/Lights]]''
+| -
+|colspan="2"| -
+|-
+|colspan="2" rowspan="15"|Livery
+|-
+|None
+|$350
+|$11,400
+|[[File:Zentorno-GTAOe-FrontQuarter-NoLivery.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-NoLivery.png|Rear quarter view]])</small>]]
+|-
+| White Stripes <small><sup>E</sup></small>
+|$350
+|$18,240
+|[[File:Zentorno-GTAOe-FrontQuarter-WhiteStripes.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-WhiteStripes.png|Rear quarter view]])</small>]]
+|-
+| Black Stripes <small><sup>E</sup></small>
+|$350
+|$19,380
+|[[File:Zentorno-GTAOe-FrontQuarter-BlackStripes.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-BlackStripes.png|Rear quarter view]])</small>]]
+|-
+| Italian Stripes <small><sup>E</sup></small>
+|$350
+|$20,520
+|[[File:Zentorno-GTAOe-FrontQuarter-ItalianStripes.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-ItalianStripes.png|Rear quarter view]])</small>]]
+|-
+| Kisama <small><sup>E</sup></small>
+|$350
+|$21,660
+|[[File:Zentorno-GTAOe-FrontQuarter-Kisama.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-Kisama.png|Rear quarter view]])</small>]]
+|-
+| Modern Living <small><sup>E</sup></small>
+|$350
+|$22,800
+|[[File:Zentorno-GTAOe-FrontQuarter-ModernLiving.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-ModernLiving.png|Rear quarter view]])</small>]]
+|-
+| Kabel Racing <small><sup>E</sup></small>
+|$350
+|$23,370
+|[[File:Zentorno-GTAOe-FrontQuarter-KabelRacing.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-KabelRacing.png|Rear quarter view]])</small>]]
+|-
+| Harlequin <small><sup>E</sup></small>
+|$350
+|$29,939
+|[[File:Zentorno-GTAOe-FrontQuarter-Harlequin.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-Harlequin.png|Rear quarter view]])</small>]]
+|-
+| Harlequin Alt <small><sup>E</sup></small>
+|$350
+|$24,510
+|[[File:Zentorno-GTAOe-FrontQuarter-HarlequinAlt.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-HarlequinAlt.png|Rear quarter view]])</small>]]
+|-
+| Meinmacht Racing <small><sup>E</sup></small>
+|$350
+|$25,080
+|[[File:Zentorno-GTAOe-FrontQuarter-MeinmachtRacing.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-MeinmachtRacing.png|Rear quarter view]])</small>]]
+|-
+| Abstract <small><sup>E</sup></small>
+|$350
+|$25,650
+|[[File:Zentorno-GTAOe-FrontQuarter-Abstract.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-Abstract.png|Rear quarter view]])</small>]]
+|-
+| Rampage Racing <small><sup>E</sup></small>
+|$350
+|$26,220
+|[[File:Zentorno-GTAOe-FrontQuarter-RampageRacing.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-RampageRacing.png|Rear quarter view]])</small>]]
+|-
+| Comic Book Racing <small><sup>E</sup></small>
+|$350
+|$26,789
+|[[File:Zentorno-GTAOe-FrontQuarter-ComicBookRacing.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-ComicBookRacing.png|Rear quarter view]])</small>]]
+|-
+| [[Rockstar Games|Rockstar Motorsport]] <small><sup>E</sup></small>
+|
+|[[Special Liveries in GTA Online/Vehicles#Part of The Chop Shop|FREE]]
+|[[File:Zentorno-GTAOe-FrontQuarter-RockstarMotorsport.png|thumb|center|220px|<small>([[:File:Zentorno-GTAOe-RearQuarter-RockstarMotorsport.png|Rear quarter view]])</small>]]
+|-
+|colspan="2" rowspan="2"|Loss/Theft Prevention
+|Tracker
+|N/A
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+| Full Coverage
+|N/A
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="5"|Plates
+|Blue on White 1
+|$50
+|colspan="2"|$200
+|-
+|Blue on White 2
+|$50
+|colspan="2"|$200
+|-
+|Blue on White 3
+|$50
+|colspan="2"|$200
+|-
+|Yellow on Blue
+|$75
+|colspan="2"|$300
+|-
+|Yellow on Black
+|$150
+|colspan="2"|$600
+|-
+|colspan="2"|Respray
+|''Main article: [[Vehicle Customization in GTA V/Respray Colors]]''
+| -
+|colspan="2"| -
+|-
+|colspan="2" rowspan="3"|Roll Cages 
+|No Roll Cage
+|$150
+|$300
+|[[File:Zentorno-GTAOe-RollCages-NoRollCage.png|thumb|center|200px]]
+|-
+|Primary Cage <small><sup>E</sup></small>
+|$450
+|$900
+|[[File:Zentorno-GTAOe-RollCages-PrimaryCage.png|thumb|center|200px]]
+|-
+|Secondary Cage <small><sup>E</sup></small>
+|$750
+|$1,500
+|[[File:Zentorno-GTAOe-RollCages-SecondaryCage.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="3"|Roofs
+|Stock Roof
+|$100
+|$200
+|[[File:Zentorno-GTAOe-Roofs-StockRoof.png|thumb|center|200px]]
+|-
+|Roof Scoop <small><sup>E</sup></small>
+|$350
+|$700
+|[[File:Zentorno-GTAOe-Roofs-RoofScoop.png|thumb|center|200px]]
+|-
+|Race Roof Scoop <small><sup>E</sup></small>
+|$575
+|$1,150
+|[[File:Zentorno-GTAOe-Roofs-RaceRoofScoop.png|thumb|center|200px]]
+|-
+|colspan="2"|Sell
+|Sell Vehicle
+|N/A
+|colspan="2" style="background-color:black;text-align: center;"|Too Hot
+|-
+|colspan="2" rowspan="6"|Skirts
+|Stock Skirts
+|$1,250
+|$2,500
+|[[File:Zentorno-GTAOe-Skirts-StockSkirts.png|thumb|center|200px]]
+|-
+|Street Skirt Primary Color
+|$2,750
+|$5,500
+|[[File:Zentorno-GTAOe-Skirts-StreetSkirtPrimaryColor.png|thumb|center|200px]]
+|-
+|Street Skirt Secondary Color
+|$4,000
+|$8,000
+|[[File:Zentorno-GTAOe-Skirts-StreetSkirtSecondaryColor.png|thumb|center|200px]]
+|-
+|Street Skirt Carbon
+|$5,250
+|$10,500
+|[[File:Zentorno-GTAOe-Skirts-StreetSkirtCarbon.png|thumb|center|200px]]
+|-
+|Carbon Race Skirt <small><sup>E</sup></small>
+|$7,000
+|$14,000
+|[[File:Zentorno-GTAOe-Skirts-CarbonRaceSkirt.png|thumb|center|200px]]
+|-
+|Primary Race Skirt <small><sup>E</sup></small>
+|$7,350
+|$14,500
+|[[File:Zentorno-GTAOe-Skirts-PrimaryRaceSkirt.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="13"|Spoilers
+|None
+|$3,000
+|$6,000
+|[[File:Zentorno-GTAOe-Spoilers-None.png|thumb|center|200px]]
+|-
+|Cruise Spoiler Primary Color
+|$3,750
+|$7,050
+|[[File:Zentorno-GTAOe-Spoilers-CruiseSpoilerPrimaryColor.png|thumb|center|200px]]
+|-
+|Cruise Spoiler Secondary Color 
+|$5,000
+|$10,000
+|[[File:Zentorno-GTAOe-Spoilers-CruiseSpoilerSecondaryColor.png|thumb|center|200px]]
+|-
+|Cruise Spoiler Carbon
+|$6,500
+|$13,000
+|[[File:Zentorno-GTAOe-Spoilers-CruiseSpoilerCarbon.png|thumb|center|200px]]
+|-
+|Street Spoiler Primary Color
+|$7,000
+|$14,000
+|[[File:Zentorno-GTAOe-Spoilers-StreetSpoilerPrimaryColor.png|thumb|center|200px]]
+|-
+|Street Spoiler Secondary Color 
+|$8,000
+|$16,000
+|[[File:Zentorno-GTAOe-Spoilers-StreetSpoilerSecondaryColor.png|thumb|center|200px]]
+|-
+|Street Spoiler Carbon
+|$8,500
+|$16,500
+|[[File:Zentorno-GTAOe-Spoilers-StreetSpoilerCarbon.png|thumb|center|200px]]
+|-
+|Racing Spoiler
+|$9,000
+|$17,000
+|[[File:Zentorno-GTAOe-Spoilers-RacingSpoiler.png|thumb|center|200px]]
+|-
+|Pegassi Wing <small><sup>E</sup></small>
+|$350
+|$17,500
+|[[File:Zentorno-GTAOe-Spoilers-PegassiWing.png|thumb|center|200px]]
+|-
+|Flat Wing <small><sup>E</sup></small>
+|$350
+|$18,000
+|[[File:Zentorno-GTAOe-Spoilers-FlatWing.png|thumb|center|200px]]
+|-
+|Carbon Flat Wing <small><sup>E</sup></small>
+|$350
+|$18,500
+|[[File:Zentorno-GTAOe-Spoilers-CarbonFlatWing.png|thumb|center|200px]]
+|-
+|Elongated Race Wing <small><sup>E</sup></small>
+|$350
+|$19,000
+|[[File:Zentorno-GTAOe-Spoilers-ElongatedRaceWing.png|thumb|center|200px]]
+|-
+|Race Wing <small><sup>E</sup></small>
+|$350
+|$19,500
+|[[File:Zentorno-GTAOe-Spoilers-RaceWing.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="3"|Sunstrips
+|None
+|$150
+|$300
+|[[File:Zentorno-GTAOe-Sunstrips-None.png|thumb|center|200px]]
+|-
+|Painted Sunstrip <small><sup>E</sup></small>
+|$450
+|$900
+|[[File:Zentorno-GTAOe-Sunstrips-PaintedSunstrip.png|thumb|center|200px]]
+|-
+|Black Sunstrip <small><sup>E</sup></small>
+|$750
+|$1,500
+|[[File:Zentorno-GTAOe-Sunstrips-BlackSunstrip.png|thumb|center|200px]]
+|-
+|colspan="2" rowspan="4"|Transmission
+|Stock Transmission
+|$500
+|colspan="2"|$1,000
+|-
+|Street Transmission
+|$14,750
+|colspan="2"|$29,500
+|-
+| Sports Transmission
+|$16,250
+|colspan="2"|$32,500
+|-
+| Race Transmission
+|$20,000
+|colspan="2"|$40,000
+|-
+|colspan="2" rowspan="2"|Turbo
+|None
+|$2,500
+|colspan="2"|$5,000
+|-
+|Turbo Tuning
+|$12,500
+|colspan="2"|$50,000
+|-
+|colspan="2"|Wheels
+|''Main article: [[Vehicle Customization in GTA V/Wheels]]''
+| -
+|colspan="2"| -
+|-
+|colspan="2" rowspan="4"|Windows
+| None
+|$100
+|colspan="2"|$500
+|-
+|Light Smoke
+|$200
+|colspan="2"|$1,500
+|-
+|Dark Smoke
+|$450
+|colspan="2"|$3,500
+|-
+|Limo
+|$700
+|colspan="2"|$5,000
+|}
+
+==Gallery==
+===Design===
+{{Design Gallery Vehicle
+|game                = VO
+|front_quarter_image = Zentorno-GTAV-FrontQuarter.png
+|top_image           = Zentorno-GTAV-Top.png
+|rear_quarter_image  = Zentorno-GTAV-RearQuarter.png
+|front_image         = Zentorno-GTAV-FrontView.png
+|side_image          = Zentorno-GTAV-Side.png
+|rear_image          = Zentorno-GTAV-RearView.png
+|engine_image        = Zentorno-GTAV-Engine.png
+|underside_image     = Zentorno-GTAV-Underside.png
+|inside_image        = Zentorno-GTAV-Inside.png
+|detail_image        = Zentorno-GTAV-Badges.png
+|open_other_image    = Zentorno-GTAV-Other.png
+|dashboard_image     = Zentorno-GTAV-Dashboard.png
+}}
+
+===Images===
+====''Grand Theft Auto V''====
+{{Gallery
+|PegassiZentorno-GTAV-Front.png|'''Zentorno''' on Xbox 360 and PlayStation 3 {{Small|([[:Image:PegassiZentorno-GTAV-Rear.png|Rear quarter view.]])}}.
+|Zentorno-GTAV-Front.png|The '''Zentorno''' in ''[[Grand Theft Auto V]]''. {{Small|([[:Image:Zentorno-GTAV-Rear.png|Rear quarter view.]])}}
+|ZentornoCustom-GTAV.jpg|A custom '''Zentorno''' in the enhanced version of ''GTA V''. Note the neon underglow and license plate.
+|Zentorno_GTAVe_Missing_Aerodynamics.jpg|Asymmetrical front body kit detail.
+|Zentorno-GTAV-LegendaryMS.png|The Zentorno on [[Legendary Motorsport]] in the enhanced version of ''GTA V''.
+|Zentorno-GTAOe-PrizeRide.jpg|[[Prize Ride Challenge|Prize Ride]] advertisement.
+|Zentorno-GTAO-2020Advert.jpg|Event week screenshot. 
+|Zentorno-GTAO-September2020Advert.jpg|Event week screenshot.
+|Zentorno-GTAO-February2021Advert.jpg|Event week screenshot.
+}}
+
+====''Grand Theft Auto Online''====
+{{Gallery
+|Zentorno-GTAV.jpg|The Zentorno as seen in a pre-release screenshot. Note the absence of the badge.
+|Zentorno-GTAO-artwork.jpg|Promotional artwork of the Zentorno.
+|Zentorno-GTAO-Poster.png|'''Zentorno''' poster seen in [[Vehicle Warehouses]].
+|Zentorno-GTAO-ImportExport1.png|W1NN1NG '''Zentorno''' seen in [[Vehicle Cargo]] missions.
+|Zentorno-GTAO-ImportExport2.png|0LDN3W5 '''Zentorno''' seen in Vehicle Cargo missions.
+|Zentorno-GTAO-ImportExport3.png|H3R0 '''Zentorno''' seen in Vehicle Cargo missions.
+|Zentorno-GTAO-UnnamedLivery.jpg|Rockstar Motorspot livery for the '''Zentorno''' featured in [[GTA Online: The Chop Shop|The Chop Shop]] update. 
+}}
+{{Gallery
+|header = Career Builder Screenshots
+|Zentorno-GTAOee-CareerBuilder-Action1.png|Action 1
+|Zentorno-GTAOee-CareerBuilder-Action2.png|Action 2
+|Zentorno-GTAOee-CareerBuilder-Detail.png|Detail
+}}
+
+==Locations==
+===''Grand Theft Auto V''===
+;Original version
+*Available in every garage for all the protagonists.
+
+;[[Vehicles in GTA V/Scenarios|Scenarios]] (enhanced version)
+The Zentorno is part of three <code>vehiclemodelsets</code>, "<code>LS_CUSTOMS_MODDED_SP</code>", "<code>BUSINESS_DLC_SPORTS_MODDED_1</code>" and "<code>BUSINESS_DLC_SPORTS_MODDED_2</code>". The first allows heavily modified Zentornos, among many other modified cars to spawn outside Los Santos Customs, as well at other locations. The second two allow the Zentorno and other [[Business Update]] sports cars to spawn modified in specific locations, particularly around the city. They only spawn in ''GTA V''.
+
+{{Scenarios|ls_customs_modded_sp}}
+{{Scenarios|business_dlc_sports_modded}}
+
+<!-- Also seen parked at the Maze Bank Arena (PC version); see File:Zentorno-GTAVPC-front-BusinessDLCSportsModded1-MazeBankArena.png -->
+
+;Enhanced version
+*Can be purchased from [[Legendary Motorsport]] for [[Money|$]]725,000.
+
+===''Grand Theft Auto Online''===
+*Can be purchased from Legendary Motorsport for $725,000.
+
+==Prominent Appearances in Gameplay==
+===''Grand Theft Auto Online''===
+;Freemode Events
+*May appear in one of three different modified variations as a random vehicle in the [[Freemode Events|Freemode Event]] [[Moving Target]].
+
+;Vehicle Cargo
+*This vehicle may be selected randomly as a mid-class target source vehicle from [[SecuroServ]] during [[Vehicle Cargo]] missions with one of three variations: W1NN1NG, 0LDN3WS and H3RO.
+**This vehicle is classed as a Mid-Range vehicle.
+**Zentorno "W1NN1NG" is part of the 4-vehicle "Molten Metal" [[Vehicle Cargo|Vehicle Cargo Collection]].
+
+==Rockstar Games Website==
+{{RSSC
+|name          = Zentorno
+|manufacturer  = Pegassi
+|class         = Super 
+|image         = Zentorno-GTAV-RGSC-MainNew.jpg
+|caption       = Main image (after 2019).
+|image2        = Zentorno-GTAV-RGSC-Action.jpg
+|caption2      = "Action" image for ''GTA V''.
+|image3        = Zentorno-GTAO-RGSC-Action.jpg
+|caption3      = "Action" image for ''GTA Online''.
+|image4        = Zentorno-GTAV-RGSC-Main.jpg
+|caption4      = Main image (prior to 2019).
+|speed         = 85.333333
+|accel         = 88.444444
+|braking       = 32.888889
+|traction      = 80.444444
+|seats         = 2
+|garage        = y
+|moddable      = y
+|premium       = y
+|super         = n
+|buy           = y
+|sell          = y
+|dealer        = lms
+|schematic     = GenericSuper
+}}
+
+==Oversights==
+*There are two asymmetrical design oversights on the vehicle:
+**There appears to be a missing part on the left side of the front grille.<ref>[[File:Zentorno GTAVe Missing Aerodynamics.jpg|thumb|left|300px|The Zentorno's front asymmetry (highlighted in yellow)]]{{Clr}}</ref> This was patched, albeit for the enhanced version only, in the [[Lowriders: Custom Classics]] update.<ref name="assym_patch">[[File:Zentorno-GTAO-FrontAsymmetryPatch.png|thumb|left|300px|The vehicle after the [[Lowriders: Custom Classics]] update. Note the correct symmetry.]]{{Clr}}</ref>
+***This asymmetry bug was ''reinstated'' with the release of [[GTA Online: The Criminal Enterprises|The Criminal Enterprises]] update for the enhanced version of the game, with the vehicle model being revisited and receiving new customization options.
+**Another asymmetrical mistake, yet to be patched, appears on the rear diffuser of the vehicle, wherein the left part, between the center and the first element of the diffuser, features a triangular section not present on the right hand side. This is only present in the enhanced version of the game and is not seen on the low-poly model of the vehicle.<ref name="assym2">[[File:Zentorno-GTAO-RearAsymmetry.png|thumb|left|300px|The Zentorno's rear diffuser asymmetry (highlighted in red)]]{{Clr}}</ref><ref>[[File:Zentorno-GTAO-RearAsymmetryComparison.png|thumb|left|300px|Comparison of the low-poly model (top) and high-poly model (bottom) of the rear portion of the vehicle. Note the asymmetric differences (highlighted in yellow).]]{{Clr}}</ref>
+*The custom Hood modifications appear to have a small dent on the passenger-side ridge, just above the right headlight. This appears to be a minor modelling issue.
+*The "Comic Book Racing" livery has two different racing numbers printed on it – "09" on both doors and "11" on the passenger's side front fender.
+
+==Specifications==
+===Model===
+{{Specifications Vehicle Model 
+|game1               = VO
+|game1_modelname     = zentorno
+|game1_texturename   = zentorno
+|game1_handlingname  = ZENTORNO
+|game1_textlabelname = ZENTORNO
+|game1_ingamename    = Zentorno
+|game1_swankness     = 5
+|game1_flags         = {{Expand||
+;Flags
+*{{Flags|game=V|FLAG_SPORTS}}
+*{{Flags|game=V|FLAG_RICH_CAR}}
+*{{Flags|game=V|FLAG_NO_BROKEN_DOWN_SCENARIO}}
+*{{Flags|game=V|FLAG_COUNT_AS_FACEBOOK_DRIVEN}}
+*{{Flags|game=V|FLAG_HAS_INTERIOR_EXTRAS}}
+;modelFlags
+*{{Flags|game=V|MF_ABS_STD}}
+*{{Flags|game=V|MF_AXLE_F_MCPHERSON}}
+*{{Flags|game=V|MF_AXLE_R_MCPHERSON}}
+;handlingFlags
+*{{Flags|game=V|HF_REDUCED_MOD_MASS}}
+*{{Flags|game=V|HF_TYRES_CAN_CLIP}}
+}}
+}}
+
+===Population===
+{{Specifications Vehicle Population
+|game1               = VO
+|game1_popgroups     = {{No|None}}
+|game1_modelsets     = 
+*[[#NPC-Modified Variants|BUSINESS_DLC_SPORTS_<br>MODDED_1]]
+*[[#NPC-Modified Variants|BUSINESS_DLC_SPORTS_<br>MODDED_2]]
+*[[#NPC-Modified Variants|LS_CUSTOMS_MODDED<br>_SP]] (x2)
+|game1_frequency     = 30
+|game1_drivers       = {{No|None}}
+|game1_licenseplates = *Standard White - 100%
+}}
+
+===Handling===
+{{Specifications Vehicle Handling
+|game1               = VO
+|game1_maxvelocity   = 159
+|game1_gears         = 6
+|game1_drivetrain    = 0.3
+|game1_mass          = 1500
+}}
+
+===Audio===
+{{Specifications Vehicle Audio
+|game1               = VO
+|game1_hornsound     = horn_list_sports
+|game1_enginesound   = supercar_3_eur_v8
+|game1_radio         = 10
+|game1_scannermanf   = pegassi
+|game1_scannermodel  = sportscar,performancecar
+|game1_scannercat    = sportscar,performancecar
+|game1_scannercolor  = none
+}}
+
+===Language===
+{{Specifications Vehicle Language
+|game1               = VO
+|game1_langen        = Zentorno
+|game1_langzh        = 桑托勞
+|game1_langzhcn      = 桑托劳
+|game1_langfr        = Zentorno
+|game1_langde        = Zentorno
+|game1_langit        = Zentorno
+|game1_langjp        = ゼントーノ
+|game1_langko        = 젠토르노
+|game1_langesmx      = Zentorno
+|game1_langpl        = Zentorno
+|game1_langpt        = Zentorno
+|game1_langru        = Zentorno
+|game1_langes        = Zentorno
+}}
+
+===Traffic Default Colors===
+{{Vehicle Color List
+|collapse = y
+|game     = VO
+|0,41,3,156,0,0
+|1,41,7,156,0,0
+|4,41,111,156,0,0
+|111,14,70,156,0,0
+|3,41,5,156,0,0
+|75,41,68,156,0,0
+|5,41,111,156,0,0
+|29,41,37,156,0,0
+|36,41,37,156,0,0
+|89,41,91,156,0,0
+}}
+
+==Changes==
+{| class="wikitable sortable" width="100%" width="100%"
+!colspan="2" width="18%"|Update
+!Change(s)
+|-
+!colspan="3"|''Grand Theft Auto V'' and ''Grand Theft Auto Online''<br />[[PlayStation 3]], [[PlayStation 4]], [[Xbox 360]], [[Xbox One]], [[Personal Computer|PC]]
+|-
+|rowspan="1"|[[High Life Update]]
+|05/12/2014
+|Added Zentorno
+|-
+!colspan="3"|''Grand Theft Auto V'' and ''Grand Theft Auto Online''<br />[[PlayStation 4]], [[Xbox One]], [[Personal Computer|PC]]
+|-
+|rowspan="1"|[[Lowriders: Custom Classics]]
+|03/15/2016
+|Corrected front grille asymmetry on vehicle models (low and high poly)
+|-
+|rowspan="1"|[[GTA Online: The Criminal Enterprises|The Criminal Enterprises]]
+|07/26/2022
+|'''Un'''corrected front grille asymmetry. Added new customization options.
+|}
+
+==Events==
+===''Grand Theft Auto Online''===
+*Was awarded for the [[Prize Ride Challenge]] in the [[LS Car Meet]] during the [[GTA Online Bonuses (April 2022 Part 4)|''GTA Online'' Bonuses (April 2022 Part 4)]] event.
+
+==Trivia ==
+===''Grand Theft Auto V''===
+*The Zentorno was cut from the [[Business Update]], the High Life Update's spiritual "first part"; the vehicle's name appears in leftover audio synth data within the Business Update's audio files.<ref name="mpbusiness_audio">'''Business Update's audio synth data''': <code>x64w.rpf\dlcpacks\mpbusiness\dlc.rpf\x64\audio\dlcbusiness_amp.dat10.rel</code>:<br><pre>  <Item type="SynthPreset" ntOffset="0">
+   <Name>ex_trans_zentorno</Name>
+   <Flags value="0xAAAAAAAA" />
+   <Variables>
+    <Item>
+     <Name>on</Name>
+     <Value1 value="1" />
+     <Value2 value="0" />
+    </Item>
+    <Item>
+     <Name>amount</Name>
+     <Value1 value="3" />
+     <Value2 value="0" />
+    </Item>
+   </Variables>
+  </Item></pre></ref>
+
+===''Grand Theft Auto Online''===
+*A {{O}} loading screen may advertise the Zentorno, and the description suggests that it "will be the envy of all your Adder-driving friends", suggesting that it is the direct competition of the [[Adder]].
+
+==References==
+{{Scrollbox|
+{{Ref List}}
+}}
+==Navigation==
+{{Navboxes
+|title = Navigation
+|list1 = 
+{{Navbox vehicles|state=collapsed}}
+{{Navbox gtav vehicles|state=collapsed}}
+{{Navbox gtao vehicles|state=collapsed}}
+}}
+
+[[Category:Vehicles in GTA Online: The High Life Update]]
+[[Category:Vehicles in GTA V: The High Life Update]]
+[[Category:Supercars]]
+[[Category:Super class]]
+[[Category:All wheel drive vehicles]]
+[[Category:Vehicles eligible for Imani Tech upgrades]]
+[[Category:Vehicles manufactured by Pegassi]]
+[[Category:Vehicles purchasable from Legendary Motorsport]]
+[[Category:Vehicles purchasable from Luxury Autos]]
+[[Category:Vehicles purchasable from Premium Deluxe Motorsport]]
+[[Category:Vehicles with Banshee interior]]
+[[Category:Vehicles with non-standard door designs]]
+
+[[de:Zentorno (V)]]
+[[es:Zentorno]]
+[[fr:Zentorno]]
+[[pl:Zentorno]]
+[[ru:Zentorno]]
