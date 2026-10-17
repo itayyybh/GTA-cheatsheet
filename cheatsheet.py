@@ -352,5 +352,24 @@ def chunk_stats(chunks, max_chars=1000):
 
     return c
 
+def validate_golden(items):
+    problems = []
+    seen = set()
 
-def validate_golden(): pass
+    for index, item in enumerate(items):
+        if "question" not in item or "expected_title" not in item or "expected_section" not in item:
+            problems.append((index, "missing_key"))
+            continue
+        q = item["question"].lower().strip()
+        if not q:
+            problems.append((index, "empty_question"))
+        elif q in seen:
+            problems.append((index, "duplicate_question"))
+        else:
+            seen.add(q)
+    return problems
+
+
+
+
+

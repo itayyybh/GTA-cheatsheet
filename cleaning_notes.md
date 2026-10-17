@@ -144,4 +144,4 @@ After each step: rerun `ingest`, rerun the Counter, and compare numbers with thi
 |---|---:|---:|---:|---:|
 | 1. First real run (2026-10-14) | 791 | 773.8 | 0 | 135 |
 | 2. Heading fix | 791 | 773.3 | 0 | 135 |
-| 3. Skip list | 689 | 823.1 | 0 | 131 | 
+| 3. Skip list | 698 | 823.1 | 0 | 131 | 
