@@ -46,6 +46,7 @@ The single biggest "section" is no name at all, and 385 of 791 chunks (49%) have
 | A1 | Empty section name | 166 | `Insurgent \|  \|` | `====Vehicle====` (4-level heading): `==(.*?)==` matches with an empty middle |
 | A2 | Name starts with `=` | 385 | `=Images`, `=Personality` | `===Sub===` (3-level): regex takes `==` + `=Sub` |
 | A3 | Italic/bold markup in names | 166 | `=''Grand Theft Auto V''` | Heading text isn't cleaned |
+| A4 | section names contain wiki links 
 
 **Fix direction:** count the `=` signs on both sides and take what's between them; strip `'` markup from the name. Decide whether a subsection should be named `Design` or `Design > Images` (parent + child keeps context).
 
@@ -145,3 +146,4 @@ After each step: rerun `ingest`, rerun the Counter, and compare numbers with thi
 | 1. First real run (2026-10-14) | 791 | 773.8 | 0 | 135 |
 | 2. Heading fix | 791 | 773.3 | 0 | 135 |
 | 3. Skip list | 698 | 823.1 | 0 | 131 | 
+| 4. Entity XF re-saved | 687 | 809.9 | 0 | 129

@@ -1,0 +1,157 @@
+[
+  {
+    "question": "how much is the Adder in GTA",
+    "expected_title": "Adder",
+    "expected_section": "Infobox"
+  },
+  {
+    "question": "Whats the Adder top speed?",
+    "expected_title": "Adder",
+    "expected_section": "Performance"
+  },
+  {
+    "question": "How much is it to upgrade the engine to level 4 on the Adder in Online?",
+    "expected_title": "Adder",
+    "expected_section": "Modifications"
+  },
+  {
+    "question": "What weapons does the Buzzard have?",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "Weaponry"
+  },
+  {
+    "question": "What is the range of the Buzzard's machine guns?",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "Weaponry"
+  },
+  {
+    "question": "Who makes the Carbonizzare?",
+    "expected_title": "Carbonizzare",
+    "expected_section": "Intro"
+  },
+  {
+    "question": "How many hits from a sticky bomb can the Insurgent take until it is destroyed?",
+    "expected_title": "Insurgent",
+    "expected_section": "Armor"
+  },
+  {
+    "question": "Does the Insurgent has a pickup version??",
+    "expected_title": "Insurgent",
+    "expected_section": "Variants"
+  },
+  {
+    "question": "Where can I buy the Kuruma?",
+    "expected_title": "Kuruma",
+    "expected_section": "Locations"
+  },
+  {
+    "question": "Is the Kuruma good off-road?",
+    "expected_title": "Kuruma",
+    "expected_section": "Performance"
+  },
+  {
+    "question": "Is the Armored Kuruma safe against gun bullets?",
+    "expected_title": "Kuruma (Armored)",
+    "expected_section": "Performance"
+  },
+  {
+    "question": "How heavy is the Armored Kuruma?",
+    "expected_title": "Kuruma (Armored)",
+    "expected_section": "Performance"
+  },
+  {
+    "question": "How much is the Armored Kuruma after the Fleeca Job?",
+    "expected_title": "Kuruma (Armored)",
+    "expected_section": "Locations"
+  },
+  {
+    "question": "Zentorno price?",
+    "expected_title": "Zentorno",
+    "expected_section": "Infobox"
+  },
+  {
+    "question": "What engine does the Zentorno have?",
+    "expected_title": "Zentorno",
+    "expected_section": "Performance"
+  },
+  {
+    "question": "What is the prize for finishing Complications?",
+    "expected_title": "Complications",
+    "expected_section": "Infobox"
+  },
+  {
+    "question": "How to get gold on Complications?",
+    "expected_title": "Complications",
+    "expected_section": "Gold Medal Objectives"
+  },
+  {
+    "question": "Which cars can I steal in Franklin and Lamar?",
+    "expected_title": "Franklin and Lamar",
+    "expected_section": "Description"
+  },
+  {
+    "question": "What are the setup missions I need to complete before the smart jewel store approach?",
+    "expected_title": "The Jewel Store Job",
+    "expected_section": "Preparation"
+  },
+  {
+    "question": "Maximum money take from the Jewel Store Job?",
+    "expected_title": "The Jewel Store Job",
+    "expected_section": "Escape"
+  },
+  {
+    "question": "Kill or spare Ortega?",
+    "expected_title": "Mr. Philips",
+    "expected_section": "Description"
+  },
+  {
+    "question": "How long does Franklin's special ability last?",
+    "expected_title": "Franklin Clinton",
+    "expected_section": "Skills and Attributes"
+  },
+  {
+    "question": "Who is the voice actor for Franklin?",
+    "expected_title": "Franklin Clinton",
+    "expected_section": "Intro"
+  },
+  {
+    "question": "Which ending is canon?",
+    "expected_title": "Franklin Clinton",
+    "expected_section": "Ending"
+  },
+  {
+    "question": "What can I do inside Franklin's safehouse?",
+    "expected_title": "Clinton Residence",
+    "expected_section": "Amenities"
+  },
+  {
+    "question": "How much gold in the Union Depository?",
+    "expected_title": "Union Depository",
+    "expected_section": "Description"
+  },
+  {
+    "question": "whats michaels special ability",
+    "expected_title": "Michael De Santa",
+    "expected_section": "Special Ability"
+  },
+  {
+    "question": "what does trevor special do",
+    "expected_title": "Trevor Philips",
+    "expected_section": "Skills and Attributes"
+  },
+  {
+    "question": "where is the jewelry store you rob in gta 5",
+    "expected_title": "Vangelico",
+    "expected_section": "Infobox"
+  },
+  {
+    "question": "how do i unlock the railgun in story mode",
+    "expected_title": "Railgun",
+    "expected_section": "Infobox"
+  },
+  {
+    "question": "what prep missions do i need for the offshore merryweather heist",
+    "expected_title": "The Merryweather Heist",
+    "expected_section": "Offshore"
+  }
+]

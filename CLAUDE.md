@@ -59,3 +59,6 @@ Update this section when a day's tests all pass.
 - Indentation: checks that belong after a loop (or inside an `if`) end up at the wrong level.
 - Indexing vs slicing: `lines[i]` is one item, `lines[i:]` is a list.
 - Leftover `def name(): pass` placeholders lower in the file override the real function (the later definition wins).
+
+## After every completed step
+- Remind me to open the pipeline website (GTA Cheatsheet — RAG Architecture: https://claude.ai/artifact/H6zLwn8ir2Dg6ZLapaLUM4) and record my progress there.
