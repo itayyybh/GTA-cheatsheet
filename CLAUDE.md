@@ -42,14 +42,13 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 
 ## Progress
 - Week 1: done (21/21 passing)
-- Week 2 Day 1 `fetch_page`: done (3/3 passing)
-- Week 2 Day 2 `list_category`: done (3/3 passing)
-- Week 2 Day 3 infobox functions: done (6/6 passing) — `find_block` helper, `parse_infobox`, `remove_infobox`, `infobox_to_chunk`
-- Week 2 Day 4 `ingest`: done (3/3 passing)
-- Week 2 overall: 15/19 passing; Week 1 still 21/21
-- Day 4 real run still to do: hand-save ~20 GTA V pages as page dicts in a cache folder, run `ingest` on their titles, `save_chunks` the result
-- Week 2 Day 5 `chunk_stats(chunks, max_chars=1000)`: next. Delete its placeholder first.
-- Open: ask Weird Gloop (gta.wiki) for consent to run a slow API script for a learning project; meanwhile hand-save pages.
+- Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
+- Week 2 Day 6: done — `validate_golden` passing; `golden.json` has 31 questions over 19 of 21 pages; `golden_unanswerable.json` has 4
+- All tests: 40/40 passing
+- Real data: 21 hand-saved gta.wiki pages in `raw/` → `cache/` → `chunks.json`. Fixes A (heading levels) and B (skip-list) done; Entity XF re-saved. Current stats: 687 chunks, avg 809.9 chars, 0 empty, 129 too long. Details in `cleaning_notes.md`.
+- Week 2 Day 7: next — baseline `recall_at_k(keyword_search, golden, chunks, k=5)`; record number + date + chunk count, then study the misses
+- After Day 7: cleaning fixes D (text templates like {{V}}/{{O}}), C (links, multi-line templates), E (split long paragraphs), G1 (game field); re-measure recall after each
+- Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
 
 Update this section when a day's tests all pass.
 
