@@ -295,7 +295,9 @@ def ingest(titles, base_url, cache_dir, get=requests.get, sleep=time.sleep, dela
 def keyword_search(chunks, query, k):
 
     results = []
-    words = set(query.lower().split()) - STOPWORDS
+
+    words = set(query.lower().split())
+    words = {word.strip("?") for word in words} - STOPWORDS
 
     for chunk in chunks:
         haystack = " ".join([chunk["title"], chunk["section"], chunk["text"]]).lower()

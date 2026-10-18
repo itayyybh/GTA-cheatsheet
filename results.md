@@ -7,6 +7,7 @@ A hit = a top-k result with the expected title **and** section. Misses listed by
 |---|---|---:|---:|---:|---:|---|
 | 2026-18-10 | `keyword_search` (Week 1, no changes) | 5 | 687 | 31 | 0.516 (16/31) | Baseline |
 | 2026-18-10 | `keyword_search` with stopwords | 5 | 687 | 31 | 0.677 (21/31)
+| 2026-18-10 | `keyword_search` with stopwords and "?" stripped from the word | 5 | 687 | 31 | 0.774 (24/31) | 
 
 ## Baseline misses (2026-10-18) — 15 total
 
