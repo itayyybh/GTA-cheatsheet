@@ -10,6 +10,13 @@ SKIP_SECTIONS = {
     "Model", "Population", "Handling", "Audio", "Language",
 }
 
+STOPWORDS = {
+    'i', 'a', 'an', 'the', 'is', 'are', 'do', 'does', 'how',
+    'what', 'which', 'who', 'where', 'when', 'can',
+    'in', 'on', 'of', 'to', 'for',
+    'and', 'my', 'me', 'you', 'it', 'get', 'much',
+    }
+
 def clean_text(text):
     text = text.replace("[edit]", "")
     text = re.sub(r"\{\{.*?\}\}", "", text)
@@ -288,7 +295,7 @@ def ingest(titles, base_url, cache_dir, get=requests.get, sleep=time.sleep, dela
 def keyword_search(chunks, query, k):
 
     results = []
-    words = set(query.lower().split())
+    words = set(query.lower().split()) - STOPWORDS
 
     for chunk in chunks:
         haystack = " ".join([chunk["title"], chunk["section"], chunk["text"]]).lower()
