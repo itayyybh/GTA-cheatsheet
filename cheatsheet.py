@@ -407,7 +407,24 @@ def embed_chunks(chunks, embed_fn, batch_size=32):
             
 
 def save_index(path, model, chunks, vectors):
-    
+    if len(chunks) != len(vectors):
+        raise ValueError("chunks and vectors are not the same length")
+    data = {"model": model, "chunks": chunks, "vectors": vectors}
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def load_index(path, model): 
+    with open(path, "r", encoding="utf-8") as f:
+        result = json.load(f)
+        if result["model"] != model:
+            raise ValueError("the saved 'model' isn't the model argument")
+        return result["chunks"], result["vectors"]
+
+def semantic_search(chunks, vectors, query_vector, k):
+    pass
+
+
 
 
 # ---------- Week 3 placeholders: delete each one when you write the real function ----------
@@ -416,8 +433,7 @@ def save_index(path, model, chunks, vectors):
 
 
 
-def load_index(path, model): pass
-def semantic_search(chunks, vectors, query_vector, k): pass
+
 def make_semantic_search(vectors, embed_fn): pass
 def rrf_merge(result_lists, k, c=60): pass
 def make_hybrid_search(search_fns, pool=20): pass
