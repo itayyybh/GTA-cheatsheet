@@ -340,6 +340,19 @@ def recall_at_k(search_fn, golden, chunks, k):
     else:
         return 0.0
 
+def find_misses(search_fn, golden, chunks):
+    misses_questions = []
+    for item in golden:
+        results = search_fn(chunks, item["question"], 5)
+
+        found = any(r["title"] == item["expected_title"] and r["section"] == item["expected_section"] for r in results)
+
+        if not found: 
+            misses_questions.append(item["question"])
+        
+    return misses_questions
+    
+
 
 def chunk_stats(chunks, max_chars=1000):
     count = len(chunks)

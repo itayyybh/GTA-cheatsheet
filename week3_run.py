@@ -1,4 +1,4 @@
-from cheatsheet import load_index, load_chunks, embed_chunks, make_semantic_search, save_index, recall_at_k, keyword_search
+from cheatsheet import load_index, load_chunks, embed_chunks, make_semantic_search, save_index, recall_at_k, keyword_search, find_misses
 from sentence_transformers import SentenceTransformer
 from pathlib import Path
 import json
@@ -22,6 +22,13 @@ semantic_result = recall_at_k(semantic, golden, chunks, k=5)
 
 print("keyword_search result:", keyword_search_result)
 print("semantic result:", semantic_result)
+
+keyword_search_misses = find_misses(keyword_search, golden, chunks)
+semantic_misses = find_misses(semantic, golden, chunks)
+
+print("missed by both: ", set(keyword_search_misses) & set(semantic_misses))
+print("missed only by keyword_search: ", set(keyword_search_misses) - set(semantic_misses))
+print("missed only by semantic: ", set(semantic_misses) - set(keyword_search_misses))
 print(len(vectors))
 
 

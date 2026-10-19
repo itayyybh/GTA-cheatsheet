@@ -6,8 +6,9 @@ A hit = a top-k result with the expected title **and** section. Misses listed by
 | Date | Method | k | Chunks | Questions | recall@k | Notes |
 |---|---|---:|---:|---:|---:|---|
 | 2026-10-18 | `keyword_search` (Week 1, no changes) | 5 | 687 | 31 | 0.516 (16/31) | Baseline |
-| 2026-10-108 | `keyword_search` with stopwords | 5 | 687 | 31 | 0.677 (21/31)
-| 2026-10-18 | `keyword_search` with stopwords and "?" stripped from the word | 5 | 687 | 31 | 0.774 (24/31) | 
+| 2026-10-18 | `keyword_search` with stopwords | 5 | 687 | 31 | 0.677 (21/31) | |
+| 2026-10-18 | `keyword_search` with stopwords and "?" stripped from the word | 5 | 687 | 31 | 0.774 (24/31) | |
+| 2026-10-19 | semantic search (`all-MiniLM-L6-v2`, cosine) | 5 | 687 | 31 | 0.774 (24/31) | Ties keyword, but only 2 misses shared; together they miss 2/31 |
 
 ## Baseline misses (2026-10-18) — 15 total
 
@@ -21,3 +22,12 @@ Questions: Adder price, Carbonizzare maker, where to buy Kuruma, Complications g
 **3. Right page, wrong section (~3).** Railgun → `Description` (answer in `Infobox`); Insurgent → `Design` (answer in `Variants`); Kuruma off-road → `Kuruma (Armored) | Performance`, which copies the normal Kuruma's text (arguably a correct answer).
 
 **Takeaway:** cleaning fixes C/D would barely move this number — most misses are a scoring problem, not dirty text.
+
+## Keyword vs semantic misses (2026-10-19)
+
+- **Missed by both (2):** jewelry store → Vangelico | Infobox; Complications prize → Infobox.
+- **Only keyword missed (5):** Zentorno engine, Franklin and Lamar cars, Carbonizzare maker, ending canon, Trevor special. Semantic fixed all five.
+- **Only semantic missed (5):** Adder price, Zentorno price, Railgun unlock, Insurgent pickup, Complications gold.
+- **Pattern:** 5 of semantic's 7 misses expect an `Infobox` chunk. Infobox text is `key: value` lines, which doesn't read like a question, so its vector lands far from the question's. Not truncation: all 7 expected chunks are under 900 characters.
+- **Ceiling for a combination:** 29/31 = 0.935 if a hybrid kept every hit from either method.
+→ Next: hybrid search (RRF, Week 3 Day 6).
