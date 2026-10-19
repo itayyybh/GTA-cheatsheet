@@ -3,6 +3,7 @@ import json
 import requests
 import time
 from pathlib import Path
+import math
 
 SKIP_SECTIONS = {
     "Images", "Gallery", "Video Gallery", "Navigation", "References",
@@ -157,11 +158,11 @@ def fetch_page(title, base_url, get=requests.get):
 
 def list_category(category, base_url, get=requests.get):
     params = {'action': "query",
-              'list': "categorymembers",
-              'cmtitle': 'Category:' + category,
-              'cmlimit': 500,
-              'format': 'json',
-              'formatversion': '2'}
+            'list': "categorymembers",
+            'cmtitle': 'Category:' + category,
+            'cmlimit': 500,
+            'format': 'json',
+            'formatversion': '2'}
     titles = []
 
     while True:
@@ -178,8 +179,7 @@ def list_category(category, base_url, get=requests.get):
             params["cmcontinue"] = data["continue"]["cmcontinue"]
         else:
             return titles
-                
-              
+
 
 def find_block(lines):
 
@@ -378,7 +378,46 @@ def validate_golden(items):
             seen.add(q)
     return problems
 
+def dot(a, b):
+    total = 0
+    for i in zip(a, b):
+         total += i[0] * i[1]
+    return total
+
+def norm(a): 
+    return math.sqrt(dot(a, a))
+
+def cosine_similarity(a, b):
+    if norm(a) == 0 or norm(b) == 0:
+        return 0.0
+    return dot(a, b) / (norm(a) * norm(b))
+
+def chunk_to_embed_text(chunk): 
+    return f"{chunk['title']} | {chunk['section']}\n{chunk['text']}"
+
+def embed_chunks(chunks, embed_fn, batch_size=32):
+    results = []
+    texts = [chunk_to_embed_text(chunk) for chunk in chunks]
+    batches = range(0, len(texts), batch_size)
+
+    for start in batches:
+        vectors = embed_fn(texts[start:start + batch_size])
+        results.extend([[float(number)for number in x] for x in vectors])
+    return results
+            
+
+def save_index(path, model, chunks, vectors):
+    
+
+
+# ---------- Week 3 placeholders: delete each one when you write the real function ----------
 
 
 
 
+
+def load_index(path, model): pass
+def semantic_search(chunks, vectors, query_vector, k): pass
+def make_semantic_search(vectors, embed_fn): pass
+def rrf_merge(result_lists, k, c=60): pass
+def make_hybrid_search(search_fns, pool=20): pass

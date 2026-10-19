@@ -19,6 +19,8 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 - `cheatsheet.py` — my code
 - Week 1 plan: https://claude.ai/code/artifact/c2bf4f46-e812-410c-a096-992d9e9b3cf8
 - Week 2 plan: https://claude.ai/code/artifact/b8402308-5372-472d-81cf-a6b6b3b1877c
+- Week 3 plan: https://claude.ai/code/artifact/429301dc-9d6a-470b-9637-3d19773f08a4
+- `test_week3.py` — Week 3 spec (21 tests). Uses a fake `embed_fn`, so no test loads a model.
 - Architecture: https://claude.ai/code/artifact/826846de-0508-4d53-be1a-1eee1a5e837f
 
 ## Data source rules
@@ -40,14 +42,27 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 6. `golden.json` — 30 real player questions with `question`, `expected_title`, `expected_section`, incl. 3–4 unanswerable. Questions must be answerable from the pages actually ingested. `validate_golden(items)` returns `(index, problem)` tuples: `"missing_key"`, `"empty_question"`, `"duplicate_question"` (case- and space-insensitive); `[]` when valid.
 7. Baseline: `recall_at_k(keyword_search, golden, chunks, k=5)` on real data; record the number with the date and study the misses.
 
+## Week 3 exercises (embeddings, semantic + hybrid search)
+Model: `all-MiniLM-L6-v2` via `sentence-transformers`, loaded only in scripts (never imported in `cheatsheet.py`). `embed_fn(list_of_texts) -> one vector per text`.
+1. `dot(a, b)`, `norm(a)`, `cosine_similarity(a, b)` — plain Python; cosine returns `0.0` if either vector is all zeros.
+2. `chunk_to_embed_text(chunk)` → `"<title> | <section>\n<text>"`. `embed_chunks(chunks, embed_fn, batch_size=32)` — calls `embed_fn` per batch, returns one plain list of floats per chunk, in order.
+3. `save_index(path, model, chunks, vectors)` — JSON `{"model","chunks","vectors"}`, `ValueError` if lengths differ. `load_index(path, model)` → `(chunks, vectors)`, `ValueError` if the model name differs.
+4. `semantic_search(chunks, vectors, query_vector, k)` — top k by cosine. `make_semantic_search(vectors, embed_fn)` → closure `search(chunks, query, k)` usable with `recall_at_k`.
+5. Real run (`week3_run.py`, no tests): build/load `index.json`, recall@5 keyword vs semantic, print misses, row in `results.md`. MiniLM truncates long texts (~256 words).
+6. `rrf_merge(result_lists, k, c=60)` — sum of `1/(c+rank)`, rank from 1; chunk identity = `(title, section, text)`; ties keep first-seen order. `make_hybrid_search(search_fns, pool=20)` → closure that asks each search for `pool` results and merges. Then recall@5 for hybrid.
+7. No tests: `golden_holdout.json` (10 new untuned questions) scored by all three methods; top semantic score for answerable vs unanswerable questions → candidate "not documented yet" threshold.
+
 ## Progress
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
 - Week 2 Day 6: done — `validate_golden` passing; `golden.json` has 31 questions over 19 of 21 pages; `golden_unanswerable.json` has 4
-- All tests: 40/40 passing
+- All tests: 40/40 passing (Weeks 1–2); Week 3: 10/21
 - Real data: 21 hand-saved gta.wiki pages in `raw/` → `cache/` → `chunks.json`. Fixes A (heading levels) and B (skip-list) done; Entity XF re-saved. Current stats: 687 chunks, avg 809.9 chars, 0 empty, 129 too long. Details in `cleaning_notes.md`.
-- Week 2 Day 7: next — baseline `recall_at_k(keyword_search, golden, chunks, k=5)`; record number + date + chunk count, then study the misses
-- After Day 7: cleaning fixes D (text templates like {{V}}/{{O}}), C (links, multi-line templates), E (split long paragraphs), G1 (game field); re-measure recall after each
+- Week 2 Day 7: done — baseline 0.516; + stopwords 0.677; + `?` stripping 0.774 (24/31). Misses left are mostly word mismatches. Details in `results.md`.
+- Week 3 Day 1 (`dot`, `norm`, `cosine_similarity`): done (6/6)
+- Week 3 Day 2 (`chunk_to_embed_text`, `embed_chunks`): done (4/4)
+- Week 3 Day 3 (`save_index`, `load_index`): next. Run with `pytest test_week3.py -k index`
+- Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
 
 Update this section when a day's tests all pass.
