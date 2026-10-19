@@ -422,10 +422,22 @@ def load_index(path, model):
         return result["chunks"], result["vectors"]
 
 def semantic_search(chunks, vectors, query_vector, k):
-    pass
+    results = []
+    for chunk, vector in zip(chunks, vectors):
+        score = cosine_similarity(vector, query_vector)
+        results.append((score, chunk))
+    results.sort(reverse=True, key=lambda pair: pair[0])
+    top_pair = results[:k]
+    return [p[1] for p in top_pair]
 
 
-
+def make_semantic_search(vectors, embed_fn): 
+    def search(chunks, query, k):
+        vector_list = embed_fn([query])
+        query_vector = vector_list[0]
+        return semantic_search(chunks, vectors, query_vector, k)
+    return search
+    
 
 # ---------- Week 3 placeholders: delete each one when you write the real function ----------
 
@@ -434,6 +446,6 @@ def semantic_search(chunks, vectors, query_vector, k):
 
 
 
-def make_semantic_search(vectors, embed_fn): pass
+
 def rrf_merge(result_lists, k, c=60): pass
 def make_hybrid_search(search_fns, pool=20): pass

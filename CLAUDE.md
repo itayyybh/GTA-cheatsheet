@@ -56,13 +56,14 @@ Model: `all-MiniLM-L6-v2` via `sentence-transformers`, loaded only in scripts (n
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
 - Week 2 Day 6: done — `validate_golden` passing; `golden.json` has 31 questions over 19 of 21 pages; `golden_unanswerable.json` has 4
-- All tests: 40/40 passing (Weeks 1–2); Week 3: 13/21
+- All tests: 40/40 passing (Weeks 1–2); Week 3: 16/21
 - Real data: 21 hand-saved gta.wiki pages in `raw/` → `cache/` → `chunks.json`. Fixes A (heading levels) and B (skip-list) done; Entity XF re-saved. Current stats: 687 chunks, avg 809.9 chars, 0 empty, 129 too long. Details in `cleaning_notes.md`.
 - Week 2 Day 7: done — baseline 0.516; + stopwords 0.677; + `?` stripping 0.774 (24/31). Misses left are mostly word mismatches. Details in `results.md`.
 - Week 3 Day 1 (`dot`, `norm`, `cosine_similarity`): done (6/6)
 - Week 3 Day 2 (`chunk_to_embed_text`, `embed_chunks`): done (4/4)
 - Week 3 Day 3 (`save_index`, `load_index`): done (3/3)
-- Week 3 Day 4 (`semantic_search`, `make_semantic_search`): next. Run with `pytest test_week3.py -k semantic`
+- Week 3 Day 4 (`semantic_search`, `make_semantic_search`): done (3/3)
+- Week 3 Day 5 (real run, `week3_run.py`, no tests): next — build/load `index.json`, recall@5 keyword vs semantic, print misses, row in `results.md`
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
 
