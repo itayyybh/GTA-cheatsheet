@@ -452,13 +452,20 @@ def make_semantic_search(vectors, embed_fn):
     return search
     
 
-# ---------- Week 3 placeholders: delete each one when you write the real function ----------
+def rrf_merge(result_lists, k, c=60): 
+    scores = {}
+    chunk_by_key = {}
+    for results in result_lists:
+        for rank, chunk in enumerate(results, start=1):
+            key = (chunk["title"], chunk["section"], chunk["text"])
+            scores[key]= scores.get(key, 0) + 1 / (c + rank)
+            chunk_by_key[key] = chunk
+    ranked_keys = sorted(scores, key=lambda t: scores[t], reverse=True)[:k]
+    return [chunk_by_key[key] for key in ranked_keys]
 
 
-
-
-
-
-
-def rrf_merge(result_lists, k, c=60): pass
-def make_hybrid_search(search_fns, pool=20): pass
+def make_hybrid_search(search_fns, pool=20): 
+    def search(chunks, query, k):
+        results = [f(chunks, query, pool) for f in search_fns]
+        return rrf_merge(results, k)
+    return search

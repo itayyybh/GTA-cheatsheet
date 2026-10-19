@@ -8,20 +8,28 @@ I'm relearning Python. Never write or edit code in cheatsheet.py. Only give hint
 - When I'm stuck, give the smallest hint that unblocks me: point at the line, name the concept or method, show a tiny example on unrelated data. Not the fix.
 - Reviews: list bugs most important first, say why each one fails, and what to look up. Mention what's already right.
 - Keep answers short and in English.
-- You may run tests: `pytest test_week2.py -k <function_name>` for one exercise, `pytest` for everything. Explain failures by reading the assertion (left side = my output, right side = expected).
+- You may run tests: `pytest -k <function_name>` for one exercise, `pytest` for everything (run from the project root; `pytest.ini` points it at `tests/`). Explain failures by reading the assertion (left side = my output, right side = expected).
 - Never change the test files.
 
 ## The project
 A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V data now, GTA 6 data after its launch on November 19, 2026.
 
-- `test_cheatsheet.py` — Week 1 spec (21 tests)
-- `test_week2.py` — Week 2 spec (19 tests). Uses fakes for `get` and `sleep`, so no test touches the internet.
+- `tests/test_cheatsheet.py` — Week 1 spec (21 tests)
+- `tests/test_week2.py` — Week 2 spec (19 tests). Uses fakes for `get` and `sleep`, so no test touches the internet.
 - `cheatsheet.py` — my code
 - Week 1 plan: https://claude.ai/code/artifact/c2bf4f46-e812-410c-a096-992d9e9b3cf8
 - Week 2 plan: https://claude.ai/code/artifact/b8402308-5372-472d-81cf-a6b6b3b1877c
 - Week 3 plan: https://claude.ai/code/artifact/429301dc-9d6a-470b-9637-3d19773f08a4
-- `test_week3.py` — Week 3 spec (21 tests). Uses a fake `embed_fn`, so no test loads a model.
+- `tests/test_week3.py` — Week 3 spec (21 tests). Uses a fake `embed_fn`, so no test loads a model.
 - Architecture: https://claude.ai/code/artifact/826846de-0508-4d53-be1a-1eee1a5e837f
+
+## Folder layout
+- `cheatsheet.py` — my code (tests import it from the root)
+- `week3_run.py` — real-data script; run from the project root
+- `tests/` — the spec files (never edit); `pytest.ini` sets `pythonpath = .` so they find `cheatsheet.py`
+- `data/` — `raw/` (hand-saved wikitext) → `cache/` (page dicts) → `chunks.json`; `index.json` = embeddings, git-ignored, delete it to rebuild
+- `eval/` — `golden.json`, `golden_unanswerable.json`, `results.md` (every score, dated)
+- `notes/` — `cleaning_notes.md`, `LEARN.md` (💡 Learn glossary)
 
 ## Data source rules
 - Do NOT use Fandom (gta.fandom.com): its terms ban automated access, and the GTA Wiki community left it for gta.wiki in March 2026.
@@ -56,14 +64,16 @@ Model: `all-MiniLM-L6-v2` via `sentence-transformers`, loaded only in scripts (n
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
 - Week 2 Day 6: done — `validate_golden` passing; `golden.json` has 31 questions over 19 of 21 pages; `golden_unanswerable.json` has 4
-- All tests: 40/40 passing (Weeks 1–2); Week 3: 16/21
-- Real data: 21 hand-saved gta.wiki pages in `raw/` → `cache/` → `chunks.json`. Fixes A (heading levels) and B (skip-list) done; Entity XF re-saved. Current stats: 687 chunks, avg 809.9 chars, 0 empty, 129 too long. Details in `cleaning_notes.md`.
-- Week 2 Day 7: done — baseline 0.516; + stopwords 0.677; + `?` stripping 0.774 (24/31). Misses left are mostly word mismatches. Details in `results.md`.
+- All tests: 40/40 passing (Weeks 1–2); Week 3: 21/21
+- Real data: 21 hand-saved gta.wiki pages in `data/raw/` → `data/cache/` → `data/chunks.json`. Fixes A (heading levels) and B (skip-list) done; Entity XF re-saved. Current stats: 687 chunks, avg 809.9 chars, 0 empty, 129 too long. Details in `notes/cleaning_notes.md`.
+- Week 2 Day 7: done — baseline 0.516; + stopwords 0.677; + `?` stripping 0.774 (24/31). Misses left are mostly word mismatches. Details in `eval/results.md`.
 - Week 3 Day 1 (`dot`, `norm`, `cosine_similarity`): done (6/6)
 - Week 3 Day 2 (`chunk_to_embed_text`, `embed_chunks`): done (4/4)
 - Week 3 Day 3 (`save_index`, `load_index`): done (3/3)
 - Week 3 Day 4 (`semantic_search`, `make_semantic_search`): done (3/3)
-- Week 3 Day 5 (real run, `week3_run.py`, no tests): next — build/load `index.json`, recall@5 keyword vs semantic, print misses, row in `results.md`
+- Week 3 Day 5 (real run, `week3_run.py`): done — semantic 0.774, ties keyword; only 2 misses shared, 5 of semantic's 7 misses are Infobox chunks; ceiling 29/31 for a hybrid. `find_misses` added to `cheatsheet.py`.
+- Week 3 Day 6 (`rrf_merge`, `make_hybrid_search`): code done (5/5) — all 61 tests passing. Hybrid on real data: 0.903 (28/31) vs 0.774 for keyword and semantic alone; ceiling 0.935.
+- Week 3 Day 7 (no tests): next — `eval/golden_holdout.json` with 10 new questions written without looking at results; score all three methods; compare top semantic score for answerable vs unanswerable questions
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
 

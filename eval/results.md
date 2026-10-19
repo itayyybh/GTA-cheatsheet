@@ -9,6 +9,7 @@ A hit = a top-k result with the expected title **and** section. Misses listed by
 | 2026-10-18 | `keyword_search` with stopwords | 5 | 687 | 31 | 0.677 (21/31) | |
 | 2026-10-18 | `keyword_search` with stopwords and "?" stripped from the word | 5 | 687 | 31 | 0.774 (24/31) | |
 | 2026-10-19 | semantic search (`all-MiniLM-L6-v2`, cosine) | 5 | 687 | 31 | 0.774 (24/31) | Ties keyword, but only 2 misses shared; together they miss 2/31 |
+| 2026-10-19 | hybrid: keyword + semantic, RRF (c=60, pool=20) | 5 | 687 | 31 | 0.903 (28/31) | +0.129 over either method; ceiling 0.935 (29/31) |
 
 ## Baseline misses (2026-10-18) — 15 total
 
@@ -31,3 +32,8 @@ Questions: Adder price, Carbonizzare maker, where to buy Kuruma, Complications g
 - **Pattern:** 5 of semantic's 7 misses expect an `Infobox` chunk. Infobox text is `key: value` lines, which doesn't read like a question, so its vector lands far from the question's. Not truncation: all 7 expected chunks are under 900 characters.
 - **Ceiling for a combination:** 29/31 = 0.935 if a hybrid kept every hit from either method.
 → Next: hybrid search (RRF, Week 3 Day 6).
+
+## Hybrid misses (2026-10-19) — 3 total
+- **Still missed by all:** jewelry store → Vangelico | Infobox.
+- **Lost in the merge (2):** Zentorno price (keyword had it), ending canon (semantic had it) — each was found by only one method; likely outscored by chunks that both methods ranked moderately (not yet checked: print each method's rank for the expected chunk).
+- **Gained from the pool (1):** Complications prize — in neither method's top 5; likely in both methods' top 20, so its two RRF scores added up to a top-5 finish (not yet checked).
