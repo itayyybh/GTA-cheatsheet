@@ -37,3 +37,49 @@ Questions: Adder price, Carbonizzare maker, where to buy Kuruma, Complications g
 - **Still missed by all:** jewelry store → Vangelico | Infobox.
 - **Lost in the merge (2):** Zentorno price (keyword had it), ending canon (semantic had it) — each was found by only one method; likely outscored by chunks that both methods ranked moderately (not yet checked: print each method's rank for the expected chunk).
 - **Gained from the pool (1):** Complications prize — in neither method's top 5; likely in both methods' top 20, so its two RRF scores added up to a top-5 finish (not yet checked).
+
+## Holdout check (2026-10-19) — `eval/golden_holdout.json`, 10 questions never used for tuning
+
+| Method | Tuning set (31) | Holdout (10) |
+|---|---:|---:|
+| keyword (stopwords + "?" strip) | 0.774 | 0.6 (6/10) |
+| semantic | 0.774 | 0.7 (7/10) |
+| hybrid (RRF) | 0.903 | 0.7 (7/10) |
+
+- All three drop on unseen questions. Keyword drops most — its two fixes were chosen by studying the tuning set's misses.
+- Hybrid ties semantic here. With 10 questions, one question = 0.1, so this can't separate hybrid from semantic; it does say 0.903 overstates what to expect.
+- Holdout questions were written by Claude while reading the chunks (some vocabulary leak, which favours keyword).
+
+## Holdout v2 (2026-10-23) — 30 questions, most rewritten by Itay in player words
+
+| Method | Tuning set (31) | Holdout v1 (10) | Holdout v2 (30) |
+|---|---:|---:|---:|
+| keyword (stopwords + "?" strip) | 0.774 | 0.6 | 0.500 (15/30) |
+| semantic | 0.774 | 0.7 | 0.767 (23/30) |
+| hybrid (RRF) | 0.903 | 0.7 | 0.767 (23/30) |
+
+- Keyword collapses on player wording: its tuning-set score relied on questions that reused the page's words.
+- Semantic holds up: 0.774 → 0.767, i.e. no sign it was overfitted.
+- Hybrid = semantic on unseen questions. Its +0.129 on the tuning set came from merging with a keyword search that was itself tuned to those questions.
+- One question = 0.033 here. Next: compare hybrid vs semantic misses (same score ≠ same misses).
+
+### Holdout v2: semantic vs hybrid misses (2026-10-23)
+- **Hybrid fixed 3:** Kuruma AWD, Michael's home town, 100% on Mr. Philips — name-heavy questions where keyword found the page.
+- **Hybrid lost 3:** Michael's family fights, where Trevor is from, Freighter practise — descriptive "why/where/what" questions; semantic had them, keyword's poor ranking pulled them out of the top 5.
+- **Both missed 4:** Entity XF kind of car (Infobox), Dave Norton at Michael's house, who lives with Franklin (51-char Residents list), repossess in Complications.
+- Same score, +3 −3. Any weighting change chosen from these results needs a fresh holdout to judge it.
+
+## "Not documented yet" threshold (2026-10-23) — top semantic cosine per question
+
+- Answerable (holdout v2, 30): 0.44 – 0.80, median ≈ 0.62
+- Unanswerable (14): 0.27 – 0.59, median ≈ 0.47
+- Overlap: 0.44 – 0.59. No clean gap.
+
+| Threshold | Answerable wrongly refused | Unanswerable wrongly answered |
+|---:|---:|---:|
+| 0.50 | 1 / 30 | 5 / 14 |
+| 0.55 | 2 / 30 | 1 / 14 |
+| 0.60 | 12 / 30 | 0 / 14 |
+
+- Candidate: **0.55**. Chosen on these same 44 questions, so it needs checking on new ones before trusting it.
+- Note: a high top score only means *some* chunk is close — not that it's the right one (answerable questions that retrieval misses can still score high).
