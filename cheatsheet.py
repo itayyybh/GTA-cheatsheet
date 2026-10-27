@@ -486,9 +486,22 @@ def build_prompt(question, chunks):
     " keep answers short." \
     " answer in players tone"
     source = format_context(chunks)
-    q = f"'Question: ', {question}"
+    q = f"'Question: ' {question}"
     result = [instructions, source, q]
     result_string = "\n\n".join(result)
     return result_string
 
+def should_answer(score, threshold=0.55):
+    return score >= threshold
+
+def parse_citations(text):
+    numbers = []
+    result = re.findall((r'\[(\d+)\]'), text)
+    for r in result:
+        if int(r) not in numbers:
+            numbers.append(int(r))
+    return numbers
+
+def valid_citations(cited, n_sources):
+    return [x for x in cited if 1<=x<=n_sources]
 

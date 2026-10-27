@@ -86,7 +86,9 @@ Tests: `tests/test_week4.py` (23 tests). They call `cs.name(...)`, so no placeho
 - Week 3 Day 6 (`rrf_merge`, `make_hybrid_search`): code done (5/5) — all 61 tests passing. Hybrid on real data: 0.903 (28/31) vs 0.774 for keyword and semantic alone; ceiling 0.935.
 - Week 3 Day 7: done — holdout v2 (30, player words): keyword 0.500, semantic 0.767, hybrid 0.767; 14 unanswerable; candidate refusal threshold 0.55 (2/30 answerable refused, 1/14 unanswerable answered). Details in `eval/results.md`.
 - Week 4 Day 1 (`format_context`, `build_prompt`): done (5/5)
-- Week 4 Day 2 (`should_answer`): next. Run with `pytest -k should_answer`
+- Week 4 Day 2 (`should_answer`): done (4/4)
+- Week 4 Day 3 (`parse_citations`, `valid_citations`): done (4/4)
+- Week 4 Day 4 (`cited_sources`): next. Run with `pytest -k cited_sources`
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
 
@@ -98,3 +100,6 @@ Update this section when a day's tests all pass.
 - Indentation: checks that belong after a loop (or inside an `if`) end up at the wrong level.
 - Indexing vs slicing: `lines[i]` is one item, `lines[i:]` is a list.
 - Leftover `def name(): pass` placeholders lower in the file override the real function (the later definition wins).
+- `json.load(open(path))`, not `json.load(path)`.
+- Strings vs ints: `"2" != 2`; convert before comparing or checking `in`.
+- Reassigning the loop variable (`r = int(r)`) doesn't change the list; build a new list.
