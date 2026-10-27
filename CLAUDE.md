@@ -21,6 +21,7 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 - Week 2 plan: https://claude.ai/code/artifact/b8402308-5372-472d-81cf-a6b6b3b1877c
 - Week 3 plan: https://claude.ai/code/artifact/429301dc-9d6a-470b-9637-3d19773f08a4
 - `tests/test_week3.py` — Week 3 spec (21 tests). Uses a fake `embed_fn`, so no test loads a model.
+- `tests/test_week4.py` — Week 4 spec (23 tests). Uses a fake `llm_fn`, so no test calls Claude.
 - Architecture: https://claude.ai/code/artifact/826846de-0508-4d53-be1a-1eee1a5e837f
 
 ## Folder layout
@@ -60,6 +61,16 @@ Model: `all-MiniLM-L6-v2` via `sentence-transformers`, loaded only in scripts (n
 6. `rrf_merge(result_lists, k, c=60)` — sum of `1/(c+rank)`, rank from 1; chunk identity = `(title, section, text)`; ties keep first-seen order. `make_hybrid_search(search_fns, pool=20)` → closure that asks each search for `pool` results and merges. Then recall@5 for hybrid.
 7. No tests: `golden_holdout.json` (10 new untuned questions) scored by all three methods; top semantic score for answerable vs unanswerable questions → candidate "not documented yet" threshold.
 
+## Week 4 exercises (generation with citations)
+Tests: `tests/test_week4.py` (23 tests). They call `cs.name(...)`, so no placeholders are needed — an unwritten function only fails its own tests. `llm_fn(prompt) -> reply string` is injected; the real Claude call lives only in `week4_run.py`, never in `cheatsheet.py`.
+1. `format_context(chunks)` → `"[1] <title> | <section>\n<text>"` blocks joined by a blank line; `""` for no chunks. `build_prompt(question, chunks)` → instructions + context + question (question after the sources); must mention `NOT_DOCUMENTED` and citing like `[1]`.
+2. `should_answer(score, threshold=0.55)` → `score >= threshold`.
+3. `parse_citations(text)` → ints from `[n]`, first-seen order, no repeats. `valid_citations(cited, n_sources)` → only 1..n_sources, order kept.
+4. `cited_sources(cited, chunks)` → `[{"n", "title", "section", "url"}]` in citation order.
+5. `answer_question(question, chunks, search_fn, score_fn, llm_fn, k=5, threshold=0.55)` → `{"answer", "sources", "refused"}`. Refuse with `"Not documented yet."` (no LLM call) below threshold; also refuse if the reply contains `NOT_DOCUMENTED` or has no valid citation. Otherwise answer = reply stripped.
+6. `answer_matches(answer, must_contain)` (all, case-insensitive). `score_answers(golden, answer_fn)` → fraction correct: answerable items need not refused + match; `"unanswerable": True` items need refused.
+7. Real run (`week4_run.py`, no tests): Claude via the Anthropic SDK, holdout + unanswerable with `must_contain` added, answer accuracy, tokens/cost and latency per question, row in `eval/results.md`.
+
 ## Progress
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
@@ -73,7 +84,9 @@ Model: `all-MiniLM-L6-v2` via `sentence-transformers`, loaded only in scripts (n
 - Week 3 Day 4 (`semantic_search`, `make_semantic_search`): done (3/3)
 - Week 3 Day 5 (real run, `week3_run.py`): done — semantic 0.774, ties keyword; only 2 misses shared, 5 of semantic's 7 misses are Infobox chunks; ceiling 29/31 for a hybrid. `find_misses` added to `cheatsheet.py`.
 - Week 3 Day 6 (`rrf_merge`, `make_hybrid_search`): code done (5/5) — all 61 tests passing. Hybrid on real data: 0.903 (28/31) vs 0.774 for keyword and semantic alone; ceiling 0.935.
-- Week 3 Day 7 (no tests): next — `eval/golden_holdout.json` with 10 new questions written without looking at results; score all three methods; compare top semantic score for answerable vs unanswerable questions
+- Week 3 Day 7: done — holdout v2 (30, player words): keyword 0.500, semantic 0.767, hybrid 0.767; 14 unanswerable; candidate refusal threshold 0.55 (2/30 answerable refused, 1/14 unanswerable answered). Details in `eval/results.md`.
+- Week 4 Day 1 (`format_context`, `build_prompt`): done (5/5)
+- Week 4 Day 2 (`should_answer`): next. Run with `pytest -k should_answer`
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
 
@@ -85,4 +98,3 @@ Update this section when a day's tests all pass.
 - Indentation: checks that belong after a loop (or inside an `if`) end up at the wrong level.
 - Indexing vs slicing: `lines[i]` is one item, `lines[i:]` is a list.
 - Leftover `def name(): pass` placeholders lower in the file override the real function (the later definition wins).
-

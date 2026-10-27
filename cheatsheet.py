@@ -18,6 +18,7 @@ STOPWORDS = {
     'and', 'my', 'me', 'you', 'it', 'get', 'much',
     }
 
+#cleans text from unwanted symbols from WikiText
 def clean_text(text):
     text = text.replace("[edit]", "")
     text = re.sub(r"\{\{.*?\}\}", "", text)
@@ -469,3 +470,25 @@ def make_hybrid_search(search_fns, pool=20):
         results = [f(chunks, query, pool) for f in search_fns]
         return rrf_merge(results, k)
     return search
+
+def format_context(chunks):
+    result = []
+    for index, chunk in enumerate(chunks, start=1):
+        block = (f'[{index}] {chunk["title"]} | {chunk["section"]}\n{chunk["text"]}') 
+        result.append(block)
+    result_string = "\n\n".join(result)
+    return result_string
+
+def build_prompt(question, chunks):
+    instructions = "answer questions from users about GTA using only the source below," \
+    " cite the source number like [1], [2]." \
+    " if it is not in the source reply exactly NOT_DOCUMENTED." \
+    " keep answers short." \
+    " answer in players tone"
+    source = format_context(chunks)
+    q = f"'Question: ', {question}"
+    result = [instructions, source, q]
+    result_string = "\n\n".join(result)
+    return result_string
+
+
