@@ -1,16 +1,86 @@
 [
-  {"question": "how do i get the deluxo", "expected_title": null, "expected_section": null},
-  {"question": "whats the fastest way to make money in gta online", "expected_title": null, "expected_section": null},
-  {"question": "where do i find the oppressor mk2", "expected_title": null, "expected_section": null},
-  {"question": "how much does the zentorno cost to fully upgrade", "expected_title": null, "expected_section": null},
-  {"question": "what is the fastest the Pegassi Infernus can go", "expected_title": null, "expected_section": null},
-  {"question": "how to start the Cayo Perico heist", "expected_title": null, "expected_section": null},
-  {"question": "what is the cheat code for a tank in GTA 5", "expected_title": null, "expected_section": null},
-  {"question": "lester voice actor", "expected_title": null, "expected_section": null},
-  {"question": "where is the hidden submarine in the ocean", "expected_title": null, "expected_section": null},
-  {"question": "how many stunt jumps are there in Los Santos", "expected_title": null, "expected_section": null},
-  {"question": "what weapons does the Hydra jet have", "expected_title": null, "expected_section": null},
-  {"question": "when does GTA 6 come out", "expected_title": null, "expected_section": null},
-  {"question": "how do i buy a property in Vinewood Hills", "expected_title": null, "expected_section": null},
-  {"question": "what is the best way to rank up quickly in gta online", "expected_title": null, "expected_section": null}
+  {
+    "question": "how do i get the deluxo",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "whats the fastest way to make money in gta online",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "where do i find the oppressor mk2",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "how much does the zentorno cost to fully upgrade",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "what is the fastest the Pegassi Infernus can go",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "how to start the Cayo Perico heist",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "what is the cheat code for a tank in GTA 5",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "lester voice actor",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "where is the hidden submarine in the ocean",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "how many stunt jumps are there in Los Santos",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "what weapons does the Hydra jet have",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "when does GTA 6 come out",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "how do i buy a property in Vinewood Hills",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  },
+  {
+    "question": "what is the best way to rank up quickly in gta online",
+    "expected_title": null,
+    "expected_section": null,
+    "unanswerable": true
+  }
 ]

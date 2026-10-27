@@ -505,3 +505,46 @@ def parse_citations(text):
 def valid_citations(cited, n_sources):
     return [x for x in cited if 1<=x<=n_sources]
 
+def cited_sources(cited, chunks):
+    res_list = []
+    for n in cited:
+        chunk = chunks[n-1]
+        result = {"n": n, "title": chunk["title"], "section": chunk["section"], "url": chunk["url"]}
+        res_list.append(result)
+    return res_list
+
+def answer_question(question, chunks, search_fn, score_fn, llm_fn, k=5, threshold=0.55):
+    score = score_fn(question)
+    refuse = {"answer": "Not documented yet.", "sources": [], "refused": True}
+    if not should_answer(score, threshold):
+        return refuse
+    top_chunks = search_fn(chunks, question, k)
+    prompt = build_prompt(question, top_chunks)
+    reply = llm_fn(prompt)
+    if "NOT_DOCUMENTED" in reply:
+        return refuse
+    else:
+        cited = parse_citations(reply)
+        valid = valid_citations(cited, len(top_chunks))
+    if not valid:
+        return refuse
+    return {"answer": reply.strip(), "sources": cited_sources(valid, top_chunks), "refused": False}
+
+def answer_matches(answer, must_contain):
+    return all(x.lower() in answer.lower() for x in must_contain )
+
+def score_answers(golden, answer_fn):
+    counter = 0
+    for item in golden:
+        result = answer_fn(item["question"])
+        unanswerable = item.get("unanswerable")
+        if unanswerable and result["refused"]:
+            counter += 1
+        elif not unanswerable and not result["refused"] and answer_matches(result["answer"], item["must_contain"]):
+            counter += 1
+    if len(golden) > 0:
+        return counter / len(golden)
+
+
+
+

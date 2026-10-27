@@ -88,7 +88,9 @@ Tests: `tests/test_week4.py` (23 tests). They call `cs.name(...)`, so no placeho
 - Week 4 Day 1 (`format_context`, `build_prompt`): done (5/5)
 - Week 4 Day 2 (`should_answer`): done (4/4)
 - Week 4 Day 3 (`parse_citations`, `valid_citations`): done (4/4)
-- Week 4 Day 4 (`cited_sources`): next. Run with `pytest -k cited_sources`
+- Week 4 Day 4 (`cited_sources`): done (2/2)
+- Week 4 Day 5 (`answer_question`): done (5/5) — full pipeline: gate → search → prompt → model → citation check → answer
+- Week 4 Day 6 (`answer_matches`, `score_answers`): next. Run with `pytest -k "answer_matches or score_answers"`
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
 

@@ -2,151 +2,181 @@
   {
     "question": "what is the sticky bombs price",
     "expected_title": "Sticky Bombs",
-    "expected_section": "Infobox"
+    "expected_section": "Infobox",
+    "must_contain": ["800"]
   },
   {
     "question": "what kind of car is the entity xf",
     "expected_title": "Entity XF",
-    "expected_section": "Infobox"
+    "expected_section": "Infobox",
+    "must_contain": ["supercar"]
   },
   {
     "question": "who lives with franklin at his first house",
     "expected_title": "Clinton Residence",
-    "expected_section": "Residents"
+    "expected_section": "Residents",
+    "must_contain": ["denise"]
   },
   {
     "question": "what is michael's special ability called",
     "expected_title": "Michael De Santa",
-    "expected_section": "Special Ability"
+    "expected_section": "Special Ability",
+    "must_contain": ["area kill"]
   },
   {
     "question": "do i need to finish a heist to buy the armored kuruma",
     "expected_title": "Kuruma (Armored)",
-    "expected_section": "Locations"
+    "expected_section": "Locations",
+    "must_contain": ["fleeca"]
   },
   {
     "question": "what guns does the buzzard have",
     "expected_title": "Buzzard Attack Chopper",
-    "expected_section": "Weaponry"
+    "expected_section": "Weaponry",
+    "must_contain": ["minigun"]
   },
   {
     "question": "is the union depository based on a real bank",
     "expected_title": "Union Depository",
-    "expected_section": "Influence"
+    "expected_section": "Influence",
+    "must_contain": ["inspired"]
   },
   {
     "question": "can i blow the insurgent up",
     "expected_title": "Insurgent",
-    "expected_section": "Armor"
+    "expected_section": "Armor",
+    "must_contain": ["explosive"]
   },
   {
     "question": "which missions do i need to do before the merryweather heist",
     "expected_title": "The Merryweather Heist",
-    "expected_section": "Intro"
+    "expected_section": "Intro",
+    "must_contain": ["by the book"]
   },
   {
     "question": "why does dave norton show up at michael's house",
     "expected_title": "Mr. Philips",
-    "expected_section": "Description"
+    "expected_section": "Description",
+    "must_contain": ["fib"]
   },
   {
     "question": "is the adder good at handling while driving corners",
     "expected_title": "Adder",
-    "expected_section": "Performance"
+    "expected_section": "Performance",
+    "must_contain": ["understeer"]
   },
   {
     "question": "when is franklin's first safehouse unlocked",
     "expected_title": "Clinton Residence",
-    "expected_section": "Description"
+    "expected_section": "Description",
+    "must_contain": ["franklin and lamar"]
   },
   {
     "question": "whose car does franklin repossess in complications",
     "expected_title": "Complications",
-    "expected_section": "Description"
+    "expected_section": "Description",
+    "must_contain": ["jimmy"]
   },
   {
     "question": "what year was franklin born",
     "expected_title": "Franklin Clinton",
-    "expected_section": "Background"
+    "expected_section": "Background",
+    "must_contain": ["1988"]
   },
   {
     "question": "whats franklins height",
     "expected_title": "Franklin Clinton",
-    "expected_section": "Appearance"
+    "expected_section": "Appearance",
+    "must_contain": ["6"]
   },
   {
     "question": "can i buy the insurgent if i did not do the humane labs raid",
     "expected_title": "Insurgent",
-    "expected_section": "Locations"
+    "expected_section": "Locations",
+    "must_contain": ["cunning stunts"]
   },
   {
     "question": "is the kuruma AWD",
     "expected_title": "Kuruma",
-    "expected_section": "Performance"
+    "expected_section": "Performance",
+    "must_contain": ["all wheel"]
   },
   {
     "question": "what is michael's home town",
     "expected_title": "Michael De Santa",
-    "expected_section": "Background"
+    "expected_section": "Background",
+    "must_contain": ["trailer"]
   },
   {
     "question": "what do i need to do for 100% on mr philips",
     "expected_title": "Mr. Philips",
-    "expected_section": "Gold Medal Objectives"
+    "expected_section": "Gold Medal Objectives",
+    "must_contain": ["12"]
   },
   {
     "question": "how does a railgun work",
     "expected_title": "Railgun",
-    "expected_section": "Description"
+    "expected_section": "Description",
+    "must_contain": ["electromagnetic"]
   },
   {
     "question": "best crew for the jewel store job",
     "expected_title": "The Jewel Store Job",
-    "expected_section": "Maximum Revenue"
+    "expected_section": "Maximum Revenue",
+    "must_contain": ["karim", "packie", "rickie"]
   },
   {
     "question": "why does michael fight with his family so much",
     "expected_title": "Michael De Santa",
-    "expected_section": "Family"
+    "expected_section": "Family",
+    "must_contain": ["depression"]
   },
   {
     "question": "what does trevor tell franklin to practise before the freighter approach",
     "expected_title": "The Merryweather Heist",
-    "expected_section": "Freighter"
+    "expected_section": "Freighter",
+    "must_contain": ["shooting range"]
   },
   {
     "question": "where is trevor from",
     "expected_title": "Trevor Philips",
-    "expected_section": "Background"
+    "expected_section": "Background",
+    "must_contain": ["canada"]
   },
   {
     "question": "what is the tatoo on trevors neck",
     "expected_title": "Trevor Philips",
-    "expected_section": "Appearance"
+    "expected_section": "Appearance",
+    "must_contain": ["dotted"]
   },
   {
     "question": "is the union depository the central bank",
     "expected_title": "Union Depository",
-    "expected_section": "Description"
+    "expected_section": "Description",
+    "must_contain": ["central"]
   },
   {
     "question": "what's inside the vangelico store",
     "expected_title": "Vangelico",
-    "expected_section": "Description"
+    "expected_section": "Description",
+    "must_contain": ["jewelry"]
   },
   {
     "question": "is the zentorno faster than the entity xf",
     "expected_title": "Zentorno",
-    "expected_section": "Performance"
+    "expected_section": "Performance",
+    "must_contain": ["faster"]
   },
   {
     "question": "can one rpg destroy the buzzard",
     "expected_title": "Buzzard Attack Chopper",
-    "expected_section": "Defense"
+    "expected_section": "Defense",
+    "must_contain": ["rpg", "destroy"]
   },
   {
     "question": "who is steve haines",
     "expected_title": "Michael De Santa",
-    "expected_section": "Enemies"
+    "expected_section": "Enemies",
+    "must_contain": ["killed"]
   }
 ]
