@@ -484,9 +484,11 @@ def build_prompt(question, chunks):
     " cite the source number like [1], [2]." \
     " if it is not in the source reply exactly NOT_DOCUMENTED." \
     " keep answers short." \
-    " answer in players tone"
+    " answer in players tone." \
+    " Do not include any links or URLs." \
+    " use plain text no markdown formatting "
     source = format_context(chunks)
-    q = f"'Question: ' {question}"
+    q = f"Question:  {question}"
     result = [instructions, source, q]
     result_string = "\n\n".join(result)
     return result_string
@@ -546,5 +548,15 @@ def score_answers(golden, answer_fn):
         return counter / len(golden)
 
 
+def strip_game_words(question):
+    game_words = ["gta online", "gtao", "gta v",
+                "gta 5", "gta iv", "gta vi",
+                "gta 6", "story mode",
+                "tbogt", "the ballad of gay tony"
+                ]
+    for word in game_words:
+        question = re.sub(rf"(?:\bin\s+)?\b{word}\b", "", question)
+        question = re.sub(r"\s+", " ", question)
+    return question.strip()
 
 

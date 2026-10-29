@@ -22,6 +22,7 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 - Week 3 plan: https://claude.ai/code/artifact/429301dc-9d6a-470b-9637-3d19773f08a4
 - `tests/test_week3.py` — Week 3 spec (21 tests). Uses a fake `embed_fn`, so no test loads a model.
 - `tests/test_week4.py` — Week 4 spec (23 tests). Uses a fake `llm_fn`, so no test calls Claude.
+- `tests/test_week5.py` — Week 5 spec (24 tests): the game filter.
 - Architecture: https://claude.ai/code/artifact/826846de-0508-4d53-be1a-1eee1a5e837f
 
 ## Folder layout
@@ -34,7 +35,7 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 
 ## Data source rules
 - Do NOT use Fandom (gta.fandom.com): its terms ban automated access, and the GTA Wiki community left it for gta.wiki in March 2026.
-- gta.wiki (main GTA Wiki, ~24k articles): text is CC BY-NC-SA 3.0 (attribution, non-commercial, share-alike). Its host Weird Gloop's terms forbid automated use without prior consent, so no script hits it until I have their OK.
+- gta.wiki (main GTA Wiki, ~24k articles): text is CC BY-NC-SA 3.0 (attribution, non-commercial, share-alike). Its host Weird Gloop's terms forbid automated use without prior consent. **Declined 2026-10-28** (Cook, Weird Gloop, on Discord): they no longer vet projects that use the wiki as a backend. So no script ever hits gta.wiki — no API calls, no scraping.
 - Grand Theft Wiki (grandtheftwiki.com): text is CC BY-SA 3.0. Bot/API rules not stated; ask staff before scripting it.
 - Until I have permission: save pages by hand in the browser (raw wikitext) into the cache folder as page dicts. `ingest` reads the cache and never calls the network for cached pages.
 - Every answer must link back to the source page (attribution is required by both licenses).
@@ -71,6 +72,16 @@ Tests: `tests/test_week4.py` (23 tests). They call `cs.name(...)`, so no placeho
 6. `answer_matches(answer, must_contain)` (all, case-insensitive). `score_answers(golden, answer_fn)` → fraction correct: answerable items need not refused + match; `"unanswerable": True` items need refused.
 7. Real run (`week4_run.py`, no tests): Claude via the Anthropic SDK, holdout + unanswerable with `must_contain` added, answer accuracy, tokens/cost and latency per question, row in `eval/results.md`.
 
+## Week 5 exercises (game filter)
+Tests: `tests/test_week5.py` (24 tests), called as `cs.name(...)` — no placeholders needed. Game codes: "IV", "V", "Online", "VI", and "all" (no game clue).
+0. No tests: ~10 trap questions with a `game` field (pages with several games: Buzzard, Sticky Bombs, Adder…); run the current pipeline and record wrong-game answers as the baseline.
+1. `section_games(section)` → games named in a section heading ("Grand Theft Auto V and Online" → ["V", "Online"]; "TBoGT Overview" → ["IV"]; "Grand Theft Auto VI" must not count as V). `infobox_games(text)` → from the `games: {{Games|TBOGT=y|V=y|O=…}}` line; any value counts, not only `y`; keys TBOGT/TLAD/IV → "IV", O → "Online".
+2. `chunk_games(chunk)` → infobox field for Infobox chunks, else the section; nothing found → ["all"]. `add_games(chunks)` → new chunks with a `games` field, input unchanged. `count_by_game(chunks)` → {game: count}. Then re-ingest and rebuild `data/index.json`.
+3. `matches_game(chunk, game)` (its game or "all"). `filter_by_game(chunks, vectors, game)` → both lists filtered together, kept paired; `None` → unchanged.
+4. `detect_game(question, default="V")` → "VI" (gta 6 / gta vi), "Online", "IV" (gta 4 / tbogt / gay tony), "V" (gta v / gta 5 / story mode), else default. "gta vi" must not match V.
+5. `make_game_search(chunks, vectors, game, embed_fn, pool=20)` → (game_chunks, hybrid search over only that game's chunks). Then re-run the trap set and the 44-question eval.
+Measured 2026-10-28 with a reference version: 489 of 687 chunks have no game clue ("all"); V 136, Online 71, IV 17, VI 7. Subsections lose their parent heading, which limits the filter.
+
 ## Progress
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
@@ -90,9 +101,12 @@ Tests: `tests/test_week4.py` (23 tests). They call `cs.name(...)`, so no placeho
 - Week 4 Day 3 (`parse_citations`, `valid_citations`): done (4/4)
 - Week 4 Day 4 (`cited_sources`): done (2/2)
 - Week 4 Day 5 (`answer_question`): done (5/5) — full pipeline: gate → search → prompt → model → citation check → answer
-- Week 4 Day 6 (`answer_matches`, `score_answers`): next. Run with `pytest -k "answer_matches or score_answers"`
+- Week 4 Day 6 (`answer_matches`, `score_answers`): done — all 23 Week 4 tests passing
+- Week 4 Day 7 (`week4_run.py`): done — 44 q, accuracy 0.75 keyword / ≈0.89 by hand, $0.0100, 1.97 s per call. Details in `eval/results.md`.
+- Prompt v2 (no links, plain text): done 2026-10-28.
+- Week 5 Day 0 (trap questions + baseline): next. Then Day 1: `pytest -k "section_games or infobox_games"`. Leftovers: `Question:` line in build_prompt, clean_text deleting place names.
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
-- Open: send the Weird Gloop consent email (draft in Gmail); add `cache/` and `chunks.json` to `.gitignore`
+- Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.
 
 Update this section when a day's tests all pass.
 

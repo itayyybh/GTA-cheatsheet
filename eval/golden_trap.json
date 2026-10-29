@@ -1,0 +1,92 @@
+[
+  {
+    "question": "where can i find a buzzard in story mode",
+    "game": "V",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "Grand Theft Auto V",
+    "must_contain": [
+      "zancudo"
+    ]
+  },
+  {
+    "question": "where does the buzzard spawn in gta online",
+    "game": "Online",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "Grand Theft Auto Online",
+    "must_contain": [
+      "43"
+    ]
+  },
+  {
+    "question": "which missions use the buzzard in tbogt",
+    "game": "IV",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "The Ballad of Gay Tony",
+    "must_contain": [
+      "sexy time"
+    ]
+  },
+  {
+    "question": "who flies the buzzard in tbogt",
+    "game": "IV",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "The Ballad of Gay Tony",
+    "must_contain": [
+      "yusuf"
+    ]
+  },
+  {
+    "question": "is the buzzard in gta 6",
+    "game": "VI",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "Grand Theft Auto VI",
+    "must_contain": [
+      "trailer"
+    ]
+  },
+  {
+    "question": "how much does the zentorno cost in gta online",
+    "game": "Online",
+    "expected_title": "Zentorno",
+    "expected_section": "Grand Theft Auto Online",
+    "must_contain": [
+      "725,000"
+    ]
+  },
+  {
+    "question": "where do i get the zentorno in story mode",
+    "game": "V",
+    "expected_title": "Zentorno",
+    "expected_section": "Grand Theft Auto V",
+    "must_contain": [
+      "garage"
+    ]
+  },
+  {
+    "question": "can you go inside vangelico in gta online",
+    "game": "Online",
+    "expected_title": "Vangelico",
+    "expected_section": "Grand Theft Auto Online",
+    "must_contain": [
+      "after hours"
+    ]
+  },
+  {
+    "question": "what happens at the union depository in gta online",
+    "game": "Online",
+    "expected_title": "Union Depository",
+    "expected_section": "Events of Grand Theft Auto Online",
+    "must_contain": [
+      "escape escort"
+    ]
+  },
+  {
+    "question": "how much do sticky bombs cost in gta 5",
+    "game": "V",
+    "expected_title": "Sticky Bombs",
+    "expected_section": "Grand Theft Auto V",
+    "must_contain": [
+      "400"
+    ]
+  }
+]
