@@ -82,6 +82,14 @@ Tests: `tests/test_week5.py` (24 tests), called as `cs.name(...)` — no placeho
 5. `make_game_search(chunks, vectors, game, embed_fn, pool=20)` → (game_chunks, hybrid search over only that game's chunks). Then re-run the trap set and the 44-question eval.
 Measured 2026-10-28 with a reference version: 489 of 687 chunks have no game clue ("all"); V 136, Online 71, IV 17, VI 7. Subsections lose their parent heading, which limits the filter.
 
+### Week 5 path fix (tiny chunks lose their parent heading)
+Tests in `tests/test_week5.py` (P1–P3, 9 tests). `section` stays unchanged so golden sets and old tests keep working; a new `path` field carries the full heading path.
+- P1 `heading_level(line)` → number of leading `=` (0 if not a heading). `split_sections_with_path(text)` → `[{"heading", "path", "text"}]`, path like "Locations > Grand Theft Auto Online"; a heading at level n replaces everything at level ≥ n; empty sections dropped but still count as parents.
+- P2 `make_path_chunks(page, max_chars=1000)` → same chunks as `make_chunks` plus `path` (skip list on `heading`, like `make_chunks`).
+- P3 `chunk_label(chunk)` → `path` if present, else `section`. Use it in `chunk_to_embed_text` and `format_context`.
+- Then: `ingest` uses `make_path_chunks`, rebuild `data/chunks.json` and delete `data/index.json` so it re-embeds; re-run trap + 44-question sets.
+- Checked 2026-10-29 with a reference version on the real cache: still 687 chunks, identical apart from `path`; 494 get a parent in their path. Trap misses #3 → "Prominent Appearances in Gameplay > The Ballad of Gay Tony", #6 → "Locations > Grand Theft Auto Online".
+
 ## Progress
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
@@ -104,7 +112,12 @@ Measured 2026-10-28 with a reference version: 489 of 687 chunks have no game clu
 - Week 4 Day 6 (`answer_matches`, `score_answers`): done — all 23 Week 4 tests passing
 - Week 4 Day 7 (`week4_run.py`): done — 44 q, accuracy 0.75 keyword / ≈0.89 by hand, $0.0100, 1.97 s per call. Details in `eval/results.md`.
 - Prompt v2 (no links, plain text): done 2026-10-28.
-- Week 5 Day 0 (trap questions + baseline): next. Then Day 1: `pytest -k "section_games or infobox_games"`. Leftovers: `Question:` line in build_prompt, clean_text deleting place names.
+- Week 5 Day 0 (trap questions + baseline): done — 10 traps, 0 wrong-game answers; gate fixed with `gate_score` (max of full and `strip_game_words`).
+- Week 5 path fix P1–P3: done (9/9) — chunks have `path`, index rebuilt. Trap 8/10, 44-set ≈0.89 by hand. Gate threshold re-tuned to 0.53 on the new vectors (default in `answer_question`; better passed from the run script).
+- Isolate-the-stage check: the 4 gate-passing refusals (TBoGT missions, Buzzard GTA 6, Dave Norton, freighter) are all retrieval misses. Game names → game filter; Norton/freighter → vocabulary mismatch, parked (reranker / query rewrite later).
+- Week 5 Day 1 (`section_games`, `infobox_games`): done (10/10).
+- Week 5 Day 2 (`chunk_games`, `add_games`, `count_by_game`): done (5/5). Real data with paths: all 407, V 164, Online 124, IV 21, VI 7 (section-only reference was all 489, V 136, Online 71, IV 17). No re-embed needed: `games` isn't part of the embed text; apply `add_games` after `load_chunks`.
+- Week 5 Day 3 (`matches_game`, `filter_by_game`): next. Leftovers: `Question:` line in build_prompt, clean_text deleting place names, holdout #1 → GTA V / 400.
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.
 
@@ -119,3 +132,4 @@ Update this section when a day's tests all pass.
 - `json.load(open(path))`, not `json.load(path)`.
 - Strings vs ints: `"2" != 2`; convert before comparing or checking `in`.
 - Reassigning the loop variable (`r = int(r)`) doesn't change the list; build a new list.
+- Chunk fields: `section` = the heading name (e.g. "Infobox", "Performance"), `text` = the body, `path` = full heading path. Check `chunk["section"] == "Infobox"`, read data from `chunk["text"]`.

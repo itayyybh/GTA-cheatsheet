@@ -200,3 +200,92 @@ def test_week5_strip_game_words_leaves_other_questions_alone():
 def test_week5_strip_game_words_does_not_eat_parts_of_words():
     # "gta v" must not be cut out of "gta vice city"
     assert cs.strip_game_words("gta vice city map") == "gta vice city map"
+
+
+# ---------- Path fix P1: heading_level / split_sections_with_path ----------
+# Tiny chunks lose their parent heading: a list of 3 mission names sits under
+# "The Ballad of Gay Tony", but on the wiki it is under "Prominent Appearances in
+# Gameplay". These functions keep the full heading path. "section" stays as it is,
+# so golden.json and the old tests keep working.
+
+PATH_TEXT = (
+    "Intro text.\n"
+    "==Locations==\n"
+    "Found around the map.\n"
+    "===''Grand Theft Auto Online''===\n"
+    "*Can be purchased for $725,000.\n"
+    "====Heists====\n"
+    "Used in heists.\n"
+    "===''Grand Theft Auto V''===\n"
+    "*Available in every garage.\n"
+    "==Trivia==\n"
+    "A fun fact."
+)
+
+
+def test_week5_heading_level():
+    assert cs.heading_level("==Locations==") == 2
+    assert cs.heading_level("====Heists====") == 4
+    assert cs.heading_level("== Price ==") == 2
+
+
+def test_week5_heading_level_not_a_heading():
+    assert cs.heading_level("price: $5 = cheap") == 0
+    assert cs.heading_level("Just text.") == 0
+
+
+def test_week5_split_sections_with_path():
+    assert cs.split_sections_with_path(PATH_TEXT) == [
+        {"heading": "Intro", "path": "Intro", "text": "Intro text."},
+        {"heading": "Locations", "path": "Locations", "text": "Found around the map."},
+        {"heading": "Grand Theft Auto Online", "path": "Locations > Grand Theft Auto Online",
+         "text": "*Can be purchased for $725,000."},
+        {"heading": "Heists", "path": "Locations > Grand Theft Auto Online > Heists",
+         "text": "Used in heists."},
+        {"heading": "Grand Theft Auto V", "path": "Locations > Grand Theft Auto V",
+         "text": "*Available in every garage."},
+        {"heading": "Trivia", "path": "Trivia", "text": "A fun fact."},
+    ]
+
+
+def test_week5_split_sections_with_path_parent_without_text_still_counts():
+    text = "==Locations==\n===Online===\nBuy it here."
+    assert cs.split_sections_with_path(text) == [
+        {"heading": "Online", "path": "Locations > Online", "text": "Buy it here."},
+    ]
+
+
+# ---------- Path fix P2: make_path_chunks ----------
+
+def test_week5_make_path_chunks_adds_path_and_keeps_the_rest():
+    page = {"title": "Zentorno", "url": "u", "text": PATH_TEXT}
+    chunks = cs.make_path_chunks(page)
+    old = cs.make_chunks(page)
+    assert [{k: v for k, v in c.items() if k != "path"} for c in chunks] == old
+    assert chunks[2]["section"] == "Grand Theft Auto Online"
+    assert chunks[2]["path"] == "Locations > Grand Theft Auto Online"
+
+
+def test_week5_make_path_chunks_skips_like_make_chunks():
+    text = "==Gallery==\nimages\n==Locations==\nhere"
+    page = {"title": "A", "url": "u", "text": text}
+    assert [c["path"] for c in cs.make_path_chunks(page)] == ["Locations"]
+
+
+# ---------- Path fix P3: chunk_label, used by embedding and the prompt ----------
+
+def test_week5_chunk_label_prefers_path():
+    c = {"title": "Zentorno", "url": "u", "section": "Grand Theft Auto Online",
+         "path": "Locations > Grand Theft Auto Online", "text": "t"}
+    assert cs.chunk_label(c) == "Locations > Grand Theft Auto Online"
+
+
+def test_week5_chunk_label_falls_back_to_section():
+    assert cs.chunk_label({"title": "A", "url": "u", "section": "Infobox", "text": "t"}) == "Infobox"
+
+
+def test_week5_embed_text_and_context_use_the_path():
+    c = {"title": "Zentorno", "url": "u", "section": "Grand Theft Auto Online",
+         "path": "Locations > Grand Theft Auto Online", "text": "*Costs $725,000."}
+    assert cs.chunk_to_embed_text(c) == "Zentorno | Locations > Grand Theft Auto Online\n*Costs $725,000."
+    assert cs.format_context([c]) == "[1] Zentorno | Locations > Grand Theft Auto Online\n*Costs $725,000."

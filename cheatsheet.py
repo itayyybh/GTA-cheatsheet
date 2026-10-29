@@ -56,6 +56,44 @@ def split_sections(text):
 
     return result
 
+def heading_level(line):
+    if line.startswith('=') and line.endswith('='):
+        return line.count('=') // 2
+    return 0 
+
+def split_sections_with_path(text):
+    result = []
+    current_heading = "Intro"
+    stack = []
+    path = "Intro"
+    current_lines = []
+
+    for line in text.splitlines():
+        line = line.strip()
+        if line.startswith('=') and line.endswith('='):
+            header = line
+            header = header.strip('=').replace("'", "").strip()
+            section_text = "\n".join(current_lines).strip()
+
+            if section_text:
+                result.append({"heading": current_heading, "path": path, "text": section_text})
+
+            level = heading_level(line)
+            stack = [pair for pair in stack if pair[0] < level]
+            stack.append((level, header))
+            path = " > ".join(pair[1] for pair in stack)
+            current_heading = header
+            current_lines = []
+
+        else:
+            current_lines.append(line)
+
+    section_text = "\n".join(current_lines).strip()
+
+    if section_text:
+        result.append({"heading": current_heading,"path": path, "text": section_text})
+
+    return result
 
 def make_chunks(page, max_chars=1000):
 
@@ -95,6 +133,48 @@ def make_chunks(page, max_chars=1000):
         )
 
     return chunks
+
+def make_path_chunks(page, max_chars=1000):
+    chunks = []
+
+    for item in split_sections_with_path(page["text"]):
+        if item["heading"] in SKIP_SECTIONS:
+            continue
+        paragraph = item["text"].split("\n\n")
+        current = ""
+
+        for para in paragraph:
+            if len(current) == 0:
+                current = para
+
+            elif len(current) + 2 + len(para) <= max_chars:
+                current = current + "\n\n" + para
+
+            else:
+                chunks.append(
+                    {
+                        "title": page["title"],
+                        "url": page["url"],
+                        "section": item["heading"],
+                        "path": item["path"],
+                        "text": current,
+                    }
+                )
+                current = para
+
+        chunks.append(
+            {
+                "title": page["title"],
+                "url": page["url"],
+                "section": item["heading"],
+                "path": item["path"],
+                "text": current,
+            }
+        )
+
+    return chunks
+
+
 
 
 def save_chunks(chunks, path):
@@ -287,7 +367,7 @@ def ingest(titles, base_url, cache_dir, get=requests.get, sleep=time.sleep, dela
         text = remove_infobox(page["text"])
         clean = clean_text(text)
 
-        result = make_chunks({**page, "text": clean})
+        result = make_path_chunks({**page, "text": clean})
         chunks += result
 
     return chunks
@@ -406,8 +486,11 @@ def cosine_similarity(a, b):
         return 0.0
     return dot(a, b) / (norm(a) * norm(b))
 
+def chunk_label(chunk):
+    return chunk.get("path", chunk["section"])
+
 def chunk_to_embed_text(chunk): 
-    return f"{chunk['title']} | {chunk['section']}\n{chunk['text']}"
+    return f"{chunk['title']} | {chunk_label(chunk)}\n{chunk['text']}"
 
 def embed_chunks(chunks, embed_fn, batch_size=32):
     results = []
@@ -474,7 +557,7 @@ def make_hybrid_search(search_fns, pool=20):
 def format_context(chunks):
     result = []
     for index, chunk in enumerate(chunks, start=1):
-        block = (f'[{index}] {chunk["title"]} | {chunk["section"]}\n{chunk["text"]}') 
+        block = (f'[{index}] {chunk["title"]} | {chunk_label(chunk)}\n{chunk["text"]}') 
         result.append(block)
     result_string = "\n\n".join(result)
     return result_string
@@ -515,7 +598,7 @@ def cited_sources(cited, chunks):
         res_list.append(result)
     return res_list
 
-def answer_question(question, chunks, search_fn, score_fn, llm_fn, k=5, threshold=0.55):
+def answer_question(question, chunks, search_fn, score_fn, llm_fn, k=5, threshold=0.53):
     score = score_fn(question)
     refuse = {"answer": "Not documented yet.", "sources": [], "refused": True}
     if not should_answer(score, threshold):
@@ -560,3 +643,50 @@ def strip_game_words(question):
     return question.strip()
 
 
+def section_games(section):
+    codes = ["IV", "V", "Online", "VI"]
+    games = []
+    words = re.findall(r"\w+", section)
+
+    for code in codes:
+        if code in words:
+            games.append(code)
+
+    if "tbogt" in section.lower() or "the ballad of gay tony".lower() in section.lower():
+        games.append("IV")
+
+    return games
+
+def infobox_games(text):
+    games = []
+    for line in text.splitlines():
+        keys = re.findall(r"\|(\w+)=", line)
+        if "games:" in line:
+            if "TBOGT" in keys or "TLAD" in keys or "IV" in keys:
+                games.append("IV")
+            if "V" in keys:
+                games.append("V")
+            if "O" in keys:
+                games.append("Online")
+            if "VI" in keys:
+                games.append("VI")
+    return games
+
+def chunk_games(chunk):
+    if chunk["section"] == "Infobox":
+        games = infobox_games(chunk["text"])
+    else:
+        games =  section_games(chunk_label(chunk))
+    if len(games) == 0:
+        games = ["all"]
+    return games
+
+def add_games(chunks):
+    return [{**chunk, "games": chunk_games(chunk)} for chunk in chunks]
+
+def count_by_game(chunks):
+    count = {}
+    for chunk in chunks:
+        for game in chunk["games"]:
+            count[game] = count.get(game, 0) + 1
+    return count

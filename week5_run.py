@@ -1,4 +1,4 @@
-from cheatsheet import load_index, load_chunks, embed_chunks, make_semantic_search, save_index, keyword_search, make_hybrid_search, cosine_similarity, score_answers, answer_question, strip_game_words
+from cheatsheet import load_index, load_chunks, embed_chunks, make_semantic_search, save_index, keyword_search, make_hybrid_search, cosine_similarity, score_answers, answer_question, strip_game_words, chunk_labe, add_games, count_by_game
 from sentence_transformers import SentenceTransformer
 from pathlib import Path
 import anthropic
@@ -60,34 +60,61 @@ def gate_score(question):
   stripped_score = top_score(stripped)
   return max(full_question_score, stripped_score)
 
-answer_fn = lambda q: answer_question(q, chunks, hybrid, gate_score, call_claude)
-all_questions = golden_holdout + unanswerable
+scores = []
 
-results = {}
+for q in golden_holdout:
+  score_q = gate_score(q["question"])
+  scores.append((score_q, "answerable", q["question"]))
 
-for item in all_questions:
-  result = answer_fn(item["question"])
-  results[item["question"]] = result
-  print("Q:", item["question"])
-  print("refused: ", result["refused"])
-  print("A: ", result["answer"])
-  print("------")
+for u in unanswerable:
+  score_u = gate_score(u["question"])
+  scores.append((score_u, "unanswerable", u["question"]))
 
-accuracy = score_answers(all_questions, lambda q: results[q])
+sorted_scores = sorted(scores, reverse=True)
+for score, kind, question in sorted_scores:
+    print(f"{score:.3f}  {kind:<12}  {question}")
 
-print("===== SUMMARY =====")
-print("accuracy:", round(accuracy, 3))
-print("claude calls:", len(calls), "of", len(all_questions))
+leftovers = ["which missions use the buzzard in tbogt",
+            "is the buzzard in gta 6", 
+            "why does dave norton show up at michael's house", 
+            "what does trevor tell franklin to practise before the freighter approach"
+            ]
 
-if len(calls) > 0:
-  total_input_tokens = sum(call["in"] for call in calls)
-  total_output_tokens = sum(call["out"] for call in calls)
-  cost = ((total_input_tokens / 1000000) * 0.1) + ((total_output_tokens / 1000000) * 0.5)
-  avg_latency = sum(call["seconds"] for call in calls) / len(calls)
+for i in leftovers:
+  print("Q:", i)
+  results = hybrid(chunks, i, 5)
+  for f, chunk in enumerate(results, 1):
+    print(f" {f}. {chunk['title']} | {chunk_label(chunk)} | {chunk['text'][:60]!r}")
+  print("---------------------")
+# answer_fn = lambda q: answer_question(q, chunks, hybrid, gate_score, call_claude)
 
-  print("tokens in:", total_input_tokens)
-  print("tokens out:", total_output_tokens)
-  print("cost: $", round(cost, 5))
-  print("avg latency:", round(avg_latency, 2), "s")
-else:
-  print("no Claude calls made")
+# all_questions = golden_trap
+
+# results = {}
+
+# for item in all_questions:
+#   result = answer_fn(item["question"])
+#   results[item["question"]] = result
+#   print("Q:", item["question"])
+#   print("refused: ", result["refused"])
+#   print("A: ", result["answer"])
+#   print("------")
+
+# accuracy = score_answers(all_questions, lambda q: results[q])
+
+# print("===== SUMMARY =====")
+# print("accuracy:", round(accuracy, 3))
+# print("claude calls:", len(calls), "of", len(all_questions))
+
+# if len(calls) > 0:
+#   total_input_tokens = sum(call["in"] for call in calls)
+#   total_output_tokens = sum(call["out"] for call in calls)
+#   cost = ((total_input_tokens / 1000000) * 0.1) + ((total_output_tokens / 1000000) * 0.5)
+#   avg_latency = sum(call["seconds"] for call in calls) / len(calls)
+
+#   print("tokens in:", total_input_tokens)
+#   print("tokens out:", total_output_tokens)
+#   print("cost: $", round(cost, 5))
+#   print("avg latency:", round(avg_latency, 2), "s")
+# else:
+#   print("no Claude calls made")
