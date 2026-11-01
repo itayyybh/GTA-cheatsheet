@@ -117,7 +117,12 @@ Tests in `tests/test_week5.py` (P1–P3, 9 tests). `section` stays unchanged so 
 - Isolate-the-stage check: the 4 gate-passing refusals (TBoGT missions, Buzzard GTA 6, Dave Norton, freighter) are all retrieval misses. Game names → game filter; Norton/freighter → vocabulary mismatch, parked (reranker / query rewrite later).
 - Week 5 Day 1 (`section_games`, `infobox_games`): done (10/10).
 - Week 5 Day 2 (`chunk_games`, `add_games`, `count_by_game`): done (5/5). Real data with paths: all 407, V 164, Online 124, IV 21, VI 7 (section-only reference was all 489, V 136, Online 71, IV 17). No re-embed needed: `games` isn't part of the embed text; apply `add_games` after `load_chunks`.
-- Week 5 Day 3 (`matches_game`, `filter_by_game`): next. Leftovers: `Question:` line in build_prompt, clean_text deleting place names, holdout #1 → GTA V / 400.
+- Week 5 Day 3 (`matches_game`, `filter_by_game`): done (3/3).
+- Week 5 Day 4 (`detect_game`): done (5/5).
+- Week 5 Day 5 (`make_game_search`): done (1/1) — all Week 5 code written (37 tests).
+- Week 5 real run: done 2026-11-01 — filter in `week5_run.py` (`answer_with_game`, default=None). Trap 9/10, unanswerable 14/14, 44-set ≈0.89 by hand (unchanged). Keep the filter. Zentorno Online price lost (RRF reshuffle + 'cost' vs 'price').
+- Holdout #1 relabelled (GTA V / 400) and `default="V"` tested 2026-11-01: no gain over None (both 38/44 by hand). Week 5 done.
+- Next: commit, then leftovers (Infobox per-game facts for sticky bombs, `Question:` line, clean_text place names, grader alternatives) or Week 6 (web page + logging, go/no-go 2026-11-13).
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.
 

@@ -690,3 +690,32 @@ def count_by_game(chunks):
         for game in chunk["games"]:
             count[game] = count.get(game, 0) + 1
     return count
+
+def matches_game(chunk, game):
+    return game in chunk["games"] or "all" in chunk["games"]
+
+def filter_by_game(chunks, vectors, game):
+    if game is None:
+        return chunks, vectors
+    chunk_list = []
+    vector_list = []
+    for chunk, vector in zip(chunks, vectors):
+        if matches_game(chunk, game):
+            chunk_list.append(chunk)
+            vector_list.append(vector)
+    return chunk_list, vector_list
+
+def detect_game(question, default="V"):
+    question = question.lower()
+    phrases = {"Online": ["gta online", "gtao"], "VI": ["gta 6", "gta vi"], "V": ["gta v", "gta 5", "story mode"], "IV": ["gta 4", "tbogt", "gta iv", "gay tony"]}
+    for game, game_phrase_list in phrases.items():
+        for phrase in game_phrase_list:
+            if re.search(rf"\b{phrase}\b", question):
+                return game
+    return default
+
+def make_game_search(chunks, vectors, game, embed_fn, pool=20):
+    game_chunks, game_vectors = filter_by_game(chunks, vectors, game)
+    semantic = make_semantic_search(game_vectors, embed_fn)
+    hybrid = make_hybrid_search([keyword_search, semantic], pool)
+    return game_chunks, hybrid

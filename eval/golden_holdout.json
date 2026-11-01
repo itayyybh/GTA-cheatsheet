@@ -2,8 +2,8 @@
   {
     "question": "what is the sticky bombs price",
     "expected_title": "Sticky Bombs",
-    "expected_section": "Infobox",
-    "must_contain": ["800"]
+    "expected_section": "Grand Theft Auto V",
+    "must_contain": ["400"]
   },
   {
     "question": "what kind of car is the entity xf",
@@ -87,7 +87,7 @@
     "question": "whats franklins height",
     "expected_title": "Franklin Clinton",
     "expected_section": "Appearance",
-    "must_contain": ["6"]
+    "must_contain": ["6'1"]
   },
   {
     "question": "can i buy the insurgent if i did not do the humane labs raid",
