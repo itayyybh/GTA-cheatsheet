@@ -22,15 +22,15 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 - Week 3 plan: https://claude.ai/code/artifact/429301dc-9d6a-470b-9637-3d19773f08a4
 - `tests/test_week3.py` — Week 3 spec (21 tests). Uses a fake `embed_fn`, so no test loads a model.
 - `tests/test_week4.py` — Week 4 spec (23 tests). Uses a fake `llm_fn`, so no test calls Claude.
-- `tests/test_week5.py` — Week 5 spec (24 tests): the game filter.
+- `tests/test_week5.py` — Week 5 spec (37 tests): game filter, `strip_game_words`, heading paths.
 - Architecture: https://claude.ai/code/artifact/826846de-0508-4d53-be1a-1eee1a5e837f
 
 ## Folder layout
 - `cheatsheet.py` — my code (tests import it from the root)
-- `week3_run.py` — real-data script; run from the project root
+- `runs/` — real-data scripts (`week3_run.py`, `week4_run.py`, `week5_run.py`, `rebuild_chunks.py`). Run them from the project root as modules: `python -m runs.week5_run` (no `.py`). `-m` keeps the root on the import path, so `from cheatsheet import ...` and the relative `data/` and `eval/` paths still work. `python runs/week5_run.py` fails with `ModuleNotFoundError: cheatsheet`.
 - `tests/` — the spec files (never edit); `pytest.ini` sets `pythonpath = .` so they find `cheatsheet.py`
 - `data/` — `raw/` (hand-saved wikitext) → `cache/` (page dicts) → `chunks.json`; `index.json` = embeddings, git-ignored, delete it to rebuild
-- `eval/` — `golden.json`, `golden_unanswerable.json`, `results.md` (every score, dated)
+- `eval/` — `golden.json`, `golden_holdout.json`, `golden_unanswerable.json`, `golden_trap.json`, `results.md` (every score, dated)
 - `notes/` — `cleaning_notes.md`, `LEARN.md` (💡 Learn glossary)
 
 ## Data source rules
