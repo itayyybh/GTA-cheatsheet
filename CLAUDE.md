@@ -134,7 +134,8 @@ Tests: `tests/test_week6.py` (15 tests, helpers in `cheatsheet.py`) and `tests/t
 - Week 5 Day 5 (`make_game_search`): done (1/1) — all Week 5 code written (37 tests).
 - Week 5 real run: done 2026-11-01 — filter in `week5_run.py` (`answer_with_game`, default=None). Trap 9/10, unanswerable 14/14, 44-set ≈0.89 by hand (unchanged). Keep the filter. Zentorno Online price lost (RRF reshuffle + 'cost' vs 'price').
 - Holdout #1 relabelled (GTA V / 400) and `default="V"` tested 2026-11-01: no gain over None (both 38/44 by hand). Week 5 done.
-- Week 6 Day 1 (`log_entry`, `append_jsonl`, `read_jsonl`): next — `pytest tests/test_week6.py -k "log_entry or jsonl"`. Leftovers (Infobox per-game facts, `Question:` line, clean_text place names, grader alternatives) fit in around Week 6.
+- Week 6 Day 1 (`log_entry`, `append_jsonl`, `read_jsonl`): done (7/7).
+- Week 6 Day 2 (`log_summary`): next — `pytest tests/test_week6.py -k log_summary`. Leftovers (Infobox per-game facts, `Question:` line, clean_text place names, grader alternatives) fit in around Week 6.
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.
 

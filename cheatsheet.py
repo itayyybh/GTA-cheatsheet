@@ -719,3 +719,21 @@ def make_game_search(chunks, vectors, game, embed_fn, pool=20):
     semantic = make_semantic_search(game_vectors, embed_fn)
     hybrid = make_hybrid_search([keyword_search, semantic], pool)
     return game_chunks, hybrid
+
+def log_entry(question, result, game, seconds, when, error=None):
+    return {"time": when, "question": question, "game": game, "refused": result["refused"], "answer": result["answer"], "sources": [n["url"] for n in result["sources"]], "seconds": round(seconds, 2), "error": error}
+
+def append_jsonl(path, entry):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+def read_jsonl(path):
+    result = []
+    if not Path(path).exists():
+        return []
+    lines = Path(path).read_text(encoding="utf-8").splitlines()
+    for line in lines:
+        if line.strip():
+            result.append(json.loads(line))
+    return result
