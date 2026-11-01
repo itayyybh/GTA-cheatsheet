@@ -6,3 +6,4 @@ data/index.json
 .claude/settings.local.json
 .env
 .vscode/
+logs/

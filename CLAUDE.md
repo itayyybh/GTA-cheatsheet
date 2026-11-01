@@ -23,6 +23,7 @@ A GTA "AI cheatsheet": a RAG question-answering system over wiki pages. GTA V da
 - `tests/test_week3.py` — Week 3 spec (21 tests). Uses a fake `embed_fn`, so no test loads a model.
 - `tests/test_week4.py` — Week 4 spec (23 tests). Uses a fake `llm_fn`, so no test calls Claude.
 - `tests/test_week5.py` — Week 5 spec (37 tests): game filter, `strip_game_words`, heading paths.
+- `tests/test_week6.py` + `tests/test_week6_app.py` — Week 6 spec (15 + 7 tests): logging, validation, the FastAPI app.
 - Architecture: https://claude.ai/code/artifact/826846de-0508-4d53-be1a-1eee1a5e837f
 
 ## Folder layout
@@ -90,6 +91,17 @@ Tests in `tests/test_week5.py` (P1–P3, 9 tests). `section` stays unchanged so 
 - Then: `ingest` uses `make_path_chunks`, rebuild `data/chunks.json` and delete `data/index.json` so it re-embeds; re-run trap + 44-question sets.
 - Checked 2026-10-29 with a reference version on the real cache: still 687 chunks, identical apart from `path`; 494 get a parent in their path. Trap misses #3 → "Prominent Appearances in Gameplay > The Ballad of Gay Tony", #6 → "Locations > Grand Theft Auto Online".
 
+### Week 6 — web page + logging (go/no-go 2026-11-13)
+Decided 2026-11-01: FastAPI + one HTML page; run locally first, decide on 2026-11-13 whether to deploy (non-commercial, with attribution).
+Tests: `tests/test_week6.py` (15 tests, helpers in `cheatsheet.py`) and `tests/test_week6_app.py` (7 tests, `app.py`; skipped until `pip install fastapi uvicorn httpx`).
+1. `log_entry(question, result, game, seconds, when, error=None)` → `{time, question, game, refused, answer, sources (urls), seconds (2 dp), error}`. `append_jsonl(path, entry)` → one JSON line, `ensure_ascii=False`, creates the parent folder. `read_jsonl(path)` → list, skips blank lines, missing file → `[]`.
+2. `log_summary(entries)` → `{count, refused, refusal_rate (3 dp), errors, avg_seconds (2 dp), by_game}`; game `None` counts as `"none"`; empty → zeros and `{}`.
+3. `validate_question(text, max_chars=300)` → `(stripped, None)`, `(None, "empty")` or `(None, "too_long")`. `source_links(sources)` → `[{title, url}]`, one per page (url), first-cited order — the attribution both licenses require.
+4. `app.py`: `create_app(answer_fn, log_path)` returns a FastAPI app. `GET /` → HTML page with a form. `POST /ask` with JSON `{"question"}` → `{answer, refused, game, sources}` (sources via `source_links`, `game` from `result.get("game")`); bad question → 400 `{"error": "empty" | "too_long"}` without calling `answer_fn`.
+5. Every answered question appends a `log_entry` (time = UTC ISO string, seconds measured around `answer_fn`). If `answer_fn` raises → 503 `{"error": "model_unavailable"}` and a logged entry with `refused: True` and `error` = the exception's class name. `GET /stats` → `log_summary` of the log.
+6. Real run (no tests): `runs/serve.py` builds the real `answer_fn` (index, model, gate, `answer_with_game` + game) and starts uvicorn; log to `logs/questions.jsonl` (git-ignored). Ask ~20 real questions in the browser, read `/stats`, note problems.
+7. Go/no-go 2026-11-13: checklist from the logs and `eval/results.md` (accuracy, refusals, latency, cost per answer, crash-free, attribution visible; if public: rate limit, cost cap, GTA 6 data plan).
+
 ## Progress
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
@@ -122,7 +134,7 @@ Tests in `tests/test_week5.py` (P1–P3, 9 tests). `section` stays unchanged so 
 - Week 5 Day 5 (`make_game_search`): done (1/1) — all Week 5 code written (37 tests).
 - Week 5 real run: done 2026-11-01 — filter in `week5_run.py` (`answer_with_game`, default=None). Trap 9/10, unanswerable 14/14, 44-set ≈0.89 by hand (unchanged). Keep the filter. Zentorno Online price lost (RRF reshuffle + 'cost' vs 'price').
 - Holdout #1 relabelled (GTA V / 400) and `default="V"` tested 2026-11-01: no gain over None (both 38/44 by hand). Week 5 done.
-- Next: commit, then leftovers (Infobox per-game facts for sticky bombs, `Question:` line, clean_text place names, grader alternatives) or Week 6 (web page + logging, go/no-go 2026-11-13).
+- Week 6 Day 1 (`log_entry`, `append_jsonl`, `read_jsonl`): next — `pytest tests/test_week6.py -k "log_entry or jsonl"`. Leftovers (Infobox per-game facts, `Question:` line, clean_text place names, grader alternatives) fit in around Week 6.
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.
 
