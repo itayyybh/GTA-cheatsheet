@@ -28,6 +28,7 @@ def clean_text(text):
     return text
 
 
+# Split cleaned wikitext into [{heading, text}] sections at == headings (Intro for the text before the first one).
 def split_sections(text):
     result = []
     current_heading = "Intro"
@@ -56,11 +57,13 @@ def split_sections(text):
 
     return result
 
+# Count the leading '=' of a heading line (== Name == -> 2); 0 if the line isn't a heading.
 def heading_level(line):
     if line.startswith('=') and line.endswith('='):
         return line.count('=') // 2
     return 0 
 
+# Like split_sections, but each section also gets a path of its parent headings ("Locations > Grand Theft Auto Online").
 def split_sections_with_path(text):
     result = []
     current_heading = "Intro"
@@ -95,6 +98,7 @@ def split_sections_with_path(text):
 
     return result
 
+# Turn one page into chunks {title, url, section, text}, skipping junk sections and splitting text longer than max_chars.
 def make_chunks(page, max_chars=1000):
 
     chunks = []
@@ -134,6 +138,7 @@ def make_chunks(page, max_chars=1000):
 
     return chunks
 
+# Same chunks as make_chunks, plus a path field with the full heading path.
 def make_path_chunks(page, max_chars=1000):
     chunks = []
 
@@ -177,17 +182,20 @@ def make_path_chunks(page, max_chars=1000):
 
 
 
+# Write a list of chunks to a JSON file.
 def save_chunks(chunks, path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(chunks, f, ensure_ascii=False, indent=2)
 
 
+# Read a list of chunks back from a JSON file.
 def load_chunks(path):
     with open(path, "r", encoding="utf-8") as f:
         result = json.load(f)
 
         return result
 
+# Convert hand-saved raw wikitext files into cached page dicts {title, url, text}.
 def raw_to_cache(raw_dir, cache_dir, base_url):
 
     titles = []
@@ -211,12 +219,14 @@ def raw_to_cache(raw_dir, cache_dir, base_url):
 
 
 
+# Turn a MediaWiki parse API response into a page dict {title, url, text}.
 def parse_api_response(data, base_url):
     parse = data["parse"]
     url = base_url + "/wiki/" + parse["title"].replace(" ", "_")
     return {"title": parse["title"], "url": url, "text": parse["wikitext"]}
 
 
+# Download one page's wikitext from the MediaWiki API (get is injected so tests use a fake).
 def fetch_page(title, base_url, get=requests.get):
 
     response = get(
@@ -237,6 +247,7 @@ def fetch_page(title, base_url, get=requests.get):
 
     return parse_api_response(data, base_url)
 
+# List all article titles in a wiki category, following the API's continue pages.
 def list_category(category, base_url, get=requests.get):
     params = {'action': "query",
             'list': "categorymembers",
@@ -262,6 +273,7 @@ def list_category(category, base_url, get=requests.get):
             return titles
 
 
+# Find where the infobox starts and ends in a list of lines; returns the (start, end) indexes or None.
 def find_block(lines):
 
     start = None
@@ -287,6 +299,7 @@ def find_block(lines):
 
     return start, end
 
+# Read the infobox at the top of a page into {type, fields}; None if there is no infobox.
 def parse_infobox(wikitext):
     lines = wikitext.split('\n')
     results = find_block(lines)
@@ -309,6 +322,7 @@ def parse_infobox(wikitext):
                 fields[key] = value
     return {"type": box_type, "fields": fields}
 
+# Make one Infobox chunk with 'key: value' lines from a page's infobox; None if there is none.
 def infobox_to_chunk(page):
     chunk = {}
     parse = parse_infobox(page["text"])
@@ -330,6 +344,7 @@ def infobox_to_chunk(page):
     return chunk
 
 
+# Return the wikitext without its infobox lines.
 def remove_infobox(wikitext):
     lines = wikitext.split('\n')
     results = find_block(lines)
@@ -343,6 +358,7 @@ def remove_infobox(wikitext):
 
     return text
 
+# Load each page from the cache (or fetch and save it), then return all its chunks: infobox chunk first, then sections.
 def ingest(titles, base_url, cache_dir, get=requests.get, sleep=time.sleep, delay=1.0):
     
     chunks = []
@@ -373,6 +389,7 @@ def ingest(titles, base_url, cache_dir, get=requests.get, sleep=time.sleep, dela
     return chunks
 
 
+# Score chunks by how many question words (minus stopwords) they contain; return the top k.
 def keyword_search(chunks, query, k):
 
     results = []
@@ -401,6 +418,7 @@ def keyword_search(chunks, query, k):
     return final_result_list
 
 
+# Share of golden questions whose expected chunk (title + section) is in the search's top k.
 def recall_at_k(search_fn, golden, chunks, k):
     hits = 0
 
@@ -421,6 +439,7 @@ def recall_at_k(search_fn, golden, chunks, k):
     else:
         return 0.0
 
+# List the golden questions whose expected chunk is not in the top 5 results.
 def find_misses(search_fn, golden, chunks):
     misses_questions = []
     for item in golden:
@@ -435,6 +454,7 @@ def find_misses(search_fn, golden, chunks):
     
 
 
+# Count, average length, empty and too-long chunks, to measure cleaning.
 def chunk_stats(chunks, max_chars=1000):
     count = len(chunks)
     too_long = 0
@@ -455,6 +475,7 @@ def chunk_stats(chunks, max_chars=1000):
 
     return c
 
+# Check golden items for missing keys, empty and duplicate questions; returns (index, problem) pairs.
 def validate_golden(items):
     problems = []
     seen = set()
@@ -472,26 +493,32 @@ def validate_golden(items):
             seen.add(q)
     return problems
 
+# Dot product of two vectors.
 def dot(a, b):
     total = 0
     for i in zip(a, b):
          total += i[0] * i[1]
     return total
 
+# Length (magnitude) of a vector.
 def norm(a): 
     return math.sqrt(dot(a, a))
 
+# How similar two vectors point, from -1 to 1 (0 if either has zero length).
 def cosine_similarity(a, b):
     if norm(a) == 0 or norm(b) == 0:
         return 0.0
     return dot(a, b) / (norm(a) * norm(b))
 
+# The chunk's heading path if it has one, else its section name.
 def chunk_label(chunk):
     return chunk.get("path", chunk["section"])
 
+# The text that gets embedded for a chunk: 'title | label' then the chunk text.
 def chunk_to_embed_text(chunk): 
     return f"{chunk['title']} | {chunk_label(chunk)}\n{chunk['text']}"
 
+# Embed all chunks in batches with embed_fn; returns one vector per chunk, same order.
 def embed_chunks(chunks, embed_fn, batch_size=32):
     results = []
     texts = [chunk_to_embed_text(chunk) for chunk in chunks]
@@ -503,6 +530,7 @@ def embed_chunks(chunks, embed_fn, batch_size=32):
     return results
             
 
+# Save the model name, chunks and vectors to one JSON index file.
 def save_index(path, model, chunks, vectors):
     if len(chunks) != len(vectors):
         raise ValueError("chunks and vectors are not the same length")
@@ -511,6 +539,7 @@ def save_index(path, model, chunks, vectors):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+# Load chunks and vectors from the index; error if it was built with a different model.
 def load_index(path, model): 
     with open(path, "r", encoding="utf-8") as f:
         result = json.load(f)
@@ -518,6 +547,7 @@ def load_index(path, model):
             raise ValueError("the saved 'model' isn't the model argument")
         return result["chunks"], result["vectors"]
 
+# Rank chunks by cosine similarity between their vectors and the query vector; return the top k.
 def semantic_search(chunks, vectors, query_vector, k):
     results = []
     for chunk, vector in zip(chunks, vectors):
@@ -528,6 +558,7 @@ def semantic_search(chunks, vectors, query_vector, k):
     return [p[1] for p in top_pair]
 
 
+# Build a search(chunks, query, k) that embeds the query and runs semantic_search over the given vectors.
 def make_semantic_search(vectors, embed_fn): 
     def search(chunks, query, k):
         vector_list = embed_fn([query])
@@ -536,6 +567,7 @@ def make_semantic_search(vectors, embed_fn):
     return search
     
 
+# Merge several ranked lists with Reciprocal Rank Fusion (1 / (c + rank) per list); return the top k.
 def rrf_merge(result_lists, k, c=60): 
     scores = {}
     chunk_by_key = {}
@@ -548,12 +580,14 @@ def rrf_merge(result_lists, k, c=60):
     return [chunk_by_key[key] for key in ranked_keys]
 
 
+# Build a search that runs every search function with a pool and merges them with RRF.
 def make_hybrid_search(search_fns, pool=20): 
     def search(chunks, query, k):
         results = [f(chunks, query, pool) for f in search_fns]
         return rrf_merge(results, k)
     return search
 
+# Number the chunks as sources for the prompt: '[1] title | label' then the text.
 def format_context(chunks):
     result = []
     for index, chunk in enumerate(chunks, start=1):
@@ -562,6 +596,7 @@ def format_context(chunks):
     result_string = "\n\n".join(result)
     return result_string
 
+# Build the Claude prompt: instructions, numbered sources, then the question last.
 def build_prompt(question, chunks):
     instructions = "answer questions from users about GTA using only the source below," \
     " cite the source number like [1], [2]." \
@@ -576,9 +611,11 @@ def build_prompt(question, chunks):
     result_string = "\n\n".join(result)
     return result_string
 
+# Refusal gate: True if the retrieval score reaches the threshold.
 def should_answer(score, threshold=0.55):
     return score >= threshold
 
+# Find the [n] citation numbers in a reply, in first-seen order, without repeats.
 def parse_citations(text):
     numbers = []
     result = re.findall((r'\[(\d+)\]'), text)
@@ -587,9 +624,11 @@ def parse_citations(text):
             numbers.append(int(r))
     return numbers
 
+# Keep only citation numbers that point to a real source (1..n_sources).
 def valid_citations(cited, n_sources):
     return [x for x in cited if 1<=x<=n_sources]
 
+# Turn citation numbers into source dicts {n, title, section, url}.
 def cited_sources(cited, chunks):
     res_list = []
     for n in cited:
@@ -598,6 +637,7 @@ def cited_sources(cited, chunks):
         res_list.append(result)
     return res_list
 
+# Full pipeline: gate -> search -> prompt -> model -> citation check; returns {answer, sources, refused}.
 def answer_question(question, chunks, search_fn, score_fn, llm_fn, k=5, threshold=0.53):
     score = score_fn(question)
     refuse = {"answer": "Not documented yet.", "sources": [], "refused": True}
@@ -615,9 +655,11 @@ def answer_question(question, chunks, search_fn, score_fn, llm_fn, k=5, threshol
         return refuse
     return {"answer": reply.strip(), "sources": cited_sources(valid, top_chunks), "refused": False}
 
+# True if the answer contains every required phrase (case-insensitive).
 def answer_matches(answer, must_contain):
     return all(x.lower() in answer.lower() for x in must_contain )
 
+# Share of golden questions whose answer contains its must_contain phrases (unanswerable ones must be refused).
 def score_answers(golden, answer_fn):
     counter = 0
     for item in golden:
@@ -631,6 +673,7 @@ def score_answers(golden, answer_fn):
         return counter / len(golden)
 
 
+# Remove game names ('in gta online', 'tbogt', ...) from a question, for the gate score.
 def strip_game_words(question):
     game_words = ["gta online", "gtao", "gta v",
                 "gta 5", "gta iv", "gta vi",
@@ -643,6 +686,7 @@ def strip_game_words(question):
     return question.strip()
 
 
+# Game codes named in a heading (IV, V, Online, VI), matching whole words so VI isn't V.
 def section_games(section):
     codes = ["IV", "V", "Online", "VI"]
     games = []
@@ -657,6 +701,7 @@ def section_games(section):
 
     return games
 
+# Game codes from the infobox 'games:' line (TBOGT/TLAD/IV -> IV, O -> Online).
 def infobox_games(text):
     games = []
     for line in text.splitlines():
@@ -672,6 +717,7 @@ def infobox_games(text):
                 games.append("VI")
     return games
 
+# A chunk's games: from the infobox for Infobox chunks, else from its heading path; ['all'] if no clue.
 def chunk_games(chunk):
     if chunk["section"] == "Infobox":
         games = infobox_games(chunk["text"])
@@ -681,9 +727,11 @@ def chunk_games(chunk):
         games = ["all"]
     return games
 
+# Return copies of the chunks with a games field added; the input stays unchanged.
 def add_games(chunks):
     return [{**chunk, "games": chunk_games(chunk)} for chunk in chunks]
 
+# How many chunks belong to each game (a chunk counts once per game).
 def count_by_game(chunks):
     count = {}
     for chunk in chunks:
@@ -691,9 +739,11 @@ def count_by_game(chunks):
             count[game] = count.get(game, 0) + 1
     return count
 
+# True if the chunk is about that game or applies to all games.
 def matches_game(chunk, game):
     return game in chunk["games"] or "all" in chunk["games"]
 
+# Keep only that game's chunks and their vectors, still paired; None keeps everything.
 def filter_by_game(chunks, vectors, game):
     if game is None:
         return chunks, vectors
@@ -705,6 +755,7 @@ def filter_by_game(chunks, vectors, game):
             vector_list.append(vector)
     return chunk_list, vector_list
 
+# Which game a question names (gta 6 -> VI, tbogt -> IV, ...), or default if none.
 def detect_game(question, default="V"):
     question = question.lower()
     phrases = {"Online": ["gta online", "gtao"], "VI": ["gta 6", "gta vi"], "V": ["gta v", "gta 5", "story mode"], "IV": ["gta 4", "tbogt", "gta iv", "gay tony"]}
@@ -714,20 +765,24 @@ def detect_game(question, default="V"):
                 return game
     return default
 
+# Filter to one game, then build a hybrid search over only those chunks; returns (game_chunks, search).
 def make_game_search(chunks, vectors, game, embed_fn, pool=20):
     game_chunks, game_vectors = filter_by_game(chunks, vectors, game)
     semantic = make_semantic_search(game_vectors, embed_fn)
     hybrid = make_hybrid_search([keyword_search, semantic], pool)
     return game_chunks, hybrid
 
+# One log record for an answered question: time, question, game, refused, answer, source urls, seconds, error.
 def log_entry(question, result, game, seconds, when, error=None):
     return {"time": when, "question": question, "game": game, "refused": result["refused"], "answer": result["answer"], "sources": [n["url"] for n in result["sources"]], "seconds": round(seconds, 2), "error": error}
 
+# Append one entry to a JSONL log file (one JSON object per line), creating the folder if needed.
 def append_jsonl(path, entry):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
+# Read a JSONL file back into a list of dicts; [] if the file doesn't exist.
 def read_jsonl(path):
     result = []
     if not Path(path).exists():
@@ -736,4 +791,37 @@ def read_jsonl(path):
     for line in lines:
         if line.strip():
             result.append(json.loads(line))
+    return result
+
+
+# Totals for the log: count, refusals, refusal rate, errors, average seconds, questions per game.
+def log_summary(entries):
+    count = len(entries)
+    if count == 0:
+        return {"count": 0, "refused": 0, "refusal_rate": 0.0, "errors": 0, "avg_seconds": 0.0, "by_game": {}}
+    refused = sum(entry["refused"] for entry in entries)
+    errors = len([entry["error"] for entry in entries if entry["error"] is not None])
+    avg_seconds = sum(entry["seconds"] for entry in entries) / count
+    by_game = {}
+    for entry in entries:
+        game = entry["game"] or "none"
+        by_game[game] = by_game.get(game, 0) + 1
+    return {"count": count, "refused": refused, "refusal_rate": round(refused / count, 3), "errors": errors, "avg_seconds": round(avg_seconds, 2), "by_game": by_game}
+
+def validate_question(text, max_chars=300):
+    text = text.strip()
+    if not text:
+        return (None, "empty")
+    elif len(text) > max_chars:
+        return (None, "too_long")
+    else:
+        return (text, None)
+
+def source_links(sources):
+    result = []
+    seen_urls = set()
+    for source in sources:
+        if source["url"] not in seen_urls:
+            seen_urls.add(source["url"])
+            result.append({"title": source["title"], "url": source["url"]})
     return result
