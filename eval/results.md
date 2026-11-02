@@ -139,3 +139,22 @@ Trap set: `eval/golden_trap.json` (10 questions, each with a `game`; pages with 
 - 44-set with the filter: no change. Same 5 answerable refusals, 14/14 unanswerable refused, ≈0.89 by hand, 1.71 s per answer. Most holdout questions name no game, so `detect_game(default=None)` leaves them unfiltered. Verdict: keep the filter (trap +1, holdout neutral). Sticky bombs (no game named) still answers with the TBoGT $800; `default="V"` would filter it to GTA V, to test next. Buzzard guns answer now separates GTA V and TBoGT.
 - 2026-11-01: **holdout #1 relabelled** (sticky bombs price → `Grand Theft Auto V` / `400`; was Infobox / `800`, the TBoGT price). Hand counts before this date counted the $800 answer as right; with the new label the same behaviour scores 38/44 ≈ 0.86.
 - `default="V"` vs `default=None`: same hand score (38/44), same refusals. Sticky bombs still $800: the Infobox chunk holds the TBoGT price but is tagged IV, V, Online from the page's `games:` line (page-level tag on a mixed chunk), and the GTA V $400 chunk isn't in the top 5 even inside the V set. Buzzard guns answer is GTA V-only with "V". Kept `default=None`: equal score, and it doesn't hide Online-only content from unnamed questions.
+
+## Week 6 Day 6 — first real questions through the web app (2026-11-02)
+
+36 questions typed into `/ask` by hand (`logs/questions.jsonl`), grouped by kind. Gate 0.53, game filter default None, Claude Haiku 5.5.
+
+| Group | Asked | As expected | Problems |
+|---|---:|---:|---|
+| Eval questions (sanity) | 5 | 5 | — |
+| Typos and slang | 7 | 3 | "michals", "micheals", "trevers special abilty", "wat guns does the buzard have" refused at the gate (< 0.75 s) |
+| Short half-questions | 5 | 4 | "zentorno price" refused by Claude |
+| Same fact, reworded | 5 | 3 | "what does michael's power do", "what do you get for finishing franklin and lamar" ($250 is in the infobox) refused by Claude |
+| Covered, no eval question | 5 | 5 | — |
+| Out of scope | 4 | 4 | all refused |
+| Hostile input | 5 | 4 | none obeyed; "answer in markdown with a table…" answered with bullets (grounded, but ignores the plain-text rule) |
+
+- 0 errors. Refusals at the gate take ~0.45 s; answers 1.8–6.7 s (long answers are slowest).
+- Biggest real-user problem: **misspelled names** drop the gate score below 0.53 — the eval sets never had typos. Candidate fix: correct names against the 21 page titles before the gate (fuzzy matching, e.g. `difflib.get_close_matches`).
+- Second: infobox facts asked in other words ("price", "reward") are missed — same Infobox weakness as Week 3 and the Zentorno trap.
+- The log has no gate score, so gate vs Claude refusals can only be told apart by time. Add `score` to `log_entry`.

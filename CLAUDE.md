@@ -139,7 +139,8 @@ Tests: `tests/test_week6.py` (15 tests, helpers in `cheatsheet.py`) and `tests/t
 - Week 6 Day 3 (`validate_question`, `source_links`): done — all 15 helper tests pass.
 - Week 6 Day 4 (`app.py`: `create_app`, `GET /`, `POST /ask`): done (4/4 app tests).
 - Week 6 Day 5 (logging in `/ask`, 503 on model error, `GET /stats`): done — all 7 app tests (22 Week 6 tests in total).
-- Week 6 Day 6 (`runs/serve.py`, real pipeline behind the page, ~20 real questions): next.
+- Week 6 Day 6: done 2026-11-02 — `runs/serve.py` (`python -m runs.serve`, http://127.0.0.1:8000), page with JS fetch to `/ask`, 36 real questions logged; findings in `eval/results.md` (name typos refused at the gate, infobox facts missed when reworded, hostile input safe).
+- Week 6 Day 7 (go/no-go checklist, due 2026-11-13): next. Week 7 candidates: name-typo correction before the gate (+ typo eval set), `score` in the log, Infobox cleaning.
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.
 

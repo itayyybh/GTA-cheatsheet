@@ -6,6 +6,105 @@ from pydantic import BaseModel
 from datetime import datetime, timezone
 import time
 
+PAGE = """<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GTA Cheatsheet</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 16px; background: #111; color: #eee; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .sub { color: #999; margin-top: 0; }
+  form { display: flex; gap: 8px; margin: 24px 0; }
+  input { flex: 1; padding: 10px; font-size: 1rem; border-radius: 6px; border: 1px solid #444; background: #1c1c1c; color: #eee; }
+  button { padding: 10px 16px; font-size: 1rem; border-radius: 6px; border: 0; background: #2e7d32; color: white; cursor: pointer; }
+  button:disabled { opacity: 0.5; cursor: default; }
+  #answer { white-space: pre-wrap; line-height: 1.5; }
+  .refused { color: #999; font-style: italic; }
+  .meta { color: #999; font-size: 0.85rem; }
+  a { color: #81c784; }
+  footer { margin-top: 40px; color: #777; font-size: 0.8rem; }
+</style>
+</head>
+<body>
+  <h1>GTA Cheatsheet</h1>
+  <p class="sub">Ask about GTA V, GTA Online and the GTA VI trailers. Answers come only from saved wiki pages.</p>
+
+  <form id="ask">
+    <input id="question" placeholder="e.g. how much do sticky bombs cost in gta 5" autocomplete="off" autofocus>
+    <button id="go">Ask</button>
+  </form>
+
+  <p id="meta" class="meta"></p>
+  <p id="answer"></p>
+  <ul id="sources"></ul>
+
+  <footer>Text from <a href="https://gta.wiki" target="_blank">gta.wiki</a>, CC BY-NC-SA 3.0. Each answer links to the pages it used.</footer>
+
+<script>
+const form = document.getElementById("ask");
+const input = document.getElementById("question");
+const button = document.getElementById("go");
+const answer = document.getElementById("answer");
+const meta = document.getElementById("meta");
+const sources = document.getElementById("sources");
+
+const ERRORS = {
+  empty: "Type a question first.",
+  too_long: "That question is too long (300 characters max).",
+  model_unavailable: "The answer service is unavailable right now. Try again in a moment.",
+};
+
+form.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const question = input.value;
+
+  button.disabled = true;
+  answer.className = "";
+  answer.textContent = "Thinking...";
+  meta.textContent = "";
+  sources.innerHTML = "";
+
+  try {
+    const res = await fetch("/ask", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({question: question}),
+    });
+    const data = await res.json();
+
+    if (!res.ok) {
+      answer.className = "refused";
+      answer.textContent = ERRORS[data.error] || "Something went wrong.";
+      return;
+    }
+
+    answer.className = data.refused ? "refused" : "";
+    answer.textContent = data.answer;
+    if (data.game) meta.textContent = "Game: " + data.game;
+
+    for (const s of data.sources) {
+      const a = document.createElement("a");
+      a.href = s.url;
+      a.textContent = s.title;
+      a.target = "_blank";
+      const li = document.createElement("li");
+      li.appendChild(a);
+      sources.appendChild(li);
+    }
+  } catch (err) {
+    answer.className = "refused";
+    answer.textContent = "Could not reach the server.";
+  } finally {
+    button.disabled = false;
+  }
+});
+</script>
+</body>
+</html>
+"""
+
 class Question(BaseModel):
   question : str
 
@@ -14,7 +113,7 @@ def create_app(answer_fn, log_path):
 
   @app.get("/", response_class=HTMLResponse)
   def home():
-    return "<form> GTA cheatsheet</form>"
+    return PAGE
 
   @app.post("/ask")
   def ask(body: Question):
