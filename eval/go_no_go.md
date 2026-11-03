@@ -48,7 +48,7 @@
 
 | # | Criterion | Level | Status |
 |---|---|---|---|
-| P1 | Runs on a host, reachable by URL, survives a restart | must | ✅ Cloud Run 2026-11-03 (us-central1, 2 GiB, max 1 instance); live: answers, 0 errors, avg 2.2 s, survived a restart (secret update). Fixed on the way: build permissions (`roles/run.builder`), `logs/` owned by root, API key pasted without its first letter |
+| P1 | Runs on a host, reachable by URL, survives a restart | must | ✅ Cloud Run 2026-11-03 (us-central1, 2 GiB, max 1 instance); live: answers, 0 errors, avg 2.2 s, works from a phone, refusals only where expected, survived a restart (secret update). Fixed on the way: build permissions (`roles/run.builder`), `logs/` owned by root, API key pasted without its first letter |
 | P2 | API key only on the server (environment variable, never in the page or the repo) | must | ✅ locally (`.env`, git-ignored); ✅ Cloud Run reads it from Secret Manager |
 | P3 | Rate limit per visitor (e.g. 10 questions / minute) | must | ✅ 10/min per visitor (`x-forwarded-for`), 429, tested, and seen working live (2026-11-03) |
 | P4 | Privacy line on the page: questions are logged, no accounts, don't type personal data | must | ✅ footer (2026-11-03) |
