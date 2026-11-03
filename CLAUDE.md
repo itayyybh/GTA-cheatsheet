@@ -115,7 +115,7 @@ Tests: `tests/test_week7.py` (9) and `tests/test_week7_app.py` (4, gate score in
 2. Page (done by Claude 2026-11-03): privacy line, coverage line, "non-commercial", message for `rate_limited` (P4, P6).
 3. Spending cap on the Anthropic API key, in the console (C2) — Itay, by hand.
 4. Dockerfile + Space config (written by Claude 2026-11-03: `Dockerfile`, `.dockerignore`, `runs/build_index.py`, HOST/PORT from env in `runs/serve.py`); build `data/index.json` during the image build; `ANTHROPIC_API_KEY` from Secret Manager; uvicorn on 0.0.0.0:$PORT; `--max-instances 1`, 2 GiB memory (P1, P2).
-5. Deployed 2026-11-03: `gcloud run deploy gta-cheatsheet --source . --region us-central1 --memory 2Gi --cpu 1 --max-instances 1 --allow-unauthenticated --set-secrets ANTHROPIC_API_KEY=anthropic-key:latest` (project gta-cheatsheet-513619; the compute service account needed `roles/run.builder`). Next: ask ~10 questions on the live URL; check `/stats`.
+5. Deployed 2026-11-03: `gcloud run deploy gta-cheatsheet --source . --region us-central1 --memory 2Gi --cpu 1 --max-instances 1 --allow-unauthenticated --set-secrets ANTHROPIC_API_KEY=anthropic-key:latest` (project gta-cheatsheet-513619; the compute service account needed `roles/run.builder`). Live test done (P1 ✅). Fixed after deploy: `logs/` owned by root (Dockerfile mkdir as user), API key missing its first letter, Hugging Face 429 on cold start (`HF_HUB_OFFLINE=1` at runtime). Keep-warm: Cloud Scheduler job `keep-warm` GETs `/` every 10 min (2026-11-03). Live URL: https://gta-cheatsheet-1096595679255.us-central1.run.app/
 
 ## Progress
 - Week 1: done (21/21 passing)
