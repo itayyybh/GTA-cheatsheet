@@ -1,6 +1,6 @@
-from cheatsheet import validate_question, source_links,  log_entry, append_jsonl, log_summary, read_jsonl
+from cheatsheet import validate_question, source_links,  log_entry, append_jsonl, log_summary, read_jsonl, check_rate
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 from datetime import datetime, timezone
@@ -113,15 +113,32 @@ form.addEventListener("submit", async (event) => {
 class Question(BaseModel):
   question : str
 
-def create_app(answer_fn, log_path):
+def create_app(answer_fn, log_path, max_per_minute=10, clock=time.monotonic):
   app = FastAPI()
+
 
   @app.get("/", response_class=HTMLResponse)
   def home():
     return PAGE
 
+  req_times = {}
   @app.post("/ask")
-  def ask(body: Question):
+  def ask(body: Question, request: Request):
+    visitor = request.headers.get("x-forwarded-for")
+    if visitor is not None:
+      visitor = visitor.split(",")[0].strip()
+    else:
+      visitor = request.client.host
+
+    history = req_times.get(visitor, [])
+
+    allowed, updated_list = check_rate(history, clock(), max_per_minute)
+    req_times[visitor] = updated_list
+
+    if not allowed:
+      return JSONResponse({"error": "rate_limited"}, status_code=429)
+      
+  
     question, error = validate_question(body.question)
     if error:
       return JSONResponse({"error": error}, status_code=400)

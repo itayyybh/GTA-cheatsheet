@@ -849,3 +849,11 @@ def fix_typos(question, vocabulary, cutoff=0.75, min_len=4):
             else:
                 return matches[0]
     return re.sub(r"[a-z]+", fix_word, question.lower())
+
+
+def check_rate(times, now, limit, window=60.0):
+    recent = [t for t in times if t > now - window]
+    if len(recent) >= limit:
+        return False, recent
+    else:
+        return True, recent + [now]

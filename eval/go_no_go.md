@@ -50,10 +50,10 @@
 |---|---|---|---|
 | P1 | Runs on a host, reachable by URL, survives a restart | must | ⏳ |
 | P2 | API key only on the server (environment variable, never in the page or the repo) | must | ✅ locally (`.env`, git-ignored); ⏳ on the host |
-| P3 | Rate limit per visitor (e.g. 10 questions / minute) | must | ⏳ |
-| P4 | Privacy line on the page: questions are logged, no accounts, don't type personal data | must | ⏳ |
+| P3 | Rate limit per visitor (e.g. 10 questions / minute) | must | ✅ 10/min per visitor (`x-forwarded-for`), 429, tested (2026-11-03) |
+| P4 | Privacy line on the page: questions are logged, no accounts, don't type personal data | must | ✅ footer (2026-11-03) |
 | P5 | Non-commercial: no ads, no payments (licence is NC) | must | ✅ |
-| P6 | Page says what it covers: 21 GTA V / Online pages + GTA VI trailer facts | should | ⚠️ partly ("saved wiki pages") |
+| P6 | Page says what it covers: 21 GTA V / Online pages + GTA VI trailer facts | should | ✅ footer (2026-11-03) |
 | P7 | GTA VI launch plan: which pages to hand-save after 2026-11-19, and who does it | should | ⏳ |
 
 ## Before 2026-11-13
