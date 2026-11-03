@@ -158,3 +158,42 @@ Trap set: `eval/golden_trap.json` (10 questions, each with a `game`; pages with 
 - Biggest real-user problem: **misspelled names** drop the gate score below 0.53 — the eval sets never had typos. Candidate fix: correct names against the 21 page titles before the gate (fuzzy matching, e.g. `difflib.get_close_matches`).
 - Second: infobox facts asked in other words ("price", "reward") are missed — same Infobox weakness as Week 3 and the Zentorno trap.
 - The log has no gate score, so gate vs Claude refusals can only be told apart by time. Add `score` to `log_entry`.
+
+## Week 7 — fixing typos in names (2026-11-03)
+
+Gate score (`gate_score`, threshold 0.53) on `eval/golden_typos.json` (12 misspelled versions of answerable questions), before and after `fix_typos` against the title vocabulary. No Claude calls.
+
+| Question | Before | After | Fixed question |
+|---|---:|---:|---|
+| trevers special abilty | 0.301 | 0.580 | trevor special abilty |
+| what is micheals special ability called | 0.359 | 0.634 | … michael … |
+| wat guns does the buzard have | 0.437 | 0.635 | … buzzard … |
+| is the armord kuruma bullet proof | 0.606 | 0.675 | … armored … |
+| how much is the zentoro in gta online | 0.796 | 0.825 | … zentorno … |
+| who lives with frankin at his first house | 0.317 | 0.636 | … franklin … |
+| how many stiky bombs to blow up the insurgant | 0.492 | 0.631 | … sticky … insurgent |
+| when was vangelco founded | 0.534 | 0.646 | … vangelico … |
+| is the kurama awd | 0.480 | 0.572 | … kuruma … |
+| which missions before the merywether heist | 0.497 | 0.804 | … merryweather … |
+| who makes the carbonizare | 0.493 | 0.663 | … carbonizzare … |
+| adderr top speed | 0.748 | 0.748 | adder top speed |
+
+- **Passing the gate: 4/12 → 12/12.** Every correction was right, and no word was changed wrongly. Lowest after the fix: 0.572 ("is the kuruma awd").
+- "abilty" wasn't fixed: this run's vocabulary had only title words, not the extra common words ("ability", "special", …).
+
+| Date | Setup | Set | Accuracy (keyword) | Refused | Claude calls | Cost | Avg latency |
+|---|---|---|---:|---|---:|---:|---:|
+| 2026-11-03 | `use_fix=False` (before) | typos (12) | 0.333 (4/12) | 8, all at the gate | 4 | $0.0009 | 1.5 s |
+| 2026-11-03 | `use_fix=True` (after) | typos (12) | **1.0 (12/12)** | 0 | 12 | — | — |
+
+- With the fix, all 12 misspelled questions are answered and pass the keyword check (as reported; output not pasted). Still to check: the 44 set and the trap set with the fix on, to make sure nothing else broke.
+
+| Date | Setup | Set | Accuracy (keyword) | By hand | Refused | Claude calls | Cost | Avg latency |
+|---|---|---|---:|---:|---|---:|---:|---:|
+| 2026-11-03 | game filter + `fix_typos` | trap (10) | 0.9 (9/10) | 9/10 | 1 Claude (#6 Zentorno Online price) | 10 | $0.0040 | 2.66 s |
+| 2026-11-03 | game filter + `fix_typos` | holdout + unanswerable (44) | 0.773 (34/44) | ≈ 0.86 (38/44) | unanswerable 14/14; answerable 3 gate, 2 Claude (same 5) | 28 | $0.0106 | 1.76 s |
+
+- **No regression.** Trap and 44 set are the same as on 2026-11-01: the same refusals, the same wrong answer (sticky bombs $800 when no game is named), 14/14 unanswerable still refused.
+- Input tokens are almost identical (trap 26,528 = 26,528; 44 set 76,539 vs 76,541): the fix changed almost nothing on correctly spelled questions. The one change: "trevors" → "trevor" (possessive without apostrophe), answer unchanged.
+- Typo fix verdict: **keep it.** Typo set 4/12 → 12/12, no cost on the other 54 questions.
+

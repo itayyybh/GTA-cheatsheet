@@ -1,4 +1,4 @@
-from cheatsheet import load_index, load_chunks, embed_chunks, make_semantic_search, save_index, keyword_search, make_hybrid_search, cosine_similarity, score_answers, answer_question, strip_game_words, chunk_label, add_games, count_by_game, detect_game, make_game_search
+from cheatsheet import load_index, load_chunks, embed_chunks, make_semantic_search, save_index, keyword_search, make_hybrid_search, cosine_similarity, score_answers, answer_question, strip_game_words, chunk_label, add_games, count_by_game, detect_game, make_game_search, title_words, fix_typos
 from sentence_transformers import SentenceTransformer
 from pathlib import Path
 import anthropic
@@ -36,6 +36,7 @@ else:
   save_index(path, MODEL_NAME, chunks, vectors)
 
 chunks = add_games(chunks)
+vocabulary = title_words(chunks, ignore={"store"} ) | {"ability", "special", "story", "online", "mode", "price", "speed", "missions"}
 
 def top_score(question):
   vector_list = model.encode([question])
@@ -50,10 +51,11 @@ def gate_score(question):
   return max(full_question_score, stripped_score)
 
 def answer_with_game(question):
-  score = float(gate_score(question))
+  fixed = fix_typos(question, vocabulary)
+  score = float(gate_score(fixed))
   game = detect_game(question, default=None)
   game_chunks, search = make_game_search(chunks, vectors, game, model.encode)
-  result = answer_question(question, game_chunks, search, lambda q: score, call_claude)
+  result = answer_question(fixed, game_chunks, search, lambda q: score, call_claude)
   return {**result, "game": game, "score": score}
 
 from app import create_app

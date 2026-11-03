@@ -12,12 +12,12 @@
 
 | # | Criterion | Threshold | Level | Status 2026-11-03 | Measured by |
 |---|---|---|---|---|---|
-| Q1 | Answers correct, holdout + unanswerable (44), by hand | ≥ 0.85 | must | ✅ 38/44 = 0.86 (2026-11-01) | `runs/week5_run.py`, hand grading |
+| Q1 | Answers correct, holdout + unanswerable (44), by hand | ≥ 0.85 | must | ✅ 38/44 = 0.86 (2026-11-03, with `fix_typos`) | `runs/week5_run.py`, hand grading |
 | Q2 | Unanswerable questions refused | 14/14 | must | ✅ 14/14 | same run |
 | Q3 | Wrong-game answers on the trap set (10) | 0 | must | ✅ 0 | trap run |
 | Q4 | Trap set correct | ≥ 8/10 | should | ✅ 9/10 | trap run |
 | Q5 | Real questions behaving as expected (web log) | ≥ 80% | should | ⚠️ 28/36 = 78% | `logs/questions.jsonl`, by hand |
-| Q6 | Name typos refused at the gate (typo eval set) | ≤ 1 in 5 | should | ❌ 4/7 typo questions refused | typo eval set (to build) |
+| Q6 | Name typos refused at the gate (typo eval set) | ≤ 1 in 5 | should | ✅ 0/12 refused with `fix_typos` (was 8/12), 2026-11-03 | `eval/golden_typos.json` |
 
 ## 2. Reliability
 

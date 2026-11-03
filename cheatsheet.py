@@ -4,6 +4,7 @@ import requests
 import time
 from pathlib import Path
 import math
+import difflib
 
 SKIP_SECTIONS = {
     "Images", "Gallery", "Video Gallery", "Navigation", "References",
@@ -825,3 +826,26 @@ def source_links(sources):
             seen_urls.add(source["url"])
             result.append({"title": source["title"], "url": source["url"]})
     return result
+
+def title_words(chunks, ignore=(), min_len=4):
+    names = set()
+    for chunk in chunks:
+        title = re.findall(r"[a-z]+", chunk["title"].lower())
+        for t in title:
+            if len(t) >= min_len and t not in ignore:
+                names.add(t)
+    return names
+
+
+def fix_typos(question, vocabulary, cutoff=0.75, min_len=4):
+    def fix_word(match):
+        word = match.group(0)
+        if len(word) < min_len or word in vocabulary:
+            return word
+        else:
+            matches = difflib.get_close_matches(word, vocabulary, n=1, cutoff=cutoff)
+            if not matches:
+                return word
+            else:
+                return matches[0]
+    return re.sub(r"[a-z]+", fix_word, question.lower())
