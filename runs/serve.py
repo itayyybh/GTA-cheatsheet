@@ -3,6 +3,7 @@ from sentence_transformers import SentenceTransformer
 from pathlib import Path
 import anthropic
 import json
+import os
 import time
 from dotenv import load_dotenv
 load_dotenv()
@@ -61,4 +62,5 @@ def answer_with_game(question):
 from app import create_app
 import uvicorn
 app = create_app(answer_with_game, "logs/questions.jsonl")
-uvicorn.run(app, port=8000)
+# Locally: 127.0.0.1:8000. In the container the Dockerfile sets HOST=0.0.0.0 and PORT=7860.
+uvicorn.run(app, host=os.getenv("HOST", "127.0.0.1"), port=int(os.getenv("PORT", "8000")))

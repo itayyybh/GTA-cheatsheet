@@ -1,0 +1,11 @@
+.env
+.venv/
+.git/
+.vscode/
+.claude/
+.pytest_cache/
+__pycache__/
+**/__pycache__/
+logs/
+data/index.json
+.DS_Store

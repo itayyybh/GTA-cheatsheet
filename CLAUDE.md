@@ -114,7 +114,7 @@ Tests: `tests/test_week7.py` (9) and `tests/test_week7_app.py` (4, gate score in
 1. Rate limit (P3) — done 2026-11-03 (`check_rate` 4/4, app 3/3). Spec in `tests/test_week7.py` (`check_rate`, 4) and `tests/test_week7_app.py` (3): `check_rate(times, now, limit, window=60.0)` → `(allowed, kept)`; `create_app(answer_fn, log_path, max_per_minute=10, clock=time.monotonic)` keeps a dict visitor → times; visitor = first address in `x-forwarded-for`, else `request.client.host`; over the limit → 429 `{"error": "rate_limited"}`, no model call, not logged; checked before validation.
 2. Page (done by Claude 2026-11-03): privacy line, coverage line, "non-commercial", message for `rate_limited` (P4, P6).
 3. Spending cap on the Anthropic API key, in the console (C2) — Itay, by hand.
-4. Dockerfile + Space config; build `data/index.json` during the image build; `ANTHROPIC_API_KEY` as a Space secret; uvicorn on 0.0.0.0:7860 (P1, P2).
+4. Dockerfile + Space config (written by Claude 2026-11-03: `Dockerfile`, `.dockerignore`, `runs/build_index.py`, HOST/PORT from env in `runs/serve.py`, Space header at the top of README.md); build `data/index.json` during the image build; `ANTHROPIC_API_KEY` as a Space secret; uvicorn on 0.0.0.0:7860 (P1, P2).
 5. Ask ~10 questions on the live URL; check `/stats`.
 
 ## Progress
