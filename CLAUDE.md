@@ -156,6 +156,7 @@ Tests: `tests/test_week7.py` (9) and `tests/test_week7_app.py` (4, gate score in
 - Week 6 Day 5 (logging in `/ask`, 503 on model error, `GET /stats`): done — all 7 app tests (22 Week 6 tests in total).
 - Week 6 Day 6: done 2026-11-02 — `runs/serve.py` (`python -m runs.serve`, http://127.0.0.1:8000), page with JS fetch to `/ask`, 36 real questions logged; findings in `eval/results.md` (name typos refused at the gate, infobox facts missed when reworded, hostile input safe).
 - Week 6 Day 7: checklist written 2026-11-03 in `eval/go_no_go.md` (decision 2026-11-13). Before then: gate `score` in `log_entry`, name-typo correction + typo eval set, final re-runs, then deploy items only if it looks like a go.
+- 2026-11-03: every **must** in `eval/go_no_go.md` passes (live on Cloud Run, 163/163 tests, spend cap set). Decision due 2026-11-13. Open shoulds: P7 GTA VI page plan; hardening: log write in its own try, `print(repr(e))` in the except, `read_jsonl` skipping bad lines.
 - Week 7: gate score in the log done (4/4); `title_words` + `fix_typos` done (9/9). Measured 2026-11-03 (`runs/week7_run.py`, `use_fix` switch): typo set 4/12 → 12/12; trap 9/10 and 44 set 38/44 unchanged, 14/14 unanswerable refused. Keep it.
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.

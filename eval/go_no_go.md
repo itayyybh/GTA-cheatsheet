@@ -26,7 +26,7 @@
 | R1 | Errors (503s) over ≥ 50 logged questions | 0 | must | ✅ 0 / 53 | `/stats` |
 | R2 | Latency, answered questions, p95 | ≤ 7 s | must | ✅ 6.4 s (median 3.0 s) | log `seconds` |
 | R3 | Model outage gives a clear message, no crash | yes | must | ✅ test `test_week6_app_model_error_is_503_and_logged` | `pytest` |
-| R4 | All tests pass | 143/143 | must | ⏳ re-run on the final commit | `pytest` |
+| R4 | All tests pass | all | must | ✅ 163/163 (2026-11-03) | `pytest` |
 
 ## 3. Safety and honesty
 
@@ -42,7 +42,7 @@
 | # | Criterion | Threshold | Level | Status | Measured by |
 |---|---|---|---|---|---|
 | C1 | Cost per answered question | ≤ $0.001 | must | ✅ ≈ $0.0004 | token counts in the runs |
-| C2 | Hard spending cap on the API key | set | must (if public) | ⏳ | Anthropic console spend limit |
+| C2 | Hard spending cap on the API key | set | must (if public) | ✅ set in the Anthropic console (2026-11-03); Google budget alert ₪50 | Anthropic console spend limit |
 
 ## 5. Going public (only matters if 1–4 pass)
 
