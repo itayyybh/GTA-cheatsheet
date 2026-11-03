@@ -1,0 +1,98 @@
+[
+  {
+    "question": "trevers special abilty",
+    "expected_title": "Trevor Philips",
+    "expected_section": "any",
+    "must_contain": [
+      "invulnerab"
+    ]
+  },
+  {
+    "question": "what is micheals special ability called",
+    "expected_title": "Michael De Santa",
+    "expected_section": "any",
+    "must_contain": [
+      "area kill"
+    ]
+  },
+  {
+    "question": "wat guns does the buzard have",
+    "expected_title": "Buzzard Attack Chopper",
+    "expected_section": "any",
+    "must_contain": [
+      "minigun"
+    ]
+  },
+  {
+    "question": "is the armord kuruma bullet proof",
+    "expected_title": "Kuruma (Armored)",
+    "expected_section": "any",
+    "must_contain": [
+      "bullet"
+    ]
+  },
+  {
+    "question": "how much is the zentoro in gta online",
+    "expected_title": "Zentorno",
+    "expected_section": "any",
+    "must_contain": [
+      "725,000"
+    ]
+  },
+  {
+    "question": "who lives with frankin at his first house",
+    "expected_title": "Franklin Clinton",
+    "expected_section": "any",
+    "must_contain": [
+      "denise"
+    ]
+  },
+  {
+    "question": "how many stiky bombs to blow up the insurgant",
+    "expected_title": "Insurgent",
+    "expected_section": "any",
+    "must_contain": [
+      "7"
+    ]
+  },
+  {
+    "question": "when was vangelco founded",
+    "expected_title": "Vangelico",
+    "expected_section": "any",
+    "must_contain": [
+      "1852"
+    ]
+  },
+  {
+    "question": "is the kurama awd",
+    "expected_title": "Kuruma",
+    "expected_section": "any",
+    "must_contain": [
+      "wheel"
+    ]
+  },
+  {
+    "question": "which missions before the merywether heist",
+    "expected_title": "The Merryweather Heist",
+    "expected_section": "any",
+    "must_contain": [
+      "three's company"
+    ]
+  },
+  {
+    "question": "who makes the carbonizare",
+    "expected_title": "Carbonizzare",
+    "expected_section": "any",
+    "must_contain": [
+      "grotti"
+    ]
+  },
+  {
+    "question": "adderr top speed",
+    "expected_title": "Adder",
+    "expected_section": "any",
+    "must_contain": [
+      "115"
+    ]
+  }
+]

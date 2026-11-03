@@ -102,6 +102,14 @@ Tests: `tests/test_week6.py` (15 tests, helpers in `cheatsheet.py`) and `tests/t
 6. Real run (no tests): `runs/serve.py` builds the real `answer_fn` (index, model, gate, `answer_with_game` + game) and starts uvicorn; log to `logs/questions.jsonl` (git-ignored). Ask ~20 real questions in the browser, read `/stats`, note problems.
 7. Go/no-go 2026-11-13: checklist from the logs and `eval/results.md` (accuracy, refusals, latency, cost per answer, crash-free, attribution visible; if public: rate limit, cost cap, GTA 6 data plan).
 
+### Week 7 — typos in names (before the go/no-go)
+Real questions: misspelled names crash the gate score ("trevers special abilty" 0.30 vs "trevor special ability" 0.58), so they're refused before search. Fix: snap near-miss words to known names before the gate and the search.
+Tests: `tests/test_week7.py` (9) and `tests/test_week7_app.py` (4, gate score in the log — done 2026-11-03).
+1. `title_words(chunks, ignore=(), min_len=4)` → set of lowercase letter-only words from chunk titles, at least `min_len` long, minus `ignore`.
+2. `fix_typos(question, vocabulary, cutoff=0.75, min_len=4)` → the question lowercased, with every word of at least `min_len` letters that isn't in the vocabulary replaced by its closest vocabulary word (`difflib.get_close_matches`, n=1) if one is above `cutoff`; punctuation and other words kept.
+3. Wire-up in `runs/serve.py` / the eval run: vocabulary = `title_words(chunks, ignore={...generic words like "store", "residence"...})` plus a few common words players misspell ("ability", "special"); run `detect_game` on the original question, then `fix_typos` before the gate, search and prompt. Log the original question.
+4. Measure: `eval/golden_typos.json` (12 misspelled versions of answerable questions, `must_contain`) — score and accuracy before vs after; then the 44 set and trap set again to check nothing else broke (go/no-go Q1–Q4, Q6).
+
 ## Progress
 - Week 1: done (21/21 passing)
 - Week 2 Days 1–5 code: done — `fetch_page`, `list_category`, infobox functions, `ingest`, `chunk_stats` (plus my own `raw_to_cache` helper)
@@ -141,6 +149,7 @@ Tests: `tests/test_week6.py` (15 tests, helpers in `cheatsheet.py`) and `tests/t
 - Week 6 Day 5 (logging in `/ask`, 503 on model error, `GET /stats`): done — all 7 app tests (22 Week 6 tests in total).
 - Week 6 Day 6: done 2026-11-02 — `runs/serve.py` (`python -m runs.serve`, http://127.0.0.1:8000), page with JS fetch to `/ask`, 36 real questions logged; findings in `eval/results.md` (name typos refused at the gate, infobox facts missed when reworded, hostile input safe).
 - Week 6 Day 7: checklist written 2026-11-03 in `eval/go_no_go.md` (decision 2026-11-13). Before then: gate `score` in `log_entry`, name-typo correction + typo eval set, final re-runs, then deploy items only if it looks like a go.
+- Week 7: gate score in the log done (4/4). Next: `title_words` + `fix_typos` — `pytest tests/test_week7.py`.
 - Cleaning fixes D, C, E, G1 still open; E (split long chunks) may matter more once embeddings truncate long texts — decide from the Week 3 Day 5 misses
 - Weird Gloop declined scripted access (2026-10-28). Data source for anything beyond the 21 hand-saved pages is an open decision.
 
