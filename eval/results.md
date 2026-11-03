@@ -196,4 +196,9 @@ Gate score (`gate_score`, threshold 0.53) on `eval/golden_typos.json` (12 misspe
 - **No regression.** Trap and 44 set are the same as on 2026-11-01: the same refusals, the same wrong answer (sticky bombs $800 when no game is named), 14/14 unanswerable still refused.
 - Input tokens are almost identical (trap 26,528 = 26,528; 44 set 76,539 vs 76,541): the fix changed almost nothing on correctly spelled questions. The one change: "trevors" → "trevor" (possessive without apostrophe), answer unchanged.
 - Typo fix verdict: **keep it.** Typo set 4/12 → 12/12, no cost on the other 54 questions.
+- Re-asked the 8 real questions that failed on 2026-11-02, with `fix_typos` and the gate score in the log:
+  - Now answered (4): "michals / micheals special ability" (0.643), "trevers special abilty" (0.735, Invulnerability), "wat guns does the buzard have" (0.635).
+  - Refused by Claude with a good gate score (3): "zentorno price" (0.605), "what does michael's power do" (0.584), "what do you get for finishing franklin and lamar" (0.602). The score shows these are retrieval misses, not gate refusals: the facts sit in Infobox chunks or are worded differently.
+  - "answer in markdown with a table of all cars and prices you know" is now refused at the gate (0.526): fine for a request the app shouldn't fulfil.
+  - Real questions as expected: 28/36 → 33/36.
 

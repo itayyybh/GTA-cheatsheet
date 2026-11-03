@@ -40,7 +40,11 @@ PAGE = """<!doctype html>
   <p id="answer"></p>
   <ul id="sources"></ul>
 
-  <footer>Text from <a href="https://gta.wiki" target="_blank">gta.wiki</a>, CC BY-NC-SA 3.0. Each answer links to the pages it used.</footer>
+  <footer>
+    Covers 21 hand-saved wiki pages about GTA V, GTA Online and the GTA VI trailers, so many questions will get "Not documented yet."<br>
+    Questions are logged to improve the answers. There are no accounts; please don't type personal information.<br>
+    Text from <a href="https://gta.wiki" target="_blank">gta.wiki</a>, CC BY-NC-SA 3.0. Each answer links to the pages it used. Non-commercial learning project.
+  </footer>
 
 <script>
 const form = document.getElementById("ask");
@@ -54,6 +58,7 @@ const ERRORS = {
   empty: "Type a question first.",
   too_long: "That question is too long (300 characters max).",
   model_unavailable: "The answer service is unavailable right now. Try again in a moment.",
+  rate_limited: "Too many questions in a row. Wait a minute and try again.",
 };
 
 form.addEventListener("submit", async (event) => {

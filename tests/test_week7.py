@@ -71,3 +71,28 @@ def test_week7_fix_typos_cutoff():
 
 def test_week7_fix_typos_empty_vocabulary():
     assert cs.fix_typos("trevers special", set()) == "trevers special"
+
+
+# ---------- Day 3: check_rate (rate limiting, pure) ----------
+# `times` = the request times (seconds) one visitor already made.
+# Returns (allowed, kept): kept = the times still inside the window,
+# plus `now` if the request is allowed. A time counts while it is > now - window.
+
+def test_week7_check_rate_under_limit():
+    assert cs.check_rate([], 100.0, 2) == (True, [100.0])
+    assert cs.check_rate([100.0], 101.0, 2) == (True, [100.0, 101.0])
+
+
+def test_week7_check_rate_at_limit_blocks_and_does_not_add():
+    assert cs.check_rate([100.0, 101.0], 102.0, 2) == (False, [100.0, 101.0])
+
+
+def test_week7_check_rate_old_requests_expire():
+    assert cs.check_rate([10.0, 20.0], 100.0, 2) == (True, [100.0])
+    assert cs.check_rate([40.0], 100.0, 1) == (True, [100.0])        # exactly 60 s old: expired
+    assert cs.check_rate([41.0], 100.0, 1) == (False, [41.0])        # 59 s old: still counts
+
+
+def test_week7_check_rate_custom_window():
+    assert cs.check_rate([95.0], 100.0, 1, window=10.0) == (False, [95.0])
+    assert cs.check_rate([85.0], 100.0, 1, window=10.0) == (True, [100.0])
