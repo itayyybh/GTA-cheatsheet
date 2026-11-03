@@ -9,6 +9,9 @@ ENV HOME=/home/user \
     HF_HOME=/home/user/.cache/huggingface \
     HOST=0.0.0.0 \
     PORT=7860
+# Create the app folder as `user` (WORKDIR alone would create it owned by root,
+# and the app could then not create logs/ at runtime).
+RUN mkdir -p /home/user/app/logs
 WORKDIR /home/user/app
 
 # Libraries first, so this slow layer is reused when only the code changes.
