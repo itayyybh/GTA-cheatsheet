@@ -2,6 +2,8 @@
 
 Ask a question about GTA V, GTA Online or the GTA VI trailers in plain language and get a short answer built **only** from saved wiki pages, with a link to every page it used. If the pages don't cover it, it says **"Not documented yet."** instead of guessing.
 
+**Try it: [gta-cheatsheet-1096595679255.us-central1.run.app](https://gta-cheatsheet-1096595679255.us-central1.run.app/)**: the first question after a quiet period takes about 30 seconds while the server wakes up. Limited to 10 questions per minute per visitor.
+
 It's a retrieval-augmented generation (RAG) system built from scratch in Python, without a RAG framework, as a learning project. The domain is a game, but the problem is the general one: answer questions over a fixed set of documents, cite the sources, and refuse when the answer isn't there. Most of the work went into **measuring** it: every change is scored on fixed question sets and logged with its date in [`eval/results.md`](eval/results.md).
 
 ## How it works
@@ -28,7 +30,7 @@ flowchart LR
 2. **Game filter:** if the question names a game ("in gta online", "tbogt", "gta 6"), search only that game's chunks.
 3. **Hybrid search:** keyword search and embedding search, merged with Reciprocal Rank Fusion; the top 5 chunks are kept.
 4. **Generation:** Claude answers from the numbered chunks only, citing them as `[n]`. An answer with no valid citation is treated as a refusal.
-5. **Web app:** FastAPI serves the page and `POST /ask`. Every question is logged as one JSON line (answer, sources, game, seconds, errors), and `GET /stats` summarises the log. If the model is down, the user gets a clear 503 instead of a crash.
+5. **Web app:** FastAPI serves the page and `POST /ask`, deployed on Google Cloud Run (Docker, scales to zero, API key in Secret Manager, rate limit per visitor). Every question is logged as one JSON line (answer, sources, game, seconds, errors), and `GET /stats` summarises the log. If the model is down, the user gets a clear 503 instead of a crash.
 
 ## Results
 
@@ -76,6 +78,11 @@ echo "ANTHROPIC_API_KEY=sk-..." > .env      # git-ignored
 pytest                                       # 143 tests, no network, no model calls
 python -m runs.week5_run                     # eval: trap / holdout + unanswerable sets
 python -m runs.serve                         # web app on http://127.0.0.1:8000
+
+# deploy (Google Cloud Run; see Dockerfile)
+gcloud run deploy gta-cheatsheet --source . --region us-central1 \
+  --memory 2Gi --cpu 1 --max-instances 1 --allow-unauthenticated \
+  --set-secrets ANTHROPIC_API_KEY=anthropic-key:latest
 ```
 
 The first run builds `data/index.json` (the embeddings, git-ignored), which takes about a minute.
