@@ -48,8 +48,8 @@
 
 | # | Criterion | Level | Status |
 |---|---|---|---|
-| P1 | Runs on a host, reachable by URL, survives a restart | must | ⏳ |
-| P2 | API key only on the server (environment variable, never in the page or the repo) | must | ✅ locally (`.env`, git-ignored); ⏳ on the host |
+| P1 | Runs on a host, reachable by URL, survives a restart | must | ⏳ deployed to Cloud Run 2026-11-03 (us-central1, 2 GiB, max 1 instance); live test pending |
+| P2 | API key only on the server (environment variable, never in the page or the repo) | must | ✅ locally (`.env`, git-ignored); ✅ Cloud Run reads it from Secret Manager |
 | P3 | Rate limit per visitor (e.g. 10 questions / minute) | must | ✅ 10/min per visitor (`x-forwarded-for`), 429, tested (2026-11-03) |
 | P4 | Privacy line on the page: questions are logged, no accounts, don't type personal data | must | ✅ footer (2026-11-03) |
 | P5 | Non-commercial: no ads, no payments (licence is NC) | must | ✅ |
