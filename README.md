@@ -1,14 +1,3 @@
----
-title: GTA Cheatsheet
-emoji: 🎮
-colorFrom: green
-colorTo: gray
-sdk: docker
-app_port: 7860
-pinned: false
-short_description: Cited Q&A over GTA wiki pages (RAG, built from scratch)
----
-
 # GTA Cheatsheet: cited Q&A over wiki pages
 
 Ask a question about GTA V, GTA Online or the GTA VI trailers in plain language and get a short answer built **only** from saved wiki pages, with a link to every page it used. If the pages don't cover it, it says **"Not documented yet."** instead of guessing.

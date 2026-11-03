@@ -1,7 +1,7 @@
-# Container for the GTA Cheatsheet web app (Hugging Face Spaces, Docker SDK).
+# Container for the GTA Cheatsheet web app (Google Cloud Run; also runs anywhere Docker does).
 FROM python:3.12-slim
 
-# Spaces runs the container as user 1000; give it a home it can write to.
+# Run as a normal user (not root), with a home it can write to.
 RUN useradd -m -u 1000 user
 USER user
 ENV HOME=/home/user \
@@ -12,7 +12,7 @@ ENV HOME=/home/user \
 WORKDIR /home/user/app
 
 # Libraries first, so this slow layer is reused when only the code changes.
-# CPU-only PyTorch: much smaller than the default build, and Spaces has no GPU.
+# CPU-only PyTorch: much smaller than the default build, and there is no GPU.
 COPY --chown=user requirements.txt .
 RUN pip install --no-cache-dir --user torch --index-url https://download.pytorch.org/whl/cpu \
  && pip install --no-cache-dir --user -r requirements.txt
@@ -21,5 +21,6 @@ RUN pip install --no-cache-dir --user torch --index-url https://download.pytorch
 COPY --chown=user . .
 RUN python -m runs.build_index
 
+# Cloud Run sets PORT itself at runtime (8080); 7860 is only the fallback.
 EXPOSE 7860
 CMD ["python", "-m", "runs.serve"]
