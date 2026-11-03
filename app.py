@@ -127,11 +127,20 @@ def create_app(answer_fn, log_path):
       result = answer_fn(question)
     except Exception as e:
       seconds = time.perf_counter() - start
-      append_jsonl(log_path, log_entry(question, {"answer": "", "sources": [], "refused": True}, None, seconds, when, error=type(e).__name__))
+      entry = log_entry(question, {"answer": "", "sources": [], "refused": True}, None, seconds, when, error=type(e).__name__)
+      entry["score"] = None
+      append_jsonl(log_path, entry)
       return JSONResponse({"error": "model_unavailable"}, status_code=503)
     
     seconds = time.perf_counter() - start
-    append_jsonl(log_path, log_entry(question, result, result.get("game"), seconds, when))
+    entry = log_entry(question, result, result.get("game"), seconds, when)
+    score = result.get("score") 
+    if score is not None:
+      entry["score"] = round(score, 3)
+    else:
+      entry["score"] = None
+
+    append_jsonl(log_path, entry)
 
     return {"answer": result["answer"], "refused": result["refused"], "game": result.get("game"), "sources": source_links(result["sources"])}
 

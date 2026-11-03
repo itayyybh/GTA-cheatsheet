@@ -50,10 +50,11 @@ def gate_score(question):
   return max(full_question_score, stripped_score)
 
 def answer_with_game(question):
+  score = float(gate_score(question))
   game = detect_game(question, default=None)
   game_chunks, search = make_game_search(chunks, vectors, game, model.encode)
-  result = answer_question(question, game_chunks, search, gate_score, call_claude)
-  return {**result, "game": game}
+  result = answer_question(question, game_chunks, search, lambda q: score, call_claude)
+  return {**result, "game": game, "score": score}
 
 from app import create_app
 import uvicorn
