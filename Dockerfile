@@ -24,6 +24,12 @@ RUN pip install --no-cache-dir --user torch --index-url https://download.pytorch
 COPY --chown=user . .
 RUN python -m runs.build_index
 
+# From here on, never contact the Hugging Face Hub: the model is already in the image.
+# Without this, every cold start asks the Hub for model metadata, and Cloud Run's
+# shared IPs get rate-limited (HTTP 429), which stalls startup.
+ENV HF_HUB_OFFLINE=1 \
+    TRANSFORMERS_OFFLINE=1
+
 # Cloud Run sets PORT itself at runtime (8080); 7860 is only the fallback.
 EXPOSE 7860
 CMD ["python", "-m", "runs.serve"]
